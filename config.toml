@@ -1,39 +1,34 @@
-# Basic Settings
-baseURL			= "http://138.68.49.31/"
-copyright		= "Mine! Mine! Mine!"
-title			= "Trantor Library" 
-newContentEditor 	= "emacs"
-theme 			= "nofancy"
-pygmentsStyle 		= "native"
-disqusshortname 	= "shimmy1996"
+baseURL                 = "http://138.68.49.31/"
+copyright               = "Mine! Mine! Mine!"
+title                   = "Trantor Library" 
+newContentEditor        = "emacs"
+theme                   = "nofancy"
+pygmentsStyle           = "native"
+disqusshortname         = "shimmy1996"
 
-DefaultContentLanguage 	= "en"
+DefaultContentLanguage  = "en"
 
 [params]
-	highlight	= "monokai"
-	topmenu		= "categories"
 
 [author]
-	name		= "Shimmy"
-	github		= "shimmy1996"
-	twitter		= "shimmy1996"
-
-[params.naviagation]
-help			= "Help"
+name                    = "Shimmy Xu"
+github                  = "shimmy1996"
+twitter                 = "shimmy1996"
 
 [Languages]
 [Languages.en]
-title			= "Trantor Library"
-weight			= 1
-[Languages.en.params]
-github			= "github.com/shimmy1996"
+title                   = "Trantor Library"
+subtitle                = "The Plan is going on."
+[Languages.en.navigation]
+about                   = "About"
+
 
 [Languages.zh]
-title			= "Chinese"
-[Languages.zh.params]
+title                   = "川坨图书室"
+subtitle                = "计划进行中。"
 
 [Languages.zh.navigation]
-help			= "Aha"
+about                   = "关于"
 
 
 
