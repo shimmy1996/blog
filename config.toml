@@ -13,10 +13,6 @@ DefaultContentLanguageInSubdir = true
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
 
-[params]
-    description = "The greatest library ever."
-    footer = "&copy; [Shimmy Xu](http://shimmy1996.com) 2017 | [Github](https://github.com/shimmy1996) | [Twitter](https://twitter.com/shimmy1996) | [Subscribe](index.xml)"
-
 [author]
 name                    = "Shimmy Xu"
 github                  = "shimmy1996"
@@ -26,19 +22,24 @@ twitter                 = "shimmy1996"
 [Languages.en]
 title                   = "Trantor Library"
 subtitle                = "The Plan is going on."
+
+[Languages.en.params]
+    description = "The greatest library ever."
+    footer = "&copy; [Shimmy Xu](http://shimmy1996.com) 2017 | [Github](https://github.com/shimmy1996) | [Twitter](https://twitter.com/shimmy1996) | [Subscribe](/en/index.xml)"
+
 [Languages.en.navigation]
 about                   = "About"
 
 [[Languages.en.menu.main]]
     name = "Home"
-    url = "/"
+    url = "/en/"
     weight = 1
 [[Languages.en.menu.main]]
     name = "About"
     url = "/en/about/"
     weight = 2
 [[Languages.en.menu.main]]
-    name = "Post"
+    name = "Posts"
     url = "/en/post/"
     weight = 3
 [[Languages.en.menu.main]]
@@ -50,9 +51,17 @@ about                   = "About"
     url = "/en/categories/"
     weight = 5
 [[Languages.en.menu.main]]
-    name = "ZH"
-    url = "/zh/"
+    name = "Friends"
+    url = "/en/friends/"
     weight = 6
+[[Languages.en.menu.main]]
+    name = "Messages"
+    url = "/en/messages/"
+    weight = 7
+[[Languages.en.menu.main]]
+    name = "中文"
+    url = "/zh/"
+
 
 [Languages.zh]
 title                   = "川坨图书室"
@@ -61,27 +70,38 @@ subtitle                = "计划进行中。"
 [Languages.zh.navigation]
 about                   = "关于"
 
+[Languages.zh.params]
+    description = "The greatest library ever."
+    footer = "&copy; [Shimmy Xu](http://shimmy1996.com) 2017 | [Github](https://github.com/shimmy1996) | [Twitter](https://twitter.com/shimmy1996) | [订阅](/zh/index.xml)"
+
 [[Languages.zh.menu.main]]
-    name = "AZh"
-    url = "/"
+    name = "主页"
+    url = "/zh/"
     weight = 1
 [[Languages.zh.menu.main]]
-    name = "About"
+    name = "关于"
     url = "/zh/about/"
     weight = 2
 [[Languages.zh.menu.main]]
-    name = "Post"
+    name = "归档"
     url = "/zh/post/"
     weight = 3
 [[Languages.zh.menu.main]]
-    name = "Tags"
+    name = "标签"
     url = "/zh/tags/"
     weight = 4
 [[Languages.zh.menu.main]]
-    name = "Categories"
+    name = "分类"
     url = "/zh/categories/"
     weight = 5
 [[Languages.zh.menu.main]]
+    name = "朋友们"
+    url = "/zh/friends/"
+    weight = 6
+[[Languages.zh.menu.main]]
+    name = "留言板"
+    url = "/zh/messages/"
+    weight = 7
+[[Languages.zh.menu.main]]
     name = "EN"
     url = "/en/"
-    weight = 6
