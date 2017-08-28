@@ -1,14 +1,21 @@
 baseURL                 = "http://138.68.49.31/"
 copyright               = "Mine! Mine! Mine!"
-title                   = "Trantor Library" 
+title                   = "Library of Trantor" 
 newContentEditor        = "emacs"
-theme                   = "nofancy"
-pygmentsStyle           = "native"
+theme                   = "hugo-xmin"
+pygmentsStyle           = "monokai"
 disqusshortname         = "shimmy1996"
-
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
 DefaultContentLanguage  = "en"
+DefaultContentLanguageInSubdir = true
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
 
 [params]
+    description = "The greatest library ever."
+    footer = "&copy; [Shimmy Xu](http://shimmy1996.com) 2017 | [Github](https://github.com/shimmy1996) | [Twitter](https://twitter.com/shimmy1996) | [Subscribe](index.xml)"
 
 [author]
 name                    = "Shimmy Xu"
@@ -22,6 +29,30 @@ subtitle                = "The Plan is going on."
 [Languages.en.navigation]
 about                   = "About"
 
+[[Languages.en.menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[Languages.en.menu.main]]
+    name = "About"
+    url = "/en/about/"
+    weight = 2
+[[Languages.en.menu.main]]
+    name = "Post"
+    url = "/en/post/"
+    weight = 3
+[[Languages.en.menu.main]]
+    name = "Tags"
+    url = "/en/tags/"
+    weight = 4
+[[Languages.en.menu.main]]
+    name = "Categories"
+    url = "/en/categories/"
+    weight = 5
+[[Languages.en.menu.main]]
+    name = "ZH"
+    url = "/zh/"
+    weight = 6
 
 [Languages.zh]
 title                   = "川坨图书室"
@@ -30,5 +61,27 @@ subtitle                = "计划进行中。"
 [Languages.zh.navigation]
 about                   = "关于"
 
-
-
+[[Languages.zh.menu.main]]
+    name = "AZh"
+    url = "/"
+    weight = 1
+[[Languages.zh.menu.main]]
+    name = "About"
+    url = "/zh/about/"
+    weight = 2
+[[Languages.zh.menu.main]]
+    name = "Post"
+    url = "/zh/post/"
+    weight = 3
+[[Languages.zh.menu.main]]
+    name = "Tags"
+    url = "/zh/tags/"
+    weight = 4
+[[Languages.zh.menu.main]]
+    name = "Categories"
+    url = "/zh/categories/"
+    weight = 5
+[[Languages.zh.menu.main]]
+    name = "EN"
+    url = "/en/"
+    weight = 6
