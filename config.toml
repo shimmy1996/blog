@@ -1,4 +1,4 @@
-baseURL                 = "http://138.68.49.31/"
+baseURL                 = "http://www.shimmy1996.com/"
 copyright               = "Mine! Mine! Mine!"
 title                   = "Library of Trantor" 
 newContentEditor        = "emacs"
@@ -20,7 +20,7 @@ twitter                 = "shimmy1996"
 
 [Languages]
 [Languages.en]
-title                   = "Trantor Library"
+title                   = "Library of Trantor"
 subtitle                = "The Plan is going on."
 LanguageName            = "EN"
 
@@ -35,20 +35,20 @@ about                   = "About"
     url = "/en/"
     weight = 1
 [[Languages.en.menu.main]]
-    name = "About"
-    url = "/en/about/"
-    weight = 2
-[[Languages.en.menu.main]]
     name = "Posts"
     url = "/en/post/"
-    weight = 3
+    weight = 2
 [[Languages.en.menu.main]]
     name = "Tags"
     url = "/en/tags/"
-    weight = 4
+    weight = 3
 [[Languages.en.menu.main]]
     name = "Categories"
     url = "/en/categories/"
+    weight = 4
+[[Languages.en.menu.main]]
+    name = "About"
+    url = "/en/about/"
     weight = 5
 [[Languages.en.menu.main]]
     name = "Friends"
@@ -60,7 +60,7 @@ about                   = "About"
     weight = 7
 
 [Languages.zh]
-title                   = "川坨图书室"
+title                   = "川坨大学图书室"
 subtitle                = "计划进行中。"
 LanguageName            = "中文"
 
@@ -75,20 +75,20 @@ description = "最伟大的图书馆。"
     url = "/zh/"
     weight = 1
 [[Languages.zh.menu.main]]
-    name = "关于"
-    url = "/zh/about/"
-    weight = 2
-[[Languages.zh.menu.main]]
     name = "归档"
     url = "/zh/post/"
-    weight = 3
+    weight = 2
 [[Languages.zh.menu.main]]
     name = "标签"
     url = "/zh/tags/"
-    weight = 4
+    weight = 3
 [[Languages.zh.menu.main]]
     name = "分类"
     url = "/zh/categories/"
+    weight = 4
+[[Languages.zh.menu.main]]
+    name = "关于"
+    url = "/zh/about/"
     weight = 5
 [[Languages.zh.menu.main]]
     name = "朋友们"
