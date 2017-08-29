@@ -2,7 +2,7 @@ baseURL                 = "http://138.68.49.31/"
 copyright               = "Mine! Mine! Mine!"
 title                   = "Library of Trantor" 
 newContentEditor        = "emacs"
-theme                   = "hugo-xmin"
+theme                   = "soresu"
 pygmentsStyle           = "monokai"
 disqusshortname         = "shimmy1996"
 preserveTaxonomyNames = true
@@ -11,7 +11,7 @@ DefaultContentLanguage  = "en"
 DefaultContentLanguageInSubdir = true
 
 [permalinks]
-    post = "/post/:year/:month/:day/:slug/"
+post = "/post/:year/:month/:day/:slug/"
 
 [author]
 name                    = "Shimmy Xu"
@@ -22,10 +22,10 @@ twitter                 = "shimmy1996"
 [Languages.en]
 title                   = "Trantor Library"
 subtitle                = "The Plan is going on."
+LanguageName            = "EN"
 
 [Languages.en.params]
-    description = "The greatest library ever."
-    footer = "&copy; [Shimmy Xu](http://shimmy1996.com) 2017 | [Github](https://github.com/shimmy1996) | [Twitter](https://twitter.com/shimmy1996) | [Subscribe](/en/index.xml)"
+description = "The greatest library ever."
 
 [Languages.en.navigation]
 about                   = "About"
@@ -58,21 +58,17 @@ about                   = "About"
     name = "Messages"
     url = "/en/messages/"
     weight = 7
-[[Languages.en.menu.main]]
-    name = "中文"
-    url = "/zh/"
-
 
 [Languages.zh]
 title                   = "川坨图书室"
 subtitle                = "计划进行中。"
+LanguageName            = "中文"
 
 [Languages.zh.navigation]
 about                   = "关于"
 
 [Languages.zh.params]
-    description = "The greatest library ever."
-    footer = "&copy; [Shimmy Xu](http://shimmy1996.com) 2017 | [Github](https://github.com/shimmy1996) | [Twitter](https://twitter.com/shimmy1996) | [订阅](/zh/index.xml)"
+description = "最伟大的图书馆。"
 
 [[Languages.zh.menu.main]]
     name = "主页"
@@ -102,6 +98,3 @@ about                   = "关于"
     name = "留言板"
     url = "/zh/messages/"
     weight = 7
-[[Languages.zh.menu.main]]
-    name = "EN"
-    url = "/en/"
