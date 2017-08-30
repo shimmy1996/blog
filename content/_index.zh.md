@@ -12,7 +12,7 @@ _计划进行中_
 
 - [x] ~~找一家新的服务器提供商~~ 目前使用Digitalocean。
 - [x] 在服务器上安装Arch Linux。
-- [x] ~~Search for WP replacement.搜寻WP的替代品。~~ Hugo很不错。
+- [x] ~~搜寻WP的替代品。~~ Hugo很不错。
 - [x] ~~找一个合适的主题。~~ 目前使用 `hugo-xmin`，考虑fork出来写成自己的主题（ `soresu` ）。
 - [x] 完成服务器端设置，比如添加 `post-receive` 来实现 `git` 自动部署。
 - [x] 设置多语言支持，添加合适的翻译字符串。
