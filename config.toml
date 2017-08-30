@@ -1,4 +1,4 @@
-baseURL                 = "http://www.shimmy1996.com/"
+baseURL                 = "shimmy1996.com"
 copyright               = "Mine! Mine! Mine!"
 title                   = "Library of Trantor" 
 newContentEditor        = "emacs"
