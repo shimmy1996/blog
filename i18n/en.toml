@@ -1,2 +1,11 @@
 [footer]
 other = "&copy; [Shimmy Xu](http://www.shimmy1996.com/en/) 2017 | [Github](https://github.com/shimmy1996) | [Twitter](https://twitter.com/shimmy1996) | [Subscribe](/en/index.xml)"
+
+[Posts]
+other = "Posts"
+
+[Tags]
+other = "Tags"
+
+[Categories]
+other = "Categories"

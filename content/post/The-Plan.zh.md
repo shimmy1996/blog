@@ -1,9 +1,0 @@
----
-title: "计划"
-slug: "the plan"
-date: 2017-08-26T09:53:10-07:00
-draft: false
----
-
-这也是计划的一部分。
-

@@ -36,7 +36,7 @@ about                   = "About"
     weight = 1
 [[Languages.en.menu.main]]
     name = "Posts"
-    url = "/en/post/"
+    url = "/en/posts/"
     weight = 2
 [[Languages.en.menu.main]]
     name = "Tags"
@@ -76,7 +76,7 @@ description = "最伟大的图书馆。"
     weight = 1
 [[Languages.zh.menu.main]]
     name = "归档"
-    url = "/zh/post/"
+    url = "/zh/posts/"
     weight = 2
 [[Languages.zh.menu.main]]
     name = "标签"

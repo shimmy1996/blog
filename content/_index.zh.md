@@ -15,7 +15,6 @@ _计划进行中_
 - [x] ~~搜寻WP的替代品。~~ Hugo很不错。
 - [x] ~~找一个合适的主题。~~ 目前使用 `hugo-xmin`，考虑fork出来写成自己的主题（ `soresu` ）。
 - [x] 完成服务器端设置，比如添加 `post-receive` 来实现 `git` 自动部署。
-- [x] 设置多语言支持，添加合适的翻译字符串。
 - [x] 可以切换__当前页面__语言版本的语言切换按钮。
 - [x] Disqus支持。
 - [x] 用MathJax实现 `$\LaTeX$` 表达式支持。
@@ -23,6 +22,7 @@ _计划进行中_
 - [x] https支持。
 - [x] 备份原WP站点。
 - [x] 转移域名到Google Domain，并完成NDS设置。
+- [ ] 设置多语言支持，添加合适的翻译字符串。
 - [ ] 使用Google Noto Font。
 - [ ] 用Disqus API实现可以自定义的评论框。
 - [ ] 尝试使用 `org-mode` 或者 R markdown 来写博客。

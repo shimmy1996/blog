@@ -15,7 +15,6 @@ _The Plan needs to go on._
 - [x] ~~Search for WP replacement.~~ Hugo is pretty good.
 - [x] ~~Find a suitable theme.~~ Currently using `hugo-xmin`, may consider forking it and write my own ( `soresu` ).
 - [x] Server side config, like `post-receive` for git auto deploy.
-- [x] Configure multilingual support, including footer text, title, etc.
 - [x] Language switcher that does more than redirecting to home page.
 - [x] Enable Disqus.
 - [x] Support `$\LaTeX$` expressions via MathJax.
@@ -23,6 +22,7 @@ _The Plan needs to go on._
 - [x] Enable https.
 - [x] Backup old WP site.
 - [x] Transfer domain and ensure NDS works as intended.
+- [ ] Configure multilingual support, including footer text, title, etc.
 - [ ] Use Google Noto Font.
 - [ ] Customizable Disqus via Disqus API.
 - [ ] Find out how to write with `org-mode` or R markdown.
