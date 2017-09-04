@@ -1,17 +1,16 @@
 ---
 title: "朋友们"
 slug: "friends"
-draft: false
 ---
 
 <img src="/img/fixed/friends.jpg"/>
 
 这里会添加朋友们的站点链接！
 
-[Z](http://iiiid.com)
+[[http://iiiid.com][Z]]
 
-[Uucky](http://uucky.me)
+[[http://uucky.me][Uucky]]
 
-[比尔盖子](https://biergaizi.info)
+[[https://biergaizi.info][比尔盖子]]
 
-[Vacuuny/A2Clef](http://a2clef.com)
+[[http://a2clef.com][Vacuuny/A2Clef]]

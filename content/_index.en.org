@@ -23,10 +23,12 @@ curl: "home"
 - [x] Backup old WP site.
 - [x] Transfer domain and ensure NDS works as intended.
 - [x] Find out how to write with ~org-mode~ or R markdown.
-- [x] Customizable Disqus via Disqus API.
 - [x] Configure multilingual support, including footer text, title, etc.
 - [x] Find out how to make ~emacs~ work with ~fcitx~.
-- [ ] Use Google Noto Font.
+- [x] Use Google's Noto Sans font and Source Code Pro for code.
+- [ ] Improve templates for posts to display tags and categories. 
+- [ ] Cosmetic changes, i.e. no underlines for hyperlinks. 
+- [ ] Customizable Disqus via Disqus API.
 - [ ] Customize ~hugo new~ to make it more useful, i.e. create multilingual versions directly.
 - [ ] Restore/rewrite and translate some of the more valuable old posts.
 - [ ] Find a suitable icon/favicon.
