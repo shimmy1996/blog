@@ -9,3 +9,11 @@ other = "Tags"
 
 [Categories]
 other = "Categories"
+
+# Translation for tags
+[Hugo]
+other = "Hugo"
+
+# Translation for categories
+[Site\ Related]
+other = "Site Related"

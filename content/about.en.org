@@ -4,7 +4,7 @@ slug: "about"
 draft: false
 ---
 
-## About me:
+** About me:
 
 Actively searching for the ultimate answer to the universe. 
 
@@ -12,7 +12,7 @@ No longer a fan of the slow and clunky Wordpress, I switched to Hugo.
 
 Most of my social network accounts use the name ```shimmy1996```.
 
-## About this site:
+** About this site:
 
 Up and running since July 12th, 2014. 
 

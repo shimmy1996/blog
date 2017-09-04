@@ -11,12 +11,16 @@ DefaultContentLanguage  = "en"
 DefaultContentLanguageInSubdir = true
 
 [permalinks]
-post = "/post/:year/:month/:day/:slug/"
+posts = "/posts/:year/:month/:day/:slug/"
 
 [author]
 name                    = "Shimmy Xu"
 github                  = "shimmy1996"
 twitter                 = "shimmy1996"
+
+[Taxonomies]
+tag = "tags"
+categories = "categories"
 
 [Languages]
 [Languages.en]

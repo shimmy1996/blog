@@ -9,3 +9,11 @@ other = "标签"
 
 [Categories]
 other = "分类"
+
+# Translation for tags
+[Hugo]
+other = "Hugo"
+
+# Translation for categories
+[Site\ Related]
+other = "站点相关"
