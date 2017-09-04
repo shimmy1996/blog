@@ -25,8 +25,8 @@ curl: "home"
 - [x] Find out how to write with ~org-mode~ or R markdown.
 - [x] Customizable Disqus via Disqus API.
 - [x] Configure multilingual support, including footer text, title, etc.
+- [x] Find out how to make ~emacs~ work with ~fcitx~.
 - [ ] Use Google Noto Font.
-- [ ] Find out how to make ~emacs~ work with ~fcitx~.
 - [ ] Customize ~hugo new~ to make it more useful, i.e. create multilingual versions directly.
 - [ ] Restore/rewrite and translate some of the more valuable old posts.
 - [ ] Find a suitable icon/favicon.
