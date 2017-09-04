@@ -10,7 +10,7 @@ curl: "home"
 
 ** Site Roadmap
 
-- [x] +Find new hosting location.+ Currently using digitalocean.
+- [x] +Find new hosting location.+ Currently using DigitalOcean.
 - [x] Install Arch Linux on server.
 - [x] +Search for WP replacement.+ Hugo is pretty good.
 - [x] +Find a suitable theme.+ Currently using ~hugo-xmin~, may consider forking it and write my own ( ~soresu~ ).
