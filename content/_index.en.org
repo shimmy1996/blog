@@ -26,11 +26,11 @@ curl: "home"
 - [x] Configure multilingual support, including footer text, title, etc.
 - [x] Find out how to make ~emacs~ work with ~fcitx~.
 - [x] Use Google's Noto Sans font and Source Code Pro for code.
+- [x] Find a suitable icon/favicon.
 - [ ] Improve templates for posts to display tags and categories. 
 - [ ] Cosmetic changes, i.e. no underlines for hyperlinks. 
 - [ ] Customizable Disqus via Disqus API.
 - [ ] Customize ~hugo new~ to make it more useful, i.e. create multilingual versions directly.
 - [ ] Restore/rewrite and translate some of the more valuable old posts.
-- [ ] Find a suitable icon/favicon.
 
 ** Recent Posts
