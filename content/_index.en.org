@@ -3,7 +3,7 @@ title: Home
 curl: "home"
 ---
 
-* Trantor Library
+* Library of Trantor
 /The Plan needs to go on./
 
 <span style="color:red">Fair Warning: Site under heavy construction.</span>

@@ -1,5 +1,4 @@
 baseURL                 = "shimmy1996.com"
-copyright               = "Mine! Mine! Mine!"
 title                   = "Library of Trantor" 
 newContentEditor        = "emacs"
 theme                   = "soresu"
