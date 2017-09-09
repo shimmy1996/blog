@@ -1,0 +1,3 @@
+* My Blog
+Here's my blog([[www.shimmy1996.com]]) powered by ~hugo~. 
+
