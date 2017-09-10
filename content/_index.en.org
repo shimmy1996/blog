@@ -1,5 +1,5 @@
 ---
-title: Home
+title: "Home"
 curl: "home"
 ---
 
@@ -21,7 +21,7 @@ curl: "home"
 - [x] Copy-paste fixed page contents from old site (and translate them).
 - [x] Enable https.
 - [x] Backup old WP site.
-- [x] Transfer domain and ensure NDS works as intended.
+- [x] Transfer domain and ensure DNS works as intended.
 - [x] Find out how to write with ~org-mode~ or R markdown.
 - [x] Configure multilingual support, including footer text, title, etc.
 - [x] Find out how to make ~emacs~ work with ~fcitx~.
