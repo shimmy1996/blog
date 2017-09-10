@@ -5,4 +5,4 @@ slug: "messages"
 
 欢迎版聊!
 
-没有头像？请到+Gravatar设置+注册[[https://disqus.com][Disqus]]账户。
+没有头像？请注册[[https://disqus.com][Disqus]]账户。
