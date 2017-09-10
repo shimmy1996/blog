@@ -42,25 +42,17 @@ about                   = "About"
     url = "/en/posts/"
     weight = 2
 [[Languages.en.menu.main]]
-    name = "Tags"
-    url = "/en/tags/"
-    weight = 3
-[[Languages.en.menu.main]]
-    name = "Categories"
-    url = "/en/categories/"
-    weight = 4
-[[Languages.en.menu.main]]
     name = "About"
     url = "/en/about/"
-    weight = 5
+    weight = 3
 [[Languages.en.menu.main]]
     name = "Friends"
     url = "/en/friends/"
-    weight = 6
+    weight = 4
 [[Languages.en.menu.main]]
     name = "Messages"
     url = "/en/messages/"
-    weight = 7
+    weight = 5
 
 [Languages.zh]
 title                   = "川坨大学图书室"
@@ -82,22 +74,14 @@ description = "最伟大的图书馆。"
     url = "/zh/posts/"
     weight = 2
 [[Languages.zh.menu.main]]
-    name = "标签"
-    url = "/zh/tags/"
-    weight = 3
-[[Languages.zh.menu.main]]
-    name = "分类"
-    url = "/zh/categories/"
-    weight = 4
-[[Languages.zh.menu.main]]
     name = "关于"
     url = "/zh/about/"
-    weight = 5
+    weight = 3
 [[Languages.zh.menu.main]]
     name = "朋友们"
     url = "/zh/friends/"
-    weight = 6
+    weight = 4
 [[Languages.zh.menu.main]]
     name = "留言板"
     url = "/zh/messages/"
-    weight = 7
+    weight = 5

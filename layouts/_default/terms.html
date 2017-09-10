@@ -1,6 +1,8 @@
 {{ partial "header.html" . }}
 
-<h1>{{ i18n .Title }}</h1>
+<h1>{{i18n .Title }}</h1>
+
+{{ .Content }}
 
 <ul class="terms">
   {{ range $key, $value := .Data.Terms }}
