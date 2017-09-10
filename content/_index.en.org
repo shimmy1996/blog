@@ -27,7 +27,7 @@ curl: "home"
 - [x] Find out how to make ~emacs~ work with ~fcitx~.
 - [x] Use Google's Noto Sans font and Source Code Pro for code.
 - [x] Find a suitable icon/favicon.
-- [ ] Improve templates for posts to display tags and categories. 
+- [x] Improve templates for posts to display tags and categories. 
 - [ ] Cosmetic changes, i.e. no underlines for hyperlinks. 
 - [ ] Customizable Disqus via Disqus API.
 - [ ] Customize ~hugo new~ to make it more useful, i.e. create multilingual versions directly.
