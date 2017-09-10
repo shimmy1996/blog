@@ -8,7 +8,6 @@ tags            = ["Hugo"
 categories      = ["Site Related"
                   ]
 slug            =  "hello world"
-isCJKLanguage   = false
 +++
 
 Hello world!

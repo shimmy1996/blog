@@ -1,6 +1,11 @@
 {{ partial "header.html" . }}
 
-<h1>{{i18n .Title }}</h1>
+{{$title := i18n .Title}}
+{{ if eq $title ""}}
+  <h1>{{ .Title }}</h1>
+{{ else }}
+  <h1>{{ $title }}</h1>
+{{ end }}
 
 {{ .Content }}
 

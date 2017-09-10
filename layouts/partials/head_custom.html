@@ -7,3 +7,10 @@
 <link rel="shortcut icon" href="/favicon/favicon.ico?v=xQzOP7B4B2">
 <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=xQzOP7B4B2">
 <meta name="theme-color" content="#ffffff">
+<!-- Translate titles -->
+{{$title := i18n .Title}}
+{{ if eq $title ""}}
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+{{ else }}
+  <title>{{ $title }} | {{ .Site.Title }}</title>
+{{ end }}
