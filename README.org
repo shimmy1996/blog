@@ -1,4 +1,4 @@
 * My Blog
-Here's my blog ([[https://www.shimmy1996.com][Trantor Library]]) powered by ~hugo~. 
+Here's my blog ([[https://www.shimmy1996.com][Library of Trantor]]) powered by ~hugo~. 
 
 
