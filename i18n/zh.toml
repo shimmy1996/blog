@@ -12,7 +12,13 @@ other = "分类"
 
 # Translation for tags
 [Hugo]
-other = "Hugo"
+other = "hugo"
+
+[Arch\ Linux]
+other = "Arch Linux"
+
+[Server]
+other = "服务器"
 
 # Translation for categories
 [Site\ Related]
