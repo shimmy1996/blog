@@ -1,10 +1,11 @@
 +++
-title = "Get emacs To Work With fcitx"
-lastmod = 2017-09-30T23:07:56-05:00
-tags = ["emacs", "fcitx"]
-draft = true
+title = "My Server Setups and Whatnot"
+lastmod = 2017-09-30T23:17:03-05:00
+tags = ["arch-linux", "server"]
+categories = ["site-related"]
+draft = false
 date = 2017-09-25
-slug = "get-emacs-to-work-with-fcitx"
+slug = "my-server-setups-and-whatnot"
 +++
 
 ## Why move the blog? And to where? {#why-move-the-blog-and-to-where}

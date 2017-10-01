@@ -559,7 +559,7 @@ $ sudo certbot --nginx
 
 
 
-* Emacs                                                          :@emacs
+* Emacs                                                          :@emacs:
 
 ** TODO Get =emacs= To Work With =fcitx=                        :emacs:fcitx:
 :PROPERTIES:
@@ -604,7 +604,7 @@ alias e="emacsclient -nc"
 *** TODO zh
 :PROPERTIES:
 :EXPORT_TITLE: 
-:EXPORT_FILE_NAME: 
+:EXPORT_FILE_NAME: get-emacs-to-work-with-fcitx.zh.md
 :END:
 
 
