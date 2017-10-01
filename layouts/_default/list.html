@@ -1,7 +1,8 @@
 {{ partial "header.html" . }}
 
 {{if not .IsHome }}
-  {{$title := i18n .Title}}
+  {{$title := lower .Title}}
+  {{$title := i18n $title}}
   {{ if eq $title ""}}
     <h1>{{ .Title }}</h1>
   {{ else }}

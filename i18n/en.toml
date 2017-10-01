@@ -10,16 +10,18 @@ other = "Tags"
 [Categories]
 other = "Categories"
 
+# Translation for categories
+[site-related]
+other = "Site Related"
+
 # Translation for tags
-[Hugo]
+[hugo]
 other = "hugo"
 
-[Arch\ Linux]
+[arch-linux]
 other = "Arch Linux"
 
-[Server]
-other = "server"
+[server]
+other = "Server"
 
-# Translation for categories
-[Site\ Related]
-other = "Site Related"
+

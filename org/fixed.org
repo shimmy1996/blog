@@ -1,0 +1,239 @@
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: ./
+
+* Homepage
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug home
+:END:
+
+** en
+:PROPERTIES:
+:EXPORT_TITLE: Home
+:EXPORT_FILE_NAME: _index.en.md
+:END:
+
+*** Library of Trantor
+/The Plan needs to go on./
+
+<span style="color:red">Fair Warning: Site under heavy construction.</span>
+
+**** Site Roadmap
+- [X] +Find new hosting location.+ Currently using DigitalOcean.
+- [X] Install Arch Linux on server.
+- [X] +Search for WP replacement.+ Hugo is pretty good.
+- [X] +Find a suitable theme.+ Currently using =hugo-xmin= , may consider forking it and write my own ( =soresu= ).
+- [X] Server side config, like =post-receive= for git auto deploy.
+- [X] Language switcher that does more than redirecting to home page.
+- [X] Enable Disqus.
+- [X] Support =$\LaTeX$= expressions via MathJax.
+- [X] Copy-paste fixed page contents from old site (and translate them).
+- [X] Enable https.
+- [X] Backup old WP site.
+- [X] Transfer domain to Google Domains and ensure DNS works as intended.
+- [X] Find out how to write with =org-mode= or R markdown.
+- [X] Configure multilingual support, including footer text, title, etc.
+- [X] Find out how to make =emacs= work with =fcitx~.
+- [X] Use Google's Noto Sans font and Source Code Pro for code.
+- [X] Find a suitable icon/favicon.
+- [X] Improve templates for posts to display tags and categories. 
+- [X] Cosmetic changes, i.e. no underlines for hyperlinks. 
+- [X] Host my own email.
+- [ ] Deal with some nuances in using =org-mode= with =hugo= , like how to get syntax highlighting to work properly.
+- [ ] Customizable Disqus via Disqus API.
+- [ ] Customize =hugo new= to make it more useful, i.e. create multilingual versions directly.
+- [ ] Restore/rewrite and translate some of the more valuable old posts.
+
+**** Recent Posts
+
+** zh
+:PROPERTIES:
+:EXPORT_TITLE: 主页
+:EXPORT_FILE_NAME: _index.zh.md
+:END:
+
+*** 川坨大学图书室
+/计划进行中/
+
+<span style="color:red">注意：本站仍处于施工中。</span>
+
+**** 施工计划
+- [X] +找一家新的服务器提供商+ 目前使用 DigitalOcean 。
+- [X] 在服务器上安装 Arch Linux 。
+- [X] +搜寻WP的替代品。+ Hugo 很不错。
+- [X] +找一个合适的主题。+ 目前使用 =hugo-xmin= ，考虑fork出来写成自己的主题（ =soresu= ）。
+- [X] 完成服务器端设置，比如添加 =post-receive= 来实现 =git= 自动部署。
+- [X] 可以切换 *当前页面* 语言版本的语言切换按钮。
+- [X] Disqus 支持。
+- [X] 用 MathJax 实现 =$\LaTeX$= 表达式支持。
+- [X] 把导航页的内容搬过来并翻译。
+- [X] https 支持。
+- [X] 备份原WP站点。
+- [X] 转移域名到 Google Domains ，并完成 DNS 设置。
+- [X] 尝试使用 =org-mode= 或者 R markdown 来写博客。
+- [X] 解决 =emacs= 不兼容 =fcitx= 的问题。
+- [X] 设置多语言支持，添加合适的翻译字符串。
+- [X] 使用 Google 的 Noto Sans 字体，代码则使用 Source Code Pro 。
+- [X] 为站点和社交网站找一个合适的图标/头像。
+- [X] 改善文章页面模板使其显示标签和分类。
+- [X] 改善网站外观，比如隐藏超链接的下划线等。
+- [X] 架设自己的邮箱。
+- [ ] 解决 =org-mode= 和 =hugo= 略不兼容的地方，比如代码高亮。
+- [ ] 尝试把 =hugo new= 变得更有用一些，比如直接创建多语言版本等。
+- [ ] 把比较有价值的旧文章搬过来。
+
+**** 最新日志
+
+
+* About
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug about
+:END:
+
+** en
+:PROPERTIES:
+:EXPORT_TITLE: About
+:EXPORT_FILE_NAME: about.en.md
+:END:
+
+*** About Me
+No longer a fan of the slow and clunky Wordpress, I switched to Hugo.
+
+Most of my social network accounts use the name =shimmy1996=.
+
+*** About This Site
+
+Up and running since July 12th, 2014. 
+
+This site is licensed under a [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License]] (CC BY-NC-SA 4.0).
+
+** zh
+:PROPERTIES:
+:EXPORT_TITLE: 关于
+:EXPORT_FILE_NAME: about.zh.md
+:END:
+
+*** 关于博主
+EE 狗，目前在德州放牛；技术渣， +WP+ Hugo 新手； ACG 相关；喜欢硬件但是没有小钱钱；足迹可能遍布各大社交网站，通常名字为 =shimmy1996= ；求友链 XDD。
+
+*** 关于本站
+建于2014年7月12日，用来放各种奇怪的东西。
+
+本站所有内容使用[[http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh][Creative Commons 署名-非商业性-相同方式共享4.0国际许可协议]]（CC BY-NC-SA 4.0）。
+
+
+* Contact
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug contact
+:END:
+
+** en
+:PROPERTIES:
+:EXPORT_TITLE: Contact
+:EXPORT_FILE_NAME: contact.en.md
+:END:
+
+Congratulations for discovering the +secret+ contact information hidden here!
+
+Feel free to shoot me an email. 
+If you feel like it, encrypt your message with my PGP Key and you will need the key to find my email address:
+#+BEGIN_SRC sh
+5672 AC27 2669 A07A BD28  0896 ACC6 C791 312C F84D
+#+END_SRC
+
+You can also find me on [[https://telegram.me/shimmy1996][Telegram]].
+
+** zh
+:PROPERTIES:
+:EXPORT_TITLE: 联系方式
+:EXPORT_FILE_NAME: contact.zh.md
+:END:
+
+恭喜你发现这个不起眼的 +机密+ 链接。
+
+联系我的最佳方式是电子邮件。
+你可以使用我的PGP密匙来对邮件进行加密以及获取邮箱地址:
+#+BEGIN_SRC sh
+5672 AC27 2669 A07A BD28  0896 ACC6 C791 312C F84D
+#+END_SRC
+
+除此之外[[https://telegram.me/shimmy1996][Telegram]]也是不错的选择。
+
+
+* Friends
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug friends
+:END:
+
+** en
+:PROPERTIES:
+:EXPORT_TITLE: Friends
+:EXPORT_FILE_NAME: friends.en.md
+:END:
+
+<img src="/img/fixed/friends.jpg"/>
+
+Welcome to the friendly neighborhood of Library of Trantor!
+
+[[http://iiiid.com][Z]]
+
+[[http://uucky.me][Uucky]]
+
+[[https://biergaizi.info][比尔盖子]]
+
+[[http://a2clef.com][Vacuuny/A2Clef]]
+
+** zh
+:PROPERTIES:
+:EXPORT_TITLE: 朋友们
+:EXPORT_FILE_NAME: friends.zh.md
+:END:
+
+<img src="/img/fixed/friends.jpg"/>
+
+这里会添加朋友们的站点链接！
+
+[[http://iiiid.com][Z]]
+
+[[http://uucky.me][Uucky]]
+
+[[https://biergaizi.info][比尔盖子]]
+
+[[http://a2clef.com][Vacuuny/A2Clef]]
+
+
+* Messages
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug messages
+:END:
+
+** en
+:PROPERTIES:
+:EXPORT_TITLE: Messages
+:EXPORT_FILE_NAME: messages.en.md
+:END:
+
+Hello and welcome!
+
+In case you want fancy profile pics, just like everyone else, please register at [[https://disqus.com/][Disqus]].
+
+** zh
+:PROPERTIES:
+:EXPORT_TITLE: 留言板
+:EXPORT_FILE_NAME: messages.zh.md
+:END:
+
+欢迎版聊!
+
+没有头像？请注册[[https://disqus.com][Disqus]]账户。
+
+
+* Footnotes
+
+
+* COMMENT Local Variables                                           :ARCHIVE:
+
+# Local Variables:
+# fill-column: 70
+# eval: (auto-fill-mode 1)
+# eval: (add-hook 'after-save-hook #'org-hugo-export-subtree-to-md-after-save :append :local)
+# End:

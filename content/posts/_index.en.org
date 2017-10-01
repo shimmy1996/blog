@@ -1,5 +1,0 @@
----
-title: "Posts"
----
-
-In case you want to view by [[/en/tags/][tags]] or [[/en/categories][categories]].

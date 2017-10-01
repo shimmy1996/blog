@@ -10,16 +10,17 @@ other = "标签"
 [Categories]
 other = "分类"
 
+# Translation for categories
+[site-related]
+other = "站点相关"
+
 # Translation for tags
-[Hugo]
+[hugo]
 other = "hugo"
 
-[Arch\ Linux]
+[arch-linux]
 other = "Arch Linux"
 
-[Server]
+[server]
 other = "服务器"
 
-# Translation for categories
-[Site\ Related]
-other = "站点相关"
