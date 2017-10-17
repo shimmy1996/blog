@@ -32,10 +32,9 @@ _The Plan needs to go on._
 -   [X] Find a suitable icon/favicon.
 -   [X] Improve templates for posts to display tags and categories.
 -   [X] Cosmetic changes, i.e. no underlines for hyperlinks.
+-   [X] Deal with some nuances in using `org-mode` with `hugo` , like how to get syntax highlighting to work properly.
 -   [X] Host my own email.
--   [ ] Deal with some nuances in using `org-mode` with `hugo` , like how to get syntax highlighting to work properly.
--   [ ] Customizable Disqus via Disqus API.
--   [ ] Customize `hugo new` to make it more useful, i.e. create multilingual versions directly.
+-   [X] Customize `hugo new` to make it more useful, i.e. create multilingual versions directly.
 -   [ ] Restore/rewrite and translate some of the more valuable old posts.
 
 

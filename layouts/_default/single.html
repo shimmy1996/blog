@@ -6,7 +6,7 @@
 <p class="terms">
   {{ range $i := (slice "categories" "tags") }}
   {{ with ($.Param $i) }} 
-  {{ i18n ($i | title) }} | {{ range $k := . }}<a href="{{ relURL (print "/" $.Site.Language.Lang "/" $i "/" $k | urlize) }}">{{i18n $k}} </a> | {{ end }}
+  {{ i18n (lower ($i | title)) }} | {{ range $k := . }}<a href="{{ relURL (print "/" $.Site.Language.Lang "/" $i "/" $k | urlize) }}">{{i18n $k}} </a> | {{ end }}
   <br />
   {{ end }}
   {{ end }}

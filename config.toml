@@ -30,9 +30,6 @@ LanguageName            = "EN"
 [Languages.en.params]
 description = "The greatest library ever."
 
-[Languages.en.navigation]
-about                   = "About"
-
 [[Languages.en.menu.main]]
     name = "Home"
     url = "/en/"
@@ -58,9 +55,6 @@ about                   = "About"
 title                   = "川坨大学图书室"
 subtitle                = "计划进行中。"
 LanguageName            = "中文"
-
-[Languages.zh.navigation]
-about                   = "关于"
 
 [Languages.zh.params]
 description = "最伟大的图书馆。"

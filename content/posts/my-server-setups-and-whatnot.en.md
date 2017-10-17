@@ -1,6 +1,6 @@
 +++
 title = "My Server Setups and Whatnot"
-lastmod = 2017-09-30T23:17:03-05:00
+lastmod = 2017-10-16T22:44:18-05:00
 tags = ["arch-linux", "server"]
 categories = ["site-related"]
 draft = false
@@ -275,6 +275,15 @@ Check time server status with:
 
 ```sh
 $ ntpq -p
+```
+
+
+### Setting up PTR Record {#setting-up-ptr-record}
+
+It turns out that DigitalOcean handles this automatically, all I needed to do is set the droplet name to a Fully Qualified Domain Name (FQDN), in this case `www.shimmy1996.com`. I then checked if the record is in place with:
+
+```sh
+$ dig -x <ip_address>
 ```
 
 

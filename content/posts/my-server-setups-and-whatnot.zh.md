@@ -1,6 +1,6 @@
 +++
 title = "新站点架设过程"
-lastmod = 2017-09-30T23:17:03-05:00
+lastmod = 2017-10-16T22:44:19-05:00
 tags = ["arch-linux", "server"]
 categories = ["site-related"]
 draft = false
@@ -275,6 +275,15 @@ $ sudo systemctl enable ntpd.service
 
 ```sh
 $ ntpq -p
+```
+
+
+### 设置 PTR 记录 {#设置-ptr-记录}
+
+DigitalOcean 会自动设置 PTR 记录，我唯一需要做的就是将水滴的名字改为绝对领域名称（ FQDN ，帅气但是八成是机翻的译名取自 [Wikipedia](https://zh.wikipedia.org/wiki/完整網域名稱) ），也就是 `www.shimmy1996.com` 。完成这一设置后，我可以通过以下命令来查看设置是否成功。
+
+```sh
+$ dig -x <ip_address>
 ```
 
 

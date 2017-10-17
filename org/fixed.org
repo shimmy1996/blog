@@ -37,10 +37,9 @@
 - [X] Find a suitable icon/favicon.
 - [X] Improve templates for posts to display tags and categories. 
 - [X] Cosmetic changes, i.e. no underlines for hyperlinks. 
+- [X] Deal with some nuances in using =org-mode= with =hugo= , like how to get syntax highlighting to work properly.
 - [X] Host my own email.
-- [ ] Deal with some nuances in using =org-mode= with =hugo= , like how to get syntax highlighting to work properly.
-- [ ] Customizable Disqus via Disqus API.
-- [ ] Customize =hugo new= to make it more useful, i.e. create multilingual versions directly.
+- [X] Customize =hugo new= to make it more useful, i.e. create multilingual versions directly.
 - [ ] Restore/rewrite and translate some of the more valuable old posts.
 
 **** Recent Posts
@@ -77,8 +76,8 @@
 - [X] 改善文章页面模板使其显示标签和分类。
 - [X] 改善网站外观，比如隐藏超链接的下划线等。
 - [X] 架设自己的邮箱。
-- [ ] 解决 =org-mode= 和 =hugo= 略不兼容的地方，比如代码高亮。
-- [ ] 尝试把 =hugo new= 变得更有用一些，比如直接创建多语言版本等。
+- [X] 解决 =org-mode= 和 =hugo= 略不兼容的地方，比如代码高亮。
+- [X] 尝试把 =hugo new= 变得更有用一些，比如直接创建多语言版本等。
 - [ ] 把比较有价值的旧文章搬过来。
 
 **** 最新日志

@@ -1,13 +1,13 @@
 [footer]
 other = "&copy; [Shimmy Xu](/en/contact/) 2017 | [Keybase](https://keybase.io/shimmy1996) | [Github](https://github.com/shimmy1996) | [Twitter](https://twitter.com/shimmy1996) | [Subscribe](/en/index.xml)"
 
-[Posts]
+[posts]
 other = "Posts"
 
-[Tags]
+[tags]
 other = "Tags"
 
-[Categories]
+[categories]
 other = "Categories"
 
 # Translation for categories
@@ -24,4 +24,8 @@ other = "Arch Linux"
 [server]
 other = "Server"
 
+[email]
+other = "Email"
 
+[security]
+other = "Security"
