@@ -1,6 +1,6 @@
 +++
 title = "Posts"
-lastmod = 2017-10-16T22:44:18-05:00
+lastmod = 2017-10-22T12:04:12-05:00
 draft = false
 +++
 

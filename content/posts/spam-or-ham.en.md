@@ -1,6 +1,6 @@
 +++
 title = "Spam or Ham"
-lastmod = 2017-10-16T22:48:16-05:00
+lastmod = 2017-10-22T12:04:13-05:00
 tags = ["email", "security"]
 categories = ["site-related"]
 draft = false

@@ -23,13 +23,12 @@ In case you want to view by [[/en/tags/][tags]] or [[/en/categories][categories]
 
 你也可以通过[[/zh/tags/][标签]]或[[/zh/categories][分类]]来浏览日志。
 
-
-* Site Related                                                   :@site_related:
+* Site Related                                                :@site_related:
 Site related posts.
 
-** DONE My Server Setups and Whatnot                         :arch_linux:server:
+** DONE My Server Setups and Whatnot                      :arch_linux:server:
 :PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2017-09-25 :slug my-server-setups-and-whatnot 
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2017-09-25 :slug my-server-setups-and-whatnot
 :END:
 
 *** DONE en
@@ -43,18 +42,18 @@ Site related posts.
 After putting up with the clunky WordPress blog (and Bluehost's 2003-looking admin panel for that matter) for three years, I finally decided to ditch everything I currently have and restart my blog in a more civilized manner. There was a couple of things that I was not happy about my old WordPress setup, namely:
 
 - Clunky and eats up my server storage.
-- Not as easy way to back up with tools I know.  
-- Does not come with a command line interface, which is becoming my preferred way of doing almost anything. 
-- Lacking some basic features I wanted, i.e. multilingual support. As powerful as WordPress may be in the right hands, I do not want to invest too much effort in learning CSS/js/php nor do I want to use some plugin from some sketchy WordPress plugin marketplace.  
-- These theme and plugin marketplaces creeps me out in the same way as ubuntu software center. 
-- WordPress has a lot of features I do not actually need, i.e. user permission system, which is an overkill for my personal blog site. 
+- Not as easy way to back up with tools I know.
+- Does not come with a command line interface, which is becoming my preferred way of doing almost anything.
+- Lacking some basic features I wanted, i.e. multilingual support. As powerful as WordPress may be in the right hands, I do not want to invest too much effort in learning CSS/js/php nor do I want to use some plugin from some sketchy WordPress plugin marketplace.
+- These theme and plugin marketplaces creeps me out in the same way as ubuntu software center.
+- WordPress has a lot of features I do not actually need, i.e. user permission system, which is an overkill for my personal blog site.
 
-Picking an alternative blogging system was not too hard once I am aware of my needs: a fast and minimalist static site generator implemented in a language I know (or I found valuable to learn) with out-of-the-box multilingual support, a.k.a. =hugo=. 
+Picking an alternative blogging system was not too hard once I am aware of my needs: a fast and minimalist static site generator implemented in a language I know (or I found valuable to learn) with out-of-the-box multilingual support, a.k.a. =hugo=.
 
-As for hosting services, I considered github pages and netlify to be fast and easy solutions but I want something more substantial for a personal blog, like a VPS. Besides, github pages not supporting https for custom domains is a deal breaker for me. I filtered down the list of VPS hosting providers with Arch Linux support and I ended up with DigitalOcean. Since I wanted to completely sever my connection with Bluehost, I also moved my domain name host to Google Domains. 
-  
+As for hosting services, I considered github pages and netlify to be fast and easy solutions but I want something more substantial for a personal blog, like a VPS. Besides, github pages not supporting https for custom domains is a deal breaker for me. I filtered down the list of VPS hosting providers with Arch Linux support and I ended up with DigitalOcean. Since I wanted to completely sever my connection with Bluehost, I also moved my domain name host to Google Domains.
+
 **** Install Arch Linux
-Do note that Arch Linux is probably not the best suited server Linux distro. Use a non-rolling distro if stability is a concern. I use it only because I also run it on all my other computers. Backup the droplet often if you decided to go down this route: it hasn't happened to me yet but I've heard people complaining about Arch breaking too often. 
+Do note that Arch Linux is probably not the best suited server Linux distro. Use a non-rolling distro if stability is a concern. I use it only because I also run it on all my other computers. Backup the droplet often if you decided to go down this route: it hasn't happened to me yet but I've heard people complaining about Arch breaking too often.
 
 ***** Installation
 Apparently my information on DigitalOcean supporting Arch Linux is outdated, as they stopped supporting it a while back. Thankfully, it is still not to hard to bring Arch Linux to a droplet (this is how DigitalOcean refer to a server) due to the awesome project [[https://github.com/gh2o/digitalocean-debian-to-arch][digitalocean-debian-to-arch]]. All I needed to to was [[https://www.digitalocean.com/community/tutorials/how-to-create-your-first-digitalocean-droplet][set up a droplet]], =ssh= into the server, and follow the instructions:
@@ -68,7 +67,7 @@ Apparently my information on DigitalOcean supporting Arch Linux is outdated, as 
 Once the script finishes running, I have an Arch Linux system running on my droplet with internet access. Most of the additional setups needed can be found in [[https://wiki.archlinux.org/index.php/Installation_guide][Arch Wiki]]. Since I am by no means a great tutorial writer, I suggest referring to Arch Wiki for detailed steps. The recorded commands here are just for book-keeping purposes and is by no means the best way to do things.
 
 ****** System Clock
-Sync system clock and set time zone. 
+Sync system clock and set time zone.
 #+BEGIN_SRC sh
 # timedatectl set-ntp true
 # timedatectl settimezone <Region>/<City>
@@ -82,18 +81,18 @@ Install/update base packages.
 
 ****** Fstab
 
-Generate =fstab=. 
+Generate =fstab=.
 #+BEGIN_SRC sh
 # genfstab -U / >> /etc/fstab
 #+END_SRC
 
 ****** Set Locale
 Uncomment =en_US.UTF-8 UTF-8= in =/etc/locale.conf= then generate locale with:
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 locale-gen
 #+END_SRC
 
-Set =LANG=en_US.UTF-8= in =/etc/locale.conf=. 
+Set =LANG=en_US.UTF-8= in =/etc/locale.conf=.
 
 ****** Hostname
 Edit =/etc/hosts= and add hostname of droplet:
@@ -109,7 +108,7 @@ Optimizations for intel processors:
 #+END_SRC
 
 Add =crc32= modules to initramfs, as otherwise the droplet fails to boot. Edit =/etc/mkinitcpio.conf= :
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 MODULES= "crc32 libcrc32c crc32c_generic crc32c-intel crc32-pclmul"
 #+END_SRC
 Regenerate the initramfs image.
@@ -118,7 +117,7 @@ Regenerate the initramfs image.
 #+END_SRC
 
 ****** Root Password
-You know the drill. 
+You know the drill.
 #+BEGIN_SRC sh
 # passwd
 #+END_SRC
@@ -142,7 +141,7 @@ Edit =/etc/sudoers= and add:
 #+END_SRC
 
 ****** Login As User
-We will finish the rest of the configuration using the user account. 
+We will finish the rest of the configuration using the user account.
 #+BEGIN_SRC sh
 # su <username>
 #+END_SRC
@@ -152,28 +151,28 @@ I used to use =packer= as wrapper around AUR and =pacman=. However, after learni
 #+BEGIN_SRC sh
 $ makepkg
 #+END_SRC
-to make package and 
+to make package and
 #+BEGIN_SRC sh
 $ pacman -U trizen-*.pkg.tzr.xz
 #+END_SRC
-to install =trizen=. 
+to install =trizen=.
 
 ****** Useful Packages
 Once package manager is in place, install packages to your heart's content! Some of my bread-and-butter packages include =emacs= (I installed the cli-only version, =emacs-nox=), =tmux= (terminal multiplexor, very useful), =zsh=, =vim= (for quick edits), and etc.
 
 **** Security Related Stuff
-Now that a usable Arch Linux installation is in place, I would employ some security measures before hosting my website on it. 
+Now that a usable Arch Linux installation is in place, I would employ some security measures before hosting my website on it.
 
 ***** Secure Login via =ssh=
 On local machine, generate your ssh keypair:
 #+BEGIN_SRC sh
 $ ssh-keygen -t rsa
-#+END_SRC 
+#+END_SRC
 
 Send your ssh keys to server:
 #+BEGIN_SRC sh
 $ ssh-copy-id <username>@<server>
-#+END_SRC 
+#+END_SRC
 
 Now, on server, make the following edits to =/etc/ssh/sshd_config= :
 #+BEGIN_SRC sh
@@ -183,7 +182,7 @@ PasswordAuthentication no
 UsePAM no
 AllowUsers <username>
 #+END_SRC
-These changes will disable root login, disable password login and only allow specified user to login via ssh. 
+These changes will disable root login, disable password login and only allow specified user to login via ssh.
 
 It is advisible to also change the default port (22) used for ssh connection, in the same file, specify port by (please remember this port selection):
 #+BEGIN_SRC sh
@@ -249,20 +248,20 @@ $ dig -x <ip_address>
 #+END_SRC
 
 **** Firing up the Server
-Next step would be actually preparing the server for serving contents. 
+Next step would be actually preparing the server for serving contents.
 
 ***** Create Web Directory
 Create a directory for serving web contents, a common choice would be:
 #+BEGIN_SRC sh
 $ mkdir ~/public_html
 #+END_SRC
-Make sure to give this directory (including the user =home= folder) appropriate permission with =chmod= (=755= would normally work). Populate the directory with a simple =index.html= for testing if you want. 
+Make sure to give this directory (including the user =home= folder) appropriate permission with =chmod= (=755= would normally work). Populate the directory with a simple =index.html= for testing if you want.
 
 ***** Instal =nginx=
 
 Install =nginx= with =trizen=, and edit =/etc/nginx/nginx.conf= to set up =http= server (the one set to =listen 80 default_server=):
 #+BEGIN_SRC sh
-server_name www.<domainname> <domainname> 
+server_name www.<domainname> <domainname>
 root /path/to/public_html
 #+END_SRC
 For the =server_name= line add as many as you want. You may want to put your mail server address on it as well so that you can generate a single ssl certificate for everything. After these changes are made, (re)start and enable =nginx=:
@@ -283,9 +282,9 @@ The next step is to set up DNS records for our server. There are three types of 
 | =MX=    | @                     | mail server address           | specifiec mail server to use                             |
 | =CAA=   | @                     | authorizor of SSL certificate | prevents other authority from certifying SSL certificate |
 
-In my case, though I use Google Domains to host my domain, I still use DigitalOcean's name server. So I needed to setup these records on DigitalOcean and =NS= records on Google Domains. 
+In my case, though I use Google Domains to host my domain, I still use DigitalOcean's name server. So I needed to setup these records on DigitalOcean and =NS= records on Google Domains.
 
-After this step, you website should be accessible via your domain name, although it may take a few hours for the DNS record to populate. 
+After this step, you website should be accessible via your domain name, although it may take a few hours for the DNS record to populate.
 
 ***** SSL Certificate
 [[https://letsencrypt.org][Let's Encrypt]] is a great project and [[https://certbot.eff.org/][=certbot=]] is an awesome tool for SSL certificate generation. Kudos to the nice folks at EFF and Linux Foundation. I simply followed the instructions on [[https://certbot.eff.org/#arch-nginx][EFF site]]:
@@ -295,10 +294,10 @@ $ sudo pacman -S certbot-nginx
 $ sudo certbot --nginx
 #+END_SRC
 
-To provide some extra credibility to the certificate, I added an =CAA= record in my DNS settings with issue authority granted for =letsencrypt.org=. For now Let's Encrypt does not support wildcard certificate but will be [[https://letsencrypt.org/2017/07/06/wildcard-certificates-coming-jan-2018.html][January 2018]], and this is why I added a bunch of subdomains into my =nginx.config= (so that the certificate covers these subdomains as well). 
+To provide some extra credibility to the certificate, I added an =CAA= record in my DNS settings with issue authority granted for =letsencrypt.org=. For now Let's Encrypt does not support wildcard certificate but will be [[https://letsencrypt.org/2017/07/06/wildcard-certificates-coming-jan-2018.html][January 2018]], and this is why I added a bunch of subdomains into my =nginx.config= (so that the certificate covers these subdomains as well).
 
 **** What Now?
-After a couple hours (mostly waiting for DNS records to populate), and my website is online again. With a VPS at my disposal, I also host my personal email now and I might organize my random notes pieced from various websites into a post as well. I am still trying to figure out an efficient workflow for writing multilingual post with =org-mode= in =hugo= and once I am convinced I have found an acceptable solution, I will also post it. 
+After a couple hours (mostly waiting for DNS records to populate), and my website is online again. With a VPS at my disposal, I also host my personal email now and I might organize my random notes pieced from various websites into a post as well. I am still trying to figure out an efficient workflow for writing multilingual post with =org-mode= in =hugo= and once I am convinced I have found an acceptable solution, I will also post it.
 
 *** DONE zh
 :PROPERTIES:
@@ -320,7 +319,7 @@ After a couple hours (mostly waiting for DNS records to populate), and my websit
 在我确定了自己的需求后，我很容易地就找到了替代品：一个用我所知道的编程语言（或者我愿意学习的编程语言）所实现的快而小巧并带有原生多语言支持的静态站点生成器，那就是 =hugo= 。
 
 至于站点托管服务，我本来考虑使用 github pages 或 netlify 这种简单快速的解决办法，但是考虑到是个人站点，还是 VPS 这种功能强大一些的选择比较合适。而且 github pages 不支持自定义域名的 https ，这对我来说无法接受。我列出了所有比较出名的 VPS 服务提供商，筛出支持 Arch Linux 的部分，最后选择了 DigitalOcean 。由于我想要完全切断和 Bluehost 的联系，我把自己的域名也转移到了 Google Domains 。
-  
+
 **** 安装 Arch Linux
 注意 Arch Linux 其实并不适合用作服务器操作系统。如果一切以系统稳定性为优先，那么选择一个非滚动更新的 Linux 发行版比较合适。我在服务器上用 Arch Linux 主要是因为我在我的所有其他电脑上也都运行 Arch Linux。如果你选择使用 Arch Linux 作为服务器操作系统，最好勤于备份：虽然我还没遇到这种情况，但是常有人抱怨 Arch Linux 很容易被玩坏。
 
@@ -357,7 +356,7 @@ After a couple hours (mostly waiting for DNS records to populate), and my websit
 
 ****** 设置系统语言环境
 在 =/etc/locale.conf= 里去掉 =en_US.UTF-8 UTF-8= 的注释，然后运行：
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 locale-gen
 #+END_SRC
 
@@ -371,13 +370,13 @@ locale-gen
 
 ****** 引导加载程序和 Initramfs
 针对英特尔处理器的优化：
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 # pacman -S intel-ucode
 # grub-mkconfig -o /boot/grub/grub.cfg
 #+END_SRC
 
 在 initramfs 里加入 =crc32= 模组，不然可能导致水滴无法启动。编辑 =/etc/mkinitcpio.conf= ：
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 MODULES= "crc32 libcrc32c crc32c_generic crc32c-intel crc32-pclmul"
 #+END_SRC
 
@@ -423,7 +422,7 @@ $ makepkg
 #+BEGIN_SRC sh
 $ pacman -U trizen-*.pkg.tzr.xz
 #+END_SRC
-来安装 =trizen=. 
+来安装 =trizen=.
 
 ****** 常用软件包
 在设置完软件包管理器后，就可以大肆安装各种软件了！我的一些必备软件包括 =emacs= （在服务器上我只安装了命令行版本， =emacs-nox=）， =tmux= （可以使用同一个命令行窗口来同时运行多个指令，非常有用）， =zsh= ， =vim= （作快速编辑之用）。
@@ -435,12 +434,12 @@ Arch Linux 安装完成之后，我在把网站搬进去之前进行了一些安
 在本地机器上生成 ssh 密匙：
 #+BEGIN_SRC sh
 $ ssh-keygen -t rsa
-#+END_SRC 
+#+END_SRC
 
 把 ssh 密匙发送到服务器：
 #+BEGIN_SRC sh
 $ ssh-copy-id <username>@<server>
-#+END_SRC 
+#+END_SRC
 
 接下来再服务器上编辑 =/etc/ssh/sshd_config= ：
 #+BEGIN_SRC sh
@@ -530,7 +529,7 @@ $ mkdir ~/public_html
 
 用 =trizen= 安装 =nginx= ，并编辑 =/etc/nginx/nginx.conf= 来设立 =http= 服务器（带有 =listen 80 default_server= 设置的部分）：
 #+BEGIN_SRC sh
-server_name www.<domainname> <domainname> 
+server_name www.<domainname> <domainname>
 root /path/to/public_html
 #+END_SRC
 
@@ -566,11 +565,9 @@ $ sudo certbot --nginx
 为了给证书增加一点可信度，我还在 DNS 记录中加了一条 =CAA= 记录，标明 =letsencrypt.org= 是唯一允许给本站 SSL 证书授权的机构。目前 Let's Encrypt 还不支持通配符证书，不过会在 [[https://letsencrypt.org/2017/07/06/wildcard-certificates-coming-jan-2018.html][2018年1月]] 添加这一支持。由于没有通配符证书，我只好在 =nginx.config= 里加上所有二级域名（这样生成证书的才能够为这些域名提供验证）。
 
 **** 下一步？
-在鼓捣了几个小时后（其实大部分时间是在等 DNS 记录扩散），我的新站就上线了。既然选择了运行 VPS，我打算好好发挥它的潜能并架设了自己的电子邮箱。我正在考虑把架设邮箱过程中从各个网站七拼八凑其来的命令行笔记也整理成一篇日志。目前我仍在试图寻找使用 =org-mode= 在 =hugo= 里写多语言日志的最优工作流程。当我确信已经找到一套可以接受的解决方案的时候我会一并写成日志。 
+在鼓捣了几个小时后（其实大部分时间是在等 DNS 记录扩散），我的新站就上线了。既然选择了运行 VPS，我打算好好发挥它的潜能并架设了自己的电子邮箱。我正在考虑把架设邮箱过程中从各个网站七拼八凑其来的命令行笔记也整理成一篇日志。目前我仍在试图寻找使用 =org-mode= 在 =hugo= 里写多语言日志的最优工作流程。当我确信已经找到一套可以接受的解决方案的时候我会一并写成日志。
 
-
-
-** DONE Spam or Ham                                             :email:security:
+** DONE Spam or Ham                                          :email:security:
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2017-10-14 :slug spam-or-ham
 :END:
@@ -581,14 +578,14 @@ $ sudo certbot --nginx
 :EXPORT_FILE_NAME: spam-or-ham.en.md
 :END:
 
-As planned, I am documenting my mail server setups. Setting up the mail server is probably documented everywhere, but I had to put in some effort make my setup secure enough to prevent it from been mistaked as spam. 
+As planned, I am documenting my mail server setups. Setting up the mail server is probably documented everywhere, but I had to put in some effort make my setup secure enough to prevent it from been mistaked as spam.
 
 **** Setting up the mail server
 
 I really don't see how I can write anything better than [[http://www.netarky.com/programming/arch_linux/Arch_Linux_mail_server_setup_1.html][this tutorial]], so I will just document some of the steps that seemed missing from the tutorial.
 
 ***** Setting DNS Record
-Before anything, I needed to setup my DNS record. I created a =CNAME= for my mail server address, and added a =MX= record indicating the mail will be handled by the mail server. 
+Before anything, I needed to setup my DNS record. I created a =CNAME= for my mail server address, and added a =MX= record indicating the mail will be handled by the mail server.
 
 ***** Creating =Maildir=
 After setting up =postfix= for the first time, I needed to setup the =Maildir= manually and giving it appropirate permissions:
@@ -606,24 +603,24 @@ ssl_cert = </path/to/fullchain.pem
 ssl_key = </path/to/privkey.pem
 #+END_SRC
 
-Similarly for =postfix= I also used this certificate. Do note that =dovecot= and =postfix= should be run as =root= to have read permissions to read these certificates. 
+Similarly for =postfix= I also used this certificate. Do note that =dovecot= and =postfix= should be run as =root= to have read permissions to read these certificates.
 
 ***** Mail Client
 
-I am using Thunderbird as my mail client and for receiving mail. I used SSL/TLS while for sending mail, I needed to set STARTTLS. 
+I am using Thunderbird as my mail client and for receiving mail. I used SSL/TLS while for sending mail, I needed to set STARTTLS.
 
 **** Security Measures
-After completing the email setup, I immediately tested the server by sending test emails, only to find them been tossed straight into spam by gmail. It seems that gmail has a new feature that shows the security check status on the email (accessible by 'View Original'). These measures include SPF, DKIM and DMARC. My avatar showed up as an octagon with a question mark, indicating the mail server failing the basic SPF check. In order to avoid this, I took a bunch of security measures to tick all the boxes from email security test sites like [[https://intodns.com][intodns]] and [[https://mxtoolbox.com][mxtoolbox]]. 
+After completing the email setup, I immediately tested the server by sending test emails, only to find them been tossed straight into spam by gmail. It seems that gmail has a new feature that shows the security check status on the email (accessible by 'View Original'). These measures include SPF, DKIM and DMARC. My avatar showed up as an octagon with a question mark, indicating the mail server failing the basic SPF check. In order to avoid this, I took a bunch of security measures to tick all the boxes from email security test sites like [[https://intodns.com][intodns]] and [[https://mxtoolbox.com][mxtoolbox]].
 
 ***** Sender Policy Framework (SPF)
 An SPF TXT record documents the allowed servers to send emails on behalf of this address. In my case where only mail servers documented in the MX TXT record are used, I simply put in:
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 v=spf1 mx -all
 #+END_SRC
 
 ***** DomainKeys Identified Mail (DKIM)
 I am using =opendkim= to sign and verify that emails are indeed from my server. After installing the =opendkim= package, I followed the instruction in [[https://wiki.archlinux.org/index.php/OpenDKIM][Arch Wiki]]. First copy example configuration file from =/etc/opendkim/opendkim.conf.sample= to =/etc/opendkim/opendkim.conf= and edit (socket selection can be arbitrary):
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 Domain                  <domainname>
 KeyFile                 /path/to/keys.private
 Selector                <myselector>
@@ -633,7 +630,7 @@ Conicalization          relaxed/simple
 #+END_SRC
 
 Next, in the specified keyfile directory (the default is =/var/db/dkim/=), generate keys with:
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 $ opendkim-genkey -r -s <myselector> -d <domainname> --bits=2048
 #+END_SRC
 
@@ -643,12 +640,12 @@ $ host -t TXT <myselector>._domainkey.<domainname>
 #+END_SRC
 
 The final step would be to start the =opendkim= service and  make sure =postfix= performs the encryption upon sending email. Edit =/etc/postfix/main.cf= to be:
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 non_smtpd_milters=inet:127.0.0.1:<dkimsocket>
 smtpd_milters=inet:127.0.0.1:<dkimsocket>
 #+END_SRC
 
-After reloading =postfix=, DKIM should be in effect. 
+After reloading =postfix=, DKIM should be in effect.
 
 ***** Domain-based Message Authentication, Reporting and Conformance (DMARC)
 Without surprise, there is a package =opendmarc= that implements DMARC and there is also an [[https://wiki.archlinux.org/index.php/OpenDMARC][Arch Wiki]] page for it. Do note that this would require SPF and DKIM to be setup first. After installation, I edited =/etc/opendmarc/opendmarc.conf=:
@@ -662,10 +659,10 @@ non_smtpd_milters=inet:127.0.0.1:<dkimsocket>, inet:127.0.0.1:<dmarcsocket>
 smtpd_milters=inet:127.0.0.1:<dkimsocket>, inet:127.0.0.1:<dmarcsocket>
 #+END_SRC
 
-The final step is to add a DMARC TXT record in DNS settings as detailed on Arch Wiki page and reload =postfix=. 
+The final step is to add a DMARC TXT record in DNS settings as detailed on Arch Wiki page and reload =postfix=.
 
 **** Ticking the Boxes
-I tested my server by sending test email to =check-auth@verifier.port25.com= and everything seems to be working. Not to mention that my email no longer gets classified as spam by gmail and I can see my emails passing SPF, DKIM and DMARC checks in 'View Original'. I also get an detailed daily report from gmail due to DMARC. At this point, I am pretty comfortable about ditching all my previous gmail addresses and sticking to my own email. I am also looking into options of self-hosting calenders. Hopefully in the near future I can completely ditch Google for my essential communication needs. 
+I tested my server by sending test email to =check-auth@verifier.port25.com= and everything seems to be working. Not to mention that my email no longer gets classified as spam by gmail and I can see my emails passing SPF, DKIM and DMARC checks in 'View Original'. I also get an detailed daily report from gmail due to DMARC. At this point, I am pretty comfortable about ditching all my previous gmail addresses and sticking to my own email. I am also looking into options of self-hosting calenders. Hopefully in the near future I can completely ditch Google for my essential communication needs.
 
 *** DONE zh
 :PROPERTIES:
@@ -706,15 +703,15 @@ ssl_key = </path/to/privkey.pem
 **** 安全措施
 设置好邮件服务器后，我试着发了几封邮件，不过发现都被 gmail 扔进了垃圾箱。似乎 gmail 最近添加了显示邮件安全检查状态的功能（在 gmail 中点击“查看原件”即可看到)。这些检查包括 SPF ， DKIM ， 和 DMARC 。由于我的邮件服务器没有通过最基本的 SPF 检查，所以我的头像显示为一个标着问号的八边形。为了避免邮件被扔进垃圾箱，我进行了一系列安全设置以保证我的邮件服务器能通过网上邮箱安全测试平台(我使用的是 [[https://intodns.com][intodns]] 和 [[https://mxtoolbox.com][mxtoolbox]] )的考验。
 
-***** 发件人策略框架（ SPF ） 
+***** 发件人策略框架（ SPF ）
 SPF TXT 记录标明了某一域名所承认的邮件服务器地址。在我的情况下，我只会用到 MX TXT 记录中所提到的邮件服务器，所以我的 SPF TXT 记录就是：
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 v=spf1 mx -all
 #+END_SRC
 
 ***** 域名密匙邮件认证（ DKIM ）
 我使用 =opendkim= 来为邮件署名，以验证邮件的确来自于我的服务器。在安装了 =opendkim= 软件包后，我遵循 [[https://wiki.archlinux.org/index.php/OpenDKIM][Arch Wiki]] 里的步骤完成了设置。首先，复制设置文件模板 =/etc/opendkim/opendkim.conf.sample= 到 =/etc/opendkim/opendkim.conf= 并编辑（端口可以随意选择）：
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 Domain                  <domainname>
 KeyFile                 /path/to/keys.private
 Selector                <myselector>
@@ -724,7 +721,7 @@ Canonicalization        relaxed/simple
 #+END_SRC
 
 接下来，在设置文件所指定的密匙文件路径下（默认为 =/var/db/dkim/= ），生成密匙：
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 $ opendkim-genkey -r -s <myselector> -d <domainname> --bits=2048
 #+END_SRC
 
@@ -734,7 +731,7 @@ $ host -t TXT <myselector>._domainkey.<domainname>
 #+END_SRC
 
 接下，重启 =opendkim= 服务并确保 =postfix= 在发出邮件之前执行加密。编辑 =/etc/postfix/main.cf= ：
-#+BEGIN_SRC sh 
+#+BEGIN_SRC sh
 non_smtpd_milters=inet:127.0.0.1:<dkimsocket>
 smtpd_milters=inet:127.0.0.1:<dkimsocket>
 #+END_SRC
@@ -758,7 +755,49 @@ smtpd_milters=inet:127.0.0.1:<dkimsocket>, inet:127.0.0.1:<dmarcsocket>
 **** 通过所有测试
 给 =check-auth@verifier.port25.com= 发送测试邮件后，我收到了一份邮件服务器的测试报告。报告显示所有安全设置都在正常运作。除此之外， gmail 不再将我的邮件扔进垃圾箱了，而“查看原件”页面下也显示我的邮件通过了 SPF ， DKIM ， 和 DMARC 检查。 由于启用了 DMARC ， gmail 还会每天向我的邮箱发送一份安全报告。折腾到这个地步后，我对我的新邮箱比较满意了，并准备废除我之前所使用的邮箱。我还在寻找可以自己架设的日历服务，希望不久的将来我可以完全摆脱在通讯方面对 Google 服务的依赖。
 
-* Emacs                                                          :@emacs:
+** DONE No More Disqusting Disqus                          :comment:security:
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2017-10-22 :slug no-more-disqusting-disqus
+:END:
+
+*** DONE en
+:PROPERTIES:
+:EXPORT_TITLE: No More Disqusting Disqus
+:EXPORT_FILE_NAME: no-more-disqusting-disqus.en.md
+:END:
+
+A while back Disqus had a [[https://blog.disqus.com/security-alert-user-info-breach][user info breach]], which made me reconsider my choice of commenting system. If I am already hosting my own blog and email, why stop there and leave out commenting system to be served by a third-party platform?
+
+**** The Good, The Bad, and The Ugly
+Before anything, I believe it would make sense to measure the benefits of migrating to a self-hosted commenting system using the good old two column model, with each element scored on a -1, 0, 1 scale (good, bad or ugly) with varying weight (0, 1, 2 for low, medium and high) depending on importance.
+
+| Element               | Importance                                                                              | Disqus                                                                                                                                                                | Self-host                                                                       |
+|-----------------------+-----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------|
+| Security              | High                                                                                    | Ugly, see the security breach.                                                                                                                                        | Good                                                                            |
+| Spam Preventing       | High                                                                                    | Bad, Disqus itself has become a potential sourse of spams because of the security breach despite their maybe great spam prevention.                                   | Good, I can have everything under moderation.                                   |
+| Ease of Commenting    | Medium, I guess if one really has quality comments, they should not be put off by this. | Ugly, creating a whole new social network accout just for commenting is definitely an overkill. This makes commenting easy for bot accounts but not for normal users. | Bad, I guess typing name and email over and over again doesn't seem so bad now. |
+| Community Interaction | Medium, I only had like 5 comments on my old blog during the past three years.          | Good, being a social network, Disqus does shine as a central hub of blog commenting.                                                                                  | Ugly, the self-hosted nature of such systems prevents cross blog interactions.  |
+| Backup                | Medium, it would be nice to pack everything up in the blog in just a few files.         | Good, can be done with a single click.                                                                                                                                | Good, since comments are hosted in my own server.                               |
+| Ease of Set Up        | Low, it's gonna be a one time thing anyways.                                            | Good, =hugo= has pretty good integration already.                                                                                                                     | Bad, we are about to find out, but it's definitely more work.                   |
+| Features              | Low, profile pictures, upvotes, styling, and what not.                                  | Good, except that most of the upvotes I received in Disqus came from bot users with pretty 'disqusting' biography with links to dating sites.                         | Good, I can modify my self-hosted solution to my heart's content.               |
+|-----------------------+-----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------|
+| Final Verdict         |                                                                                         | Ugly                                                                                                                                                                  | Good                                                                            |
+
+Whether these 'disqusting' (I know this is a bad pun, please stop me) accounts were hijacked due to the security breach or were simply created by spammers is beyond me, but yeah, I don't really want these zombies lurking around my comments anymore because of Disqus.
+
+**** The Search for Replacements
+I have decided to
+
+**** Setting Up =isso=
+I am
+
+*** TODO zh
+:PROPERTIES:
+:EXPORT_TITLE: No More Disqusting Disqus
+:EXPORT_FILE_NAME: no-more-disqusting-disqus.zh.md
+:END:
+
+* Emacs                                                              :@emacs:
 
 ** TODO Get =emacs= To Work With =fcitx=                        :emacs:fcitx:
 :PROPERTIES:
@@ -802,17 +841,15 @@ alias e="emacsclient -nc"
 
 *** TODO zh
 :PROPERTIES:
-:EXPORT_TITLE: 
+:EXPORT_TITLE:
 :EXPORT_FILE_NAME: get-emacs-to-work-with-fcitx.zh.md
 :END:
 
-
 * Footnotes
-* COMMENT Local Variables                                              :ARCHIVE:
-
+* COMMENT Local Variables                                           :ARCHIVE:
 
 # Local Variables:
 # fill-column: 70
-# eval: (auto-fill-mode 1)
+# eval: (auto-fill-mode nil)
 # eval: (add-hook 'after-save-hook #'org-hugo-export-subtree-to-md-after-save :append :local)
 # End:

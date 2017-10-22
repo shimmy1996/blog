@@ -2,7 +2,9 @@
 <script src="/js/math-code.js"></script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 <!-- Disqus Support -->
-{{ template "_internal/disqus.html" . }}
+<script data-isso="//comments.example.tld/"
+        src="//comments.example.tld/js/embed.min.js"></script>
+<section id="isso-thread"></section>
 <!-- Translated footer -->
 {{ with i18n "footer" }}
     <hr/>

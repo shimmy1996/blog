@@ -1,6 +1,6 @@
 +++
 title = "Get emacs To Work With fcitx"
-lastmod = 2017-09-30T23:17:04-05:00
+lastmod = 2017-10-22T12:04:13-05:00
 tags = ["emacs", "fcitx"]
 categories = ["emacs"]
 draft = true
@@ -16,8 +16,8 @@ slug = "get-emacs-to-work-with-fcitx"
 
 ### locale settings {#locale-settings}
 
-export zh<sub>cn.utf</sub>-8
-set lc<sub>ctype</sub>=zh<sub>cn.utf</sub>-8
+export zh\_cn.utf-8
+set lc\_ctype=zh\_cn.utf-8
 
 
 ### fcitx plugin in emacs {#fcitx-plugin-in-emacs}

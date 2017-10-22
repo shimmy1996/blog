@@ -1,6 +1,6 @@
 +++
 title = "是 Spam 还是 Ham"
-lastmod = 2017-10-16T22:48:31-05:00
+lastmod = 2017-10-22T12:04:13-05:00
 tags = ["email", "security"]
 categories = ["site-related"]
 draft = false
