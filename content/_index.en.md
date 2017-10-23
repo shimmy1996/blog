@@ -35,6 +35,7 @@ _The Plan needs to go on._
 -   [X] Deal with some nuances in using `org-mode` with `hugo` , like how to get syntax highlighting to work properly.
 -   [X] Host my own email.
 -   [X] Customize `hugo new` to make it more useful, i.e. create multilingual versions directly.
+-   [ ] Self-host commenting system as a replacement of Disqus.
 -   [ ] Restore/rewrite and translate some of the more valuable old posts.
 
 

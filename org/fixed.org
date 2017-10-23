@@ -35,11 +35,12 @@
 - [X] Find out how to make =emacs= work with =fcitx~.
 - [X] Use Google's Noto Sans font and Source Code Pro for code.
 - [X] Find a suitable icon/favicon.
-- [X] Improve templates for posts to display tags and categories. 
-- [X] Cosmetic changes, i.e. no underlines for hyperlinks. 
+- [X] Improve templates for posts to display tags and categories.
+- [X] Cosmetic changes, i.e. no underlines for hyperlinks.
 - [X] Deal with some nuances in using =org-mode= with =hugo= , like how to get syntax highlighting to work properly.
 - [X] Host my own email.
 - [X] Customize =hugo new= to make it more useful, i.e. create multilingual versions directly.
+- [ ] Self-host commenting system as a replacement of Disqus.
 - [ ] Restore/rewrite and translate some of the more valuable old posts.
 
 **** Recent Posts
@@ -78,6 +79,7 @@
 - [X] 架设自己的邮箱。
 - [X] 解决 =org-mode= 和 =hugo= 略不兼容的地方，比如代码高亮。
 - [X] 尝试把 =hugo new= 变得更有用一些，比如直接创建多语言版本等。
+- [ ] 抛弃 Disqus 自己搭建评论系统。
 - [ ] 把比较有价值的旧文章搬过来。
 
 **** 最新日志
@@ -101,7 +103,7 @@ Most of my social network accounts use the name =shimmy1996=.
 
 *** About This Site
 
-Up and running since July 12th, 2014. 
+Up and running since July 12th, 2014.
 
 This site is licensed under a [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License]] (CC BY-NC-SA 4.0).
 
@@ -133,7 +135,7 @@ EE 狗，目前在德州放牛；技术渣， +WP+ Hugo 新手； ACG 相关；�
 
 Congratulations for discovering the +secret+ contact information hidden here!
 
-Feel free to shoot me an email. 
+Feel free to shoot me an email.
 If you feel like it, encrypt your message with my PGP Key and you will need the key to find my email address:
 #+BEGIN_SRC sh
 5672 AC27 2669 A07A BD28  0896 ACC6 C791 312C F84D
