@@ -1,9 +1,8 @@
 baseURL                 = "shimmy1996.com"
-title                   = "Library of Trantor" 
+title                   = "Library of Trantor"
 newContentEditor        = "emacs"
 theme                   = "soresu"
 pygmentsStyle           = "monokai"
-disqusshortname         = "shimmy1996"
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 DefaultContentLanguage  = "en"
