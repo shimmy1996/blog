@@ -1,7 +1,8 @@
 <!-- MathJax Support -->
 <script src="/js/math-code.js"></script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<!-- Isso Support -->
+<!-- Isso support, do not enable in home page. -->
+{{if not .IsHome}}
 <script data-isso="/isso/"
         data-isso-css="true"
         data-isso-lang={{ .Site.Language }}
@@ -17,6 +18,7 @@
         data-vote-levels=""
         src="/isso/js/embed.min.js"></script>
 <section id="isso-thread"></section>
+{{ end }}
 
 <!-- Translated footer -->
 {{ with i18n "footer" }}
