@@ -51,7 +51,7 @@
 :EXPORT_FILE_NAME: _index.zh.md
 :END:
 
-*** 川坨大学图书室
+*** 川陀大学图书室
 /计划进行中/
 
 <span style="color:red">注意：本站仍处于施工中。</span>
