@@ -1,6 +1,6 @@
 +++
 title = "No More Disqusting Disqus"
-lastmod = 2017-12-17T00:04:39-06:00
+lastmod = 2017-12-17T17:39:47-06:00
 tags = ["social-network", "security"]
 categories = ["site-related"]
 draft = false
@@ -22,7 +22,7 @@ Here's comes the ugly part though. Not to mention the fact that embedding JavaSc
 
 ## The Search for Replacements {#the-search-for-replacements}
 
-I have decided to selfhost a commenting system and my top priority is to avoid any external service if possible. After careful selection, the two finalists for the job are [isso](https://posativ.org/isso/) and [staticman](https://staticman.net). Isso is a lightweight comment server written in Python, while staticman is an interesting set of APIs that parses comments into text files and adds them to your site's Github repo. Installing isso means having to deal with databases, which I really dread and would like to avoid at all cost; using staticman allows the site to remain static, yet relies on GitHub's API (and staticman.com's API if I don't host a instance myself). While maintaining an entirely static site is very tempting, I decided to try out Isso first to see if ditching all external sites is worth the effort.
+I have decided to selfhost a commenting system and my top priority is to avoid any external service if possible. After careful selection, the two finalists for the job are [isso](https://posativ.org/isso/) and [staticman](https://staticman.net). Isso is a lightweight comment server written in Python, while staticman is an interesting set of APIs that parses comments into text files and adds them to your site's Github repo. Installing isso means having to deal with databases, which I really dread and would like to avoid at all cost; using staticman allows the site to remain static, yet relies on GitHub's API (and staticman.net's API if I don't host a instance myself). While maintaining an entirely static site is very tempting, I decided to try out Isso first to see if ditching all external sites is worth the effort.
 
 Just for shits and giggles, here's another interesting alternative: [Echochamber.js](https://github.com/tessalt/echo-chamber-js).
 
