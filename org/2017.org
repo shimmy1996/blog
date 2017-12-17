@@ -755,7 +755,7 @@ smtpd_milters=inet:127.0.0.1:<dkimsocket>, inet:127.0.0.1:<dmarcsocket>
 **** 通过所有测试
 给 =check-auth@verifier.port25.com= 发送测试邮件后，我收到了一份邮件服务器的测试报告。报告显示所有安全设置都在正常运作。除此之外， gmail 不再将我的邮件扔进垃圾箱了，而“查看原件”页面下也显示我的邮件通过了 SPF ， DKIM ， 和 DMARC 检查。 由于启用了 DMARC ， gmail 还会每天向我的邮箱发送一份安全报告。折腾到这个地步后，我对我的新邮箱比较满意了，并准备废除我之前所使用的邮箱。我还在寻找可以自己架设的日历服务，希望不久的将来我可以完全摆脱在通讯方面对 Google 服务的依赖。
 
-** DONE No More Disqusting Disqus                          :comment:security:
+** DONE No More Disqusting Disqus                   :social_network:security:
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2017-10-22 :slug no-more-disqusting-disqus
 :END:
@@ -769,33 +769,46 @@ smtpd_milters=inet:127.0.0.1:<dkimsocket>, inet:127.0.0.1:<dmarcsocket>
 A while back Disqus had a [[https://blog.disqus.com/security-alert-user-info-breach][user info breach]], which made me reconsider my choice of commenting system. If I am already hosting my own blog and email, why stop there and leave out commenting system to be served by a third-party platform?
 
 **** The Good, The Bad, and The Ugly
-Before anything, I believe it would make sense to measure the benefits of migrating to a self-hosted commenting system using the good old two column model, with each element scored on a -1, 0, 1 scale (good, bad or ugly) with varying weight (0, 1, 2 for low, medium and high) depending on importance.
+I have mixed feelings for Disqus' idea of turning comments across different sites into a unified social network. Personally, I use most social media services as 'media' rather than a social tool: they are obviously ill-suited for posting large paragraphs (thus the plethora of external links), and even for posting random thoughts, the sheer time it takes to type out a sensible and logically coherent argument (especially on mobile devices) frequntly puts me off. Since I'm so used to being that creepy lurker, I inevitably got into the habit of judging my social media identity: what would I think about this Frankenstein's monster made up of retweets and likes.
 
-| Element               | Importance                                                                              | Disqus                                                                                                                                                                | Self-host                                                                       |
-|-----------------------+-----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------|
-| Security              | High                                                                                    | Ugly, see the security breach.                                                                                                                                        | Good                                                                            |
-| Spam Preventing       | High                                                                                    | Bad, Disqus itself has become a potential sourse of spams because of the security breach despite their maybe great spam prevention.                                   | Good, I can have everything under moderation.                                   |
-| Ease of Commenting    | Medium, I guess if one really has quality comments, they should not be put off by this. | Ugly, creating a whole new social network accout just for commenting is definitely an overkill. This makes commenting easy for bot accounts but not for normal users. | Bad, I guess typing name and email over and over again doesn't seem so bad now. |
-| Community Interaction | Medium, I only had like 5 comments on my old blog during the past three years.          | Good, being a social network, Disqus does shine as a central hub of blog commenting.                                                                                  | Ugly, the self-hosted nature of such systems prevents cross blog interactions.  |
-| Backup                | Medium, it would be nice to pack everything up in the blog in just a few files.         | Good, can be done with a single click.                                                                                                                                | Good, since comments are hosted in my own server.                               |
-| Ease of Set Up        | Low, it's gonna be a one time thing anyways.                                            | Good, =hugo= has pretty good integration already.                                                                                                                     | Bad, we are about to find out, but it's definitely more work.                   |
-| Features              | Low, profile pictures, upvotes, styling, and what not.                                  | Good, except that most of the upvotes I received in Disqus came from bot users with pretty 'disqusting' biography with links to dating sites.                         | Good, I can modify my self-hosted solution to my heart's content.               |
-|-----------------------+-----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------|
-| Final Verdict         |                                                                                         | Ugly                                                                                                                                                                  | Good                                                                            |
+Blog Comments work a little differently. I feel more relieved when commenting on a blog: it feels more like a convrsation with the blog owner rather than broadcasting myself to everyone on the Internet. Disqus, however, takes this away by social network-ifying blog comments. I guess the potential upside to Disqus is to attract more traffic, but I do not want my blog comments to become just another social media live feed: if one has valuable comment, the lack of Disqus should not deter him or her from posting it (while I've noticed the opposite happening quite a few times).
 
-Whether these 'disqusting' (I know this is a bad pun, please stop me) accounts were hijacked due to the security breach or were simply created by spammers is beyond me, but yeah, I don't really want these zombies lurking around my comments anymore because of Disqus.
+Here's comes the ugly part though. Not to mention the fact that embedding JavaScript that I have no control over is a very bad idea, it was only until yesterday did I notice viewer tracking in Disqus is an opt-out system. Since I don't plan on monetizing on my blog, it really isn't worth risking blog viewers' privacy for what Disqus provides. Besides, it really worried me when I realized majority of upvotes in my Disqus comments came from zombie accounts with profile links set to dating sites. Whether these 'disqusting' (bad pun alert) accounts were hijacked due to the security breach or were simply created by spammers is beyond me, but yeah, I don't want these zombies lurking around my blog's comments.
 
 **** The Search for Replacements
-I have decided to
+I have decided to selfhost a commenting system and my top priority is to avoid any external service if possible. After careful selection, the two finalists for the job are [[https://posativ.org/isso/][isso]] and [[https://staticman.net][staticman]]. Isso is a lightweight comment server written in Python, while staticman is an interesting set of APIs that parses comments into text files and adds them to your site's Github repo. Installing isso means having to deal with databases, which I really dread and would like to avoid at all cost; using staticman allows the site to remain static, yet relies on GitHub's API (and staticman.com's API if I don't host a instance myself). While maintaining an entirely static site is very tempting, I decided to try out Isso first to see if ditching all external sites is worth the effort.
 
-**** Setting Up =isso=
-I am
+Just for shits and giggles, here's another interesting alternative: [[https://github.com/tessalt/echo-chamber-js][Echochamber.js]].
 
-*** TODO zh
+**** Setting Up Isso
+The official website provides fairly good [[https://posativ.org/isso/docs/][documentation]] already. I installed isso from [[https://aur.archlinux.org/packages/isso/][AUR]] and enabled it via =systemctl=. Setting isso up was surprisingly painless(including the part with database), and I used a different [[https://posativ.org/isso/docs/setup/sub-uri/][configuration]] than default since I am running isso on the same server. The only issue I encountered is with =smtp=. By checking the status of =postfix=, I quickly determined the problem lies in =smtpd_helo_restrictions=: by disabling the option =reject_unknown_helo_hostname=, isso can now use the local =smtp= server without issues. I took some extra effort to customize the CSS template for isso and the comment section looks fairly good now (a lot faster as well).
+
+Happy Commenting!
+
+*** DONE zh
 :PROPERTIES:
-:EXPORT_TITLE: No More Disqusting Disqus
+:EXPORT_TITLE: 不再使用 Disqus
 :EXPORT_FILE_NAME: no-more-disqusting-disqus.zh.md
 :END:
+
+不久之前， Disqus 发生了一起 [[https://blog.disqus.com/security-alert-user-info-breach][用户信息泄露事件]] 。这导致我开始重新考虑评论系统的选择：既然已经架设了自己的博客和电子邮件，也不差一个评论系统。
+
+**** 好家伙，坏家伙，丑家伙
+我对 Disqus 将不同网站的评论统一成一个社交网络的主意抱有比较复杂的看法。我个人使用社交媒体时更多的是作为 “媒体” 而不是社交的工具：这些服务显然不适合发表长篇大论（所以大多社交网站帖子都充斥着链接和长图），而就算是最为发表随感的工具，我也觉得在这些网站上编辑文字不怎么理想（尤其是在手机上）。常年潜水的习惯使得我时常反过来审视自己的社交网站人格：我站在第三者的角度会怎么看这堆转推和赞所构成的怪物。
+
+博客评论则比较不同。我在评论博客时更为放松：这种感觉更接近与博主一对一对话，而不是向整个网络广播自己的座标。社交媒体化的博客评论就不再给我这种感觉。使用 Disqus 的一大潜在好处大概在于能够吸引更多访客，不过我并不想让自己的博客评论区沦为又一个社交网络时间线：高价值的评论并不会因为我的网站不使用 Disqus 而消失（虽然相反的事情时有发生，并不是所有人都会愿意为了评论而注册新的社交网络帐号的）。
+
+接下来就要说到 Disqus 比较丑陋的一面了。且不提在网站上嵌入我自己没有办法控制的 JavaScript 是一大安全隐患，我直到昨天才意识到 Disqus 的访客数据收集是默认启用的。由于我不打算通过博客获得收入，以牺牲访客隐私为代价换取 Disqus 的服务并不值得。除此之外，我还发现 Disqus 评论中的大部分“赞同”都来自于挂着交友网站的僵尸帐号。至于这些僵尸帐号的来源是被盗用的帐号还是水军机器人我就无从了解了。总之我可不想让这些僵尸帐号在我的博客上晃悠。
+
+**** 寻找替代品
+我决定自己架设评论系统并尽量避开任何第三方服务。在细心搜寻后，[[https://posativ.org/isso/][isso]] 和 [[https://staticman.net][staticman]] 成为了最终的候选者。 Isso 是一个使用 Python 写成的轻量评论服务器；而 staticman 则是一套将评论转换成文本文件并自动加入博客 Github 仓库的 API 。安装 isso 意味着我必须使用我之前一直尽力避免的数据库；使用 staticman 则可以让我的网站保持静态，但是必须依靠 Github 的 API （如果我不自己架设 staticman 的话，还需要 staticman.com 的API）。虽然保持一个完全静态的站点很吸引人，不过我还是决定先尝试 isso ，看看脱离第三方服务是否值得我花时间鼓捣数据库。
+
+我在寻找评论系统的过程在还发现了一个有趣的替代品：[[https://github.com/tessalt/echo-chamber-js][Echochamber.js]] 。
+
+**** 设置 isso
+Isso 的官网有很详细的 [[https://posativ.org/isso/docs/][说明文档]]。我从 [[https://aur.archlinux.org/packages/isso/][AUR]] 安装了 isso 并使用 =systemctl= 启用了它。设置过程出奇的顺利（包括数据库的部分），因为我的 isso 和博客共用一台服务器，我使用了与默认不同的 [[https://posativ.org/isso/docs/setup/sub-uri/][设置]]。我所遇到的唯一问题在于 =smtp= 。在检查 =postfix= 的运行状态后，我很快发现问题在于 =smtpd_helo_restrictions=：在停用 =reject_unknown_helo_hostname= 后， isso 就能使用 =smtp= 发送通知邮件了。除此之外，我稍微花了点时间修改 isso 的 CSS 模板。新的评论区看起来不仅更契合博客主题，速度也比 Disqus 快多了。
+
+祝评论愉快！
 
 * Emacs                                                              :@emacs:
 

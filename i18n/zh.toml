@@ -30,3 +30,5 @@ other = "电子邮件"
 [security]
 other = "安全相关"
 
+[social-network]
+other = "社交网络"
