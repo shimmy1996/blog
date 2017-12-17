@@ -1,6 +1,6 @@
 +++
 title = "不再使用 Disqus"
-lastmod = 2017-12-17T00:04:31-06:00
+lastmod = 2017-12-17T00:13:55-06:00
 tags = ["social-network", "security"]
 categories = ["site-related"]
 draft = false
@@ -24,7 +24,7 @@ slug = "no-more-disqusting-disqus"
 
 我决定自己架设评论系统并尽量避开任何第三方服务。在细心搜寻后，[isso](https://posativ.org/isso/) 和 [staticman](https://staticman.net) 成为了最终的候选者。 Isso 是一个使用 Python 写成的轻量评论服务器；而 staticman 则是一套将评论转换成文本文件并自动加入博客 Github 仓库的 API 。安装 isso 意味着我必须使用我之前一直尽力避免的数据库；使用 staticman 则可以让我的网站保持静态，但是必须依靠 Github 的 API （如果我不自己架设 staticman 的话，还需要 staticman.com 的API）。虽然保持一个完全静态的站点很吸引人，不过我还是决定先尝试 isso ，看看脱离第三方服务是否值得我花时间鼓捣数据库。
 
-我在寻找评论系统的过程在还发现了一个有趣的替代品：[Echochamber.js](https://github.com/tessalt/echo-chamber-js) 。
+我在寻找评论系统的过程中还发现了一个有趣的替代品：[Echochamber.js](https://github.com/tessalt/echo-chamber-js) 。
 
 
 ## 设置 isso {#设置-isso}
