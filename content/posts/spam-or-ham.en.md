@@ -1,6 +1,5 @@
 +++
 title = "Spam or Ham"
-lastmod = 2017-10-22T12:04:13-05:00
 tags = ["email", "security"]
 categories = ["site-related"]
 draft = false
@@ -23,7 +22,7 @@ Before anything, I needed to setup my DNS record. I created a `CNAME` for my mai
 
 ### Creating `Maildir` {#creating-maildir}
 
-After setting up `postfix` for the first time, I needed to setup the `Maildir` manually and giving it appropirate permissions:
+After setting up `postfix` for the first time, I needed to setup the `Maildir` manually and giving it appropriate permissions:
 
 ```sh
 $ mkdir -p /home/<username>/Maildir/{cur,new,tmp}

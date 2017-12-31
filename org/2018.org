@@ -1,0 +1,80 @@
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: ./posts
+#+OPTIONS: author:nil
+
+* Index Page
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
+:END:
+
+** en
+:PROPERTIES:
+:EXPORT_TITLE: Posts
+:EXPORT_FILE_NAME: _index.en.md
+:END:
+
+In case you want to view by [[/en/tags/][tags]] or [[/en/categories][categories]].
+
+** zh
+:PROPERTIES:
+:EXPORT_TITLE: 归档
+:EXPORT_FILE_NAME: _index.zh.md
+:END:
+
+你也可以通过[[/zh/tags/][标签]]或[[/zh/categories][分类]]来浏览日志。
+
+* Emacs                                                              :@emacs:
+
+** TODO Get =emacs= To Work With =fcitx=                        :emacs:fcitx:
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2017-09-25 :slug get-emacs-to-work-with-fcitx
+:END:
+
+*** TODO en
+:PROPERTIES:
+:EXPORT_TITLE: Get =emacs= To Work With =fcitx=
+:EXPORT_FILE_NAME: get-emacs-to-work-with-fcitx.en.md
+:END:
+
+**** Enabling fcitx in emacs
+
+***** fcitx-diagnose
+
+***** locale settings
+export zh_cn.utf-8
+set lc_ctype=zh_cn.utf-8
+
+***** fcitx plugin in emacs
+
+***** disabling ctrl+space hot key
+replaced with os+space and ctrl+os
+
+
+**** could be better
+
+do not want set lc-ctype globally
+run emacs as daemon
+
+***** create new entry in .config/systemd/user/emacs.service
+
+***** add environment variable
+
+***** problem: does not load init file
+
+
+***** setting up alias of emacsclient -nc in .zshrc
+alias e="emacsclient -nc"
+
+*** TODO zh
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: get-emacs-to-work-with-fcitx.zh.md
+:END:
+
+* Footnotes
+* COMMENT Local Variables                                           :ARCHIVE:
+# Local Variables:
+# fill-column: 80
+# eval: (auto-fill-mode nil)
+# eval: (add-hook 'after-save-hook #'org-hugo-export-subtree-to-md-after-save :append :local)
+# End:

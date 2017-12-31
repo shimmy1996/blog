@@ -1,0 +1,51 @@
++++
+title = "2017 in Review"
+tags = ["plans"]
+categories = ["my-life"]
+draft = false
+date = 2017-12-31
+slug = "2017-in-review"
++++
+
+2017 is over within the next few hours and I fell obliged to write something
+about it. Hopefully I won't have too much regrets by the time I finish this
+post.
+
+
+## What Have I Done {#what-have-i-done}
+
+I have been working full time since June. Working life is surprisingly more
+relaxing than I expected. My daily schedule has seen a great increase in
+stability: no more 4-hour-sleeping-schedule is an obvious improvement and I can
+finally set aside time for my interests.
+
+By the end of 2017, I have:
+
+-   Set up my new blog and wrote more stuff than 2015 and 2016 combined.
+-   Been using Emacs for 3 months.
+-   Been using my own email for 3 months.
+-   Found out I am pretty good at cooking.
+-   Been running nearly daily for 6 months. I finished my first half-marathon with
+    a sub 2 hour time.
+-   Lost 20 pounds since June thanks to running.
+
+Doesn't look too shabby huh? It's been a great year.
+
+
+## What's Next {#what-s-next}
+
+I've gotten into the habit of listening to Dayo Wong's stand-up comedy from time
+to time and for some reason one of his earlier shows _跟住去边度_ ( _What's
+Next_ ) left the deepest impression on me. I now also post this question to
+myself. Here's where I will be in 2018:
+
+-   Train for a full marathon and hopefully finish one.
+-   Write at least 20 blog articles.
+-   Get the first signature for my PGP key.
+-   Read more, watch less.
+
+If I've learned anything from my past failed plans, it would be always
+underestimate my own capabilities when planning, so I will just stop my list
+here and add additional goals as I march into 2018.
+
+Happy new year and hopefully 2018 will be another spectacular one!

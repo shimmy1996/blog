@@ -1,6 +1,5 @@
 +++
 title = "不再使用 Disqus"
-lastmod = 2017-12-17T17:40:03-06:00
 tags = ["social-network", "security"]
 categories = ["site-related"]
 draft = false

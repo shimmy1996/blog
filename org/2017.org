@@ -1,6 +1,6 @@
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: ./posts
-#+HUGO_AUTO_SET_LASTMOD: t
+#+OPTIONS: author:nil
 
 * Index Page
 :PROPERTIES:
@@ -588,7 +588,7 @@ I really don't see how I can write anything better than [[http://www.netarky.com
 Before anything, I needed to setup my DNS record. I created a =CNAME= for my mail server address, and added a =MX= record indicating the mail will be handled by the mail server.
 
 ***** Creating =Maildir=
-After setting up =postfix= for the first time, I needed to setup the =Maildir= manually and giving it appropirate permissions:
+After setting up =postfix= for the first time, I needed to setup the =Maildir= manually and giving it appropriate permissions:
 #+BEGIN_SRC sh
 $ mkdir -p /home/<username>/Maildir/{cur,new,tmp}
 $ chown <username> /home/<username>/Maildir/{,cur,new,tmp}
@@ -816,59 +816,101 @@ Isso 的官网有很详细的 [[https://posativ.org/isso/docs/][说明文档]]�
 
 祝评论愉快！
 
-* Emacs                                                              :@emacs:
-
-** TODO Get =emacs= To Work With =fcitx=                        :emacs:fcitx:
+* My Life                                                          :@my_life:
+** DONE 2017 in Review                                                :plans:
 :PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2017-09-25 :slug get-emacs-to-work-with-fcitx
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2017-12-31 :slug 2017-in-review
 :END:
 
-*** TODO en
+*** DONE en
 :PROPERTIES:
-:EXPORT_TITLE: Get =emacs= To Work With =fcitx=
-:EXPORT_FILE_NAME: get-emacs-to-work-with-fcitx.en.md
+:EXPORT_TITLE: 2017 in Review
+:EXPORT_FILE_NAME: 2017-in-review.en.md
 :END:
 
-**** Enabling fcitx in emacs
+2017 is over within the next few hours and I fell obliged to write something
+about it. Hopefully I won't have too much regrets by the time I finish this
+post.
 
-***** fcitx-diagnose
+**** What Have I Done
+I have been working full time since June. Working life is surprisingly more
+relaxing than I expected. My daily schedule has seen a great increase in
+stability: no more 4-hour-sleeping-schedule is an obvious improvement and I can
+finally set aside time for my interests.
 
-***** locale settings
-export zh_cn.utf-8
-set lc_ctype=zh_cn.utf-8
+By the end of 2017, I have:
 
-***** fcitx plugin in emacs
+- Set up my new blog and wrote more stuff than 2015 and 2016 combined.
+- Been using Emacs for 3 months.
+- Been using my own email for 3 months.
+- Found out I am pretty good at cooking.
+- Been running nearly daily for 6 months. I finished my first half-marathon with
+  a sub 2 hour time.
+- Lost 20 pounds since June thanks to running.
 
-***** disabling ctrl+space hot key
-replaced with os+space and ctrl+os
+Doesn't look too shabby huh? It's been a great year.
 
+**** What's Next
+I've gotten into the habit of listening to Dayo Wong's stand-up comedy from time
+to time and for some reason one of his earlier shows /跟住去边度/ ( /What's
+Next/ ) left the deepest impression on me. I now also post this question to
+myself. Here's where I will be in 2018:
 
-**** could be better
+- Train for a full marathon and hopefully finish one.
+- Write at least 20 blog articles.
+- Get the first signature for my PGP key.
+- Read more, watch less.
 
-do not want set lc-ctype globally
-run emacs as daemon
+If I've learned anything from my past failed plans, it would be always
+underestimate my own capabilities when planning, so I will just stop my list
+here and add additional goals as I march into 2018.
 
-***** create new entry in .config/systemd/user/emacs.service
+Happy new year and hopefully 2018 will be another spectacular one!
 
-***** add environment variable
-
-***** problem: does not load init file
-
-
-***** setting up alias of emacsclient -nc in .zshrc
-alias e="emacsclient -nc"
-
-*** TODO zh
+*** DONE zh
 :PROPERTIES:
-:EXPORT_TITLE:
-:EXPORT_FILE_NAME: get-emacs-to-work-with-fcitx.zh.md
+:EXPORT_TITLE: 回顾 2017
+:EXPORT_FILE_NAME: 2017-in-review.zh.md
 :END:
+
+2017 年再过几个小时就结束了，所以我觉得很有必要回顾一下过去这一年。但愿我在
+写完这篇日志的时候还能觉得 2017 过得没有后悔。
+
+**** 我都做了啥
+我从六月份开始全职工作了。社畜生活其实比我想象的要轻松不少，我的日常生活比上学时
+反而有规律得多：至少4小时的睡眠时间不再显得那么奢侈，而且我总算能分配一部分时间
+来发展兴趣了。
+
+在 2017 年里：
+
+- 使用 Emacs 三个月。
+- 使用自己架设的电子邮箱三个月。
+- 架设了新的站点并且更新了比 2015-2016 两年更多的内容。
+- 发现自己其实有点煮饭的隐藏才能
+- 我在后六个月中保持几乎每天跑步。我在 2 小时之内完成了我的第一个半程马拉松比赛。
+- 由于跑步，我的体重下降了 10 千克左右。
+
+我觉得2017是很充实很开心的一年。
+
+**** 跟住去边度
+最近常常听黄子华的栋笃笑，而 /跟住去边度/ 给我留下的印象最深。我也打算问问自己这
+个问题。 2018 我会：
+
+- 以马拉松为目标继续训练，有机会的话完成一次正式比赛。
+- 写 20 篇以上的日志。
+- 获得第一个 PGP 密匙签名。
+- 少看，多阅读。
+
+如果我有从过去那些我制定后没能执行的计划里得到任何经验的话，那就是定计划时最好稍
+微低估自己的能力，所以我的新年目标就先列到这里。在踏入2018后我会视情况添加新的内
+容。
+
+新年快乐！希望 2018 也会是充满惊喜的一年！
 
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
-
 # Local Variables:
-# fill-column: 70
+# fill-column: 80
 # eval: (auto-fill-mode nil)
 # eval: (add-hook 'after-save-hook #'org-hugo-export-subtree-to-md-after-save :append :local)
 # End:

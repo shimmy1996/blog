@@ -1,6 +1,5 @@
 +++
 title = "No More Disqusting Disqus"
-lastmod = 2017-12-17T17:39:47-06:00
 tags = ["social-network", "security"]
 categories = ["site-related"]
 draft = false

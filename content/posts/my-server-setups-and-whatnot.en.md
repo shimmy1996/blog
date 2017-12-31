@@ -1,6 +1,5 @@
 +++
 title = "My Server Setups and Whatnot"
-lastmod = 2017-10-22T12:04:13-05:00
 tags = ["arch-linux", "server"]
 categories = ["site-related"]
 draft = false
