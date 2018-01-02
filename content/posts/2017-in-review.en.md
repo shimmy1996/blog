@@ -42,6 +42,7 @@ myself. Here's where I will be in 2018:
 -   Train for a full marathon and hopefully finish one.
 -   Write at least 20 blog articles.
 -   Get the first signature for my PGP key.
+-   Install Gentoo.
 -   Read more, watch less.
 
 If I've learned anything from my past failed plans, it would be always
