@@ -26,9 +26,6 @@ title                   = "Library of Trantor"
 subtitle                = "The Plan is going on."
 LanguageName            = "EN"
 
-[Languages.en.params]
-description = "The greatest library ever."
-
 [[Languages.en.menu.main]]
     name = "Home"
     url = "/en/"
@@ -54,9 +51,6 @@ description = "The greatest library ever."
 title                   = "川陀大学图书室"
 subtitle                = "计划进行中。"
 LanguageName            = "中文"
-
-[Languages.zh.params]
-description = "最伟大的图书馆。"
 
 [[Languages.zh.menu.main]]
     name = "主页"
