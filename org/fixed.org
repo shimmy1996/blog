@@ -1,5 +1,6 @@
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: ./
+#+HUGO_LEVEL_OFFSET: 0
 #+OPTIONS: author:nil
 
 * Homepage

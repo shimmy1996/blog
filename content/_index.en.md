@@ -4,14 +4,14 @@ draft = false
 slug = "home"
 +++
 
-## Library of Trantor {#library-of-trantor}
+# Library of Trantor {#library-of-trantor}
 
 _The Plan needs to go on._
 
 <span style="color:red">Fair Warning: Site under heavy construction.</span>
 
 
-### Site Roadmap {#site-roadmap}
+## Site Roadmap {#site-roadmap}
 
 -   [X] ~~Find new hosting location.~~ Currently using DigitalOcean.
 -   [X] Install Arch Linux on server.
@@ -39,4 +39,4 @@ _The Plan needs to go on._
 -   [ ] Restore/rewrite and translate some of the more valuable old posts.
 
 
-### Recent Posts {#recent-posts}
+## Recent Posts {#recent-posts}
