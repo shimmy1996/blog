@@ -1,4 +1,4 @@
-<!-- favicon settings -->
+<!-- Favicon Settings -->
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=pgqKMwjGgo">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=pgqKMwjGgo">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=pgqKMwjGgo">
@@ -9,7 +9,9 @@
 <meta name="application-name" content="Library of Trantor">
 <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=pgqKMwjGgo">
 <meta name="theme-color" content="#707070">
-<!-- Translate titles -->
+<!-- Cache Settings -->
+<meta http-equiv="cache-control" content="max-age=86400">
+<!-- Title Translation -->
 {{$title := i18n (lower .Title)}}
 {{ if eq $title ""}}
   <title>{{ .Title }} | {{ .Site.Title }}</title>
