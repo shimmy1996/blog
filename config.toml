@@ -2,11 +2,15 @@ baseURL                 = "shimmy1996.com"
 title                   = "Library of Trantor"
 newContentEditor        = "emacs"
 theme                   = "soresu"
-pygmentsStyle           = "monokai"
+pygmentsCodefences      = true
+pygmentsCodefencesGuessSyntax = false
+pygmentsStyle           = "colorful"
+pygmentsOptions = "linenos="
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 DefaultContentLanguage  = "en"
 DefaultContentLanguageInSubdir = true
+
 
 [permalinks]
 posts = "/posts/:year/:month/:day/:slug/"
