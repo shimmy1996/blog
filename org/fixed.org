@@ -1,6 +1,6 @@
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: ./
-#+HUGO_LEVEL_OFFSET: 0
+#+HUGO_LEVEL_OFFSET: 1
 #+OPTIONS: author:nil
 
 * Homepage
@@ -12,12 +12,13 @@
 :PROPERTIES:
 :EXPORT_TITLE: Home
 :EXPORT_FILE_NAME: _index.en.md
+:EXPORT_HUGO_LEVEL_OFFSET: 0
 :END:
 
 *** Library of Trantor
 /The Plan needs to go on./
 
-<span style="color:red">Fair Warning: Site under heavy construction.</span>
+<span style="color:#700000;">Warning: Site under heavy construction.</span>
 
 **** Site Roadmap
 - [X] +Find new hosting location.+ Currently using DigitalOcean.
@@ -34,8 +35,8 @@
 - [X] Transfer domain to Google Domains and ensure DNS works as intended.
 - [X] Find out how to write with =org-mode= or R markdown.
 - [X] Configure multilingual support, including footer text, title, etc.
-- [X] Find out how to make =emacs= work with =fcitx~.
-- [X] Use Google's Noto Sans font and Source Code Pro for code.
+- [X] Find out how to make =emacs= work with =fcitx= .
+- [X] Use +Google's Noto Sans font+ Oxygen Sans and +Source Code Pro+ Iosevka for code.
 - [X] Find a suitable icon/favicon.
 - [X] Improve templates for posts to display tags and categories.
 - [X] Cosmetic changes, i.e. no underlines for hyperlinks.
@@ -51,12 +52,13 @@
 :PROPERTIES:
 :EXPORT_TITLE: 主页
 :EXPORT_FILE_NAME: _index.zh.md
+:EXPORT_HUGO_LEVEL_OFFSET: 0
 :END:
 
 *** 川陀大学图书室
 /计划进行中/
 
-<span style="color:red">注意：本站仍处于施工中。</span>
+<span style="color:#700000;">注意：本站仍处于施工中。</span>
 
 **** 施工计划
 - [X] +找一家新的服务器提供商+ 目前使用 DigitalOcean 。
@@ -74,7 +76,7 @@
 - [X] 尝试使用 =org-mode= 或者 R markdown 来写博客。
 - [X] 解决 =emacs= 不兼容 =fcitx= 的问题。
 - [X] 设置多语言支持，添加合适的翻译字符串。
-- [X] 使用 Google 的 Noto Sans 字体，代码则使用 Source Code Pro 。
+- [X] 使用 Google 的 Noto Sans 字体（拉丁字母使用 Oxygen Sans ），代码则使用 Source Code Pro 。
 - [X] 为站点和社交网站找一个合适的图标/头像。
 - [X] 改善文章页面模板使其显示标签和分类。
 - [X] 改善网站外观，比如隐藏超链接的下划线等。
@@ -98,13 +100,12 @@
 :END:
 
 *** About Me
-No longer a fan of the slow and clunky Wordpress, I switched to Hugo.
-
-Most of my social network accounts use the name =shimmy1996=.
+I frequently show up on social networks as =shimmy1996=.
 
 *** About This Site
-
 Up and running since July 12th, 2014.
+
+No longer a fan of the slow and clunky Wordpress, I migrated to Hugo on September 1st, 2017.
 
 This site is licensed under a [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License]] (CC BY-NC-SA 4.0).
 
@@ -118,9 +119,9 @@ This site is licensed under a [[http://creativecommons.org/licenses/by-nc-sa/4.0
 EE 狗，目前在德州放牛；技术渣， +WP+ Hugo 新手； ACG 相关；喜欢硬件但是没有小钱钱；足迹可能遍布各大社交网站，通常名字为 =shimmy1996= ；求友链 XDD。
 
 *** 关于本站
-建于2014年7月12日，用来放各种奇怪的东西。
+建于2014年7月12日，用来放各种奇怪的东西。由于受不了笨重的 Wordpress，我在2017年9月1日把博客迁移到了 Hugo 上。
 
-本站所有内容使用[[http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh][Creative Commons 署名-非商业性-相同方式共享4.0国际许可协议]]（CC BY-NC-SA 4.0）。
+本站所有内容使用 [[http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh][Creative Commons 署名-非商业性-相同方式共享4.0国际许可协议]] （CC BY-NC-SA 4.0）。
 
 * Contact
 :PROPERTIES:
@@ -166,7 +167,7 @@ You can also find me on [[https://telegram.me/shimmy1996][Telegram]].
 :EXPORT_FILE_NAME: friends.en.md
 :END:
 
-<img src="/img/fixed/friends.jpg"/>
+[[/img/fixed/friends.jpg]]
 
 Welcome to the friendly neighborhood of Library of Trantor!
 
@@ -184,7 +185,7 @@ Welcome to the friendly neighborhood of Library of Trantor!
 :EXPORT_FILE_NAME: friends.zh.md
 :END:
 
-<img src="/img/fixed/friends.jpg"/>
+[[/img/fixed/friends.jpg]]
 
 这里会添加朋友们的站点链接！
 
@@ -211,7 +212,7 @@ Hello and welcome!
 
 +In case you want fancy profile pics, just like everyone else, please register at Disqus+.
 
-I do not recommending creating a entirely new social media accout for fancy profile pics. Your comments won't be any less valuable without Disqus.
+I do not recommending creating a entirely new social media accout for profile pics. Your comments won't be any less valuable without Disqus.
 
 ** zh
 :PROPERTIES:

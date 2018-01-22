@@ -8,7 +8,7 @@ slug = "home"
 
 _The Plan needs to go on._
 
-<span style="color:red">Fair Warning: Site under heavy construction.</span>
+<span style="color:#700000;">Warning: Site under heavy construction.</span>
 
 
 ## Site Roadmap {#site-roadmap}
@@ -27,8 +27,8 @@ _The Plan needs to go on._
 -   [X] Transfer domain to Google Domains and ensure DNS works as intended.
 -   [X] Find out how to write with `org-mode` or R markdown.
 -   [X] Configure multilingual support, including footer text, title, etc.
--   [X] Find out how to make `emacs` work with =fcitx~.
--   [X] Use Google's Noto Sans font and Source Code Pro for code.
+-   [X] Find out how to make `emacs` work with `fcitx` .
+-   [X] Use ~~Google's Noto Sans font~~ Oxygen Sans and ~~Source Code Pro~~ Iosevka for code.
 -   [X] Find a suitable icon/favicon.
 -   [X] Improve templates for posts to display tags and categories.
 -   [X] Cosmetic changes, i.e. no underlines for hyperlinks.

@@ -8,7 +8,7 @@ slug = "home"
 
 _计划进行中_
 
-<span style="color:red">注意：本站仍处于施工中。</span>
+<span style="color:#700000;">注意：本站仍处于施工中。</span>
 
 
 ## 施工计划 {#施工计划}
@@ -28,7 +28,7 @@ _计划进行中_
 -   [X] 尝试使用 `org-mode` 或者 R markdown 来写博客。
 -   [X] 解决 `emacs` 不兼容 `fcitx` 的问题。
 -   [X] 设置多语言支持，添加合适的翻译字符串。
--   [X] 使用 Google 的 Noto Sans 字体，代码则使用 Source Code Pro 。
+-   [X] 使用 Google 的 Noto Sans 字体（拉丁字母使用 Oxygen Sans ），代码则使用 Source Code Pro 。
 -   [X] 为站点和社交网站找一个合适的图标/头像。
 -   [X] 改善文章页面模板使其显示标签和分类。
 -   [X] 改善网站外观，比如隐藏超链接的下划线等。

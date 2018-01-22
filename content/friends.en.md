@@ -4,7 +4,7 @@ draft = false
 slug = "friends"
 +++
 
-<img src="/img/fixed/friends.jpg"/>
+{{<figure src="/img/fixed/friends.jpg">}}
 
 Welcome to the friendly neighborhood of Library of Trantor!
 
