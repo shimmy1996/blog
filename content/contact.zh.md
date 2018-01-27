@@ -10,5 +10,3 @@ slug = "contact"
 ```sh
 5672 AC27 2669 A07A BD28  0896 ACC6 C791 312C F84D
 ```
-
-除此之外[Telegram](https://telegram.me/shimmy1996)也是不错的选择。

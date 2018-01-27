@@ -140,8 +140,6 @@ If you feel like it, encrypt your message with my PGP Key:
 5672 AC27 2669 A07A BD28  0896 ACC6 C791 312C F84D
 #+END_SRC
 
-You can also find me on [[https://telegram.me/shimmy1996][Telegram]].
-
 ** zh
 :PROPERTIES:
 :EXPORT_TITLE: 联系方式
@@ -153,8 +151,6 @@ You can also find me on [[https://telegram.me/shimmy1996][Telegram]].
 #+BEGIN_SRC sh
 5672 AC27 2669 A07A BD28  0896 ACC6 C791 312C F84D
 #+END_SRC
-
-除此之外[[https://telegram.me/shimmy1996][Telegram]]也是不错的选择。
 
 * Friends
 :PROPERTIES:
