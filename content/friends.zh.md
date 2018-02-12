@@ -4,7 +4,7 @@ draft = false
 slug = "friends"
 +++
 
-{{<figure src="/img/fixed/friends.jpg">}}
+{{< figure src="/img/fixed/friends.jpg" >}}
 
 这里会添加朋友们的站点链接！
 
