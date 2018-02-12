@@ -3,7 +3,7 @@ title = "Trying Out Mastodon"
 tags = ["social-network", "mastodon", "arch-linux"]
 categories = ["site-related"]
 draft = false
-date = 2018-01-28
+date = 2018-02-11
 slug = "trying-out-mastodon"
 +++
 

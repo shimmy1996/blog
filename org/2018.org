@@ -206,7 +206,7 @@ I also played around with several alternative color schemes, i.e. inverted versi
 * Site Related                                                :@site_related:
 ** DONE Trying Out Mastodon              :social_network:mastodon:arch_linux:
 :PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2018-01-28 :slug trying-out-mastodon
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2018-02-11 :slug trying-out-mastodon
 :END:
 
 *** DONE en
