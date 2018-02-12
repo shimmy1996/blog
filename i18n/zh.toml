@@ -41,3 +41,6 @@ other = "计划"
 
 [design]
 other = "设计"
+
+[mastodon]
+other = "Mastodon"
