@@ -4,7 +4,7 @@ newContentEditor        = "emacs"
 theme                   = "soresu"
 pygmentsCodefences      = true
 pygmentsCodefencesGuessSyntax = false
-pygmentsStyle           = "colorful"
+pygmentsStyle           = "emacs"
 pygmentsOptions = "linenos="
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
