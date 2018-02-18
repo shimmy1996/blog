@@ -11,14 +11,12 @@ footnotereturnlinkcontents = "↩"
 DefaultContentLanguage  = "en"
 DefaultContentLanguageInSubdir = true
 
-
 [permalinks]
 posts = "/posts/:year/:month/:day/:slug/"
 
 [author]
 name                    = "Shimmy Xu"
 github                  = "shimmy1996"
-twitter                 = "shimmy1996"
 
 [Taxonomies]
 tag = "tags"
