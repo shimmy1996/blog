@@ -222,7 +222,32 @@ I do not recommending creating a entirely new social media accout for profile pi
 
 为了头像注册一个新的社交网站账户并不是个好主意。评论本身不会因为少了好看的头像而贬值。
 
+* Posts
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
+:END:
+
+** en
+:PROPERTIES:
+:EXPORT_TITLE: Posts
+:EXPORT_HUGO_SECTION: ./posts/
+:EXPORT_FILE_NAME: _index.en.md
+:END:
+
+In case you want to view by [[/en/tags/][tags]] or [[/en/categories][categories]].
+
+** zh
+:PROPERTIES:
+:EXPORT_TITLE: 归档
+:EXPORT_HUGO_SECTION: ./posts/
+:EXPORT_FILE_NAME: _index.zh.md
+:END:
+
+你也可以通过[[/zh/tags/][标签]]或[[/zh/categories][分类]]来浏览日志。
+
 * Footnotes
+
+
 
 * COMMENT Local Variables                                           :ARCHIVE:
 

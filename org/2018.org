@@ -2,29 +2,7 @@
 #+HUGO_SECTION: ./posts
 #+OPTIONS: author:nil
 
-* Index Page
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
-:END:
-
-** en
-:PROPERTIES:
-:EXPORT_TITLE: Posts
-:EXPORT_FILE_NAME: _index.en.md
-:END:
-
-In case you want to view by [[/en/tags/][tags]] or [[/en/categories][categories]].
-
-** zh
-:PROPERTIES:
-:EXPORT_TITLE: 归档
-:EXPORT_FILE_NAME: _index.zh.md
-:END:
-
-你也可以通过[[/zh/tags/][标签]]或[[/zh/categories][分类]]来浏览日志。
-
 * My Life                                                          :@my_life:
-
 ** TODO My Review of the Last Jedi                          :movie:star_wars:
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2018-01-03 :slug my-review-of-the-last-jedi
@@ -33,7 +11,7 @@ In case you want to view by [[/en/tags/][tags]] or [[/en/categories][categories]
 *** TODO en
 :PROPERTIES:
 :EXPORT_TITLE: My Review of the Last Jedi [Spolier Alert]
-:EXPORT_FILE_NAME: my-review-of-the-last-jedi.en.md
+:EXPORT_FILE_NAME: 2018-01-03-my-review-of-the-last-jedi.en.md
 :END:
 
 Sadly, unlike Princess Leia, Carrie Fisher could not come back to life.
@@ -144,7 +122,7 @@ Notable plots
 *** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: My Very Own Avatar Icon Thingy
-:EXPORT_FILE_NAME: my-very-own-avatar-icon-thingy.en.md
+:EXPORT_FILE_NAME: 2018-01-15-my-very-own-avatar-icon-thingy.en.md
 :END:
 
 I have been using the symbol for the Old Republic from Star Wars as my goto profile picture for quite sometime. In my attempt to maintain a consistent social network profile over multiple websites, I gradually come to realize that profile picture is the most intuitive way to establish a identity (I guess this is also why services like Gravatar would +be so popular+ exist ). In this case, using a picture from [[http://starwars.wikia.com/wiki/Old_Republic][Wookiepedia]] that everyone has access to is probably not the brightest idea. Thus, I set out to create my very own avatar icon thingy.
@@ -175,7 +153,7 @@ I also played around with several alternative color schemes, i.e. inverted versi
 *** DONE zh
 :PROPERTIES:
 :EXPORT_TITLE: 自己画头像
-:EXPORT_FILE_NAME: my-very-own-avatar-icon-thingy.zh.md
+:EXPORT_FILE_NAME: 2018-01-15-my-very-own-avatar-icon-thingy.zh.md
 :END:
 
 我使用星球大战中旧共和国的标志作为头像已经有不短的时间了。不过最近，当我试图统一我所有的“社交网络人格”时，我意识到独特的头像往往是最为直接的在网上认人的方式（这大概就是为何 Gravatar 这类服务 +如此受欢迎+ 会存在）。这么一想，拿 [[http://starwars.wikia.com/wiki/Old_Republic][Wookiepedia]] 上的图片直接作为头像不是什么明智的行为。于是我决定：自己画头像！
@@ -212,7 +190,7 @@ I also played around with several alternative color schemes, i.e. inverted versi
 *** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: Trying Out Mastodon
-:EXPORT_FILE_NAME: trying-out-mastodon.en.md
+:EXPORT_FILE_NAME: 2018-02-11-trying-out-mastodon.en.md
 :END:
 
 As mentioned in my [[https://www.shimmy1996.com/en/posts/2017/10/22/no-more-disqusting-disqus/][previous post]], I am not really accustomed to posting on social networks. However, the other day I encountered a term I haven't heard in a long time: micro-blogging. Yes, quite a few social networks, Twitter for instance, is before anything a micro-blogging service. This definition of Twitter makes it immensely more appealing to me: it's a bite-sized blog for random thoughts, funny incidents, and many other pieces of my life that might not fit well with a regular blog post. However, I still find posting on Twitter has the 'broadcasting to the entire Internet' feeling stamped into it. Guess I'll just host my own then.
@@ -290,7 +268,7 @@ In the footer section, I've replaced Twitter with [[https://mstdn.shimmy1996.com
 *** DONE zh
 :PROPERTIES:
 :EXPORT_TITLE: Mastodon 尝鲜
-:EXPORT_FILE_NAME: trying-out-mastodon.zh.md
+:EXPORT_FILE_NAME: 2018-02-11-trying-out-mastodon.zh.md
 :END:
 
 我在 [[https://www.shimmy1996.com/zh/posts/2017/10/22/no-more-disqusting-disqus/][上一篇日志]] 里提到过，我并不习惯于在社交网络上发帖子。不过不久之前，我偶然撞见了一个很久没有听到过的词：微型博客。不少社交网络站点，例如 Twitter ，本质上还是一个微型博客服务。这种定义下的 Twitter 对我更加具有吸引力：我可以把一些随想，趣事和生活中其他不大适合写进博客的点点滴滴塞进去。但即使如此，我还是发推有一种“向整个互联网发送座标”的感觉。嗯，那么只好自己搭建一个微型博客了。
@@ -364,54 +342,6 @@ In the footer section, I've replaced Twitter with [[https://mstdn.shimmy1996.com
 我很希望看到 Mastodon 对多语言嘟文提供支持。目前我用的办法是给中文和英文的嘟文打上不同的标签，但这么做不仅使嘟文更加臃肿，也使得我的时间线对大部分人来说可读性只有 50% 。可惜的是，目前的诸多社交网络里只看到 [[https://code.facebook.com/posts/597373993776783][Facebook]] 对此提供了支持。
 
 在网站页脚，我已经把 Twitter 换成了我的 [[https://mstdn.shimmy1996.com/@shimmy1996][Mastodon 页面]] 。随时欢迎各位来访。:P
-
-* Emacs                                                              :@emacs:
-
-** TODO Get =emacs= To Work With =fcitx=                        :emacs:fcitx:
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2017-09-25 :slug get-emacs-to-work-with-fcitx
-:END:
-
-*** TODO en
-:PROPERTIES:
-:EXPORT_TITLE: Get =emacs= To Work With =fcitx=
-:EXPORT_FILE_NAME: get-emacs-to-work-with-fcitx.en.md
-:END:
-
-**** Enabling fcitx in emacs
-
-***** fcitx-diagnose
-
-***** locale settings
-export zh_cn.utf-8
-set lc_ctype=zh_cn.utf-8
-
-***** fcitx plugin in emacs
-
-***** disabling ctrl+space hot key
-replaced with os+space and ctrl+os
-
-
-**** could be better
-
-do not want set lc-ctype globally
-run emacs as daemon
-
-***** create new entry in .config/systemd/user/emacs.service
-
-***** add environment variable
-
-***** problem: does not load init file
-
-
-***** setting up alias of emacsclient -nc in .zshrc
-alias e="emacsclient -nc"
-
-*** TODO zh
-:PROPERTIES:
-:EXPORT_TITLE:
-:EXPORT_FILE_NAME: get-emacs-to-work-with-fcitx.zh.md
-:END:
 
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:

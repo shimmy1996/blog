@@ -2,27 +2,6 @@
 #+HUGO_SECTION: ./posts
 #+OPTIONS: author:nil
 
-* Index Page
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
-:END:
-
-** en
-:PROPERTIES:
-:EXPORT_TITLE: Posts
-:EXPORT_FILE_NAME: _index.en.md
-:END:
-
-In case you want to view by [[/en/tags/][tags]] or [[/en/categories][categories]].
-
-** zh
-:PROPERTIES:
-:EXPORT_TITLE: 归档
-:EXPORT_FILE_NAME: _index.zh.md
-:END:
-
-你也可以通过[[/zh/tags/][标签]]或[[/zh/categories][分类]]来浏览日志。
-
 * Site Related                                                :@site_related:
 Site related posts.
 
@@ -34,7 +13,7 @@ Site related posts.
 *** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: My Server Setups and Whatnot
-:EXPORT_FILE_NAME: my-server-setups-and-whatnot.en.md
+:EXPORT_FILE_NAME: 2017-09-25-my-server-setups-and-whatnot.en.md
 :END:
 
 **** Why move the blog? And to where?
@@ -302,7 +281,7 @@ After a couple hours (mostly waiting for DNS records to populate), and my websit
 *** DONE zh
 :PROPERTIES:
 :EXPORT_TITLE: 新站点架设过程
-:EXPORT_FILE_NAME: my-server-setups-and-whatnot.zh.md
+:EXPORT_FILE_NAME: 2017-09-25-my-server-setups-and-whatnot.zh.md
 :END:
 
 **** 为何要重新建站？新站建在哪里？
@@ -575,7 +554,7 @@ $ sudo certbot --nginx
 *** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: Spam or Ham
-:EXPORT_FILE_NAME: spam-or-ham.en.md
+:EXPORT_FILE_NAME: 2017-10-14-spam-or-ham.en.md
 :END:
 
 As planned, I am documenting my mail server setups. Setting up the mail server is probably documented everywhere, but I had to put in some effort make my setup secure enough to prevent it from been mistaked as spam.
@@ -667,7 +646,7 @@ I tested my server by sending test email to =check-auth@verifier.port25.com= and
 *** DONE zh
 :PROPERTIES:
 :EXPORT_TITLE: 是 Spam 还是 Ham
-:EXPORT_FILE_NAME: spam-or-ham.zh.md
+:EXPORT_FILE_NAME: 2017-10-14-spam-or-ham.zh.md
 :END:
 
 遵循之前的计划，我打算将设置邮箱的过程记录下来。设置邮箱大部分地方都有教程，不过我需要添加不少额外的安全设置来避免邮件被扔进垃圾箱。
@@ -763,7 +742,7 @@ smtpd_milters=inet:127.0.0.1:<dkimsocket>, inet:127.0.0.1:<dmarcsocket>
 *** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: No More Disqusting Disqus
-:EXPORT_FILE_NAME: no-more-disqusting-disqus.en.md
+:EXPORT_FILE_NAME: 2017-10-22-no-more-disqusting-disqus.en.md
 :END:
 
 A while back Disqus had a [[https://blog.disqus.com/security-alert-user-info-breach][user info breach]], which made me reconsider my choice of commenting system. If I am already hosting my own blog and email, why stop there and leave out commenting system to be served by a third-party platform?
@@ -788,7 +767,7 @@ Happy Commenting!
 *** DONE zh
 :PROPERTIES:
 :EXPORT_TITLE: 不再使用 Disqus
-:EXPORT_FILE_NAME: no-more-disqusting-disqus.zh.md
+:EXPORT_FILE_NAME: 2017-10-22-no-more-disqusting-disqus.zh.md
 :END:
 
 不久之前， Disqus 发生了一起 [[https://blog.disqus.com/security-alert-user-info-breach][用户信息泄露事件]] 。这导致我开始重新考虑评论系统的选择：既然已经架设了自己的博客和电子邮件，也不差一个评论系统。
@@ -825,7 +804,7 @@ Isso 的官网有很详细的 [[https://posativ.org/isso/docs/][说明文档]]�
 *** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: 2017 in Review
-:EXPORT_FILE_NAME: 2017-in-review.en.md
+:EXPORT_FILE_NAME: 2017-12-31-2017-in-review.en.md
 :END:
 
 2017 is over within the next few hours and I fell obliged to write something
@@ -871,7 +850,7 @@ Happy new year and hopefully 2018 will be another spectacular one!
 *** DONE zh
 :PROPERTIES:
 :EXPORT_TITLE: 回顾 2017
-:EXPORT_FILE_NAME: 2017-in-review.zh.md
+:EXPORT_FILE_NAME: 2017-12-31-2017-in-review.zh.md
 :END:
 
 2017 年再过几个小时就结束了，所以我觉得很有必要回顾一下过去这一年。但愿我在写完这篇日志的时候还能觉得 2017 过得没有后悔。
