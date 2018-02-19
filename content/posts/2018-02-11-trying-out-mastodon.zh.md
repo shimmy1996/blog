@@ -97,4 +97,4 @@ $ sudo su postgres
 
 我很希望看到 Mastodon 对多语言嘟文提供支持。目前我用的办法是给中文和英文的嘟文打上不同的标签，但这么做不仅使嘟文更加臃肿，也使得我的时间线对大部分人来说可读性只有 50% 。可惜的是，目前的诸多社交网络里只看到 [Facebook](https://code.facebook.com/posts/597373993776783) 对此提供了支持。
 
-在网站页脚，我已经把 Twitter 换成了我的 [Mastodon 页面](https://mstdn.shimmy1996.com/@shimmy1996) 。随时欢迎各位来访。:P
+在网站页脚，我已经把 Twitter 换成了我的[Mastodon 页面](https://mstdn.shimmy1996.com/@shimmy1996) ，随时欢迎各位来访。
