@@ -243,7 +243,7 @@ In case you want to view by [[/en/tags/][tags]] or [[/en/categories][categories]
 :EXPORT_FILE_NAME: _index.zh.md
 :END:
 
-你也可以通过[[/zh/tags/][标签]]或[[/zh/categories][分类]]来浏览日志。
+你也可以通过 [[/zh/tags/][标签]] 或 [[/zh/categories][分类]] 来浏览日志。
 
 * Tags
 :PROPERTIES:
