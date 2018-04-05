@@ -36,6 +36,7 @@ _The Plan needs to go on._
 -   [X] Host my own email.
 -   [X] Customize `hugo new` to make it more useful, i.e. create multilingual versions directly.
 -   [X] Self-host commenting system as a replacement of Disqus.
+-   [X] Use Let's Encrypt's wildcard certificate.
 -   [ ] Restore/rewrite and translate some of the more valuable old posts.
 
 
