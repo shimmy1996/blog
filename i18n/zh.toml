@@ -14,8 +14,8 @@ other = "分类"
 [site-related]
 other = "站点相关"
 
-[my-life]
-other = "生活"
+[geekery]
+other = "日常"
 
 # Translation for tags
 [hugo]
@@ -44,3 +44,6 @@ other = "设计"
 
 [mastodon]
 other = "Mastodon"
+
+[keyboard]
+other = "键盘"

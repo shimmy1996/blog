@@ -2,8 +2,8 @@
 #+HUGO_SECTION: ./posts
 #+OPTIONS: author:nil
 
-* My Life                                                          :@my_life:
-** TODO My Review of the Last Jedi                          :movie:star_wars:
+* Geekery                                                          :@geekery:
+** TODO Review of the Last Jedi                             :movie:star_wars:
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2018-01-03 :slug my-review-of-the-last-jedi
 :END:
@@ -181,6 +181,131 @@ I also played around with several alternative color schemes, i.e. inverted versi
 
 我还尝试了其他不同的配色，比如反色版本，以后可能会拿来作为我其他项目的图标。我所有还活跃的社交网站都已经换上了新头像，包括网站图标。这下大家应该可以更容易地在不同网站上认出我了XD。
 
+** DONE My Keyboards 2018 Edition                                  :keyboard:
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2018-03-17 :slug my-keyboards-2018-edition
+:END:
+
+*** DONE en
+:PROPERTIES:
+:EXPORT_TITLE: My Keyboards 2018 Edition
+:EXPORT_FILE_NAME: 2018-03-18-my-keyboards-2018-edition.en.md
+:END:
+
+As part of my effort to tick off the last remaining item on my site roadmap, I read through some old keyboard-related posts from my WordPress blog and decided to give them an uplift to include more recent experiments.
+
+**** The First Crispy Clack
+My very first mechanical keyboard is a WASD v2 104 key with Cherry MX Blue switches that I got in 2014. I picked WASD mainly because of their keyboards' minimal look and keycap customization options. I also got my first 60% in 2014, a Poker II with Cherry MX Brown. Switch selection were more limited back then, seemingly because of potential issues with Cherry's patent. Of course, switch choices is only limited if we restrict ourselves to Cherry MX compatibles, but most alternatives (Matias, Topre, buckling spring to name a few) were even harder to come by in an commonly available package that I liked.
+
+A GH60 based 60% that I frankensteined together became my main keyboard at first. I used Cherry MX Clear switches with 62g springs (ErgoClear) on them, mostly for the fun factor instead of preference. I also found myself tinkering with the layout a lot more often than when I had the Poker II. As great as Poker II's built-in macros mapping sounds, I could never remember all the steps without taking a moment to peruse the manual. I also found myself setting macros up and yet completely forget about them ever since. With GH60's firmware, at the very least I have the configuration files to remind me of the new bindings I set up. Even with this shiny new toy though, my early experiments with keyboard layouts still had only limited success. The layout of a 60% is too standard in my opinion to justify significant changes (while maintaining QWERTY layout), i.e. there isn't really a good location to move Enter to. The few tweaks I ended up making were numpad/function key mapping and swapping out Caps Lock for Control, which at best makes my GH60 on par with any random keyboard with [[https://www.x.org/wiki/XKB/][xkb]].
+
+On a side note, I once aspired to collect keyboards of all form factors, but soon discovered it to be a highly impractical and expansive exercise. Thus far among the more common layouts, I either owned or tried 104 key, 96 key, 87 key, 75 key, 60 key, and 40 key keyboards. Majority of these differs very little experience wise for me, except for 60% or 40%, where a bit of creativity is required to fit all the desired keys.
+
+**** ErgoDox and Planck
+The first keyboard ever to trigger me to give deeper thoughts into my keyboard layout is the ErgoDox. The ErgoDox boasts a layout drastically different from traditional keyboards, and because of this, offers great flexibility over key placements: I can immediately spot seven sensible locations for the Enter key (original pinky location, four 2u keys at the thumb clusters and the lower two 1.5u vertical keys in the center). I've been using ErgoDox almost exclusively since 2015, and have grown to like it even more as I started using Emacs - having access to both Control and Alt/Meta key on the home row just feels awesome.
+
+#+CAPTION: My ErgoDox Base Layer Layout
+#+ATTR_LaTeX: scale=0.75
+#+LABEL: fig: my-keyboards-2018-edition-01
+[[/img/posts/2018/my-keyboards-2018-edition-01.png]]
+
+I still feel I am under-utilizing the keyboard's capabilities though. As you might tell, I don't know what to do with some of the thumb cluster keys. I currently have three extra layers set up: one for function keys, one for numpad, and another for a modified Dvorak layout. I haven't spend too much time on the Dvorak layer yet, but I am curious about potential benefits of decreased finger motion. Speaking of ergonomics, a perhaps uninteded benefit of ErgoDox's design is that it frees up the center of my desk, so that I can still read and write normally without a super deep desk.
+
+#+CAPTION: My ErgoDox Dvorak Layer Layout
+#+ATTR_LaTeX: scale=0.75
+#+LABEL: fig: my-keyboards-2018-edition-02
+[[/img/posts/2018/my-keyboards-2018-edition-02.png]]
+
+Planck is another keyboard that I've taken some thoughts designing layout for. It is pretty surprising what a 40% board is actually capable of. However, using Planck is a lot less comfortable just because of how small it is - ErgoDox on the other hand allows me to rest my arms in more natural positions, instead of cramming my hands together. That being said, I would imagine a Let's Split - basically a Planck split in halves - to work fairly well.
+
+#+CAPTION: My Planck Layout
+#+ATTR_LaTeX: scale=0.5
+#+LABEL: fig: my-keyboards-2018-edition-03
+[[/img/posts/2018/my-keyboards-2018-edition-03.png]]
+
+**** Keycap Craze
+Ever since I discovered Geekhack, I would routinely refresh the groupbuy or interest check section for new keycap sets that other users designed. I gradually went from sets with flashy colors to those with a more muted and uniform look. I also prefer uniform keycap profiles (like DSA) with text legends than those with height gradients and graphical legends, although I find it really hard to appreciate blank keycaps. Getting a full set of keycaps with matching legends for ErgoDox is certainly no easy task (unlike Planck which is almost entirely consisted of 1u keys), and all these quirks I have made keycap shopping increasingly difficult.
+
+**** My Own Keyboard/Layout
+I've thought about creating my own keyboard occasionally. As perfect as ErgoDox may seem, it is somewhat bulky, and I find the thumb cluster a bit hard to reach. For quite some time I used =C-Home/C-End= to move to top/bottom of a file in Emacs, and that caused pain in my thumb joint as I need to stretch hard to reach both keys (that went away when I found =M-</M->= though). A slim down version of ErgoDox with more compact thumb clusters might just be the perfect keyboard. By the way, I have never before find wireless keyboard necessary in any way, but since ErgoDox features a split design, a wireless version of it can be used while lying down Nintendo-Switch-style, which would be pretty awesome.
+
+Since I started using Emacs as my main editor, I've been taking statistics of my key-presses with ~keyfreq~. When I have gathered enough data, I might look into customizing my layout even further to suit my needs.
+
+**** Pixel Art
+Like many Geekhackers out there, I made a pixel art of my keyboards and used it as my Geekhack signature.
+
+#+CAPTION: Pixel Art of My Keyboards I, 2015
+#+ATTR_LaTeX: scale=0.75
+#+LABEL: fig: my-keyboards-2018-edition-04
+[[/img/posts/2018/my-keyboards-2018-edition-04.png]]
+
+#+CAPTION: Pixel Art of My Keyboards II, 2015
+#+ATTR_LaTeX: scale=0.75
+#+LABEL: fig: my-keyboards-2018-edition-05
+[[/img/posts/2018/my-keyboards-2018-edition-05.png]]
+
+Drawing pixel art for keyboard is a fairly interesting exercise, since it is impossible to get the ratios exactly right, I needed to strike a balance between accuracy and simplicity. I will give this a long due update when I have time.
+
+*** DONE zh
+:PROPERTIES:
+:EXPORT_TITLE: 我的键盘2018版
+:EXPORT_FILE_NAME: 2018-03-18-my-keyboards-2018-edition.zh.md
+:END:
+
+为了完成主页施工计划上的最后一条项目，我重新浏览了旧博客里关于键盘的日志并决定翻新这些文章，同时加入一些近期的新尝试。
+
+**** 入门
+我在 2014 年入手了第一块机械键盘，使用 Cherry MX 青轴的 WASD v2 104 键键盘。我选了 WASD 的主要原因是他们键盘较为简约的外形和客制化键帽的服务。我在 2014 年还入手了第一块 60% 键盘，使用 Cherry MX 茶轴的 Poker II 。在那时候可能由于 Cherry 的专利尚未过期，所以键盘轴的选择要比现在少得多。当然如果不考虑 Cherry MX 兼容性，替代品还是有的（ Matias ， Topre ， IBM 弹簧轴等），但入手更加困难。
+
+我最初的主力是一块我七拼八凑起来的基于 GH60 的 60% 键盘。我使用的键盘轴是改装了 62 克弹簧的 Cherry MX 白轴（ ErgoClear ），这更多的只是想尝试键盘轴改装而不是因为偏好。除此之外，我发觉自己比之前用 Poker II 的时候更经常修改键盘布局了。虽然 Poker II 自带的宏编辑功能听上去很棒，但复杂的步骤使得我从来没有在不看说明书的情况下成功完成过编辑。而就算我废了老大力气完成了宏的设定，我过一段时间就会把宏的存在抛在脑后。相比之下，编辑 GH60 的固件后，至少我还能查看设定文件来回忆自己的设定。我早期修改键盘布局的尝试并不太成功：在我看来， 60% 键盘的键位布局太标准了，以至于（在保持 QWERTY 布局下）任何大范围修改都会让人觉得别扭。举个例子：我完全没法找到第二个适合回车键的位置。我所作的布局修改大多只是数字小键盘和功能键的映射以及交换大写锁定和控制键，完全没发挥出 GH60 的潜能，充其量只不过和使用了 [[https://www.x.org/wiki/XKB/][xkb]] 的普通键盘旗鼓相当。
+
+顺便一提，我曾经想过要收集所有键数布局的键盘，但很快的发现这是一个不切实际且烧钱的想法。目前为止在常见的键数布局中，我尝试过 104 键， 96 键， 87 键， 75 键， 60 键，和 40 键键盘。这当中的绝大多数对我来说在体验上并没有太大区别，除了 60% 或 40% ：要想把所有标准键放上去是需要动一番脑筋的。
+
+**** ErgoDox 和 Planck
+ErgoDox 是第一个促使我真正下心思选择键盘布局的键盘。正是由于布局和传统键盘相差甚远， Ergodox 在键位布局选择上提供了很高的自由度：我一眼就能找到七个适合回车键的位置（传统右侧小拇指位，拇指区的四个 2u 键位，以及中心偏下的两个 1.5u 键位）。从 2015 开始，我就几乎只使用 ErgoDox 了。 ErgoDox 的好处在我开始使用 Emacs 后更加明显：能够轻而易举地够到控制键和转换键的感觉非常棒。
+
+#+CAPTION: 我的 ErgoDox 基本层布局
+#+ATTR_LaTeX: scale=0.75
+#+LABEL: fig: my-keyboards-2018-edition-01
+[[/img/posts/2018/my-keyboards-2018-edition-01.png]]
+
+ErgoDox 还有很多潜力没有被我发掘出来。如你所见，我还没有想出拇指区部分键位的最佳用处。目前除了基本层外，我额外设置了三层键位布局：一层用于功能键，一层用于数字小键盘，最后一层是经过修改的 Dvorak 布局。我还没有在 Dvorak 层上花太多时间，不过我对 Dvorak 减少手指移动次数的功效很有兴趣。说到人体工学， ErgoDox 设计有个额外的好处：我书桌的正中央终于可以从键盘的统治下空出来了，就算没有一张超级深的桌子我也可以不受键盘干扰正常看书。
+
+#+CAPTION: 我的 ErgoDox Dvorak 层布局
+#+ATTR_LaTeX: scale=0.75
+#+LABEL: fig: my-keyboards-2018-edition-02
+[[/img/posts/2018/my-keyboards-2018-edition-02.png]]
+
+Planck 是另一块让我下心思设计布局的键盘。 40% 键盘所能塞下来的东西其实多的让人吃惊。但是使用 Planck 时的舒适性不可避免地被它的尺寸所妨碍了 - 相比之下，使用 ErgoDox 这种分体键盘时两手可以保持更为自然的姿势，而不是以奇怪的角度挤在一起。我觉得 Let's Split - 基本上就是分体版的 Planck - 会是个不错的选择。
+
+#+CAPTION: 我的 Planck 布局
+#+ATTR_LaTeX: scale=0.5
+#+LABEL: fig: my-keyboards-2018-edition-03
+[[/img/posts/2018/my-keyboards-2018-edition-03.png]]
+
+**** 键帽狂热期
+在我发现了 Geekhack 论坛后，我在很长一段时间里都会疯狂刷新团购和兴趣调查版，以收集其他用户所设计的客制键帽情报。我发现自己的兴趣逐渐地从色彩对比强烈的配色转向了更为统一，柔和的设计。在键帽形状的选择上，我也偏好没有高低梯度的类型，比如 DSA 。键帽图样上我更喜欢文字而非图案，有意思的是我并不觉得空白键帽有多么值得欣赏。这些癖好使得我的寻找键帽之旅异常困难：要想给 ErgoDox 配齐一整套图样相称的键帽可不是什么容易的事（ Planck 因为全是 1u 键，所以要容易得多）。
+
+**** 设计自己的键盘／布局
+我有时会冒出设计自己的键盘的念头。 ErgoDox 已经很接近我理想中的键盘了，但是它还是有点笨重，而且拇指区边缘的键比较难按到。我原先一直在 Emacs 里使用 =C-Home/C-End= 来移动光标到文件开头／结尾，这两个键位组合使我不得不尽力伸展大拇指，导致关节有些酸痛（直到我发现 =M-</M->= 才是正确的打开方式）。一个更加小巧，拇指区键位更加紧凑的 ErgoDox 应该就是我眼中完美的键盘了。对了，虽然我以前从来没有觉得无线键盘有多么必要，但因为 ErgoDox 的分体式设计，如果它有无线版本，我就可以像使用任天堂 Switch 那样躺在床上打字了。
+
+自从我开始使用 Emacs 作为主力文本编辑器，我就一直在使用 ~keyfreq~ 来记录每个键／组合键的使用频率。在我收集了足够多的数据后，我会以此为根据来调整我的键盘布局。
+
+**** 键盘像素画
+我之前跟风 Geekhack 众，也给我的键盘画了像素画作为签名。
+
+#+CAPTION: 我的键盘像素画 I
+#+ATTR_LaTeX: scale=0.75
+#+LABEL: fig: my-keyboards-2018-edition-04
+[[/img/posts/2018/my-keyboards-2018-edition-04.png]]
+
+#+CAPTION: 我的键盘像素画 II
+#+ATTR_LaTeX: scale=0.75
+#+LABEL: fig: my-keyboards-2018-edition-05
+[[/img/posts/2018/my-keyboards-2018-edition-05.png]]
+
+给键盘画像素画其实挺有意思，要想保持精确的比例几乎是不可能的，这就需要在精准和简约之间作微妙的平衡。我有时间时会继续更新这些像素画的。
+
 * Site Related                                                :@site_related:
 ** DONE Trying Out Mastodon              :social_network:mastodon:arch_linux:
 :PROPERTIES:
@@ -342,6 +467,25 @@ In the footer section, I've replaced Twitter with [[https://mstdn.shimmy1996.com
 我很希望看到 Mastodon 对多语言嘟文提供支持。目前我用的办法是给中文和英文的嘟文打上不同的标签，但这么做不仅使嘟文更加臃肿，也使得我的时间线对大部分人来说可读性只有 50% 。可惜的是，目前的诸多社交网络里只看到 [[https://code.facebook.com/posts/597373993776783][Facebook]] 对此提供了支持。
 
 在网站页脚，我已经把 Twitter 换成了我的[[https://mstdn.shimmy1996.com/@shimmy1996][Mastodon 页面]] ，随时欢迎各位来访。
+
+** TODO How To Train Your Tags                              :random_thoughts:
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2018-05-16 :slug how-to-train-your-tags
+:END:
+
+*** TODO en
+:PROPERTIES:
+:EXPORT_TITLE: How To Train Your Tags
+:EXPORT_FILE_NAME: 2018-05-16-how-to-train-your-tags.en.md
+:END:
+
+Besides, I changed the category "My Life" to "Geekery". I still haven't figured out an efficient way to utilize categories and tags, so for now I'll hop around different selections.
+
+*** TODO zh
+:PROPERTIES:
+:EXPORT_TITLE: 驯标签高手
+:EXPORT_FILE_NAME: 2018-05-16-how-to-train-your-tags.en.md
+:END:
 
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:

@@ -14,8 +14,8 @@ other = "Categories"
 [site-related]
 other = "Site Related"
 
-[my-life]
-other = "My Life"
+[geekery]
+other = "Geekery"
 
 # Translation for tags
 [hugo]
@@ -44,3 +44,6 @@ other = "Design"
 
 [mastodon]
 other = "Mastodon"
+
+[keyboard]
+other = "Keyboard"
