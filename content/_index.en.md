@@ -8,8 +8,6 @@ slug = "home"
 
 _The Plan needs to go on._
 
-<span style="color:#700000;">Warning: Site under heavy construction.</span>
-
 
 ## Site Roadmap {#site-roadmap}
 
@@ -37,7 +35,7 @@ _The Plan needs to go on._
 -   [X] Customize `hugo new` to make it more useful, i.e. create multilingual versions directly.
 -   [X] Self-host commenting system as a replacement of Disqus.
 -   [X] Use Let's Encrypt's wildcard certificate.
--   [ ] Restore/rewrite and translate some of the more valuable old posts.
+-   [X] Restore/rewrite and translate some of the more valuable old posts.
 
 
 ## Recent Posts {#recent-posts}

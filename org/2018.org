@@ -248,7 +248,7 @@ Drawing pixel art for keyboard is a fairly interesting exercise, since it is imp
 
 *** DONE zh
 :PROPERTIES:
-:EXPORT_TITLE: 我的键盘2018版
+:EXPORT_TITLE: 我的键盘 2018 版
 :EXPORT_FILE_NAME: 2018-03-18-my-keyboards-2018-edition.zh.md
 :END:
 

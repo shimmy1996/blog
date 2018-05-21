@@ -1,5 +1,5 @@
 +++
-title = "我的键盘2018版"
+title = "我的键盘 2018 版"
 tags = ["keyboard"]
 categories = ["geekery"]
 draft = false
@@ -23,19 +23,19 @@ slug = "my-keyboards-2018-edition"
 
 ErgoDox 是第一个促使我真正下心思选择键盘布局的键盘。正是由于布局和传统键盘相差甚远， Ergodox 在键位布局选择上提供了很高的自由度：我一眼就能找到七个适合回车键的位置（传统右侧小拇指位，拇指区的四个 2u 键位，以及中心偏下的两个 1.5u 键位）。从 2015 开始，我就几乎只使用 ErgoDox 了。 ErgoDox 的好处在我开始使用 Emacs 后更加明显：能够轻而易举地够到控制键和转换键的感觉非常棒。
 
-<a id="orgbb57acf"></a>
+<a id="org538de84"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-01.png" caption="Figure 1: 我的 ErgoDox 基本层布局" >}}
 
 ErgoDox 还有很多潜力没有被我发掘出来。如你所见，我还没有想出拇指区部分键位的最佳用处。目前除了基本层外，我额外设置了三层键位布局：一层用于功能键，一层用于数字小键盘，最后一层是经过修改的 Dvorak 布局。我还没有在 Dvorak 层上花太多时间，不过我对 Dvorak 减少手指移动次数的功效很有兴趣。说到人体工学， ErgoDox 设计有个额外的好处：我书桌的正中央终于可以从键盘的统治下空出来了，就算没有一张超级深的桌子我也可以不受键盘干扰正常看书。
 
-<a id="org44d4ebf"></a>
+<a id="org8e7cc94"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-02.png" caption="Figure 2: 我的 ErgoDox Dvorak 层布局" >}}
 
 Planck 是另一块让我下心思设计布局的键盘。 40% 键盘所能塞下来的东西其实多的让人吃惊。但是使用 Planck 时的舒适性不可避免地被它的尺寸所妨碍了 - 相比之下，使用 ErgoDox 这种分体键盘时两手可以保持更为自然的姿势，而不是以奇怪的角度挤在一起。我觉得 Let's Split - 基本上就是分体版的 Planck - 会是个不错的选择。
 
-<a id="org6e5f3b0"></a>
+<a id="org283fbde"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-03.png" caption="Figure 3: 我的 Planck 布局" >}}
 
@@ -56,11 +56,11 @@ Planck 是另一块让我下心思设计布局的键盘。 40% 键盘所能塞�
 
 我之前跟风 Geekhack 众，也给我的键盘画了像素画作为签名。
 
-<a id="org1f03104"></a>
+<a id="org9485c62"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-04.png" caption="Figure 4: 我的键盘像素画 I" >}}
 
-<a id="org28d96d5"></a>
+<a id="org95f6473"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-05.png" caption="Figure 5: 我的键盘像素画 II" >}}
 

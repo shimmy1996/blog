@@ -18,8 +18,6 @@
 *** Library of Trantor
 /The Plan needs to go on./
 
-<span style="color:#700000;">Warning: Site under heavy construction.</span>
-
 **** Site Roadmap
 - [X] +Find new hosting location.+ Currently using DigitalOcean.
 - [X] Install Arch Linux on server.
@@ -45,7 +43,7 @@
 - [X] Customize =hugo new= to make it more useful, i.e. create multilingual versions directly.
 - [X] Self-host commenting system as a replacement of Disqus.
 - [X] Use Let's Encrypt's wildcard certificate.
-- [ ] Restore/rewrite and translate some of the more valuable old posts.
+- [X] Restore/rewrite and translate some of the more valuable old posts.
 
 **** Recent Posts
 
@@ -58,8 +56,6 @@
 
 *** 川陀大学图书室
 /计划进行中。/
-
-<span style="color:#700000;">注意：本站仍处于施工中。</span>
 
 **** 施工计划
 - [X] +找一家新的服务器提供商+ 目前使用 DigitalOcean 。
@@ -86,7 +82,7 @@
 - [X] 尝试把 =hugo new= 变得更有用一些，比如直接创建多语言版本等。
 - [X] 抛弃 Disqus 自己搭建评论系统。
 - [X] 使用 Let's Encrypt 的通配符证书。
-- [ ] 把比较有价值的旧文章搬过来。
+- [X] 把比较有价值的旧文章搬过来。
 
 **** 最新日志
 
