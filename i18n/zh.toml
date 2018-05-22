@@ -11,39 +11,42 @@ other = "标签"
 other = "分类"
 
 # Translation for categories
-[site-related]
-other = "站点相关"
-
 [geekery]
 other = "日常"
 
-# Translation for tags
-[hugo]
-other = "hugo"
+[site-related]
+other = "站点相关"
 
+# Translation for tags
 [arch-linux]
 other = "Arch Linux"
-
-[server]
-other = "服务器"
-
-[email]
-other = "电子邮件"
-
-[security]
-other = "安全相关"
-
-[social-network]
-other = "社交网络"
-
-[plans]
-other = "计划"
 
 [design]
 other = "设计"
 
-[mastodon]
-other = "Mastodon"
+[email]
+other = "电子邮件"
+
+[hugo]
+other = "hugo"
 
 [keyboard]
 other = "键盘"
+
+[mastodon]
+other = "Mastodon"
+
+[plans]
+other = "计划"
+
+[security]
+other = "安全相关"
+
+[server]
+other = "服务器"
+
+[social-network]
+other = "社交网络"
+
+[task-list]
+other = "任务清单"

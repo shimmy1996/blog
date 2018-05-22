@@ -11,39 +11,42 @@ other = "Tags"
 other = "Categories"
 
 # Translation for categories
-[site-related]
-other = "Site Related"
-
 [geekery]
 other = "Geekery"
 
-# Translation for tags
-[hugo]
-other = "hugo"
+[site-related]
+other = "Site Related"
 
+# Translation for tags
 [arch-linux]
 other = "Arch Linux"
-
-[server]
-other = "Server"
-
-[email]
-other = "Email"
-
-[security]
-other = "Security"
-
-[social-network]
-other = "Social Network"
-
-[plans]
-other = "Plans"
 
 [design]
 other = "Design"
 
-[mastodon]
-other = "Mastodon"
+[email]
+other = "Email"
+
+[hugo]
+other = "hugo"
 
 [keyboard]
 other = "Keyboard"
+
+[mastodon]
+other = "Mastodon"
+
+[plans]
+other = "Plans"
+
+[security]
+other = "Security"
+
+[server]
+other = "Server"
+
+[social-network]
+other = "Social Network"
+
+[task-list]
+other = "Task List"
