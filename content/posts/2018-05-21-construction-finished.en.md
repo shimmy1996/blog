@@ -1,6 +1,6 @@
 +++
 title = "Construction Finished"
-tags = ["task-list"]
+tags = ["plans"]
 categories = ["site-related"]
 draft = false
 date = 2018-05-21

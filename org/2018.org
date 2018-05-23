@@ -468,7 +468,7 @@ In the footer section, I've replaced Twitter with [[https://mstdn.shimmy1996.com
 
 在网站页脚，我已经把 Twitter 换成了我的[[https://mstdn.shimmy1996.com/@shimmy1996][Mastodon 页面]] ，随时欢迎各位来访。
 
-** DONE Construction Finished                                     :task_list:
+** DONE Construction Finished                                         :plans:
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2018-05-21 :slug construction-finished
 :END:

@@ -14,6 +14,9 @@ other = "Categories"
 [geekery]
 other = "Geekery"
 
+[my-life]
+other = "My Life"
+
 [site-related]
 other = "Site Related"
 
@@ -47,6 +50,3 @@ other = "Server"
 
 [social-network]
 other = "Social Network"
-
-[task-list]
-other = "Task List"

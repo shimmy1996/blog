@@ -12,6 +12,9 @@ other = "分类"
 
 # Translation for categories
 [geekery]
+other = "折腾"
+
+[my-life]
 other = "日常"
 
 [site-related]
@@ -47,6 +50,3 @@ other = "服务器"
 
 [social-network]
 other = "社交网络"
-
-[task-list]
-other = "任务清单"

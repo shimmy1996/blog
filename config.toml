@@ -1,76 +1,78 @@
-baseURL                 = "shimmy1996.com"
-title                   = "Library of Trantor"
-newContentEditor        = "emacs"
-theme                   = "soresu"
-pygmentsCodefences      = true
-pygmentsCodefencesGuessSyntax = false
-pygmentsStyle           = "emacs"
-pygmentsOptions = "linenos="
-preserveTaxonomyNames = true
-footnotereturnlinkcontents = "↩"
-DefaultContentLanguage  = "en"
+# Site Settings
+baseURL                        = "shimmy1996.com"
+title                          = "Library of Trantor"
+theme                          = "soresu"
+footnotereturnlinkcontents     = "↩"
+DefaultContentLanguage         = "en"
 DefaultContentLanguageInSubdir = true
 
+# Pygments Settings
+pygmentsCodefences             = true
+pygmentsCodefencesGuessSyntax  = false
+pygmentsStyle                  = "emacs"
+pygmentsOptions                = "linenos="
+preserveTaxonomyNames          = true
+
 [permalinks]
-posts = "/posts/:year/:month/:day/:slug/"
+posts      = "/posts/:year/:month/:day/:slug/"
 
 [author]
-name                    = "Shimmy Xu"
-github                  = "shimmy1996"
+name       = "Shimmy Xu"
+github     = "shimmy1996"
 
 [Taxonomies]
-tag = "tags"
+tag        = "tags"
 categories = "categories"
 
 [Languages]
-[Languages.en]
-title                   = "Library of Trantor"
-subtitle                = "The Plan is going on."
-LanguageName            = "EN"
+  [Languages.en]
+  title        = "Library of Trantor"
+  subtitle     = "The Plan is going on."
+  LanguageName = "EN"
 
-[[Languages.en.menu.main]]
-    name = "Home"
-    url = "/en/"
+    [[Languages.en.menu.main]]
+    name   = "Home"
+    url    = "/en/"
     weight = 1
-[[Languages.en.menu.main]]
-    name = "Posts"
-    url = "/en/posts/"
+    [[Languages.en.menu.main]]
+    name   = "Posts"
+    url    = "/en/posts/"
     weight = 2
-[[Languages.en.menu.main]]
-    name = "About"
-    url = "/en/about/"
+    [[Languages.en.menu.main]]
+    name   = "About"
+    url    = "/en/about/"
     weight = 3
-[[Languages.en.menu.main]]
-    name = "Friends"
-    url = "/en/friends/"
+    [[Languages.en.menu.main]]
+    name   = "Friends"
+    url    = "/en/friends/"
     weight = 4
-[[Languages.en.menu.main]]
-    name = "Messages"
-    url = "/en/messages/"
+    [[Languages.en.menu.main]]
+    name   = "Messages"
+    url    = "/en/messages/"
     weight = 5
 
-[Languages.zh]
-title                   = "川陀大学图书室"
-subtitle                = "计划进行中。"
-LanguageName            = "中文"
+  [Languages.zh]
+  title        = "川陀大学图书室"
+  subtitle     = "计划进行中。"
+  LanguageName = "中文"
 
-[[Languages.zh.menu.main]]
-    name = "主页"
-    url = "/zh/"
+    [[Languages.zh.menu.main]]
+    name   = "主页"
+    url    = "/zh/"
     weight = 1
-[[Languages.zh.menu.main]]
-    name = "归档"
-    url = "/zh/posts/"
+    [[Languages.zh.menu.main]]
+    name   = "归档"
+    url    = "/zh/posts/"
     weight = 2
-[[Languages.zh.menu.main]]
-    name = "关于"
-    url = "/zh/about/"
+    [[Languages.zh.menu.main]]
+    name   = "关于"
+    url    = "/zh/about/"
     weight = 3
-[[Languages.zh.menu.main]]
-    name = "朋友们"
-    url = "/zh/friends/"
+    [[Languages.zh.menu.main]]
+    name   = "朋友们"
+    url    = "/zh/friends/"
     weight = 4
-[[Languages.zh.menu.main]]
-    name = "留言板"
-    url = "/zh/messages/"
+    [[Languages.zh.menu.main]]
+    name   = "留言板"
+    url    = "/zh/messages/"
     weight = 5
