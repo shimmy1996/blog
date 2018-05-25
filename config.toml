@@ -14,7 +14,7 @@ pygmentsOptions                = "linenos="
 preserveTaxonomyNames          = true
 
 [permalinks]
-posts      = "/posts/:year/:month/:day/:slug/"
+posts      = "/posts/:year-:month-:day-:slug/"
 
 [author]
 name       = "Shimmy Xu"
@@ -25,6 +25,7 @@ tag        = "tags"
 categories = "categories"
 
 [Languages]
+
   [Languages.en]
   title        = "Library of Trantor"
   subtitle     = "The Plan is going on."
