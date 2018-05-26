@@ -4,11 +4,6 @@ draft = false
 slug = "home"
 +++
 
-# Library of Trantor {#library-of-trantor}
-
-_<span style="color:#700000;">The Plan needs to go on.</span>_
-
-
 ## Goals for 2018 {#goals-for-2018}
 
 -   [ ] Run 1000 miles. (`298/1000`)

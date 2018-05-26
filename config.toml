@@ -23,7 +23,7 @@ tag      = "tags"
   [Languages.en]
   languageName = "EN"
   copyright    = "&copy; [Shimmy Xu](/en/contact/) 2017-2018 | [Github](https://github.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [Subscribe](/en/index.xml)"
-  subtitle     = "The Plan is going on."
+  subtitle     = "The Plan needs to go on."
   title        = "Library of Trantor"
 
     [Languages.en.taxonomy]
