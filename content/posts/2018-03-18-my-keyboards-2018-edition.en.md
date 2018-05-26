@@ -23,19 +23,19 @@ On a side note, I once aspired to collect keyboards of all form factors, but soo
 
 The first keyboard ever to trigger me to give deeper thoughts into my keyboard layout is the ErgoDox. The ErgoDox boasts a layout drastically different from traditional keyboards, and because of this, offers great flexibility over key placements: I can immediately spot seven sensible locations for the Enter key (original pinky location, four 2u keys at the thumb clusters and the lower two 1.5u vertical keys in the center). I've been using ErgoDox almost exclusively since 2015, and have grown to like it even more as I started using Emacs - having access to both Control and Alt/Meta key on the home row just feels awesome.
 
-<a id="orgc287ab7"></a>
+<a id="orgad9115d"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-01.png" caption="Figure 1: My ErgoDox Base Layer Layout" >}}
 
 I still feel I am under-utilizing the keyboard's capabilities though. As you might tell, I don't know what to do with some of the thumb cluster keys. I currently have three extra layers set up: one for function keys, one for numpad, and another for a modified Dvorak layout. I haven't spend too much time on the Dvorak layer yet, but I am curious about potential benefits of decreased finger motion. Speaking of ergonomics, a perhaps uninteded benefit of ErgoDox's design is that it frees up the center of my desk, so that I can still read and write normally without a super deep desk.
 
-<a id="orgf7713cd"></a>
+<a id="org8986c0d"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-02.png" caption="Figure 2: My ErgoDox Dvorak Layer Layout" >}}
 
 Planck is another keyboard that I've taken some thoughts designing layout for. It is pretty surprising what a 40% board is actually capable of. However, using Planck is a lot less comfortable just because of how small it is - ErgoDox on the other hand allows me to rest my arms in more natural positions, instead of cramming my hands together. That being said, I would imagine a Let's Split - basically a Planck split in halves - to work fairly well.
 
-<a id="org5efbac2"></a>
+<a id="org95f2e1f"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-03.png" caption="Figure 3: My Planck Layout" >}}
 
@@ -47,7 +47,11 @@ Ever since I discovered Geekhack, I would routinely refresh the groupbuy or inte
 
 ## My Own Keyboard/Layout {#my-own-keyboard-layout}
 
-I've thought about creating my own keyboard occasionally. As perfect as ErgoDox may seem, it is somewhat bulky, and I find the thumb cluster a bit hard to reach. For quite some time I used `C-Home/C-End` to move to top/bottom of a file in Emacs, and that caused pain in my thumb joint as I need to stretch hard to reach both keys (that went away when I found `M-</M->` though). A slim down version of ErgoDox with more compact thumb clusters might just be the perfect keyboard. By the way, I have never before find wireless keyboard necessary in any way, but since ErgoDox features a split design, a wireless version of it can be used while lying down Nintendo-Switch-style, which would be pretty awesome.
+I've thought about creating my own keyboard occasionally. As perfect as ErgoDox
+may seem, it is somewhat bulky, and I find the thumb cluster a bit hard to
+reach. For quite some time I used <kbd>C-Home</kbd> and <kbd>C-End</kbd> to move to top/bottom of a
+file in Emacs, and that caused pain in my thumb joint as I need to stretch hard
+to reach both keys (that went away when I found <kbd>M-<</kbd> and <kbd>M-></kbd> though). A slim down version of ErgoDox with more compact thumb clusters might just be the perfect keyboard. By the way, I have never before find wireless keyboard necessary in any way, but since ErgoDox features a split design, a wireless version of it can be used while lying down Nintendo-Switch-style, which would be pretty awesome.
 
 Since I started using Emacs as my main editor, I've been taking statistics of my key-presses with `keyfreq`. When I have gathered enough data, I might look into customizing my layout even further to suit my needs.
 
@@ -56,11 +60,11 @@ Since I started using Emacs as my main editor, I've been taking statistics of my
 
 Like many Geekhackers out there, I made a pixel art of my keyboards and used it as my Geekhack signature.
 
-<a id="org3e173d2"></a>
+<a id="orgc86b096"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-04.png" caption="Figure 4: Pixel Art of My Keyboards I, 2015" >}}
 
-<a id="org886d5c0"></a>
+<a id="org24da90d"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-05.png" caption="Figure 5: Pixel Art of My Keyboards II, 2015" >}}
 

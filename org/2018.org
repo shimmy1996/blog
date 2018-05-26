@@ -227,9 +227,13 @@ Planck is another keyboard that I've taken some thoughts designing layout for. I
 Ever since I discovered Geekhack, I would routinely refresh the groupbuy or interest check section for new keycap sets that other users designed. I gradually went from sets with flashy colors to those with a more muted and uniform look. I also prefer uniform keycap profiles (like DSA) with text legends than those with height gradients and graphical legends, although I find it really hard to appreciate blank keycaps. Getting a full set of keycaps with matching legends for ErgoDox is certainly no easy task (unlike Planck which is almost entirely consisted of 1u keys), and all these quirks I have made keycap shopping increasingly difficult.
 
 **** My Own Keyboard/Layout
-I've thought about creating my own keyboard occasionally. As perfect as ErgoDox may seem, it is somewhat bulky, and I find the thumb cluster a bit hard to reach. For quite some time I used =C-Home/C-End= to move to top/bottom of a file in Emacs, and that caused pain in my thumb joint as I need to stretch hard to reach both keys (that went away when I found =M-</M->= though). A slim down version of ErgoDox with more compact thumb clusters might just be the perfect keyboard. By the way, I have never before find wireless keyboard necessary in any way, but since ErgoDox features a split design, a wireless version of it can be used while lying down Nintendo-Switch-style, which would be pretty awesome.
+I've thought about creating my own keyboard occasionally. As perfect as ErgoDox
+may seem, it is somewhat bulky, and I find the thumb cluster a bit hard to
+reach. For quite some time I used ~C-Home~ and ~C-End~ to move to top/bottom of a
+file in Emacs, and that caused pain in my thumb joint as I need to stretch hard
+to reach both keys (that went away when I found ~M-<~ and ~M->~ though). A slim down version of ErgoDox with more compact thumb clusters might just be the perfect keyboard. By the way, I have never before find wireless keyboard necessary in any way, but since ErgoDox features a split design, a wireless version of it can be used while lying down Nintendo-Switch-style, which would be pretty awesome.
 
-Since I started using Emacs as my main editor, I've been taking statistics of my key-presses with ~keyfreq~. When I have gathered enough data, I might look into customizing my layout even further to suit my needs.
+Since I started using Emacs as my main editor, I've been taking statistics of my key-presses with =keyfreq=. When I have gathered enough data, I might look into customizing my layout even further to suit my needs.
 
 **** Pixel Art
 Like many Geekhackers out there, I made a pixel art of my keyboards and used it as my Geekhack signature.
@@ -287,9 +291,12 @@ Planck 是另一块让我下心思设计布局的键盘。 40% 键盘所能塞�
 在我发现了 Geekhack 论坛后，我在很长一段时间里都会疯狂刷新团购和兴趣调查版，以收集其他用户所设计的客制键帽情报。我发现自己的兴趣逐渐地从色彩对比强烈的配色转向了更为统一，柔和的设计。在键帽形状的选择上，我也偏好没有高低梯度的类型，比如 DSA 。键帽图样上我更喜欢文字而非图案，有意思的是我并不觉得空白键帽有多么值得欣赏。这些癖好使得我的寻找键帽之旅异常困难：要想给 ErgoDox 配齐一整套图样相称的键帽可不是什么容易的事（ Planck 因为全是 1u 键，所以要容易得多）。
 
 **** 设计自己的键盘／布局
-我有时会冒出设计自己的键盘的念头。 ErgoDox 已经很接近我理想中的键盘了，但是它还是有点笨重，而且拇指区边缘的键比较难按到。我原先一直在 Emacs 里使用 =C-Home/C-End= 来移动光标到文件开头／结尾，这两个键位组合使我不得不尽力伸展大拇指，导致关节有些酸痛（直到我发现 =M-</M->= 才是正确的打开方式）。一个更加小巧，拇指区键位更加紧凑的 ErgoDox 应该就是我眼中完美的键盘了。对了，虽然我以前从来没有觉得无线键盘有多么必要，但因为 ErgoDox 的分体式设计，如果它有无线版本，我就可以像使用任天堂 Switch 那样躺在床上打字了。
+我有时会冒出设计自己的键盘的念头。 ErgoDox 已经很接近我理想中的键盘了，但是它还
+是有点笨重，而且拇指区边缘的键比较难按到。我原先一直在 Emacs 里使用 ~C-Home~ 和
+~C-End~ 来移动光标到文件开头／结尾，这两个键位组合使我不得不尽力伸展大拇指，导致
+关节有些酸痛（直到我发现 ~M-<~ 和 ~M->~ 才是正确的打开方式）。一个更加小巧，拇指区键位更加紧凑的 ErgoDox 应该就是我眼中完美的键盘了。对了，虽然我以前从来没有觉得无线键盘有多么必要，但因为 ErgoDox 的分体式设计，如果它有无线版本，我就可以像使用任天堂 Switch 那样躺在床上打字了。
 
-自从我开始使用 Emacs 作为主力文本编辑器，我就一直在使用 ~keyfreq~ 来记录每个键／组合键的使用频率。在我收集了足够多的数据后，我会以此为根据来调整我的键盘布局。
+自从我开始使用 Emacs 作为主力文本编辑器，我就一直在使用 =keyfreq= 来记录每个键／组合键的使用频率。在我收集了足够多的数据后，我会以此为根据来调整我的键盘布局。
 
 **** 键盘像素画
 我之前跟风 Geekhack 众，也给我的键盘画了像素画作为签名。
