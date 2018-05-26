@@ -1,14 +1,5 @@
-[footer]
-other = "&copy; [Shimmy Xu](/zh/contact/) 2017-2018 | [Github](https://github.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [订阅](/zh/index.xml)"
-
 [posts]
 other = "归档"
-
-[tags]
-other = "标签"
-
-[categories]
-other = "分类"
 
 # Translation for categories
 [geekery]

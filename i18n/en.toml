@@ -1,14 +1,5 @@
-[footer]
-other = "&copy; [Shimmy Xu](/en/contact/) 2017-2018 | [Github](https://github.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [Subscribe](/en/index.xml)"
-
 [posts]
 other = "Posts"
-
-[tags]
-other = "Tags"
-
-[categories]
-other = "Categories"
 
 # Translation for categories
 [geekery]

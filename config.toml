@@ -1,35 +1,34 @@
 # Site Settings
 baseURL                        = "shimmy1996.com"
-title                          = "Library of Trantor"
 theme                          = "soresu"
-footnotereturnlinkcontents     = "↩"
-DefaultContentLanguage         = "en"
-DefaultContentLanguageInSubdir = true
+footnoteReturnLinkContents     = "↩"
+defaultContentLanguage         = "en"
+defaultContentLanguageInSubdir = true
+preserveTaxonomyNames          = true
 
 # Pygments Settings
 pygmentsCodefences             = true
 pygmentsCodefencesGuessSyntax  = false
 pygmentsStyle                  = "emacs"
 pygmentsOptions                = "linenos="
-preserveTaxonomyNames          = true
 
-[permalinks]
-posts      = "/posts/:year-:month-:day-:slug/"
-
-[author]
-name       = "Shimmy Xu"
-github     = "shimmy1996"
+[Permalinks]
+posts    = "/posts/:year-:month-:day-:slug/"
 
 [Taxonomies]
-tag        = "tags"
-categories = "categories"
+category = "categories"
+tag      = "tags"
 
 [Languages]
-
   [Languages.en]
-  title        = "Library of Trantor"
+  languageName = "EN"
+  copyright    = "&copy; [Shimmy Xu](/en/contact/) 2017-2018 | [Github](https://github.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [Subscribe](/en/index.xml)"
   subtitle     = "The Plan is going on."
-  LanguageName = "EN"
+  title        = "Library of Trantor"
+
+    [Languages.en.taxonomy]
+    categories = "Categories"
+    tags       = "Tags"
 
     [[Languages.en.menu.main]]
     name   = "Home"
@@ -53,9 +52,14 @@ categories = "categories"
     weight = 5
 
   [Languages.zh]
-  title        = "川陀大学图书室"
+  languageName = "中文"
+  copyright    = "&copy; [Shimmy Xu](/zh/contact/) 2017-2018 | [Github](https://github.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [订阅](/zh/index.xml)"
   subtitle     = "计划进行中。"
-  LanguageName = "中文"
+  title        = "川陀大学图书室"
+
+    [Languages.zh.taxonomy]
+    categories = "分类"
+    tags       = "标签"
 
     [[Languages.zh.menu.main]]
     name   = "主页"
