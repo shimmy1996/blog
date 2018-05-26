@@ -46,10 +46,6 @@ tag      = "tags"
     name   = "Friends"
     url    = "/en/friends/"
     weight = 4
-    [[Languages.en.menu.main]]
-    name   = "Messages"
-    url    = "/en/messages/"
-    weight = 5
 
   [Languages.zh]
   languageName = "中文"
@@ -77,7 +73,3 @@ tag      = "tags"
     name   = "朋友们"
     url    = "/zh/friends/"
     weight = 4
-    [[Languages.zh.menu.main]]
-    name   = "留言板"
-    url    = "/zh/messages/"
-    weight = 5

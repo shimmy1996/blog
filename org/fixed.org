@@ -151,35 +151,6 @@ Welcome to the friendly neighborhood of Library of Trantor!
 
 [[http://a2clef.com][Vacuuny/A2Clef]]
 
-* Messages
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug messages
-:END:
-
-** en
-:PROPERTIES:
-:EXPORT_TITLE: Messages
-:EXPORT_FILE_NAME: messages.en.md
-:END:
-
-Hello and welcome!
-
-+In case you want fancy profile pics, just like everyone else, please register at Disqus+.
-
-I do not recommending creating a entirely new social media account for profile pics. Your comments won't be any less valuable without Disqus.
-
-** zh
-:PROPERTIES:
-:EXPORT_TITLE: 留言板
-:EXPORT_FILE_NAME: messages.zh.md
-:END:
-
-欢迎版聊!
-
-+没有头像？请注册 Disqus 账户。+
-
-为了头像注册一个新的社交网站账户并不是个好主意。评论本身不会因为少了好看的头像而贬值。
-
 * Posts
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER:
