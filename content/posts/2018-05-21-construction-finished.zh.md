@@ -19,7 +19,7 @@ slug = "construction-finished"
 -   [X] 完成服务器端设置，比如添加 `post-receive` 来实现 `git` 自动部署。
 -   [X] 可以切换 **当前页面** 语言版本的语言切换按钮。
 -   [X] Disqus 支持。
--   [X] 用 MathJax 实现 `$\LaTeX$` 表达式支持。
+-   [X] 用 ~~MathJax~~ KaTex 实现  \\(\LaTeX\\) 表达式支持。
 -   [X] 把导航页的内容搬过来并翻译。
 -   [X] https 支持。
 -   [X] 备份原WP站点。

@@ -496,7 +496,7 @@ After eight months, my blog have finally reached a place where I feel comfortabl
 - [X] Server side config, like =post-receive= for git auto deploy.
 - [X] Language switcher that does more than redirecting to home page.
 - [X] Enable Disqus.
-- [X] Support =$\LaTeX$= expressions via MathJax.
+- [X] Support \(\LaTeX\) expressions via +MathJax+ KaTex.
 - [X] Copy-paste fixed page contents from old site (and translate them).
 - [X] Enable https.
 - [X] Backup old WP site.
@@ -534,7 +534,7 @@ I already have an about page and a contact page for whatever I think people migh
 - [X] 完成服务器端设置，比如添加 =post-receive= 来实现 =git= 自动部署。
 - [X] 可以切换 *当前页面* 语言版本的语言切换按钮。
 - [X] Disqus 支持。
-- [X] 用 MathJax 实现 =$\LaTeX$= 表达式支持。
+- [X] 用 +MathJax+ KaTex 实现  \(\LaTeX\) 表达式支持。
 - [X] 把导航页的内容搬过来并翻译。
 - [X] https 支持。
 - [X] 备份原WP站点。
@@ -574,6 +574,19 @@ Besides, I changed the category "My Life" to "Geekery". I still haven't figured 
 :EXPORT_TITLE: 驯标签高手
 :EXPORT_FILE_NAME: 2018-05-16-how-to-train-your-tags.en.md
 :END:
+
+* My Life                                                          :@my_life:
+** TODO First Trail Half Marathon                     :running:trail_running:
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2018-05-27 :slug first-trail-half-marathon
+:END:
+
+*** TODO en
+:PROPERTIES:
+:EXPORT_TITLE: First Trail Half Marathon
+:EXPORT_FILE_NAME: 2018-05-27-first-trail-half-marathon.en.md
+:END:
+
 
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:

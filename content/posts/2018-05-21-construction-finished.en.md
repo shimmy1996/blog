@@ -19,7 +19,7 @@ After eight months, my blog have finally reached a place where I feel comfortabl
 -   [X] Server side config, like `post-receive` for git auto deploy.
 -   [X] Language switcher that does more than redirecting to home page.
 -   [X] Enable Disqus.
--   [X] Support `$\LaTeX$` expressions via MathJax.
+-   [X] Support \\(\LaTeX\\) expressions via ~~MathJax~~ KaTex.
 -   [X] Copy-paste fixed page contents from old site (and translate them).
 -   [X] Enable https.
 -   [X] Backup old WP site.
