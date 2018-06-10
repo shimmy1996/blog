@@ -15,7 +15,7 @@
 :END:
 
 *** Goals for 2018
-- [ ] Run 1000 miles. (=298/1000=)
+- [ ] Run 1000 miles. (=327/1000=)
 - [ ] Finish a marathon. (=0/1=)
 - [ ] Write at least 20 blog articles. (=4/20=)
 - [ ] Get the first signature for my PGP key. (=0/1=)
@@ -30,7 +30,7 @@
 :END:
 
 *** 2018 年目标
-- [ ] 跑 1000 英里。（ =298/1000= ）
+- [ ] 跑 1000 英里。（ =327/1000= ）
 - [ ] 完成一次马拉松。（ =0/1= ）
 - [ ] 写 20 篇以上的日志。（ =4/20= ）
 - [ ] 获得第一个 PGP 密匙签名。（ =0/1= ）
