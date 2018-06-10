@@ -1,6 +1,6 @@
 # Site Settings
 baseURL                        = "shimmy1996.com"
-theme                          = "soresu"
+theme                          = "hugo-soresu"
 footnoteReturnLinkContents     = "↩"
 defaultContentLanguage         = "en"
 defaultContentLanguageInSubdir = true
