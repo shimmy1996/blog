@@ -22,7 +22,7 @@ tag      = "tags"
 [Languages]
   [Languages.en]
   languageName = "EN"
-  copyright    = "&copy; [Shimmy Xu](/en/contact/) 2017-2018 | [Git](https://git.shimmy1996.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [Subscribe](/en/index.xml)"
+  copyright    = "&copy; 2014-2018 [Shimmy Xu](/en/contact/) | [Git](https://git.shimmy1996.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [Subscribe](/en/index.xml)"
   subtitle     = "The Plan needs to go on."
   title        = "Library of Trantor"
 
@@ -49,7 +49,7 @@ tag      = "tags"
 
   [Languages.zh]
   languageName = "中文"
-  copyright    = "&copy; [Shimmy Xu](/zh/contact/) 2017-2018 | [Git](https://git.shimmy1996.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [订阅](/zh/index.xml)"
+  copyright    = "&copy; 2014-2018 [Shimmy Xu](/zh/contact/) | [Git](https://git.shimmy1996.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [订阅](/zh/index.xml)"
   subtitle     = "计划进行中。"
   title        = "川陀大学图书室"
 
