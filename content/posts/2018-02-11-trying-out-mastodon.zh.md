@@ -21,20 +21,20 @@ slug = "trying-out-mastodon"
 
 我把所有依赖以及相对应的 Arch Linux 软件包都列了出来。完全没有手动克隆 git 仓库的必要。 `npm` 会在安装过程中用到，但没有在官方指南中列出。
 
-| 依赖                                | 软件包                                                                                      |
-|-----------------------------------|------------------------------------------------------------------------------------------|
-| `node.js` 6.x                       | [`nodejs-lts-boron`](https://www.archlinux.org/packages/community/x86_64/nodejs-lts-boron/) |
-| `yarn`                              | [`yarn`](https://www.archlinux.org/packages/community/any/yarn/)                            |
-| `imagemagick`                       | [`imagemagick`](https://www.archlinux.org/packages/extra/x86_64/imagemagick/)               |
-| `ffmpeg`                            | [`ffmpeg`](https://www.archlinux.org/packages/extra/x86_64/ffmpeg/)                         |
-| `libprotobuf` 和 `protobuf-compiler` | [`protobuf`](https://www.archlinux.org/packages/?sort=&q=protobuf&maintainer=&flagged=)     |
-| `nginx`                             | [`nginx`](https://www.archlinux.org/packages/extra/x86_64/nginx/)                           |
-| `redis`                             | [`redis`](https://www.archlinux.org/packages/community/x86_64/redis/)                       |
-| `postgresql`                        | [`postgresql`](https://www.archlinux.org/packages/extra/x86_64/postgresql/)                 |
-| `nodejs`                            | [`nodejs`](https://www.archlinux.org/packages/community/x86_64/nodejs/)                     |
-| `rbenv`                             | [`rbenv`](https://aur.archlinux.org/packages/rbenv/)                                        |
-| `ruby-build`                        | [`ruby-build`](https://aur.archlinux.org/packages/ruby-build/)                              |
-| `npm`                               | [`npm`](https://www.archlinux.org/packages/community/any/npm/)                              |
+| 依赖                                | 软件包                                                                                        |
+|-----------------------------------|--------------------------------------------------------------------------------------------|
+| `node.js` 6.x                       | [`nodejs-lts-boron`](https://www.archlinux.org/packages/community/x86%5F64/nodejs-lts-boron/) |
+| `yarn`                              | [`yarn`](https://www.archlinux.org/packages/community/any/yarn/)                              |
+| `imagemagick`                       | [`imagemagick`](https://www.archlinux.org/packages/extra/x86%5F64/imagemagick/)               |
+| `ffmpeg`                            | [`ffmpeg`](https://www.archlinux.org/packages/extra/x86%5F64/ffmpeg/)                         |
+| `libprotobuf` 和 `protobuf-compiler` | [`protobuf`](https://www.archlinux.org/packages/?sort=&q=protobuf&maintainer=&flagged=)       |
+| `nginx`                             | [`nginx`](https://www.archlinux.org/packages/extra/x86%5F64/nginx/)                           |
+| `redis`                             | [`redis`](https://www.archlinux.org/packages/community/x86%5F64/redis/)                       |
+| `postgresql`                        | [`postgresql`](https://www.archlinux.org/packages/extra/x86%5F64/postgresql/)                 |
+| `nodejs`                            | [`nodejs`](https://www.archlinux.org/packages/community/x86%5F64/nodejs/)                     |
+| `rbenv`                             | [`rbenv`](https://aur.archlinux.org/packages/rbenv/)                                          |
+| `ruby-build`                        | [`ruby-build`](https://aur.archlinux.org/packages/ruby-build/)                                |
+| `npm`                               | [`npm`](https://www.archlinux.org/packages/community/any/npm/)                                |
 
 在安装 `rbenv` 后，我需要把 `'eval "$(rbenv init -)"` 加入 `.bashrc` 或 `.zshrc` 中（安装脚本也会提示这一步骤）。
 
@@ -88,7 +88,7 @@ $ sudo su postgres
 
 ### 计划进程和缓存清理 {#计划进程和缓存清理}
 
-照官方指南做就好。我安装了 [`cronie`](https://www.archlinux.org/packages/core/x86_64/cronie/) 来安排 cron 作业。
+照官方指南做就好。我安装了 [`cronie`](https://www.archlinux.org/packages/core/x86%5F64/cronie/) 来安排 cron 作业。
 
 
 ## 使用感受 {#使用感受}

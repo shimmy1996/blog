@@ -17,7 +17,6 @@ Site related posts.
 :END:
 
 **** Why move the blog? And to where?
-
 After putting up with the clunky WordPress blog (and Bluehost's 2003-looking admin panel for that matter) for three years, I finally decided to ditch everything I currently have and restart my blog in a more civilized manner. There was a couple of things that I was not happy about my old WordPress setup, namely:
 
 - Clunky and eats up my server storage.
@@ -59,7 +58,6 @@ Install/update base packages.
 #+END_SRC
 
 ****** Fstab
-
 Generate =fstab=.
 #+BEGIN_SRC sh
 # genfstab -U / >> /etc/fstab
@@ -105,7 +103,6 @@ You know the drill.
 Here are some additional settings to make Arch Linux more useable.
 
 ****** Creature User
-
 Obviously it is not a good idea to use root account:
 #+BEGIN_SRC sh
 # useradd -m -G wheel -s /bin/bash <username>
@@ -113,7 +110,6 @@ Obviously it is not a good idea to use root account:
 #+END_SRC
 
 ****** Add User to Sudoer
-
 Edit =/etc/sudoers= and add:
 #+BEGIN_SRC sh
 <username> ALL=(ALL) ALL
@@ -179,7 +175,6 @@ $ ssh -p <non-std-port> <username>@<server>
 #+END_SRC
 
 ***** Firewall Settings
-
 I use =ufw= as my firewall and it is very easy to setup. Install =ufw= with =trizen= and enable the desired ports:
 #+BEGIN_SRC sh
 $ trizen -S ufw
@@ -237,7 +232,6 @@ $ mkdir ~/public_html
 Make sure to give this directory (including the user =home= folder) appropriate permission with =chmod= (=755= would normally work). Populate the directory with a simple =index.html= for testing if you want.
 
 ***** Instal =nginx=
-
 Install =nginx= with =trizen=, and edit =/etc/nginx/nginx.conf= to set up =http= server (the one set to =listen 80 default_server=):
 #+BEGIN_SRC sh
 server_name www.<domainname> <domainname>
@@ -250,7 +244,6 @@ $ sudo systemctl enable nginx.service
 #+END_SRC
 
 ***** DNS Setup
-
 The next step is to set up DNS records for our server. There are three types of records that need to be set up initially, =NS=, =A=, and =CNAME=. I also included some other useful records:
 
 | Type    | Hostname              | Value                         | Usage                                                    |
@@ -285,7 +278,6 @@ After a couple hours (mostly waiting for DNS records to populate), and my websit
 :END:
 
 **** 为何要重新建站？新站建在哪里？
-
 在忍受了笨重的 Wordpress 三年后（以及 Bluehost 充满2003年设计感的管理面板），我终于决定放弃旧站另起炉灶。我对 Wordpress 博客主要有这些不满：
 
 - 体积庞大，占用很多不必要的服务器空间。
@@ -327,7 +319,6 @@ After a couple hours (mostly waiting for DNS records to populate), and my websit
 #+END_SRC
 
 ****** Fstab
-
 生成 =fstab= 。
 #+BEGIN_SRC sh
 # genfstab -U / >> /etc/fstab
@@ -446,7 +437,6 @@ $ ssh -p <non-std-port> <username>@<server>
 #+END_SRC
 
 ***** 防火墙设置
-
  =ufw= 作为防火墙非常方便易用。使用 =trizen= 来安装 =ufw= 并开放允许连接的端口：
 #+BEGIN_SRC sh
 $ trizen -S ufw
@@ -505,7 +495,6 @@ $ mkdir ~/public_html
 确认该文件夹（以及用户的 =home= 文件夹）有合适的权限设置。权限设置可以用 =chmod= 修改（一般设成 =755= 就好）。可以在网页文件夹中放一个简单的 =index.html= 来方便测试。
 
 ***** 安装 =nginx=
-
 用 =trizen= 安装 =nginx= ，并编辑 =/etc/nginx/nginx.conf= 来设立 =http= 服务器（带有 =listen 80 default_server= 设置的部分）：
 #+BEGIN_SRC sh
 server_name www.<domainname> <domainname>
@@ -519,14 +508,13 @@ $ sudo systemctl enable nginx.service
 #+END_SRC
 
 ***** DNS 设置
-
 下一步是为服务器完成 DNS 记录的设置。一开始必须设置的记录有三种： =NS= ， =A= ，和 =CNAME= 。我记下了一些比较常用的记录：
 
-| 记录种类 | 主机名              | 数值                  | 用法                              |
-| =NS=     | @                      | DNS 服务器的地址  | 确认用于解析域名的服务器 |
-| =A=      | @                      | 水滴的 IPv4 地址   | 将主机名重定向到 IP 地址  |
-| =CNAME=  | www （可以是任何东西） | @                       | 将 =www.<hostname>= 设为主机名的 |
-| =MX=     | @                      | 邮箱服务器地址   | 指定邮箱服务器               |
+| 记录种类 | 主机名                 | 数值                    | 用法                                |
+| =NS=     | @                      | DNS 服务器的地址        | 确认用于解析域名的服务器            |
+| =A=      | @                      | 水滴的 IPv4 地址        | 将主机名重定向到 IP 地址            |
+| =CNAME=  | www （可以是任何东西） | @                       | 将 =www.<hostname>= 设为主机名的    |
+| =MX=     | @                      | 邮箱服务器地址          | 指定邮箱服务器                      |
 | =CAA=    | @                      | 标明 SSL 证书的授权机构 | 阻止其他授权机构为本站发行 SSL 证书 |
 
 我的域名托管在 Google Domains ，但我的网站用的是 DigitalOcean 的 DNS ，所以我需要在 DigitalOcean 上完成设置并在 Google Domains 里加入 =NS= 记录。
@@ -560,7 +548,6 @@ $ sudo certbot --nginx
 As planned, I am documenting my mail server setups. Setting up the mail server is probably documented everywhere, but I had to put in some effort make my setup secure enough to prevent it from been mistaked as spam.
 
 **** Setting up the mail server
-
 I really don't see how I can write anything better than [[http://www.netarky.com/programming/arch_linux/Arch_Linux_mail_server_setup_1.html][this tutorial]], so I will just document some of the steps that seemed missing from the tutorial.
 
 ***** Setting DNS Record
@@ -585,7 +572,6 @@ ssl_key = </path/to/privkey.pem
 Similarly for =postfix= I also used this certificate. Do note that =dovecot= and =postfix= should be run as =root= to have read permissions to read these certificates.
 
 ***** Mail Client
-
 I am using Thunderbird as my mail client and for receiving mail. I used SSL/TLS while for sending mail, I needed to set STARTTLS.
 
 **** Security Measures
@@ -652,7 +638,6 @@ I tested my server by sending test email to =check-auth@verifier.port25.com= and
 遵循之前的计划，我打算将设置邮箱的过程记录下来。设置邮箱大部分地方都有教程，不过我需要添加不少额外的安全设置来避免邮件被扔进垃圾箱。
 
 **** 搭建邮件服务器
-
 我八成是写不出比 [[http://www.netarky.com/programming/arch_linux/Arch_Linux_mail_server_setup_1.html][这篇教程]] 更好的步骤说明的，所以我就在这里把我额外需要的一些设置记录下来。
 
 ***** 设置 DNS 记录
@@ -680,7 +665,7 @@ ssl_key = </path/to/privkey.pem
 我使用 Thunderbird 作为邮件客户端。收取邮件时，我使用 SSL/TLS，而发送邮件则使用 STARTTLS。
 
 **** 安全措施
-设置好邮件服务器后，我试着发了几封邮件，不过发现都被 gmail 扔进了垃圾箱。似乎 gmail 最近添加了显示邮件安全检查状态的功能（在 gmail 中点击“查看原件”即可看到)。这些检查包括 SPF ， DKIM ， 和 DMARC 。由于我的邮件服务器没有通过最基本的 SPF 检查，所以我的头像显示为一个标着问号的八边形。为了避免邮件被扔进垃圾箱，我进行了一系列安全设置以保证我的邮件服务器能通过网上邮箱安全测试平台(我使用的是 [[https://intodns.com][intodns]] 和 [[https://mxtoolbox.com][mxtoolbox]] )的考验。
+设置好邮件服务器后，我试着发了几封邮件，不过发现都被 gmail 扔进了垃圾箱。似乎 gmail 最近添加了显示邮件安全检查状态的功能（在 gmail 中点击“查看原件”即可看到）。这些检查包括 SPF ， DKIM ，和 DMARC 。由于我的邮件服务器没有通过最基本的 SPF 检查，所以我的头像显示为一个标着问号的八边形。为了避免邮件被扔进垃圾箱，我进行了一系列安全设置以保证我的邮件服务器能通过网上邮箱安全测试平台（我使用的是 [[https://intodns.com][intodns]] 和 [[https://mxtoolbox.com][mxtoolbox]] ）的考验。
 
 ***** 发件人策略框架（ SPF ）
 SPF TXT 记录标明了某一域名所承认的邮件服务器地址。在我的情况下，我只会用到 MX TXT 记录中所提到的邮件服务器，所以我的 SPF TXT 记录就是：
@@ -785,13 +770,7 @@ Happy Commenting!
 我在寻找评论系统的过程中还发现了一个有趣的替代品：[[https://github.com/tessalt/echo-chamber-js][Echochamber.js]] 。
 
 **** 设置 isso
-Isso 的官网有很详细的 [[https://posativ.org/isso/docs/][说明文档]]。我
-从 [[https://aur.archlinux.org/packages/isso/][AUR]] 安装了 isso 并使
-用 =systemctl= 启用了它。设置过程出奇的顺利（包括数据库的部分），因为
-我的 isso 和博客共用一台服务器，我使用了与默认不同的
-[[https://posativ.org/isso/docs/setup/sub-uri/][设置]] 。我所遇到的唯一
-问题在于 =smtp= 。在检查 =postfix= 的运行状态后，我很快发现问题在于
-=smtpd_helo_restrictions= ：在停用 =reject_unknown_helo_hostname= 后， isso 就能使用 =smtp= 发送通知邮件了。除此之外，我稍微花了点时间修改 isso 的 CSS 模板。新的评论区看起来不仅更契合博客主题，速度也比 Disqus 快多了。
+Isso 的官网有很详细的 [[https://posativ.org/isso/docs/][说明文档]] 。我从 [[https://aur.archlinux.org/packages/isso/][AUR]] 安装了 isso 并使用 =systemctl= 启用了它。设置过程出奇的顺利（包括数据库的部分），因为我的 isso 和博客共用一台服务器，我使用了与默认不同的 [[https://posativ.org/isso/docs/setup/sub-uri/][设置]] 。我所遇到的唯一问题在于 =smtp= 。在检查 =postfix= 的运行状态后，我很快发现问题在于 =smtpd_helo_restrictions= ：在停用 =reject_unknown_helo_hostname= 后， isso 就能使用 =smtp= 发送通知邮件了。除此之外，我稍微花了点时间修改 isso 的 CSS 模板。新的评论区看起来不仅更契合博客主题，速度也比 Disqus 快多了。
 
 祝评论愉快！
 

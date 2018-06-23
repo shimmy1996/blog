@@ -21,20 +21,20 @@ It was kinda surprising that there doesn't exist a Arch Linux specific installat
 
 Here's a table detailing all the dependencies and their corresponding packages in Arch Linux. There really is no need to git clone anything. `npm` was also required in the installation process, but was not listed in the official guide.
 
-| Dependency                            | Package                                                                                     |
-|---------------------------------------|---------------------------------------------------------------------------------------------|
-| `node.js` 6.x                         | [`nodejs-lts-boron`](https://www.archlinux.org/packages/community/x86_64/nodejs-lts-boron/) |
-| `yarn`                                | [`yarn`](https://www.archlinux.org/packages/community/any/yarn/)                            |
-| `imagemagick`                         | [`imagemagick`](https://www.archlinux.org/packages/extra/x86_64/imagemagick/)               |
-| `ffmpeg`                              | [`ffmpeg`](https://www.archlinux.org/packages/extra/x86_64/ffmpeg/)                         |
-| `libprotobuf` and `protobuf-compiler` | [`protobuf`](https://www.archlinux.org/packages/?sort=&q=protobuf&maintainer=&flagged=)     |
-| `nginx`                               | [`nginx`](https://www.archlinux.org/packages/extra/x86_64/nginx/)                           |
-| `redis`                               | [`redis`](https://www.archlinux.org/packages/community/x86_64/redis/)                       |
-| `postgresql`                          | [`postgresql`](https://www.archlinux.org/packages/extra/x86_64/postgresql/)                 |
-| `nodejs`                              | [`nodejs`](https://www.archlinux.org/packages/community/x86_64/nodejs/)                     |
-| `rbenv`                               | [`rbenv`](https://aur.archlinux.org/packages/rbenv/)                                        |
-| `ruby-build`                          | [`ruby-build`](https://aur.archlinux.org/packages/ruby-build/)                              |
-| `npm`                                 | [`npm`](https://www.archlinux.org/packages/community/any/npm/)                              |
+| Dependency                            | Package                                                                                       |
+|---------------------------------------|-----------------------------------------------------------------------------------------------|
+| `node.js` 6.x                         | [`nodejs-lts-boron`](https://www.archlinux.org/packages/community/x86%5F64/nodejs-lts-boron/) |
+| `yarn`                                | [`yarn`](https://www.archlinux.org/packages/community/any/yarn/)                              |
+| `imagemagick`                         | [`imagemagick`](https://www.archlinux.org/packages/extra/x86%5F64/imagemagick/)               |
+| `ffmpeg`                              | [`ffmpeg`](https://www.archlinux.org/packages/extra/x86%5F64/ffmpeg/)                         |
+| `libprotobuf` and `protobuf-compiler` | [`protobuf`](https://www.archlinux.org/packages/?sort=&q=protobuf&maintainer=&flagged=)       |
+| `nginx`                               | [`nginx`](https://www.archlinux.org/packages/extra/x86%5F64/nginx/)                           |
+| `redis`                               | [`redis`](https://www.archlinux.org/packages/community/x86%5F64/redis/)                       |
+| `postgresql`                          | [`postgresql`](https://www.archlinux.org/packages/extra/x86%5F64/postgresql/)                 |
+| `nodejs`                              | [`nodejs`](https://www.archlinux.org/packages/community/x86%5F64/nodejs/)                     |
+| `rbenv`                               | [`rbenv`](https://aur.archlinux.org/packages/rbenv/)                                          |
+| `ruby-build`                          | [`ruby-build`](https://aur.archlinux.org/packages/ruby-build/)                                |
+| `npm`                                 | [`npm`](https://www.archlinux.org/packages/community/any/npm/)                                |
 
 For `rbenv`, I needed to add `'eval "$(rbenv init -)"` to `.bashrc` or `.zshrc` after installation as prompted by the post installation script.
 
@@ -88,7 +88,7 @@ The config file is fairly self-explanatory. The only thing I got wrong the first
 
 ### Scheduling Services & Cleanups {#scheduling-services-and-cleanups}
 
-Again, just follow the official production guide. I installed [`cronie`](https://www.archlinux.org/packages/core/x86_64/cronie/) to schedule cron jobs.
+Again, just follow the official production guide. I installed [`cronie`](https://www.archlinux.org/packages/core/x86%5F64/cronie/) to schedule cron jobs.
 
 
 ## My Experience {#my-experience}

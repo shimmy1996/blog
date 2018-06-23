@@ -12,7 +12,7 @@ slug = "spam-or-ham"
 
 ## 搭建邮件服务器 {#搭建邮件服务器}
 
-我八成是写不出比 [这篇教程](http://www.netarky.com/programming/arch_linux/Arch_Linux_mail_server_setup_1.html) 更好的步骤说明的，所以我就在这里把我额外需要的一些设置记录下来。
+我八成是写不出比 [这篇教程](http://www.netarky.com/programming/arch%5Flinux/Arch%5FLinux%5Fmail%5Fserver%5Fsetup%5F1.html) 更好的步骤说明的，所以我就在这里把我额外需要的一些设置记录下来。
 
 
 ### 设置 DNS 记录 {#设置-dns-记录}
@@ -51,7 +51,7 @@ ssl_key = </path/to/privkey.pem
 
 ## 安全措施 {#安全措施}
 
-设置好邮件服务器后，我试着发了几封邮件，不过发现都被 gmail 扔进了垃圾箱。似乎 gmail 最近添加了显示邮件安全检查状态的功能（在 gmail 中点击“查看原件”即可看到)。这些检查包括 SPF ， DKIM ， 和 DMARC 。由于我的邮件服务器没有通过最基本的 SPF 检查，所以我的头像显示为一个标着问号的八边形。为了避免邮件被扔进垃圾箱，我进行了一系列安全设置以保证我的邮件服务器能通过网上邮箱安全测试平台(我使用的是 [intodns](https://intodns.com) 和 [mxtoolbox](https://mxtoolbox.com) )的考验。
+设置好邮件服务器后，我试着发了几封邮件，不过发现都被 gmail 扔进了垃圾箱。似乎 gmail 最近添加了显示邮件安全检查状态的功能（在 gmail 中点击“查看原件”即可看到）。这些检查包括 SPF ， DKIM ，和 DMARC 。由于我的邮件服务器没有通过最基本的 SPF 检查，所以我的头像显示为一个标着问号的八边形。为了避免邮件被扔进垃圾箱，我进行了一系列安全设置以保证我的邮件服务器能通过网上邮箱安全测试平台（我使用的是 [intodns](https://intodns.com) 和 [mxtoolbox](https://mxtoolbox.com) ）的考验。
 
 
 ### 发件人策略框架（ SPF ） {#发件人策略框架-spf}

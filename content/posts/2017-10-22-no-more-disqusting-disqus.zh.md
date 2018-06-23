@@ -28,12 +28,6 @@ slug = "no-more-disqusting-disqus"
 
 ## 设置 isso {#设置-isso}
 
-Isso 的官网有很详细的 [说明文档](https://posativ.org/isso/docs/)。我
-从 [AUR](https://aur.archlinux.org/packages/isso/) 安装了 isso 并使
-用 `systemctl` 启用了它。设置过程出奇的顺利（包括数据库的部分），因为
-我的 isso 和博客共用一台服务器，我使用了与默认不同的
-[设置](https://posativ.org/isso/docs/setup/sub-uri/) 。我所遇到的唯一
-问题在于 `smtp` 。在检查 `postfix` 的运行状态后，我很快发现问题在于
-`smtpd_helo_restrictions` ：在停用 `reject_unknown_helo_hostname` 后， isso 就能使用 `smtp` 发送通知邮件了。除此之外，我稍微花了点时间修改 isso 的 CSS 模板。新的评论区看起来不仅更契合博客主题，速度也比 Disqus 快多了。
+Isso 的官网有很详细的 [说明文档](https://posativ.org/isso/docs/) 。我从 [AUR](https://aur.archlinux.org/packages/isso/) 安装了 isso 并使用 `systemctl` 启用了它。设置过程出奇的顺利（包括数据库的部分），因为我的 isso 和博客共用一台服务器，我使用了与默认不同的 [设置](https://posativ.org/isso/docs/setup/sub-uri/) 。我所遇到的唯一问题在于 `smtp` 。在检查 `postfix` 的运行状态后，我很快发现问题在于 `smtpd_helo_restrictions` ：在停用 `reject_unknown_helo_hostname` 后， isso 就能使用 `smtp` 发送通知邮件了。除此之外，我稍微花了点时间修改 isso 的 CSS 模板。新的评论区看起来不仅更契合博客主题，速度也比 Disqus 快多了。
 
 祝评论愉快！

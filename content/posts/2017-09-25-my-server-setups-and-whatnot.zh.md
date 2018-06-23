@@ -40,7 +40,7 @@ slug = "my-server-setups-and-whatnot"
 
 ### 系统设置 {#系统设置}
 
-上述安装完成后，我的 droplet 上就有了带有网络的 Arch Linux 。绝大部分的额外设置都可以在 [Arch Wiki](https://wiki.archlinux.org/index.php/Installation_guide) 找到。我并没有想把这篇日志写成完整的教程，所以细节部分最好参考 Arch Wiki。记录在这篇日志里的指令只是做个人记录之用。
+上述安装完成后，我的 droplet 上就有了带有网络的 Arch Linux 。绝大部分的额外设置都可以在 [Arch Wiki](https://wiki.archlinux.org/index.php/Installation%5Fguide) 找到。我并没有想把这篇日志写成完整的教程，所以细节部分最好参考 Arch Wiki。记录在这篇日志里的指令只是做个人记录之用。
 
 
 #### 系统时钟 {#系统时钟}
@@ -157,7 +157,7 @@ MODULES= "crc32 libcrc32c crc32c_generic crc32c-intel crc32-pclmul"
 
 #### 软件包管理器 {#软件包管理器}
 
-我一开始使用 `packer` 来同时使用 `pacman` 和安装 AUR 软件包。但是在我了解到其软件安装过程有 [诸多安全隐患](https://wiki.archlinux.org/index.php/AUR_helpers#Comparison_table) 后，我开始改用 `trizen` （ `pacaur` 是另一个较为稳妥的选择，而且在 reddit 上有一个机器人会在所有提到 `yaourt` 的帖子下面安利 `pacaur` ）： `trizen` 会提示用户在安装前检查 `PKGBUILD` ， `*.install` 以及其他代码，而且 `trizen` 是用 Perl 而不是 Bash 写的。想要安装 `trizen` ，先根据 [AUR 页面](https://aur.archlinux.org/packages/trizen/) 通过 `pacman` 安装 `trizen` 所依赖的软件包，然后克隆其 [git 仓库](https://github.com/trizen/trizen) 到本地。进入包含 `PKGBUILD` 的文件夹并运行：
+我一开始使用 `packer` 来同时使用 `pacman` 和安装 AUR 软件包。但是在我了解到其软件安装过程有 [诸多安全隐患](https://wiki.archlinux.org/index.php/AUR%5Fhelpers#Comparison%5Ftable) 后，我开始改用 `trizen` （ `pacaur` 是另一个较为稳妥的选择，而且在 reddit 上有一个机器人会在所有提到 `yaourt` 的帖子下面安利 `pacaur` ）： `trizen` 会提示用户在安装前检查 `PKGBUILD` ， `*.install` 以及其他代码，而且 `trizen` 是用 Perl 而不是 Bash 写的。想要安装 `trizen` ，先根据 [AUR 页面](https://aur.archlinux.org/packages/trizen/) 通过 `pacman` 安装 `trizen` 所依赖的软件包，然后克隆其 [git 仓库](https://github.com/trizen/trizen) 到本地。进入包含 `PKGBUILD` 的文件夹并运行：
 
 ```sh
 $ makepkg

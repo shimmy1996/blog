@@ -40,7 +40,7 @@ Apparently my information on DigitalOcean supporting Arch Linux is outdated, as 
 
 ### Low Level Setup {#low-level-setup}
 
-Once the script finishes running, I have an Arch Linux system running on my droplet with internet access. Most of the additional setups needed can be found in [Arch Wiki](https://wiki.archlinux.org/index.php/Installation_guide). Since I am by no means a great tutorial writer, I suggest referring to Arch Wiki for detailed steps. The recorded commands here are just for book-keeping purposes and is by no means the best way to do things.
+Once the script finishes running, I have an Arch Linux system running on my droplet with internet access. Most of the additional setups needed can be found in [Arch Wiki](https://wiki.archlinux.org/index.php/Installation%5Fguide). Since I am by no means a great tutorial writer, I suggest referring to Arch Wiki for detailed steps. The recorded commands here are just for book-keeping purposes and is by no means the best way to do things.
 
 
 #### System Clock {#system-clock}
@@ -157,7 +157,7 @@ We will finish the rest of the configuration using the user account.
 
 #### Package Manager {#package-manager}
 
-I used to use `packer` as wrapper around AUR and `pacman`. However, after learning about [inherent insecurity](https://wiki.archlinux.org/index.php/AUR_helpers#Comparison_table) in their package building processes, I switched to a more secure AUR helper `trizen` (`pacaur` is another choice, and fun fact: there is a reddit bot that tells you to switch to `pacaur` every time `yaourt` is mentioned in a post): `trizen` prompts user to inspect `PKGBUILD`, `*.install` and other scripts before sourcing them and `trizen` is written in Perl instead of Bash. To install `trizen`, first install dependencies via `pacman` according to its [AUR Page](https://aur.archlinux.org/packages/trizen/), then clone its [git repo](https://github.com/trizen/trizen) to a local directory. Navigate to the directory containing `PKGBUILD` and run
+I used to use `packer` as wrapper around AUR and `pacman`. However, after learning about [inherent insecurity](https://wiki.archlinux.org/index.php/AUR%5Fhelpers#Comparison%5Ftable) in their package building processes, I switched to a more secure AUR helper `trizen` (`pacaur` is another choice, and fun fact: there is a reddit bot that tells you to switch to `pacaur` every time `yaourt` is mentioned in a post): `trizen` prompts user to inspect `PKGBUILD`, `*.install` and other scripts before sourcing them and `trizen` is written in Perl instead of Bash. To install `trizen`, first install dependencies via `pacman` according to its [AUR Page](https://aur.archlinux.org/packages/trizen/), then clone its [git repo](https://github.com/trizen/trizen) to a local directory. Navigate to the directory containing `PKGBUILD` and run
 
 ```sh
 $ makepkg

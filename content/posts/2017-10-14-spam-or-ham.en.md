@@ -12,7 +12,7 @@ As planned, I am documenting my mail server setups. Setting up the mail server i
 
 ## Setting up the mail server {#setting-up-the-mail-server}
 
-I really don't see how I can write anything better than [this tutorial](http://www.netarky.com/programming/arch_linux/Arch_Linux_mail_server_setup_1.html), so I will just document some of the steps that seemed missing from the tutorial.
+I really don't see how I can write anything better than [this tutorial](http://www.netarky.com/programming/arch%5Flinux/Arch%5FLinux%5Fmail%5Fserver%5Fsetup%5F1.html), so I will just document some of the steps that seemed missing from the tutorial.
 
 
 ### Setting DNS Record {#setting-dns-record}
