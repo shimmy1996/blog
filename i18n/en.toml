@@ -1,6 +1,12 @@
 [posts]
 other = "Posts"
 
+[categories]
+other = "Categories"
+
+[tags]
+other = "Tags"
+
 # Translation for categories
 [geekery]
 other = "Geekery"

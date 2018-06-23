@@ -1,6 +1,12 @@
 [posts]
 other = "归档"
 
+[categories]
+other = "分类"
+
+[tags]
+other = "标签"
+
 # Translation for categories
 [geekery]
 other = "折腾"
