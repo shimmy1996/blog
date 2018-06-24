@@ -6,11 +6,11 @@ slug = "home"
 
 ## Goals for 2018 {#goals-for-2018}
 
--   [ ] Run 1000 miles. (`339/1000`)
--   [ ] Finish a marathon. (`0/1`)
--   [ ] Write at least 20 blog articles. (`4/20`)
--   [ ] Get the first signature for my PGP key. (`0/1`)
--   [ ] Install Gentoo. (`0/1`)
+-   [ ] Run 1000 miles. <code>[339/1000]</code>
+-   [ ] Finish a marathon.
+-   [ ] Write at least 20 blog articles. <code>[4/20]</code>
+-   [ ] Get the first signature for my PGP key.
+-   [ ] Install Gentoo.
 
 
 ## Recent Posts {#recent-posts}
