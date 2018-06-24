@@ -5,6 +5,7 @@ categories = ["site-related"]
 draft = false
 date = 2018-05-21
 slug = "construction-finished"
+latex = true
 +++
 
 历时八个月，我的博客终于到达了我觉得可以摘掉施工警告的程度。不过我并没有删除原先的站点施工计划，只不过把它移到了这篇日志里。

@@ -5,6 +5,7 @@ categories = ["site-related"]
 draft = false
 date = 2018-05-21
 slug = "construction-finished"
+latex = true
 +++
 
 After eight months, my blog have finally reached a place where I feel comfortable taking down the "under heavy construction" notice on my home page. In stead of out right deleting the site road map though, I'm stashing it into a blog post.

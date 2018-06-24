@@ -12,6 +12,9 @@ pygmentsCodefencesGuessSyntax  = false
 pygmentsStyle                  = "emacs"
 pygmentsOptions                = "linenos="
 
+[params]
+soresuLatexOffByDefault = true
+
 [Permalinks]
 posts    = "/posts/:year-:month-:day-:slug/"
 
