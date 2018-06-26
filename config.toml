@@ -17,6 +17,7 @@ smartypants = false
 
 [params]
 soresuLatexOffByDefault = true
+soresuIssoHost = "/isso"
 
 [Permalinks]
 posts    = "/posts/:year-:month-:day-:slug/"
