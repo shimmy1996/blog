@@ -7,6 +7,9 @@ other = "分类"
 [tags]
 other = "标签"
 
+[series]
+other = "系列"
+
 # Translation for categories
 [geekery]
 other = "折腾"
@@ -47,3 +50,19 @@ other = "服务器"
 
 [social-network]
 other = "社交网络"
+
+[font]
+other = "字体"
+
+[typesetting]
+other = "排版"
+
+[emacs]
+other = "Emacs"
+
+[emacs-lisp]
+other = "Emacs Lisp"
+
+# Translation for series
+[fun-with-fonts]
+other = "字体配置"

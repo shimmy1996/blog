@@ -7,6 +7,9 @@ other = "Categories"
 [tags]
 other = "Tags"
 
+[series]
+other = "Series"
+
 # Translation for categories
 [geekery]
 other = "Geekery"
@@ -24,11 +27,20 @@ other = "Arch Linux"
 [design]
 other = "Design"
 
+[emacs-lisp]
+other = "Emacs Lisp"
+
+[emacs]
+other = "Emacs"
+
 [email]
 other = "Email"
 
+[font]
+other = "Font"
+
 [hugo]
-other = "hugo"
+other = "Hugo"
 
 [keyboard]
 other = "Keyboard"
@@ -47,3 +59,10 @@ other = "Server"
 
 [social-network]
 other = "Social Network"
+
+[typesetting]
+other = "Typesetting"
+
+# Translation for series
+[fun-with-fonts]
+other = "Fun With Fonts"

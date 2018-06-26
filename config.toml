@@ -12,6 +12,9 @@ pygmentsCodefencesGuessSyntax  = false
 pygmentsStyle                  = "emacs"
 pygmentsOptions                = "linenos="
 
+[Blackfriday]
+smartypants = false
+
 [params]
 soresuLatexOffByDefault = true
 
@@ -21,6 +24,7 @@ posts    = "/posts/:year-:month-:day-:slug/"
 [Taxonomies]
 category = "categories"
 tag      = "tags"
+serie    = "series"
 
 [Languages]
   [Languages.en]
