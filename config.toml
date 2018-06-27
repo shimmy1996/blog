@@ -14,6 +14,7 @@ pygmentsOptions                = "linenos="
 
 [Blackfriday]
 smartypants = false
+extensions = ["joinLines"]
 
 [params]
 soresuLatexOffByDefault = true
