@@ -17,7 +17,7 @@ I really don't see how I can write anything better than [this tutorial](http://w
 
 ### Setting DNS Record {#setting-dns-record}
 
-Before anything, I needed to setup my DNS record. I created a `CNAME` for my mail server address, and added a `MX` record indicating the mail will be handled by the mail server.
+Before anything, I needed to setup my DNS record. I created an `A` record for my mail server address, and added a `MX` record indicating the mail will be handled by the mail server.
 
 
 ### Creating `Maildir` {#creating-maildir}

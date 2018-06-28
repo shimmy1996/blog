@@ -551,7 +551,7 @@ As planned, I am documenting my mail server setups. Setting up the mail server i
 I really don't see how I can write anything better than [[http://www.netarky.com/programming/arch_linux/Arch_Linux_mail_server_setup_1.html][this tutorial]], so I will just document some of the steps that seemed missing from the tutorial.
 
 ***** Setting DNS Record
-Before anything, I needed to setup my DNS record. I created a =CNAME= for my mail server address, and added a =MX= record indicating the mail will be handled by the mail server.
+Before anything, I needed to setup my DNS record. I created an =A= record for my mail server address, and added a =MX= record indicating the mail will be handled by the mail server.
 
 ***** Creating =Maildir=
 After setting up =postfix= for the first time, I needed to setup the =Maildir= manually and giving it appropriate permissions:
@@ -641,7 +641,7 @@ I tested my server by sending test email to =check-auth@verifier.port25.com= and
 我八成是写不出比 [[http://www.netarky.com/programming/arch_linux/Arch_Linux_mail_server_setup_1.html][这篇教程]] 更好的步骤说明的，所以我就在这里把我额外需要的一些设置记录下来。
 
 ***** 设置 DNS 记录
-在开始搭建邮箱之前，我需要设置 DNS 记录。我为我的邮件服务器地址设置了一条 =CNAME= 记录，并用一条 =MX= 记录来标明所使用的邮件服务器。
+在开始搭建邮箱之前，我需要设置 DNS 记录。我为我的邮件服务器地址设置了一条 =A= 记录，并用一条 =MX= 记录来标明所使用的邮件服务器。
 
 ***** 创建 =Maildir=
 在设置好 =postfix= 之后，我需要手动创建 =Maildir= 文件夹并赋予其合适的权限：
