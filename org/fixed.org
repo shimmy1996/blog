@@ -17,7 +17,7 @@
 *** Goals for 2018
 - [ ] Run 1000 miles. [339/1000]
 - [ ] Finish a marathon.
-- [ ] Write at least 20 blog articles. [4/20]
+- [ ] Write 20 blog posts. [5/20]
 - [ ] Get the first signature for my PGP key.
 - [ ] Install Gentoo.
 
@@ -32,7 +32,7 @@
 *** 2018 年目标
 - [ ] 跑 1000 英里。[339/1000]
 - [ ] 完成一次马拉松。
-- [ ] 写 20 篇以上的日志。[4/20]
+- [ ] 写 20 篇日志。[5/20]
 - [ ] 获得第一个 PGP 密匙签名。
 - [ ] 安装 Gentoo 。
 

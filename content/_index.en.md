@@ -8,7 +8,7 @@ slug = "home"
 
 -   [ ] Run 1000 miles. <code>[339/1000]</code>
 -   [ ] Finish a marathon.
--   [ ] Write at least 20 blog articles. <code>[4/20]</code>
+-   [ ] Write 20 blog posts. <code>[5/20]</code>
 -   [ ] Get the first signature for my PGP key.
 -   [ ] Install Gentoo.
 
