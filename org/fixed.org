@@ -53,11 +53,12 @@
 I frequently show up on social networks as =shimmy1996=.
 
 *** About This Site
-Up and running since July 12th, 2014.
+This is my blog, up and running since July 12th, 2014. No longer a fan of the slow and clunky Wordpress, I migrated to Hugo on September 1st, 2017.
 
-No longer a fan of the slow and clunky Wordpress, I migrated to Hugo on September 1st, 2017.
+All contents of this site are licensed under a [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License]] (CC BY-NC-SA 4.0).
 
-This site is licensed under a [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License]] (CC BY-NC-SA 4.0).
+*** About Trantor Network
+Trantor Network refers to a series of website I host and maintain, including mainly this blog, a [[https://mstdn.shimmy1996.com/][Mastodon instance]], and a [[https://git.shimmy1996.com/][Gitea instance]].
 
 ** zh
 :PROPERTIES:
@@ -66,12 +67,15 @@ This site is licensed under a [[http://creativecommons.org/licenses/by-nc-sa/4.0
 :END:
 
 *** 关于博主
-EE 狗，目前在德州放牛；技术渣， +WP+ Hugo 新手； ACG 相关；喜欢硬件但是没有小钱钱；足迹可能遍布各大社交网站，通常名字为 =shimmy1996= ；求友链 XDD。
+EE 狗，目前在德州放牛；技术渣，+WP+ Hugo新手；ACG相关；喜欢硬件但是没有小钱钱；足迹可能遍布各大社交网站，通常名字为 =shimmy1996= ；求友链XDD。
 
 *** 关于本站
-建于2014年7月12日，用来放各种奇怪的东西。由于受不了笨重的 Wordpress，我在2017年9月1日把博客迁移到了 Hugo 上。
+本站是我的博客，建于2014年7月12日，用来放各种奇怪的东西。由于受不了笨重的Wordpress，我在2017年9月1日把博客迁移到了Hugo上。
 
-本站所有内容使用 [[http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh][Creative Commons 署名-非商业性-相同方式共享4.0国际许可协议]] （CC BY-NC-SA 4.0）。
+本站所有内容使用 [[http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh][Creative Commons署名-非商业性-相同方式共享4.0国际许可协议]]（CC BY-NC-SA 4.0）。
+
+*** 关于川陀网络
+川陀网络指的是一系列我自己架设并维护的网站，主要包括本站，一个[[https://mstdn.shimmy1996.com/][Mastodon实例]]和一个[[https://git.shimmy1996.com/][Gitea实例]]。
 
 * Contact
 :PROPERTIES:
