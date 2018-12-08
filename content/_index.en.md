@@ -6,7 +6,7 @@ slug = "home"
 
 ## Goals for 2018 {#goals-for-2018}
 
--   [ ] Run 1000 miles. <code>[377/1000]</code>
+-   [ ] Run 1000 miles. <code>[395/1000]</code>
 -   [ ] Finish a marathon.
 -   [ ] Write 20 blog posts. <code>[10/20]</code>
 -   [ ] Get the first signature for my PGP key.
