@@ -15,7 +15,7 @@
 :END:
 
 *** Goals for 2018
-- [ ] Run 1000 miles. [402/1000]
+- [ ] Run 1000 miles. [405/1000]
 - [ ] Finish a marathon.
 - [ ] Write 20 blog posts. [10/20]
 - [ ] Get the first signature for my PGP key.
@@ -30,7 +30,7 @@
 :END:
 
 *** 2018 年目标
-- [ ] 跑 1000 英里。[402/1000]
+- [ ] 跑 1000 英里。[405/1000]
 - [ ] 完成一次马拉松。
 - [ ] 写 20 篇日志。[10/20]
 - [ ] 获得第一个 PGP 密匙签名。
