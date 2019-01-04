@@ -2,7 +2,7 @@
 title = "字体配置 Emacs 篇"
 date = 2018-06-24
 slug = "fun-with-fonts-in-emacs"
-tags = ["font", "typesetting", "emacs", "emacs-lisp"]
+tags = ["emacs", "emacs-lisp", "font", "typesetting"]
 categories = ["geekery"]
 draft = false
 series = ["fun-with-fonts"]

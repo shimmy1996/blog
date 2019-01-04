@@ -313,18 +313,14 @@ Planck 是另一块让我下心思设计布局的键盘。 40% 键盘所能塞�
 
 给键盘画像素画其实挺有意思，要想保持精确的比例几乎是不可能的，这就需要在精准和简约之间作微妙的平衡。我有时间时会继续更新这些像素画的。
 
-** TODO Fun With Fonts                                     :font:typesetting:
+** DONE Fun With Fonts In Emacs           :emacs:emacs_lisp:font:typesetting:
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :series '(fun-with-fonts)
-:END:
-
-*** DONE Fun With Fonts In Emacs                           :emacs:emacs_lisp:
-:PROPERTIES:
 :EXPORT_DATE: 2018-06-24
 :EXPORT_HUGO_SLUG: fun-with-fonts-in-emacs
 :END:
 
-**** DONE en
+*** DONE en
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2018-06-24-fun-with-fonts-in-emacs.en.md
 :EXPORT_TITLE: Fun With Fonts in Emacs
@@ -343,7 +339,7 @@ suffer as much from these problems, yet I don't want to give away the nice perks
 like system clipboard access and greater key binding options, so here goes
 nothing.
 
-***** Font Fallback Using Fontsets
+**** Font Fallback Using Fontsets
 Ideally, I want to specify two sets of fonts, a default monospace font and a
 CJK-specific font. Here's how I originally specified the font in Emacs:
 #+BEGIN_SRC emacs-lisp
@@ -378,7 +374,7 @@ a new fontset instead of modifying existing ones.
 I won't bore you with the exact logic just yet, as I also made other changes to
 the fontset.
 
-****** Displaying Emoji
+***** Displaying Emoji
 Solution to emoji display is similar---just specify a fallback font with emoji
 support---or so I thought. I tried to use Noto Color Emoji as my emoji font,
 only to find Emacs does not yet support colored emoji font. Emacs used to
@@ -399,7 +395,7 @@ that provides this functionality. I ultimately decided against it as it does
 slow down Emacs quite noticeably and the colored emoji image library is not as
 comprehensive.
 
-****** Quotation Marks
+***** Quotation Marks
 I've always used full-width directional curly quotation marks ("“”" and
 "‘’") when typing in Chinese, and ASCII style ambidextrous straight quotation
 marks (""" and "'") when typing in English. Little did I know there really is no
@@ -463,7 +459,7 @@ and I'll list them here just for sake of completeness:
   (add-hook 'before-make-frame-hook #'user/set-font)
 #+END_SRC
 
-***** CJK Font Scaling
+**** CJK Font Scaling
 My other gripe is the width of CJK fonts does not always match up with that of
 monospace font. Theoretically, full-width CJK characters should be exactly twice
 of that half-width characters, but this is not the case, at least not in all
@@ -520,7 +516,7 @@ least Emacs did offer the appropriate tools. By the way, I certainly wish I had
 found [[https://www.emacswiki.org/emacs/FontSets][this article]] on Emacs Wiki sooner, as it also provides a neat write up of
 similar workarounds.
 
-**** DONE zh
+*** DONE zh
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2018-06-24-fun-with-fonts-in-emacs.zh.md
 :EXPORT_TITLE: 字体配置 Emacs 篇
@@ -535,7 +531,7 @@ emoji 时常显示为豆腐块。虽然终端 Emacs 不大受这些问题的影�
 Emacs 的其他好处，例如系统剪贴板和更加丰富的键位选择，所以我只好迎难而上着手解决
 这些问题。
 
-***** 使用字体集（ Fontset ）设置后备字体
+**** 使用字体集（ Fontset ）设置后备字体
 在最理想的状况下，我想指定两套字体，一套默认的等宽字体和一套专门显示中日韩字符的字
 体。我原来是这么设定 Emacs 字体的：
 #+BEGIN_SRC emacs-lisp
@@ -565,7 +561,7 @@ Emacs 的其他好处，例如系统剪贴板和更加丰富的键位选择，�
 由于我除了指定中日韩字体外还对字体集做了其他更改，我会在阐明所有改变后再贴出全部
 设定。
 
-****** 显示 Emoji
+***** 显示 Emoji
 解决 emoji 显示的方法与中日韩文字类似——找到一款支持 emoji 的字体不就好了吗——至少
 我是这么想的。我一开始试图使用 Noto Color Emoji 作为 emoji 用后备字体，但发现
 Emacs 目前并不支持彩色 emoji 字体。 Emacs 曾经在 macOS 上支持彩色 emoji字体，但
@@ -584,7 +580,7 @@ Unicode 字符替换为图片。[[https://github.com/iqbalansari/emacs-emojify][
 个包会给 Emacs 带来一定的延迟，而且大部分彩色 emoji 图片库并不完整，我最终决定不
 予采用。
 
-****** 引号风波
+***** 引号风波
 我一直习惯在书写中文时使用成对的全角弯引号（““””和“‘’”）以及在书写英文时
 使用 ASCII 里的对称直引号（“"”和“'”）。然而我并不知道“全角弯引号”其实根本
 不存在： Unicode 中只存在一组弯引号编码（ U+2018 、 U+2019 、 U+201C 、U+201D ），
@@ -643,7 +639,7 @@ Unicode 字符替换为图片。[[https://github.com/iqbalansari/emacs-emojify][
   (add-hook 'before-make-frame-hook #'user/set-font)
 #+END_SRC
 
-***** 中日韩字体大小比例
+**** 中日韩字体大小比例
 最后需要解决的问题就是中日韩字体字宽和等宽字体比例不一致的问题了。理论上全角的中
 日韩字符应该是半角字符宽度的两倍，但这并不在所有字号下成立。看起来原因是中日韩字
 体在字号上其实偷懒了：在使用 Noto Sans CJK SC 时， 16px 和 17px 大小的中日韩字符
