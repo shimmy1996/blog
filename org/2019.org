@@ -1,0 +1,118 @@
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: ./posts
+#+OPTIONS: author:nil
+
+* My Life                                                          :@my_life:
+** TODO 2018 in Review                                                :plans:
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2019-01-03 :slug 2018-in-review
+:END:
+
+*** DONE en
+:PROPERTIES:
+:EXPORT_TITLE: 2018 in Review
+:EXPORT_FILE_NAME: 2019-01-03-2018-in-review.en.md
+:END:
+
+Before anything, happy New Year!
+
+It's an interesting feeling when the time span of one year gradually becomes
+shorter relative to the time that has already passed in one's life. If only the
+actual length of one year also scales with one's age, perhaps we would feel more
+of the excitement instead of anxiety during the New Year count down. That being
+said, 2018 was a lot of fun for me, even without ray-tracing graphic cards.
+
+**** The Amazing 2018
+To quote my 2017 self:
+
+#+BEGIN_QUOTE
+If I've learned anything from my past failed plans, it would be to always
+underestimate my own capabilities when planning...
+#+END_QUOTE
+
+Yeah, it's totally just that my estimates about the amount of free time I would
+have was off, as can be seen from the status of my 2018 goals.
+
+- [ ] Run 1000 miles. [405/1000]
+- [ ] Finish a marathon.
+- [ ] Write 20 blog posts. [10/20]
+- [ ] Get the first signature for my PGP key.
+- [ ] Install Gentoo.
+
+Knowing that I can always change the 'publish date' of blog entries (thanks to
+=hugo=), I grew into the bad habit of starting an article and just then shelving
+it for months to come. When I finally remember that one unfinished article, I
+frequently dismiss the idea as not really worth elaborating. Now that I think
+about it, maybe this is exactly what blogs are for, providing a snapshot of
+myself that I can look back later, whether my future self find it silly or 'not
+really worth elaborating'.
+
+The number of movie theater visits I had in 2018 probably accounts for 50% of my
+lifetime total, and with double doses of disappointment from /Star Wars: The
+Last Jedi/ and /Incredibles 2/. By the way, 2018 also saw 90% of my lifetime
+popcorn consumption. I've never realized those can be such addicting.
+
+Although not a marathon, I did ran my first trail half marathon in May. It was
+the first time I've ever hit the wall while running, due to bad pacing and
+unpreparedness for the weather. The race started mid afternoon on a scorchingly
+hot day. After witnessing quite a few people stopped to walk in the first 2
+miles, I started off quite a bit faster than my intended pace fueled by a stupid
+sense of superiority, and hit the wall right at the mark of 4 miles. Fortunately
+the feeling faded away as I walked the next half of the race, gulping ice-cold
+Gatorade at every hydration point. However, the ice-cold Gatorade was another
+trap -- temperature dropped rapidly as sun started to set and my stomach started
+to complain about all the chilly liquid. As the finish line appeared within 400
+meters of my sight, my legs were hit by the strongest cramps I've ever
+had. After barely making it through while being surpassed by 3 people right
+before finish line, I could only be happy to learn that I was still not the last
+one: actually, I'm even the first one in my age group (+whose size is one+). The
+somewhat illegitimate feeling of compliment, mixed with a bit of salt and guilt
+made the race a wondrous experience.
+
+**** The Spectacular 2019
+Since Google is deprecating Inbox in the coming March, I've lost my last excuse
+for clinging to Gmail. I'll try to gradually fade out my Gmail usage for my own
+email server.
+
+On the front of searching for best solution for blog comments, quite a few
+bloggers I follow have started embracing the [[https://indieweb.org/][IndieWeb]] and [[https://webmention.net/][Webmention]]
+standards. In a lot of ways, Webmention was the exact thing I wanted: federated
+blog comments, posts, and more. Yet I'm reluctant to move further away from a
+static site, not to mentioning most easy-to-follow Webmention solutions I have
+found relies heavily on third-party services. The IndieWeb standard though is
+fairly intriguing. I've never had much use for [[https://keybase.io/][Keybase]] aside from it being a hub
+linking most of my online presences (decryption and encryption does not work
+without uploading PGP private keys, and I have no one to securely chat with),
+perhaps I should just replace it with =rel=me= links.
+
+Diving into C++17 was fairly enjoyable during the past year, so I'm looking into
+learning other new programming languages. [[https://www.rust-lang.org/][Rust]] and [[https://julialang.org/][Julia]] have been on my radar
+for a while, especially Rust. Having a full suite of officially supported tools
+makes writing Rust a smooth and deeply satisfying experience. I'll try to dive
+deeper into both languages and hopefully put them into some uses.
+
+As for running and blog posts, I'll try to match 2018's numbers. On top of
+those, I'm thinking about keeping a record of the books, music, and shows I've
+read/listened/watched on this blog, along with my thoughts. I actually attempted
+something similar during this blog's Wordpress days: I once setup a MediaWiki
+instance for similar purposes, but lacked the motivation to continue maintaining
+the entries. I'll keep it simple this time, and I should come up with a set of
+rating system.
+
+What should I do with the remaining 2018 goals? A separate wishlist is a pretty
+good idea -- let's go with that. As a stretch goal, I should probably clean my
+desktop computer, which is stuffed with four-year-old dirt, cat hair, and dead
+skin cells.
+
+Here's to another spectacular 2.9e+17 radiation periods of Caesium-133!
+
+*** TODO zh
+:PROPERTIES:
+:EXPORT_TITLE: 回顾 2018
+:EXPORT_FILE_NAME: 2019-01-03-2018-in-review.zh.md
+:END:
+
+* COMMENT Local Variables                                           :ARCHIVE:
+# Local Variables: fill-column: 80 eval: (auto-fill-mode nil) eval: (add-hook
+# 'after-save-hook #'org-hugo-export-subtree-to-md-after-save :append :local)
+# End:
