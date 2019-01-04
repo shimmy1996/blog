@@ -76,3 +76,4 @@ serie    = "series"
 
     [Languages.zh.Blackfriday]
     extensions = ["joinLines"]
+    smartypants = false
