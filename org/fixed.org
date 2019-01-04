@@ -14,10 +14,17 @@
 :EXPORT_FILE_NAME: _index.en.md
 :END:
 
-*** Goals for 2018
-- [ ] Run 1000 miles. [405/1000]
+*** Goals for 2019
+- [ ] Run 400 miles. [3/400]
+- [ ] Write 10 blog posts. [1/10]
+- [ ] Get rid of Gmail dependence.
+- [ ] Add =rel=me= links to blog.
+- [ ] Dive into Rust and Julia. [0/2]
+- [ ] Record books, music, and shows I enjoyed.
+- [ ] Desktop computer clean up.
+
+*** Wishlist
 - [ ] Finish a marathon.
-- [ ] Write 20 blog posts. [10/20]
 - [ ] Get the first signature for my PGP key.
 - [ ] Install Gentoo.
 
@@ -29,10 +36,17 @@
 :EXPORT_FILE_NAME: _index.zh.md
 :END:
 
-*** 2018 年目标
-- [ ] 跑 1000 英里。[405/1000]
+*** 2019 年目标
+- [ ] 跑 400 英里。[3/400]
+- [ ] 写 10 篇日志。[1/10]
+- [ ] 摆脱 Gmail 。
+- [ ] 给博客加上 =rel=me= 链接。
+- [ ] 进一步了解 Rust 和 Julia 。 [0/2]
+- [ ] 记录我中意的书籍，音乐，和影视作品。
+- [ ] 清理台式电脑。
+
+*** 愿望清单
 - [ ] 完成一次马拉松。
-- [ ] 写 20 篇日志。[10/20]
 - [ ] 获得第一个 PGP 密匙签名。
 - [ ] 安装 Gentoo 。
 
