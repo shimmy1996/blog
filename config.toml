@@ -30,7 +30,7 @@ serie    = "series"
 [Languages]
   [Languages.en]
   languageName = "EN"
-  copyright    = "&copy; 2014-2019 [Shimmy Xu](/en/contact/) | [GitHub](https://github.com/shimmy1996) | [Keybase](https://keybase.io/shimmy1996) | [Mastodon](https://mstdn.shimmy1996.com/@shimmy1996) | [Subscribe](/en/index.xml)"
+  copyright    = "&copy; 2014-2019 [Shimmy Xu](/en/contact/) | <a rel=\"me\" href=\"https://github.com/shimmy1996\">GitHub</a> | <a rel=\"me\" href=\"https://mstdn.shimmy1996.com/@shimmy1996\">Mastodon</a> | [Subscribe](/en/index.xml)"
   subtitle     = "The Plan needs to go on."
   title        = "Library of Trantor"
 
