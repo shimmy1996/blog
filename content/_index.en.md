@@ -6,7 +6,7 @@ slug = "home"
 
 ## Goals for 2019 {#goals-for-2019}
 
--   [ ] Run 400 miles. <code>[3/400]</code>
+-   [ ] Run 400 miles. <code>[18/400]</code>
 -   [ ] Write 10 blog posts. <code>[1/10]</code>
 -   [ ] Get rid of Gmail dependence.
 -   [X] Add `rel=me` links to blog.
@@ -19,7 +19,7 @@ slug = "home"
 
 -   [ ] Finish a marathon.
 -   [ ] Get the first signature for my PGP key.
--   [ ] Install Gentoo.
+-   [X] Install Gentoo.
 
 
 ## Recent Posts {#recent-posts}
