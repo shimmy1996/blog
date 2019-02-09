@@ -103,7 +103,7 @@ EE 狗，目前在德州放牛；技术渣，+WP+ Hugo新手；ACG相关；喜�
 :END:
 
 Feel free to shoot me an email.
-If you feel like it, encrypt your message with my PGP Key:
+If you feel like it, encrypt your message with my [[https://www.shimmy1996.com/gpg.txt][GPG key]]:
 #+BEGIN_SRC
 5672 AC27 2669 A07A BD28  0896 ACC6 C791 312C F84D
 #+END_SRC
@@ -115,7 +115,7 @@ If you feel like it, encrypt your message with my PGP Key:
 :END:
 
 联系我的最佳方式是电子邮件。
-你可以使用我的PGP密匙来对邮件进行加密：
+你可以使用我的[[https://www.shimmy1996.com/gpg.txt][ PGP 密匙]]来对邮件进行加密：
 #+BEGIN_SRC
 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 #+END_SRC
