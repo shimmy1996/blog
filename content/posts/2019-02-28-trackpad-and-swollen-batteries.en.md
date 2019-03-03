@@ -26,4 +26,4 @@ Hunting for second-handed machines is also an option, but it defeats the purpose
 -   Not-too-radical port selections, not until all mouses and flash drives default to USB Type-C at least.
 -   Standard components and easy to upgrade, i.e. SODIMM slot for memory, PCIe for WLAN card/SSD.
 -   A nice trackpad. I'm rather insensitive to quality of laptop keyboards so anything marginally descent would do. It would be really cool to have an ErgoDox laptop though.
--   Not super high resolution display. I'm not too picky about screens either, but 4K feels like an utter overkill for laptops this size that provides marginal improvements while draining more power. I've always used 16-by-9 displays, but I'm open to trying out different ones.
+-   Not-super-high-resolution display. I'm not too picky about screens either, but 4K feels like an utter overkill for laptops this size that provides marginal improvements while draining more power. I've always used 16:9 displays, but I'm open to trying out different ones.
