@@ -15,11 +15,11 @@
 :END:
 
 *** Goals for 2019
-- [ ] Run 400 miles. [18/400]
-- [ ] Write 10 blog posts. [1/10]
-- [ ] Get rid of Gmail dependence.
+- [ ] Run 400 miles. [26/400]
+- [ ] Write 10 blog posts. [3/10]
+- [ ] Get rid of Gmail.
 - [X] Add =rel=me= links to blog.
-- [ ] Dive into Rust and Julia. [0/2]
+- [ ] Dive into Rust and Julia. [1/2]
 - [ ] Record books, music, and shows I enjoyed.
 - [ ] Desktop computer clean up.
 
@@ -37,11 +37,11 @@
 :END:
 
 *** 2019 年目标
-- [ ] 跑 400 英里。[18/400]
-- [ ] 写 10 篇日志。[1/10]
+- [ ] 跑 400 英里。[26/400]
+- [ ] 写 10 篇日志。[3/10]
 - [ ] 摆脱 Gmail 。
 - [X] 给博客加上 =rel=me= 链接。
-- [ ] 进一步了解 Rust 和 Julia 。 [0/2]
+- [ ] 进一步了解 Rust 和 Julia 。 [1/2]
 - [ ] 记录我中意的书籍，音乐，和影视作品。
 - [ ] 清理台式电脑。
 
