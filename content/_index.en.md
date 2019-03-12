@@ -6,9 +6,9 @@ slug = "home"
 
 ## Goals for 2019 {#goals-for-2019}
 
--   [ ] Run 400 miles. <code>[26/400]</code>
+-   [ ] Run 400 miles. <code>[41/400]</code>
 -   [ ] Write 10 blog posts. <code>[3/10]</code>
--   [ ] Get rid of Gmail.
+-   [X] Stop using Gmail/Inbox app.
 -   [X] Add `rel=me` links to blog.
 -   [ ] Dive into Rust and Julia. <code>[1/2]</code>
 -   [ ] Record books, music, and shows I enjoyed.
