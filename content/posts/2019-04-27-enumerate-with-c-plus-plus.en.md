@@ -7,14 +7,14 @@ date = 2019-04-27
 slug = "enumerate-with-c-plus-plus"
 +++
 
-Quite a few programming languages provide ways to iterating through a container while keeping count of the number of steps taken, such as `enumerate` in Python:
+Quite a few programming languages provide ways to iterate through a container while keeping count of the number of steps taken, such as `enumerate()` in Python:
 
 ```python
 for i, elem in enumerate(v):
     print(i, elem)
 ```
 
-and `enumerate` under `std::iter::Iterator` trait in Rust:
+and `enumerate()` under `std::iter::Iterator` trait in Rust:
 
 ```rust
 for (i, elem) in v.iter().enumerate() {
