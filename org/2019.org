@@ -112,6 +112,76 @@ Here's to another spectacular 2.9e+17 radiation periods of Caesium-133!
 :EXPORT_FILE_NAME: 2019-01-03-2018-in-review.zh.md
 :END:
 
+* Programming                                                  :@programming:
+** TODO enumerate() with C++                                    :c_plus_plus:
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2019-04-27 :slug enumerate-with-c-plus-plus
+:END:
+
+*** DONE en
+:PROPERTIES:
+:EXPORT_TITLE: enumerate() with C++
+:EXPORT_FILE_NAME: 2019-04-27-enumerate-with-c-plus-plus.en.md
+:END:
+
+Quite a few programming languages provide ways to iterating through a container while keeping count of the number of steps taken, such as =enumerate= in Python:
+#+BEGIN_SRC python
+  for i, elem in enumerate(v):
+      print(i, elem)
+#+END_SRC
+and =enumerate= under =std::iter::Iterator= trait in Rust:
+#+BEGIN_SRC rust
+  for (i, elem) in v.iter().enumerate() {
+      println!("{}, {}", i, elem);
+  }
+#+END_SRC
+This is just a quick note about how to do similar things in C++17 and later without declaring extra variables out of the for loop's scope.
+
+The first way is to use a mutable lambda:
+#+BEGIN_SRC c++
+  std::for_each(v.begin(), v.end(),
+                [i = 0](auto elem) mutable {
+                    std::cout << i << ", " << elem << std::endl;
+                    ++i;
+                });
+#+END_SRC
+This could be used with all the algorithms that guarantees in-order application of the lambda, but I don't like the dangling =i++= that could get mixed up with other logic.
+
+The second way utilizes structured binding in for loops:
+#+BEGIN_SRC c++
+  for (auto [i, elem_it] = std::tuple{0, v.begin()}; elem_it != v.end();
+       ++i, ++elem_it) {
+      std::cout << i << ", " << *elem_it << std::endl;
+  }
+#+END_SRC
+We have to throw in =std::tuple= as otherwise compiler would try to create a =std::initializer_list=, which does not allow heterogeneous contents.
+
+The third least fancy method is to just calculate the distance every time:
+#+BEGIN_SRC c++
+  for (auto elem_it = v.begin(); elem_it != v.end(); ++elem_it) {
+      auto i = std::distance(v.begin(), elem_it);
+      std::cout << i << ", " << *elem_it << std::endl;
+  }
+#+END_SRC
+Since we have to copy paste the starting point twice, I like other counter based approaches better.
+
+In C++20, we have the ability to add an init-statement in ranged-based for loops, so we can write something like
+#+BEGIN_SRC c++
+  for (auto i = 0; auto elem : v) {
+      std::cout << i << ", " << elem << std::endl;
+      i++;
+  }
+#+END_SRC
+Meh, not that impressive. The new =<ranges>= library provides a more appealing way to achieve this:
+#+BEGIN_SRC c++
+  for (auto [i, elem] : v | std::view::transform(
+           [i = 0](auto elem) mutable { return std::tuple{i++, elem}; })) {
+      std::cout << i << ", " << elem << std::endl;
+  }
+#+END_SRC
+
+I like the structured binding method and the =<ranges>= based method the most. It would be even better though if we can get a =std::view::enumerate= to solve this problem once and for all.
+
 * Geekery                                                          :@geekery:
 ** TODO Installing Gentoo                                             :linux:
 :PROPERTIES:

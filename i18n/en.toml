@@ -17,12 +17,18 @@ other = "Geekery"
 [my-life]
 other = "My Life"
 
+[programming]
+other = "Programming"
+
 [site-related]
 other = "Site Related"
 
 # Translation for tags
 [arch-linux]
 other = "Arch Linux"
+
+[c-plus-plus]
+other = "C++"
 
 [design]
 other = "Design"

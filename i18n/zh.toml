@@ -17,12 +17,18 @@ other = "折腾"
 [my-life]
 other = "日常"
 
+[programming]
+other = "编程"
+
 [site-related]
 other = "站点相关"
 
 # Translation for tags
 [arch-linux]
 other = "Arch Linux"
+
+[c-plus-plus]
+other = "C++"
 
 [design]
 other = "设计"
