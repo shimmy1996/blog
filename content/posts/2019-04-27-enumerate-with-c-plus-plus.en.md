@@ -34,7 +34,7 @@ std::for_each(v.begin(), v.end(),
               });
 ```
 
-This could be used with all the algorithms that guarantees in-order application of the lambda, but I don't like the dangling `i++` that could get mixed up with other logic.
+This could be used with all the algorithms that guarantees in-order application of the lambda, but I don't like the dangling `++i` that could get mixed up with other logic.
 
 The second way utilizes structured binding in for loops:
 
