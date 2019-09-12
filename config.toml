@@ -9,7 +9,7 @@ preserveTaxonomyNames          = true
 # Pygments Settings
 pygmentsCodefences             = true
 pygmentsCodefencesGuessSyntax  = false
-pygmentsStyle                  = "emacs"
+pygmentsStyle                  = "solarized-light"
 pygmentsOptions                = "linenos="
 
 [Blackfriday]
