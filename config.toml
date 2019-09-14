@@ -9,8 +9,8 @@ preserveTaxonomyNames          = true
 # Pygments Settings
 pygmentsCodefences             = true
 pygmentsCodefencesGuessSyntax  = false
-pygmentsStyle                  = "solarized-light"
 pygmentsOptions                = "linenos="
+pygmentsUseClasses             = true
 
 [Blackfriday]
 smartypants = false
