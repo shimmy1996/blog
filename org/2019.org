@@ -298,6 +298,52 @@ Hunting for second-handed machines is also an option, but it defeats the purpose
 - A nice trackpad. I'm rather insensitive to quality of laptop keyboards so anything marginally descent would do. It would be really cool to have an ErgoDox laptop though.
 - Not-super-high-resolution display. I'm not too picky about screens either, but 4K feels like an utter overkill for laptops this size that provides marginal improvements while draining more power. I've always used 16:9 displays, but I'm open to trying out different ones.
 
+* Site Related                                                :@site_related:
+** DONE Hello Darkness, My Old Friend                                :design:
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2019-09-15 :slug hello-darkness-my-old-friend
+:END:
+
+*** DONE en
+:PROPERTIES:
+:EXPORT_TITLE: Hello Darkness, My Old Friend
+:EXPORT_FILE_NAME: 2019-09-15-hello-darkness-my-old-friend.en.md
+:END:
+
+With system wide dark modes becoming commonplace, I took the effort to tweak the color scheme of my blog and added a dark mode specific one using =prefers-color-scheme= in CSS. I also toyed around the idea of adding a user toggle using JavaScript per instructions [[https://flaviocopes.com/dark-mode/][here]], but ultimately decided against it because of my (totally unjustified and groundless) distaste towards the language.
+
+| Color Usage     | Light Theme | Dark Theme |
+| Accent          | =#700000=   | =#8fffff=  |
+| Background      | =#f7f3e3=   | =#080c1c=  |
+| Text            | =#2e2d2b=   | =#d1d2d4=  |
+| Code Background | =#e3dacb=   | =#1c2534=  |
+| Border 1        | =#e7e3d3=   | =#181c2c=  |
+| Border 2        | =#d7d3c3=   | =#282c3c=  |
+
+Writing CSS is a such tiring endeavor, but on the bright side, picking colors is a surprisingly relaxing activity. The light mode color scheme now has reduced contrast, and I updated the isso style sheets with matching colors. Yes, I only inverted the colors in dark mode and did not reduce the font weights because of the peculiar way in which human vision work. Part of me already screams heresy when I look at the color codes formed by three numbers that seem to have no connection whatsoever—they are like dissonant chords that cause itches in brain—so I *need* them to at least sum up to a nice number.
+
+Wissen ist Nacht!
+
+*** DONE zh
+:PROPERTIES:
+:EXPORT_TITLE: 你好黑暗，我的老朋友
+:EXPORT_FILE_NAME: 2019-09-15-hello-darkness-my-old-friend.zh.md
+:END:
+
+由于越来越多的设备和软件都开始支持暗色模式，我调整了博客的配色并加入了用 CSS 的 =prefers-color-scheme= 实现的暗色主题。我也考虑了加入用户切换的功能（参考 [[https://flaviocopes.com/dark-mode/][这里]] 的教程），但是出于我对 JavaScript （毫无来由）的反感，我最后否定了这个主意。
+
+| 颜色用途 | 亮色主题  | 暗色主题  |
+| 强调     | =#700000= | =#8fffff= |
+| 背景     | =#f7f3e3= | =#080c1c= |
+| 文字     | =#2e2d2b= | =#d1d2d4= |
+| 代码背景 | =#e3dacb= | =#1c2534= |
+| 边框1    | =#e7e3d3= | =#181c2c= |
+| 边框2    | =#d7d3c3= | =#282c3c= |
+
+写 CSS 真是累人，不过好在挑选配色是一件挺让人放松的事。新的亮色主题有更低的对比度，我也更新了 isso 的样式表。是的，我的暗色主题只不过是亮色主题的反色版本，并没有降低文字粗细程度以照顾人类视力的某种古怪特性和其他细微的颜色调整。当我看到由三个似乎没有任何联系的数字形成的颜色代码时，我潜意识已经在大呼异端—它们就像不和谐音一样让人头皮发麻—所以我 *需要* 它们至少加起来是一个不那么差劲的数。
+
+知识就是黑夜！
+
 * COMMENT Local Variables                                           :ARCHIVE:
 # Local Variables: fill-column: 80 eval: (auto-fill-mode nil) eval: (add-hook
 # 'after-save-hook #'org-hugo-export-subtree-to-md-after-save :append :local)
