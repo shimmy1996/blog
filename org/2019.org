@@ -113,7 +113,7 @@ Here's to another spectacular 2.9e+17 radiation periods of Caesium-133!
 :END:
 
 * Programming                                                  :@programming:
-** TODO enumerate() with C++                                    :c_plus_plus:
+** DONE enumerate() with C++                                    :c_plus_plus:
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2019-04-27 :slug enumerate-with-c-plus-plus
 :END:
