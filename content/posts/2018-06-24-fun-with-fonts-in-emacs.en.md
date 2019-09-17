@@ -63,8 +63,8 @@ the fontset.
 
 ### Displaying Emoji {#displaying-emoji}
 
-Solution to emoji display is similar---just specify a fallback font with emoji
-support---or so I thought. I tried to use Noto Color Emoji as my emoji font,
+Solution to emoji display is similar—just specify a fallback font with emoji
+support—or so I thought. I tried to use Noto Color Emoji as my emoji font,
 only to find Emacs does not yet support colored emoji font. Emacs used to
 support colored emoji on macOS, but this functionality was later [removed](https://github.com/emacs-mirror/emacs/blob/emacs-25.1/etc/NEWS#L1723).
 
@@ -99,11 +99,11 @@ distinct representations, but for now I'm stuck with this ambiguous mess.
 It came as no surprise that these curly quotation marks are listed under
 `symbols` charset, instead of a CJK one, thus using normal monospace font
 despite the fact that I want them to show up as full-width characters. I don't
-have a true solution for this---being consistent is the only thing I can do, so
+have a true solution for this—being consistent is the only thing I can do, so
 I forced curly quotation marks to display as full width characters by overriding
 these exact Unicode codepoints in my fontset. I'm not really sure how I feel
 when I then realized ASCII style quotation marks also suffered from
-[confusion](https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html)---maybe we are just really bad at this.
+[confusion](https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html)—maybe we are just really bad at this.
 
 My fallback font configurations can be found on both [GitHub](https://github.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback) and [Trantor Network](https://git.shimmy1996.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback)
 and I'll list them here just for sake of completeness:
@@ -204,8 +204,8 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ```
 
 Unfortunately, the CJK font I used has narrower Hangul than other full-width CJK
-characters, so this is still not perfect---the solution would be to specify a
-Hangul specific font and scaling factor---but good enough for me.
+characters, so this is still not perfect—the solution would be to specify a
+Hangul specific font and scaling factor—but good enough for me.
 
 It took me quite some effort to fix what may seem like a minor annoyance, but at
 least Emacs did offer the appropriate tools. By the way, I certainly wish I had

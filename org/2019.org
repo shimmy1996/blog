@@ -60,7 +60,7 @@ miles, I started off quite a bit faster than my intended pace fueled by a stupid
 sense of superiority, and hit the wall right at the mark of 4 miles. Fortunately
 the feeling faded away as I walked the next half of the race, gulping ice-cold
 Gatorade at every hydration point. However, the ice-cold Gatorade was another
-trap -- temperature dropped rapidly as sun started to set and my stomach started
+trap—temperature dropped rapidly as sun started to set and my stomach started
 to complain about all the chilly liquid. As the finish line appeared within 400
 meters of my sight, my legs were hit by the strongest cramps I've ever
 had. After barely making it through while being surpassed by 3 people right
@@ -100,7 +100,7 @@ the entries. I'll keep it simple this time, and I should come up with a set of
 rating system.
 
 What should I do with the remaining 2018 goals? A separate wishlist is a pretty
-good idea -- let's go with that. As a stretch goal, I should probably clean my
+good idea—let's go with that. As a stretch goal, I should probably clean my
 desktop computer, which is stuffed with four-year-old dirt, cat hair, and dead
 skin cells.
 
@@ -340,7 +340,7 @@ Wissen ist Nacht!
 | 边框1    | =#e7e3d3= | =#181c2c= |
 | 边框2    | =#d7d3c3= | =#282c3c= |
 
-写 CSS 真是累人，不过好在挑选配色是一件挺让人放松的事。新的亮色主题有更低的对比度，我也更新了 isso 的样式表。是的，我的暗色主题只不过是亮色主题的反色版本，并没有降低文字粗细程度以照顾人类视力的某种古怪特性和其他细微的颜色调整。当我看到由三个似乎没有任何联系的数字形成的颜色代码时，我潜意识已经在大呼异端—它们就像不协和和弦一样让人头皮发麻—所以我 *需要* 它们至少加起来是一个不那么差劲的数。
+写 CSS 真是累人，不过好在挑选配色是一件挺让人放松的事。新的亮色主题有更低的对比度，我也更新了 isso 的样式表。是的，我的暗色主题只不过是亮色主题的反色版本，并没有降低文字粗细程度以照顾人类视力的某种古怪特性和其他细微的颜色调整。当我看到由三个似乎没有任何联系的数字形成的颜色代码时，我潜意识已经在大呼异端——它们就像不协和和弦一样让人头皮发麻——所以我 *需要* 它们至少加起来是一个不那么差劲的数。
 
 知识就是黑夜！
 
