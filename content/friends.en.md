@@ -12,6 +12,6 @@ Welcome to the friendly neighborhood of Library of Trantor!
 
 [Uucky](http://uucky.me)
 
-[比尔盖子/Tom Li](https://tomli.blog)
+[Biergaizi/Tom Li](https://tomli.blog)
 
-[Vacuuny/A2Clef](http://a2clef.com)
+[Vacuuny/A2Clef](http://a2clef.com) as [himself](http://blog.a2clef.com)

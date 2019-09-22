@@ -139,9 +139,9 @@ Welcome to the friendly neighborhood of Library of Trantor!
 
 [[http://uucky.me][Uucky]]
 
-[[https://tomli.blog][比尔盖子/Tom Li]]
+[[https://tomli.blog][Biergaizi/Tom Li]]
 
-[[http://a2clef.com][Vacuuny/A2Clef]]
+[[http://a2clef.com][Vacuuny/A2Clef]] as [[http://blog.a2clef.com][himself]]
 
 ** zh
 :PROPERTIES:
@@ -159,7 +159,7 @@ Welcome to the friendly neighborhood of Library of Trantor!
 
 [[https://tomli.blog][比尔盖子/Tom Li]]
 
-[[http://a2clef.com][Vacuuny/A2Clef]]
+[[http://a2clef.com][Vacuuny/A2Clef]] 的 [[http://blog.a2clef.com][里站]]
 
 * Posts
 :PROPERTIES:
