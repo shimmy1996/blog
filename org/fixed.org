@@ -15,7 +15,7 @@
 :END:
 
 *** Goals for 2019
-- [ ] Run 400 miles. [343/400]
+- [ ] Run 400 miles. [364/400]
 - [ ] Write 10 blog posts. [7/10]
 - [X] Stop using Gmail/Inbox app.
 - [X] Add =rel=me= links to blog.
@@ -37,7 +37,7 @@
 :END:
 
 *** 2019 年目标
-- [ ] 跑 400 英里。[343/400]
+- [ ] 跑 400 英里。[364/400]
 - [ ] 写 10 篇日志。[7/10]
 - [X] 停止使用 Gmail 、 Inbox 应用程序 。
 - [X] 给博客加上 =rel=me= 链接。
@@ -64,6 +64,7 @@
 :END:
 
 *** About Me
+The fear of death drives me to pursue world domination as my side hobby. I like running.
 I frequently show up on social networks as =shimmy1996=.
 
 *** About This Site
@@ -81,7 +82,8 @@ Trantor Network refers to a series of website I host and maintain, including mai
 :END:
 
 *** 关于博主
-EE 狗，目前在德州放牛；技术渣，+WP+ Hugo新手；ACG相关；喜欢硬件但是没有小钱钱；足迹可能遍布各大社交网站，通常名字为 =shimmy1996= ；求友链XDD。
+EE 狗，目前在德州放牛；技术渣，+WP+ Hugo新手；ACG相关；喜欢硬件但是没有小钱钱；
+足迹可能遍布各大社交网站，通常名字为 =shimmy1996= 。
 
 *** 关于本站
 本站是我的博客，建于2014年7月12日，用来放各种奇怪的东西。由于受不了笨重的Wordpress，我在2017年9月1日把博客迁移到了Hugo上。
