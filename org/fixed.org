@@ -15,7 +15,7 @@
 :END:
 
 *** Goals for 2019
-- [ ] Run 400 miles. [364/400]
+- [X] Run 400 miles. [400/400]
 - [ ] Write 10 blog posts. [7/10]
 - [X] Stop using Gmail/Inbox app.
 - [X] Add =rel=me= links to blog.
@@ -37,7 +37,7 @@
 :END:
 
 *** 2019 年目标
-- [ ] 跑 400 英里。[364/400]
+- [X] 跑 400 英里。[400/400]
 - [ ] 写 10 篇日志。[7/10]
 - [X] 停止使用 Gmail 、 Inbox 应用程序 。
 - [X] 给博客加上 =rel=me= 链接。
