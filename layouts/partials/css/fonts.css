@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Noto Sans SC Override";
+    font-weight: 400;
+    font-display: swap;
+    src: local("Noto Sans CJK SC"),
+         url("/fonts/NotoSansSC-Regular.woff2") format("woff2");
+    unicode-range: U+2018-2019, U+201C-201D;
+}
+
+@font-face {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-display: swap;
+    src: local("Oxygen Sans Book"),
+         url("/fonts/Oxygen-Sans.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Noto Sans SC";
+    font-weight: 400;
+    font-display: swap;
+    src: local("Noto Sans CJK SC Regular"),
+         url("/fonts/NotoSansSC-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Iosevka Term";
+    font-weight: 400;
+    font-display: swap;
+    src: local("Iosevka Term"),
+         url("/fonts/iosevka-term-ss09-regular.eascii.woff2") format("woff2");
+}
+
+body:lang(en) {
+    font-family: "Oxygen", "Noto Sans SC", Candara, Calibri, Arial, sans-serif;
+}
+
+body:lang(zh) {
+    font-family: "Noto Sans SC Override", "Oxygen", "Noto Sans SC", Candara, Calibri, Arial, sans-serif;
+}
+
+code {
+    font-family: "Iosevka Term", monospace;
+    font-size: 90%;
+}
+
+kbd {
+    font-family: "Iosevka Term", monospace;
+    font-size: 80%;
+}
