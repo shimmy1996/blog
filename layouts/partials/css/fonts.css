@@ -2,7 +2,7 @@
     font-family: "Noto Sans SC Override";
     font-weight: normal;
     font-display: swap;
-    src: local("Noto Sans CJK SC"),
+    src: local("NotoSansCJKsc-Regular"),
          url("/fonts/NotoSansSC-Regular.woff2") format("woff2");
     unicode-range: U+2018-2019, U+201C-201D;
 }
@@ -11,7 +11,7 @@
     font-family: "Noto Sans SC Override";
     font-weight: bold;
     font-display: swap;
-    src: local("Noto Sans CJK SC Bold"),
+    src: local("NotoSansCJKsc-Bold"),
          url("/fonts/NotoSansSC-Bold.woff2") format("woff2");
     unicode-range: U+2018-2019, U+201C-201D;
 }
@@ -20,7 +20,7 @@
     font-family: "Oxygen";
     font-weight: normal;
     font-display: swap;
-    src: local("Oxygen Sans Book"),
+    src: local("Oxygen-Sans-Book"),
          url("/fonts/Oxygen-Sans.woff2") format("woff2");
 }
 
@@ -28,7 +28,7 @@
     font-family: "Oxygen";
     font-weight: bold;
     font-display: swap;
-    src: local("Oxygen Sans Bold"),
+    src: local("Oxygen-Sans-Bold"),
          url("/fonts/Oxygen-Sans-Bold.woff2") format("woff2");
 }
 
@@ -36,7 +36,7 @@
     font-family: "Noto Sans SC";
     font-weight: normal;
     font-display: swap;
-    src: local("Noto Sans CJK SC"),
+    src: local("NotoSansCJKsc-Regular"),
          url("/fonts/NotoSansSC-Regular.woff2") format("woff2");
 }
 
@@ -44,7 +44,7 @@
     font-family: "Noto Sans SC";
     font-weight: bold;
     font-display: swap;
-    src: local("Noto Sans CJK SC"),
+    src: local("NotoSansCJKsc-Bold"),
          url("/fonts/NotoSansSC-Bold.woff2") format("woff2");
 }
 
@@ -52,7 +52,7 @@
     font-family: "Iosevka Term";
     font-weight: normal;
     font-display: swap;
-    src: local("Iosevka Term"),
+    src: local("Iosevka-Term-SS09"),
          url("/fonts/iosevka-term-ss09-regular.eascii.woff2") format("woff2");
 }
 
