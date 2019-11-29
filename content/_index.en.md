@@ -4,6 +4,9 @@ draft = false
 slug = "home"
 +++
 
+_The plan needs to go on._
+
+
 ## Goals for 2019 {#goals-for-2019}
 
 -   [X] Run 400 miles. <code>[498/400]</code>

@@ -14,6 +14,8 @@
 :EXPORT_FILE_NAME: _index.en.md
 :END:
 
+/The plan needs to go on./
+
 *** Goals for 2019
 - [X] Run 400 miles. [498/400]
 - [ ] Write 10 blog posts. [7/10]
@@ -35,6 +37,8 @@
 :EXPORT_TITLE: 主页
 :EXPORT_FILE_NAME: _index.zh.md
 :END:
+
+/计划进行中。/
 
 *** 2019 年目标
 - [X] 跑 400 英里。[498/400]
