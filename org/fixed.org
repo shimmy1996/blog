@@ -67,17 +67,16 @@
 :EXPORT_FILE_NAME: about.en.md
 :END:
 
-*** About Me
-The fear of death drives me to pursue world domination as my side hobby. I like running.
-I frequently show up on social networks as =shimmy1996=.
+Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by the fellows as =shimmy1996=, or rather, my blog.
 
-*** About This Site
-This is my blog, up and running since July 12th, 2014. No longer a fan of the slow and clunky Wordpress, I migrated to Hugo on September 1st, 2017.
+Feel free to shoot me an email, and here's my [[https://www.shimmy1996.com/gpg.txt][GPG key]]:
+#+BEGIN_SRC
+5672 AC27 2669 A07A BD28  0896 ACC6 C791 312C F84D
+#+END_SRC
+
+This site has been running since 2014-07-12, originally on Wordpress, and on Hugo since 2017-09-01.
 
 All contents of this site are licensed under a [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License]] (CC BY-NC-SA 4.0).
-
-*** About Trantor Network
-Trantor Network refers to a series of website I host and maintain, including mainly this blog, a [[https://mstdn.shimmy1996.com/][Mastodon instance]], and a [[https://git.shimmy1996.com/][Gitea instance]].
 
 ** zh
 :PROPERTIES:
@@ -85,46 +84,16 @@ Trantor Network refers to a series of website I host and maintain, including mai
 :EXPORT_FILE_NAME: about.zh.md
 :END:
 
-*** 关于博主
-EE 狗，目前在德州放牛；技术渣，+WP+ Hugo新手；ACG相关；喜欢硬件但是没有小钱钱；
-足迹可能遍布各大社交网站，通常名字为 =shimmy1996= 。
+欢迎，互联网的游荡者。您偶然发现的这些手记，也就是我的博客，属于传闻中常被称做 =shimmy1996= 的个体。
 
-*** 关于本站
-本站是我的博客，建于2014年7月12日，用来放各种奇怪的东西。由于受不了笨重的Wordpress，我在2017年9月1日把博客迁移到了Hugo上。
-
-本站所有内容使用 [[http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh][Creative Commons署名-非商业性-相同方式共享4.0国际许可协议]]（CC BY-NC-SA 4.0）。
-
-*** 关于川陀网络
-川陀网络指的是一系列我自己架设并维护的网站，主要包括本站，一个[[https://mstdn.shimmy1996.com/][Mastodon实例]]和一个[[https://git.shimmy1996.com/][Gitea实例]]。
-
-* Contact
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug contact
-:END:
-
-** en
-:PROPERTIES:
-:EXPORT_TITLE: Contact
-:EXPORT_FILE_NAME: contact.en.md
-:END:
-
-Feel free to shoot me an email.
-If you feel like it, encrypt your message with my [[https://www.shimmy1996.com/gpg.txt][GPG key]]:
-#+BEGIN_SRC
-5672 AC27 2669 A07A BD28  0896 ACC6 C791 312C F84D
-#+END_SRC
-
-** zh
-:PROPERTIES:
-:EXPORT_TITLE: 联系方式
-:EXPORT_FILE_NAME: contact.zh.md
-:END:
-
-联系我的最佳方式是电子邮件。
-你可以使用我的[[https://www.shimmy1996.com/gpg.txt][ PGP 密匙]]来对邮件进行加密：
+联系我的最佳方式是电子邮件，这是我的 [[https://www.shimmy1996.com/gpg.txt][PGP 密匙]]：
 #+BEGIN_SRC
 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 #+END_SRC
+
+本站从 2014-7-12 开始运行，原本使用 Wordpress，后于 2017-09-01 迁至 Hugo 。
+
+本站所有内容使用 [[http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh][Creative Commons 署名-非商业性-相同方式共享 4.0 国际许可协议]]（CC BY-NC-SA 4.0）。
 
 * Friends
 :PROPERTIES:
