@@ -179,67 +179,6 @@ Welcome to the friendly neighborhood of Library of Trantor!
 
 [[http://a2clef.com][Vacuuny/A2Clef]] 的 [[http://blog.a2clef.com][里站]]
 
-* Posts
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
-:END:
-
-** en
-:PROPERTIES:
-:EXPORT_TITLE: Posts
-:EXPORT_HUGO_SECTION: ./posts/
-:EXPORT_FILE_NAME: _index.en.md
-:END:
-
-In case you want to view by [[/en/tags/][tags]] or [[/en/categories][categories]].
-
-** zh
-:PROPERTIES:
-:EXPORT_TITLE: 归档
-:EXPORT_HUGO_SECTION: ./posts/
-:EXPORT_FILE_NAME: _index.zh.md
-:END:
-
-你也可以通过 [[/zh/tags/][标签]] 或 [[/zh/categories][分类]] 来浏览日志。
-
-* Tags
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
-:END:
-
-** en
-:PROPERTIES:
-:EXPORT_TITLE: Tags
-:EXPORT_HUGO_SECTION: ./tags/
-:EXPORT_FILE_NAME: _index.en.md
-:END:
-
-** zh
-:PROPERTIES:
-:EXPORT_TITLE: 标签
-:EXPORT_HUGO_SECTION: ./tags/
-:EXPORT_FILE_NAME: _index.zh.md
-:END:
-
-* Categories
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
-:END:
-
-** en
-:PROPERTIES:
-:EXPORT_TITLE: Categories
-:EXPORT_HUGO_SECTION: ./categories/
-:EXPORT_FILE_NAME: _index.en.md
-:END:
-
-** zh
-:PROPERTIES:
-:EXPORT_TITLE: 分类
-:EXPORT_HUGO_SECTION: ./categories/
-:EXPORT_FILE_NAME: _index.zh.md
-:END:
-
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
 

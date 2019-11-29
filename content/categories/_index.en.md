@@ -1,4 +1,0 @@
-+++
-title = "Categories"
-draft = false
-+++
