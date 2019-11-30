@@ -67,3 +67,12 @@ body:lang(zh) {
 code, kbd {
     font-family: "Iosevka Term", monospace;
 }
+
+nav a {
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    background: var(--accent-color);
+    color: var(--background-color);
+}
