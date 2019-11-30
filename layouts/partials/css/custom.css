@@ -64,9 +64,6 @@ body:lang(zh) {
     font-family: "Noto Sans SC Override", "Oxygen", "Noto Sans SC", Candara, Calibri, Arial, sans-serif;
 }
 
-code {
-    font-family: "Iosevka Term", monospace;
-}
-kbd {
+code, kbd {
     font-family: "Iosevka Term", monospace;
 }
