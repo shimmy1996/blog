@@ -7,11 +7,13 @@ defaultContentLanguageInSubdir = true
 disableKinds                   = ["taxonomy", "taxonomyTerm"]
 disableHugoGeneratorInject     = true
 
+[Author]
+name = "Shimmy Xu"
+
 [Blackfriday]
 smartypants = false
 
 [params]
-author = "Shimmy Xu"
 soresuLatexOffByDefault = true
 soresuIssoHost = "/isso"
 
