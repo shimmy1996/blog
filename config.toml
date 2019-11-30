@@ -5,6 +5,7 @@ footnoteReturnLinkContents     = "↩"
 defaultContentLanguage         = "en"
 defaultContentLanguageInSubdir = true
 disableKinds                   = ["taxonomy", "taxonomyTerm"]
+disableHugoGeneratorInject     = true
 
 [Blackfriday]
 smartypants = false
