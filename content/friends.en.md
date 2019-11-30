@@ -14,10 +14,7 @@ slug = "friends"
 
 Welcome to the friendly neighborhood of Library of Trantor!
 
-[Z](http://iiiid.com)
-
-[Uucky](http://uucky.me)
-
-[Biergaizi/Tom Li](https://tomli.blog)
-
-[Vacuuny/A2Clef](http://a2clef.com) as [himself](http://blog.a2clef.com)
+-   [Z](http://iiiid.com)
+-   [Uucky](http://uucky.me)
+-   [Biergaizi/Tom Li](https://tomli.blog)
+-   [Vacuuny/A2Clef](http://a2clef.com) as [himself](http://blog.a2clef.com)

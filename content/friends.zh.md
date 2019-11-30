@@ -14,10 +14,7 @@ slug = "friends"
 
 这里会添加朋友们的站点链接！
 
-[Z](http://iiiid.com)
-
-[Uucky](http://uucky.me)
-
-[比尔盖子/Tom Li](https://tomli.blog)
-
-[Vacuuny/A2Clef](http://a2clef.com) 的 [里站](http://blog.a2clef.com)
+-   [Z](http://iiiid.com)
+-   [Uucky](http://uucky.me)
+-   [比尔盖子/Tom Li](https://tomli.blog)
+-   [Vacuuny/A2Clef](http://a2clef.com) 的 [里站](http://blog.a2clef.com)

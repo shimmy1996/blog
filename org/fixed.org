@@ -118,13 +118,10 @@ All contents of this site are licensed under a [[http://creativecommons.org/lice
 
 Welcome to the friendly neighborhood of Library of Trantor!
 
-[[http://iiiid.com][Z]]
-
-[[http://uucky.me][Uucky]]
-
-[[https://tomli.blog][Biergaizi/Tom Li]]
-
-[[http://a2clef.com][Vacuuny/A2Clef]] as [[http://blog.a2clef.com][himself]]
+- [[http://iiiid.com][Z]]
+- [[http://uucky.me][Uucky]]
+- [[https://tomli.blog][Biergaizi/Tom Li]]
+- [[http://a2clef.com][Vacuuny/A2Clef]] as [[http://blog.a2clef.com][himself]]
 
 ** zh
 :PROPERTIES:
@@ -144,13 +141,10 @@ Welcome to the friendly neighborhood of Library of Trantor!
 
 这里会添加朋友们的站点链接！
 
-[[http://iiiid.com][Z]]
-
-[[http://uucky.me][Uucky]]
-
-[[https://tomli.blog][比尔盖子/Tom Li]]
-
-[[http://a2clef.com][Vacuuny/A2Clef]] 的 [[http://blog.a2clef.com][里站]]
+- [[http://iiiid.com][Z]]
+- [[http://uucky.me][Uucky]]
+- [[https://tomli.blog][比尔盖子/Tom Li]]
+- [[http://a2clef.com][Vacuuny/A2Clef]] 的 [[http://blog.a2clef.com][里站]]
 
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
