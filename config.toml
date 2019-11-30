@@ -1,16 +1,10 @@
 # Site Settings
 baseURL                        = "https://www.shimmy1996.com/"
-theme                          = "hugo-soresu"
+theme                          = "hugo-djem-so"
 footnoteReturnLinkContents     = "↩"
 defaultContentLanguage         = "en"
 defaultContentLanguageInSubdir = true
 preserveTaxonomyNames          = true
-
-# Pygments Settings
-pygmentsCodefences             = true
-pygmentsCodefencesGuessSyntax  = false
-pygmentsOptions                = "linenos="
-pygmentsUseClasses             = true
 
 [Blackfriday]
 smartypants = false
@@ -34,17 +28,13 @@ serie    = "series"
   title        = "Library of Trantor"
 
     [[Languages.en.menu.main]]
-    name   = "Home"
-    url    = "/en/"
-    weight = 1
-    [[Languages.en.menu.main]]
     name   = "Posts"
     url    = "/en/posts/"
-    weight = 2
+    weight = 1
     [[Languages.en.menu.main]]
     name   = "Friends"
     url    = "/en/friends/"
-    weight = 3
+    weight = 2
 
   [Languages.zh]
   languageName = "中文"
@@ -52,17 +42,13 @@ serie    = "series"
   title        = "川陀大学图书室"
 
     [[Languages.zh.menu.main]]
-    name   = "主页"
-    url    = "/zh/"
-    weight = 1
-    [[Languages.zh.menu.main]]
     name   = "归档"
     url    = "/zh/posts/"
-    weight = 2
+    weight = 1
     [[Languages.zh.menu.main]]
     name   = "朋友们"
     url    = "/zh/friends/"
-    weight = 3
+    weight = 2
 
     [Languages.zh.Blackfriday]
     extensions = ["joinLines"]
