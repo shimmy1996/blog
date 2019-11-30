@@ -11,6 +11,7 @@ disableHugoGeneratorInject     = true
 smartypants = false
 
 [params]
+author = "Shimmy Xu"
 soresuLatexOffByDefault = true
 soresuIssoHost = "/isso"
 
