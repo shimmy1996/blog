@@ -1,7 +1,6 @@
 +++
-title = "Home"
+title = "Library of Trantor"
 draft = false
-slug = "home"
 +++
 
 _The plan needs to go on._

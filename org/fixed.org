@@ -3,14 +3,11 @@
 #+HUGO_LEVEL_OFFSET: 1
 #+OPTIONS: author:nil
 
-* Homepage
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug home
-:END:
+* Library of Trantor
 
 ** en
 :PROPERTIES:
-:EXPORT_TITLE: Home
+:EXPORT_TITLE: Library of Trantor
 :EXPORT_FILE_NAME: _index.en.md
 :END:
 
@@ -34,7 +31,7 @@
 
 ** zh
 :PROPERTIES:
-:EXPORT_TITLE: 主页
+:EXPORT_TITLE: 川陀大学图书室
 :EXPORT_FILE_NAME: _index.zh.md
 :END:
 

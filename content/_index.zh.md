@@ -1,7 +1,6 @@
 +++
-title = "主页"
+title = "川陀大学图书室"
 draft = false
-slug = "home"
 +++
 
 _计划进行中。_
