@@ -4,7 +4,7 @@ theme                          = "hugo-djem-so"
 footnoteReturnLinkContents     = "↩"
 defaultContentLanguage         = "en"
 defaultContentLanguageInSubdir = true
-preserveTaxonomyNames          = true
+disableKinds                   = ["taxonomy", "taxonomyTerm"]
 
 [Blackfriday]
 smartypants = false
@@ -15,11 +15,6 @@ soresuIssoHost = "/isso"
 
 [Permalinks]
 posts    = "/posts/:year-:month-:day-:slug/"
-
-[Taxonomies]
-category = "categories"
-tag      = "tags"
-serie    = "series"
 
 [Languages]
   [Languages.en]
