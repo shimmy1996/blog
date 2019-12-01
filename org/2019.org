@@ -2,13 +2,12 @@
 #+HUGO_SECTION: ./posts
 #+OPTIONS: author:nil
 
-* My Life                                                          :@my_life:
-** TODO 2018 in Review                                                :plans:
+* TODO 2018 in Review
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2019-01-03 :slug 2018-in-review
 :END:
 
-*** DONE en
+** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: 2018 in Review
 :EXPORT_FILE_NAME: 2019-01-03-2018-in-review.en.md
@@ -22,7 +21,7 @@ actual length of one year also scales with one's age, perhaps we would feel more
 of the excitement instead of anxiety during the New Year count down. That being
 said, 2018 was a lot of fun for me, even without ray-tracing graphic cards.
 
-**** The Amazing 2018
+*** The Amazing 2018
 To quote my 2017 self:
 
 #+BEGIN_QUOTE
@@ -69,7 +68,7 @@ one: actually, I'm even the first one in my age group (+whose size is one+). The
 somewhat illegitimate feeling of compliment, mixed with a bit of salt and guilt
 made the race a wondrous experience.
 
-**** The Spectacular 2019
+*** The Spectacular 2019
 Since Google is deprecating Inbox in the coming March, I've lost my last excuse
 for clinging to Gmail. I'll try to gradually fade out my Gmail usage for my own
 email server.
@@ -106,19 +105,18 @@ skin cells.
 
 Here's to another spectacular 2.9e+17 radiation periods of Caesium-133!
 
-*** TODO zh
+** TODO zh
 :PROPERTIES:
 :EXPORT_TITLE: 回顾 2018
 :EXPORT_FILE_NAME: 2019-01-03-2018-in-review.zh.md
 :END:
 
-* Programming                                                  :@programming:
-** DONE enumerate() with C++                                    :c_plus_plus:
+* DONE enumerate() with C++
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2019-04-27 :slug enumerate-with-c-plus-plus
 :END:
 
-*** DONE en
+** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: enumerate() with C++
 :EXPORT_FILE_NAME: 2019-04-27-enumerate-with-c-plus-plus.en.md
@@ -182,7 +180,7 @@ Meh, not that impressive. The new =<ranges>= library provides a more appealing w
 
 I like the structured binding method and the =<ranges>= based method the most. It would be even better though if we can get a =std::view::enumerate= to solve this problem once and for all.
 
-*** DONE zh
+** DONE zh
 :PROPERTIES:
 :EXPORT_TITLE: 用 C++ 来 enumerate()
 :EXPORT_FILE_NAME: 2019-04-27-enumerate-with-c-plus-plus.zh.md
@@ -247,13 +245,12 @@ I like the structured binding method and the =<ranges>= based method the most. I
 
 我最喜欢基于结构化绑定和 =<ranges>= 库的方法。当然如果要是有 =std::view::enumerate= 来一劳永逸地解决这个问题就最好不过了。
 
-* Geekery                                                          :@geekery:
-** TODO Installing Gentoo                                             :linux:
+* TODO Installing Gentoo
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2019-01-27 :slug installing-gentoo
 :END:
 
-*** DONE en
+** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: Installing Gentoo
 :EXPORT_FILE_NAME: 2019-01-27-installing-gentoo.en.md
@@ -267,12 +264,12 @@ My very first encounter with GNU/Linux operating systems is Ubuntu 12.04: one of
 
 I still try out other distributions from time to time in VirtualBox, but never find them to offer much improvements compared with Arch beyond the setup processes, and even more so when considering the excellent documentation on ArchWiki (well now we have a contender). Once I have my desktop environment set up, the experience between distributions is not that different, but the distinctions kicks in when problems occur and I search online for troubleshooting tips. Having more up-to-date packages is another charm Arch has. More recently, the =systemd= controversy caused me to start shopping around for a new distribution to try out, not so much because of the actual security concerns, but just to see what it is like to use different init system: I mostly used GUI under Ubuntu (=apt-get= and =nano= was probably the only command I knew for the longest time) and Arch was already using =systemd= when I switched. Aside from Gentoo, the candidates include Void Linux and the BSDs. Void Linux was easy to set up with its installer wizard, yet I didn't feel compelled to move to it. Let's see if Gentoo would change my mind.
 
-** TODO Trackpad and Swollen Batteries                               :laptop:
+* TODO Trackpad and Swollen Batteries
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2019-02-28 :slug trackpad-and-swollen-batteries
 :END:
 
-*** DONE en
+** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: Trackpad and Swollen Batteries
 :EXPORT_FILE_NAME: 2019-02-28-trackpad-and-swollen-batteries.en.md
@@ -298,13 +295,12 @@ Hunting for second-handed machines is also an option, but it defeats the purpose
 - A nice trackpad. I'm rather insensitive to quality of laptop keyboards so anything marginally descent would do. It would be really cool to have an ErgoDox laptop though.
 - Not-super-high-resolution display. I'm not too picky about screens either, but 4K feels like an utter overkill for laptops this size that provides marginal improvements while draining more power. I've always used 16:9 displays, but I'm open to trying out different ones.
 
-* Site Related                                                :@site_related:
-** DONE Hello Darkness, My Old Friend                                :design:
+* DONE Hello Darkness, My Old Friend
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2019-09-15 :slug hello-darkness-my-old-friend
 :END:
 
-*** DONE en
+** DONE en
 :PROPERTIES:
 :EXPORT_TITLE: Hello Darkness, My Old Friend
 :EXPORT_FILE_NAME: 2019-09-15-hello-darkness-my-old-friend.en.md
@@ -324,7 +320,7 @@ Writing CSS is a such tiring endeavor, but on the bright side, picking colors is
 
 Wissen ist Nacht!
 
-*** DONE zh
+** DONE zh
 :PROPERTIES:
 :EXPORT_TITLE: 你好黑暗，我的老朋友
 :EXPORT_FILE_NAME: 2019-09-15-hello-darkness-my-old-friend.zh.md

@@ -1,7 +1,5 @@
 +++
 title = "Installing Gentoo"
-tags = ["linux"]
-categories = ["geekery"]
 draft = false
 date = 2019-01-27
 slug = "installing-gentoo"

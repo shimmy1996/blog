@@ -1,7 +1,5 @@
 +++
 title = "你好黑暗，我的老朋友"
-tags = ["design"]
-categories = ["site-related"]
 draft = false
 date = 2019-09-15
 slug = "hello-darkness-my-old-friend"

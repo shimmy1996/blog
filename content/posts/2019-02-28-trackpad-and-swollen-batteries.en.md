@@ -1,7 +1,5 @@
 +++
 title = "Trackpad and Swollen Batteries"
-tags = ["laptop"]
-categories = ["geekery"]
 draft = false
 date = 2019-02-28
 slug = "trackpad-and-swollen-batteries"

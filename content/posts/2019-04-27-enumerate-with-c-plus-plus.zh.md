@@ -1,7 +1,5 @@
 +++
 title = "用 C++ 来 enumerate()"
-tags = ["c-plus-plus"]
-categories = ["programming"]
 draft = false
 date = 2019-04-27
 slug = "enumerate-with-c-plus-plus"
