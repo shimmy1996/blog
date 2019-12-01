@@ -81,7 +81,7 @@ All contents of this site are licensed under a [[http://creativecommons.org/lice
 :EXPORT_FILE_NAME: about.zh.md
 :END:
 
-欢迎，互联网的游荡者。您偶然发现的这些手记，也就是我的博客，属于传闻中常被称做 =shimmy1996= 的个体。
+欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做 =shimmy1996= 的个体。换句话说，这里是我的博客。
 
 联系我的最佳方式是电子邮件，这是我的 [[https://www.shimmy1996.com/gpg.txt][PGP 密匙]]：
 #+BEGIN_SRC
