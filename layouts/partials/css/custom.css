@@ -6,7 +6,3 @@ a:focus, a:hover {
     background: var(--accent-color);
     color: var(--background-color);
 }
-
-#isso-thread {
-    color: var(--text-color) !important;
-}
