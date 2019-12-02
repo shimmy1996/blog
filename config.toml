@@ -21,8 +21,8 @@ name = "Shimmy Xu"
 soresuLatexOffByDefault = true
 soresuIssoHost = "/isso"
 
-posts    = "/posts/:year-:month-:day-:slug/"
 [permalinks]
+posts    = "/posts/:year-:month-:day-:slug/"
 
 [languages]
   [languages.en]
