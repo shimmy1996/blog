@@ -1,7 +1,5 @@
 +++
 title = "Spam or Ham"
-tags = ["email", "security"]
-categories = ["site-related"]
 draft = false
 date = 2017-10-14
 slug = "spam-or-ham"

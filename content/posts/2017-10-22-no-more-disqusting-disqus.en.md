@@ -1,7 +1,5 @@
 +++
 title = "No More Disqusting Disqus"
-tags = ["social-network", "security"]
-categories = ["site-related"]
 draft = false
 date = 2017-10-22
 slug = "no-more-disqusting-disqus"

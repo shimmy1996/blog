@@ -1,7 +1,5 @@
 +++
 title = "My Server Setups and Whatnot"
-tags = ["arch-linux", "server"]
-categories = ["site-related"]
 draft = false
 date = 2017-09-25
 slug = "my-server-setups-and-whatnot"
