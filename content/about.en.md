@@ -14,4 +14,4 @@ Feel free to shoot me an email, and here's my [GPG key](https://www.shimmy1996.c
 
 This site has been running since 2014-07-12, originally on Wordpress, and on Hugo since 2017-09-01.
 
-All contents of this site are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0).
+All contents of this site are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0).

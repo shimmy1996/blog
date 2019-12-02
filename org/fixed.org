@@ -73,7 +73,7 @@ Feel free to shoot me an email, and here's my [[https://www.shimmy1996.com/gpg.t
 
 This site has been running since 2014-07-12, originally on Wordpress, and on Hugo since 2017-09-01.
 
-All contents of this site are licensed under a [[http://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License]] (CC BY-NC-SA 4.0).
+All contents of this site are licensed under a [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]] (CC BY-SA 4.0).
 
 ** zh
 :PROPERTIES:
@@ -90,7 +90,7 @@ All contents of this site are licensed under a [[http://creativecommons.org/lice
 
 本站从 2014-7-12 开始运行，原本使用 Wordpress，后于 2017-09-01 迁至 Hugo 。
 
-本站所有内容使用 [[http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh][Creative Commons 署名-非商业性-相同方式共享 4.0 国际许可协议]]（CC BY-NC-SA 4.0）。
+本站所有内容使用 [[http://creativecommons.org/licenses/by-sa/4.0/deed.zh][Creative Commons 署名-相同方式共享 4.0 国际许可协议]]（CC BY-SA 4.0）。
 
 * Friends
 :PROPERTIES:

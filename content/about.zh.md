@@ -14,4 +14,4 @@ slug = "about"
 
 本站从 2014-7-12 开始运行，原本使用 Wordpress，后于 2017-09-01 迁至 Hugo 。
 
-本站所有内容使用 [Creative Commons 署名-非商业性-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)（CC BY-NC-SA 4.0）。
+本站所有内容使用 [Creative Commons 署名-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-sa/4.0/deed.zh)（CC BY-SA 4.0）。
