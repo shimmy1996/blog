@@ -34,7 +34,7 @@ Here's a table detailing all the dependencies and their corresponding packages i
 | `ruby-build`                          | [`ruby-build`](https://aur.archlinux.org/packages/ruby-build/)                                |
 | `npm`                                 | [`npm`](https://www.archlinux.org/packages/community/any/npm/)                                |
 
-For `rbenv`, I needed to add `'eval "$(rbenv init -)"` to `.bashrc` or `.zshrc` after installation as prompted by the post installation script.
+For `rbenv`, I needed to add `eval "$(rbenv init -)"` to `.bashrc` or `.zshrc` after installation as prompted by the post installation script.
 
 
 ### Mastodon {#mastodon}

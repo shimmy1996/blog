@@ -215,7 +215,7 @@ Here's a table detailing all the dependencies and their corresponding packages i
 | =ruby-build=                          | [[https://aur.archlinux.org/packages/ruby-build/][=ruby-build=]]                              |
 | =npm=                                 | [[https://www.archlinux.org/packages/community/any/npm/][=npm=]]                              |
 
-For =rbenv=, I needed to add ='eval "$(rbenv init -)"= to =.bashrc= or =.zshrc= after installation as prompted by the post installation script.
+For =rbenv=, I needed to add =eval "$(rbenv init -)"= to =.bashrc= or =.zshrc= after installation as prompted by the post installation script.
 
 **** Mastodon
 Create user =mastodon= and to =sudoers= using =visudo=.
@@ -293,7 +293,7 @@ In the footer section, I've replaced Twitter with [[https://mstdn.shimmy1996.com
 | =ruby-build=                          | [[https://aur.archlinux.org/packages/ruby-build/][=ruby-build=]]                              |
 | =npm=                                 | [[https://www.archlinux.org/packages/community/any/npm/][=npm=]]                              |
 
-在安装 =rbenv= 后，我需要把 ='eval "$(rbenv init -)"= 加入 =.bashrc= 或 =.zshrc= 中（安装脚本也会提示这一步骤）。
+在安装 =rbenv= 后，我需要把 =eval "$(rbenv init -)"= 加入 =.bashrc= 或 =.zshrc= 中（安装脚本也会提示这一步骤）。
 
 **** Mastodon
 创建用户 =mastodon= 并用 =visudo= 把该用户加入 =sudoers= 。

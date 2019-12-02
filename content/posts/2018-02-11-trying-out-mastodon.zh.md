@@ -34,7 +34,7 @@ slug = "trying-out-mastodon"
 | `ruby-build`                        | [`ruby-build`](https://aur.archlinux.org/packages/ruby-build/)                                |
 | `npm`                               | [`npm`](https://www.archlinux.org/packages/community/any/npm/)                                |
 
-在安装 `rbenv` 后，我需要把 `'eval "$(rbenv init -)"` 加入 `.bashrc` 或 `.zshrc` 中（安装脚本也会提示这一步骤）。
+在安装 `rbenv` 后，我需要把 `eval "$(rbenv init -)"` 加入 `.bashrc` 或 `.zshrc` 中（安装脚本也会提示这一步骤）。
 
 
 ### Mastodon {#mastodon}
