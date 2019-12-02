@@ -1,7 +1,5 @@
 +++
 title = "My Keyboards 2018 Edition"
-tags = ["keyboard"]
-categories = ["geekery"]
 draft = false
 date = 2018-03-17
 slug = "my-keyboards-2018-edition"

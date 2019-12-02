@@ -2,10 +2,7 @@
 title = "Fun With Fonts in Emacs"
 date = 2018-06-24
 slug = "fun-with-fonts-in-emacs"
-tags = ["emacs", "emacs-lisp", "font", "typesetting"]
-categories = ["geekery"]
 draft = false
-series = ["fun-with-fonts"]
 +++
 
 I finally took some time to look at the my font configurations in Emacs and

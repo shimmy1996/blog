@@ -2,10 +2,7 @@
 title = "字体配置 Emacs 篇"
 date = 2018-06-24
 slug = "fun-with-fonts-in-emacs"
-tags = ["emacs", "emacs-lisp", "font", "typesetting"]
-categories = ["geekery"]
 draft = false
-series = ["fun-with-fonts"]
 +++
 
 我终于花了些时间清理我 Emacs 里一团糟的字体设定。在折腾这些设定的过程中，我了解

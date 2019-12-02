@@ -1,7 +1,5 @@
 +++
 title = "自己画头像"
-tags = ["design", "social-network"]
-categories = ["geekery"]
 draft = false
 date = 2018-01-15
 slug = "my-very-own-avatar-icon-thingy"

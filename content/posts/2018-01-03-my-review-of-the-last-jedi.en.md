@@ -1,7 +1,5 @@
 +++
 title = "My Review of the Last Jedi [Spolier Alert]"
-tags = ["movie", "star-wars"]
-categories = ["geekery"]
 draft = true
 date = 2018-01-03
 slug = "my-review-of-the-last-jedi"

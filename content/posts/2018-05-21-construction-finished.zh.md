@@ -1,7 +1,5 @@
 +++
 title = "施工完成"
-tags = ["plans"]
-categories = ["site-related"]
 draft = false
 date = 2018-05-21
 slug = "construction-finished"
