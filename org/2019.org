@@ -441,8 +441,3 @@ Maybe it is just not worth it to force the choice of fonts. In case you want to 
 - Proportional Latin font: [[https://github.com/KDE/oxygen-fonts][Oxygen Sans]]. Note that the KDE version has nuanced differences from the [[https://fonts.google.com/specimen/Oxygen][Google Fonts version]], and I like the KDE version much more.
 - Proportional CJK font: [[https://www.google.com/get/noto/help/cjk/][Noto Sans CJK]].
 - Monospace font: [[https://typeof.net/Iosevka/][Iosevka]], the ss09 variant, to be more exact.
-
-* COMMENT Local Variables                                           :ARCHIVE:
-# Local Variables: fill-column: 80 eval: (auto-fill-mode nil) eval: (add-hook
-# 'after-save-hook #'org-hugo-export-subtree-to-md-after-save :append :local)
-# End:
