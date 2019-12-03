@@ -12,9 +12,9 @@ A more accurate version of the title probably should be "Fun with Fonts in Web B
 
 Most browsers join consecutive lines of text in HTML to a single one with an added space in between, so
 
-```text
-Line one and
-line two.
+```html
+<html>Line one and
+line two.</html>
 ```
 
 renders to
@@ -27,7 +27,7 @@ Such a simplistic rule doesn't work for CJK languages where no separators is use
 
 ```html
 <html lang="zh">第一行和
-第二行。<html>
+第二行。</html>
 ```
 
 If your browser is smart enough (like Firefox), it will join the lines correctly. All the Blink based browsers, however, still stubbornly shove in the extra space, so it looks like I will be stuck in unwrapped source files like a barbarian for a bit longer. While not a cure-all solution, specifying the `lang` attribute still have the added benefit of enabling language-specific CSS rules, which comes in handy later.
