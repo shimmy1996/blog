@@ -157,12 +157,3 @@ Welcome to the friendly neighborhood of Library of Trantor!
 :EXPORT_HUGO_SECTION: ./posts/
 :EXPORT_FILE_NAME: _index.zh.md
 :END:
-
-* Footnotes
-* COMMENT Local Variables                                           :ARCHIVE:
-
-# Local Variables:
-# fill-column: 80
-# eval: (auto-fill-mode 1)
-# eval: (add-hook 'after-save-hook #'org-hugo-export-subtree-to-md-after-save :append :local)
-# E
