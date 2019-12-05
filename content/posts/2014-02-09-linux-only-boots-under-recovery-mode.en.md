@@ -35,4 +35,4 @@ Then, restart your computer and you should be able to boot the system normally.
 
 Great, problem solved! Wow, very Mint, so Ubuntu.
 
-There is still another thing bothering me, though, that is I can only boot into system successfully without any USB devices plugged in, which is superc-onfusing. I will try to figure this out.
+There is still another thing bothering me, though, that is I can only boot into system successfully without any USB devices plugged in, which is superconfusing. I will try to figure this out.
