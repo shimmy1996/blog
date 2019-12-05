@@ -1,0 +1,66 @@
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: ./posts
+#+OPTIONS: author:nil
+
+* DONE Linux Only Boots Under Recovery Mode
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2014-02-09 :slug linux-only-boots-under-recovery-mode
+:END:
+
+** DONE en
+:PROPERTIES:
+:EXPORT_TITLE: Linux Only Boots Under Recovery Mode
+:EXPORT_FILE_NAME: 2014-02-09-linux-only-boots-under-recovery-mode.en.md
+:END:
+
+This is part of the Plan.
+
+I tried to install linux for my PC, and tried all sorts of distributions, including the most recent 3-4 versions of Mint and Ubuntu, but all of them (including live CD mode) only runs under recovery mode (with really low resolution and software-only rendering), which makes me MEGA unhappy. When I tried to boot them normally, all I get are black screens, or more precisely, purple screens.
+
+After consulting online, I found that the only special thing about recovery mode is that it added =nomodeset= and =xforcevesa= into the =GRUB_CMDLINE_LINUX= parameter of grub file located at =/etc/default/grub=.
+
+So, basically, the problem was solved by finding out which of the two parameters recovery mode added into  =GRUB_CMDLINE_LINUX=  made the system bootable again. It turned out it was the =xforcevesa= that solved the problem, and here is what I did:
+- If the live CD mode failed to load, enter the recovery mode of live CD. (Mint by directly selecting the second option, Ubuntu by pressing F6)
+- Now you should be able to get into the system no matter what happens to your system before. Install them as usual, and use "logical partition" since this is probably the second system on the PC. Install the boot on the entire hard drive.
+- Restart and get into the system in recovery mode (second option in grub, select =continue= when option menu occurs). Open the terminal, and here's the most important part:
+#+BEGIN_SRC sh
+  sudo gedit /etc/default/grub
+#+END_SRC
+- Edit the grub file, replace the parameter in =GRUB_CMDLINE_LINUX=<PARAMETERS>= to =xforcevesa=, save and close the file. Hold on, we are not done yet, always remember to:
+#+BEGIN_SRC sh
+  sudo update-grub
+#+END_SRC
+
+Then, restart your computer and you should be able to boot the system normally.
+
+Great, problem solved! Wow, very Mint, so Ubuntu.
+
+There is still another thing bothering me, though, that is I can only boot into system successfully without any USB devices plugged in, which is superc-onfusing. I will try to figure this out.
+
+* DONE The Quest to Hash Table
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :date 2014-07-11 :slug the-quest-to-hash-table
+:END:
+
+** DONE en
+:PROPERTIES:
+:EXPORT_TITLE: The Quest to Hash Table
+:EXPORT_FILE_NAME: 2014-07-11-the-quest-to-hash-table.en.md
+:END:
+
+Several mistakes I made when I tried to write a hash program using C.
+
+1. A pointer that points to a pointer that points to a pointer that points to a pointer that points to a...
+
+  Generating an array of pointers is the core step when creating a hash table, but the malloc function and the pointer part can be a little bit confusing. There are, however, general rules for this:
+
+  - How many =*= s we put before a variable tells us how many dereferences we need to get the original type we want. If we want to make an array of =*node= (or some other pointer/type of variables), then we should add one extra =*= when declaring the array: =node **node=;
+  - General formula for using malloc to collect an array containing =NSLOT= pointers to node: =array_of_pointers = (node **)malloc(NSLOTS * sizeof(node *))=. The rule still holds if we add more =*= to each node or subtract =*= simultaneously: =array_of_pointers = (node ***)malloc(NSLOTS * sizeof(node **))=.
+
+  Do note that =array_of_pointers = (node **)malloc(NSLOTS * sizeof(node *))= is equivalent to =node **array_of_pointers = malloc(NSLOTS * sizeof(node *))=.  Don't be afraid to use index on objects created this way: it's fine...
+
+2. Be mindful when you add node to one of the linked lists, more so when you are freeing it. Do note that, when you are checking whether a key is already present in the hash table, if a the key already exists in the hash table, you will have an extra copy of the key. Make sure it is freed. Also do not forget to free the key afterwards.
+
+Apologies if this seemed unfinished XDD.
+
+I started writing this stuff five months ago and just did not got a chance to finish it till now... Tried to pull off some points from the original code I had, but this is pretty much all I got now XDD.
