@@ -15,7 +15,7 @@
 
 *** Goals for 2019
 - [X] Run 400 miles. [531/400]
-- [X] Write 10 blog posts. [11/10]
+- [X] Write 10 blog posts. [12/10]
 - [X] Stop using Gmail/Inbox app.
 - [X] Add =rel=me= links to blog.
 - [X] Dive into Rust and Julia. [2/2]
@@ -39,7 +39,7 @@
 
 *** 2019 年目标
 - [X] 跑 400 英里。[531/400]
-- [X] 写 10 篇日志。[11/10]
+- [X] 写 10 篇日志。[12/10]
 - [X] 停止使用 Gmail 、 Inbox 应用程序 。
 - [X] 给博客加上 =rel=me= 链接。
 - [X] 进一步了解 Rust 和 Julia 。 [2/2]
