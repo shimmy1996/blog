@@ -1,6 +1,14 @@
 :root {
-    --accent-color: gold;
-    --background-color: forestgreen;
-    --text-color: snow;
-    --alt-background-color: firebrick;
+   --accent-color: #700000;
+    --background-color: #f7f3e3;
+    --text-color: #2e2d2b;
+    --alt-background-color: #e3dacb;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent-color: #8fffff;
+        --background-color: #080c1c;
+        --text-color: #d1d2d4;
+        --alt-background-color: #1c2534;
+    }
 }

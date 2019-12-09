@@ -6,3 +6,5 @@ a:focus, a:hover {
     background: var(--accent-color);
     color: var(--background-color);
 }
+
+{{ partial "css/winter-holiday.css" . | safeCSS }}
