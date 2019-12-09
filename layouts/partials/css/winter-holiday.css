@@ -10,8 +10,16 @@ body {
 }
 
 :root {
-    --accent-color: gold;
-    --background-color: darkgreen;
-    --text-color: snow;
-    --alt-background-color: firebrick;
+    --accent-color: brown;
+    --background-color: darkseagreen;
+    --text-color: darkslategray;
+    --alt-background-color: #c0cf80;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent-color: seagreen;
+        --background-color:  #1a1a30;
+        --text-color: mintcream;
+        --alt-background-color: #3a042a;
+    }
 }
