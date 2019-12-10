@@ -74,11 +74,10 @@ for clinging to Gmail. I'll try to gradually fade out my Gmail usage for my own
 email server.
 
 On the front of searching for best solution for blog comments, quite a few
-bloggers I follow have started embracing the [[https://indieweb.org/][IndieWeb]] and [[https://webmention.net/][Webmention]]
-standards. In a lot of ways, Webmention was the exact thing I wanted: federated
+bloggers I follow have started embracing [[https://indieweb.org/][IndieWeb]] and [[https://webmention.net/][Webmention]]. In a lot of ways, Webmention was the exact thing I wanted: federated
 blog comments, posts, and more. Yet I'm reluctant to move further away from a
 static site, not to mentioning most easy-to-follow Webmention solutions I have
-found relies heavily on third-party services. The IndieWeb standard though is
+found relies heavily on third-party services. The IndieWeb movement itself though is
 fairly intriguing. I've never had much use for [[https://keybase.io/][Keybase]] aside from it being a hub
 linking most of my online presences (decryption and encryption does not work
 without uploading PGP private keys, and I have no one to securely chat with),
@@ -139,7 +138,7 @@ Here's to another spectacular 2.9e+17 radiation periods of Caesium-133!
 *** The Spectacular 2019
 由于 Google 即将在 3 月淘汰 Inbox ，我失去了继续使用 Gmail 的最后借口。 我将逐渐淡化 Gmail 的使用，转向我自己的电子邮件服务器。
 
-说到博客评论的最佳解决方案，我关注的许多博客作者已经开始使用 [[https://indieweb.org/][IndieWeb]] 和 [[https://webmention.net/][Webmention]] 标准。在很多方面， Webmention 正是我想要的东西：它提供了分布式的博客评论、日志等等。 但是，我不愿舍弃静态站点的好处，更不用说我发现大多数易于遵循的 Webmention 解决方案都严重依赖第三方服务。 IndieWeb 标准倒是很吸引人。说起来我的 [[https://keybase.io/][Keybase]] 除了作为一个联系我不同线上身份的枢纽外并没有太大用处（在线解密和加密功能需要上传 PGP 私钥才能使用，安全消息功能对与并没有什么人可以聊天的我更是派不上用场），也许我应该用 =rel=me= 链接来完全取代它。
+说到博客评论的最佳解决方案，我关注的许多博客作者已经开始采用 [[https://indieweb.org/][IndieWeb]] 和 [[https://webmention.net/][Webmention]] 。在很多方面， Webmention 正是我想要的东西：它提供了分布式的博客评论、日志等等。 但是，我不愿舍弃静态站点的好处，更不用说我发现大多数易于遵循的 Webmention 解决方案都严重依赖第三方服务。 IndieWeb 运动倒是很吸引人。说起来我的 [[https://keybase.io/][Keybase]] 除了作为一个联系我不同线上身份的枢纽外并没有太大用处（在线解密和加密功能需要上传 PGP 私钥才能使用，安全消息功能对与并没有什么人可以聊天的我更是派不上用场），也许我应该用 =rel=me= 链接来完全取代它。
 
 去年学习 C++17 的体验非常令人享受，因此我正在考虑学习其他新的编程语言。我已经窥觎 [[https://www.rust-lang.org/][Rust]] 和 [[https://julialang.org/][Julia]] 一段时间了，尤其是 Rust 。拥有一整套官方支持的工具链使写 Rust 变得顺畅而愉快。我会尝试深入了解并实际使用这两种语言。
 
