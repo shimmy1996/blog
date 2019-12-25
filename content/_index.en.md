@@ -8,7 +8,7 @@ _The plan needs to go on._
 
 ## Goals for 2019 {#goals-for-2019}
 
--   [X] Run 400 miles. <code>[531/400]</code>
+-   [X] Run 400 miles. <code>[540/400]</code>
 -   [X] Write 10 blog posts. <code>[12/10]</code>
 -   [X] Stop using Gmail/Inbox app.
 -   [X] Add `rel=me` links to blog.

@@ -14,7 +14,7 @@
 /The plan needs to go on./
 
 *** Goals for 2019
-- [X] Run 400 miles. [531/400]
+- [X] Run 400 miles. [540/400]
 - [X] Write 10 blog posts. [12/10]
 - [X] Stop using Gmail/Inbox app.
 - [X] Add =rel=me= links to blog.
@@ -38,7 +38,7 @@
 /计划进行中。/
 
 *** 2019 年目标
-- [X] 跑 400 英里。[531/400]
+- [X] 跑 400 英里。[540/400]
 - [X] 写 10 篇日志。[12/10]
 - [X] 停止使用 Gmail 、 Inbox 应用程序 。
 - [X] 给博客加上 =rel=me= 链接。
