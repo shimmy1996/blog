@@ -14,12 +14,12 @@
 /The plan needs to go on./
 
 *** Goals for 2019
-- [X] Run 400 miles. [540/400]
-- [X] Write 10 blog posts. [12/10]
+- [X] Run 400 miles. [555/400]
+- [X] Write 10 blog posts. [13/10]
 - [X] Stop using Gmail/Inbox app.
 - [X] Add =rel=me= links to blog.
 - [X] Dive into Rust and Julia. [2/2]
-- [ ] Record books, music, and shows I enjoyed.
+- [X] Record books, music, and shows I enjoyed.
 - [X] Clean my desktop computer.
 
 *** Wishlist
@@ -38,12 +38,12 @@
 /计划进行中。/
 
 *** 2019 年目标
-- [X] 跑 400 英里。[540/400]
-- [X] 写 10 篇日志。[12/10]
+- [X] 跑 400 英里。[555/400]
+- [X] 写 10 篇日志。[13/10]
 - [X] 停止使用 Gmail 、 Inbox 应用程序 。
 - [X] 给博客加上 =rel=me= 链接。
 - [X] 进一步了解 Rust 和 Julia 。 [2/2]
-- [ ] 记录我中意的书籍，音乐，和影视作品。
+- [X] 记录我中意的书籍，音乐，和影视作品。
 - [X] 清理台式电脑。
 
 *** 愿望清单
