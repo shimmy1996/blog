@@ -13,7 +13,7 @@ My very first encounter with Star Wars, however, were not the prequels, but a ve
 
 Moving on to the sequel trilogy. I watched _The Force Awakens_ on launch date at 19:00 with my college roommate on launch date and we spent half an hour searching for a parking spot, barely making it to the screening by the opening scroll (we still got a ticket though). As for _The Last Jedi_, I watched it at night a month after it launched. I went to see _The Rise of Skywalker_ at 9:00 the day it was released, a surprisingly fitting time for the end to a trilogy. TFA was a decent start, nostalgia mixed with several intriguing leads made the experience quite enjoyable. TLJ left a really bad taste in my mouth in that it not only answered questions TFA raised in the poorest way possible, but also spent too much time trying to teach the old, established characters a lesson while neglecting the growth and development of the new characters. I still have an unpublished blog post full of my rants on TLJ (from 2018), so let's move on to TROS.
 
-In short, I enjoyed watching TLJ, despite it being a over-packed messy hodgepodge.
+In short, I enjoyed watching TROS, despite it being a over-packed messy hodgepodge.
 
 The beginning sequence revealing Kylo's encounter with the Emperor and the Falcon crew escaping First Order was succinct and exciting. As Finn, Rey, and Poe reunite though, the pacing dropped considerably, with meaningless arguments breaking out between the trio: I really hope team building is something the last movie of a trilogy shouldn't be worrying about, but the plots of TLJ left J. J. Abrams little choice here I guess.
 
