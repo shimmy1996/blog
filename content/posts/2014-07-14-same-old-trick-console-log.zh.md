@@ -16,6 +16,6 @@ tags:
 ---
 Chrome按F12调出console有彩蛋XDDD
 
-<script>// <![CDATA[
+<script>
 console.log('The crystal is the heart of the blade.\nThe heart is the crystal of the Jedi.\nThe Jedi is the crystal of the Force.\nThe Force is the blade of the heart.\nAll are intertwined.\nThe crystal, the blade, the Jedi.\nWe are one.');
-// ]]></script>
+</script>
