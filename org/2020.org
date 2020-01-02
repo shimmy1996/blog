@@ -1,0 +1,54 @@
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: posts
+#+OPTIONS: author:nil
+#+STARTUP: fninline
+
+* TODO 2019 in Review
+:PROPERTIES:
+:EXPORT_DATE: 2020-01-01
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug 2019-in-review
+:END:
+
+** DONE en
+:PROPERTIES:
+:EXPORT_TITLE: 2019 in Review
+:EXPORT_FILE_NAME: 2020-01-01-2019-in-review.en.md
+:END:
+
+Each New Year feels incrementally less special (see the relative length argument I wrote in review of 2018), although as an end to the laziness-inducing and overly noisy holiday season, having festival associated with new goals and resolutions is not too bad an idea.
+
+Looking at the number 2020 does give me a bit more excitement as it always felt like such a distant time in the future: I don't even remember any sci-fi works referencing anything in the 2020s, as most of them either stopped at the 2010s or go way beyond to the 3000s. So here's to a new decade stuck in what I call, an expectation limbo. Oh, and fun fact from [[https://en.m.wikipedia.org/wiki/2020][Wikipedia]], 2020 will also see the beginning of the year of Metal Rat in Chinese calendar - such a punk name for a something rather traditional.
+
+*** 2019 Rewind
+I'm glad to announce that everything went according to plan in 2019!
+
+- [X] Run 400 miles. [555/400]
+- [X] Write 10 blog posts. [14/10]
+- [X] Stop using Gmail/Inbox app.
+- [X] Add =rel=me= links to blog.
+- [X] Dive into Rust and Julia. [2/2]
+- [X] Record books, music, and shows I enjoyed.
+- [X] Clean my desktop computer.
+
+With some uncertainties in my life sorted out, I've been following my daily routines a lot better in 2019. I still procrastinate on blog posts from time to time, but at least I'm also publishing ever so more often. Learning Rust and Julia was fun, and I did get some uses out of them in real projects. I also attempted Advent of Code in both languages and got to the day 17 before each day's questions started taking too much time. I thought about finishing all the remaining ones after Christmas, but decided against it - I don't see myself learning more about the languages through these questions and the time could be better spent elsewhere.
+
+I gave the blog a face-lift, writing a new Hugo theme in the process, with [[https://getkiss.org/blog/20191004a][this article]] serving as an inspiration. I find the process of eliminating all the nice-to-haves and bells-and-whistles oddly satisfying: I enjoy having my blog as a lean, mean, killing machine. The website feed has been updated to use ATOM, with each post displayed in its entirety instead of the default broken summary. I started using web feeds for reading blogs after failing miserably at my last attempt to organize my web browser bookmarks and I've enjoyed it so far.
+
+I went to the movies three times this year, for /Dragon Ball Super: Broly/, /Promare/, and /Star Wars: The Rise of Skywalker/, and I mostly enjoyed my time in all three occasions: trying to quantify this enjoyment using a rating is probably not doing them justice, as I enjoyed the three for vastly different reasons. Since I visit the theaters so scarcely, the time I spend on airplanes actually account for a large portion of my movie consumption, and /Spider-Man: Into to the Spider-Verse/ was the stand out among those I watched while flying. On Christmas Eve, instead of /Toradora!/, an tradition of mine during college, I rewatched /Scott Pilgrim vs. the World/, which I also first saw on a flight years ago, and it was as geird[fn:1] as I remembered.
+
+As someone that have always lived at places that never snow until 2018, snow to me is such a distant concept that I'd consider any movie with snow scenes a Christmas movie. Even after moving to a snowing city mid 2018, I still haven't seen the stereotypical fluffy Christmas snow that almost seem warm to the touch: all I got were piles of dirty water-ice compound on roadsides (oh and they find their way into your shoes too) that reminds me more of fish market than Christmas. Meh, I bet all those snow in the movies are just props.
+
+Back in 2018, I set up a Mastodon instance, and I have since deleted my twitter account, but I never use Mastodon that much. At first I thought it's just that I'm not the microblogging type, but now I beginning think it's all the cognitive overhead of logging in, editing, tagging, and translating that made posting a status update rather daunting for me. I have been microblogging in [[https://twtxt.readthedocs.io/en/latest/][twtxt]] format for the last few months of 2019 and I did rack up a considerable status count (all 110 of them). Being one command away from dumping whatever silly one-liner I have in mind is quite addicting, and revisiting the twtxt file also gives me new post ideas at times. Separating a Twitter-like social media service into read-only (with feed reader), write-only (what I use twtxt for), and interactive (still figuring that one out) parts simply works better for me. My twtxt file will likely replace Mastodon in the footer this year, as keeping a behemoth (just one more pun, please?) of a web app happy and running has not been exactly pleasant for me.
+
+Speaking of deleting accounts, I've setup forwarding from all my Gmail accounts to my self-hosted email and all my devices are Gmail and Inbox (RIP) free now. I'm still not quite ready to completely ditch the Google accounts yet, but I'm getting closer: I've been trying out registrars other than Google Domains, and using Youtube's built-in web feeds instead of relying on subscriptions. I did finally remove my Facebook account though, and the account purge will likely continue.
+
+*** Road to 2020
+Since it worked out really well for 2019, I'll continue to match this year's numbers on blog posts and running. Donuts have been my guilty pleasure late night in 2019 (thanks to Dunkin'), and it's one of the few kinds of food I still willingly consume despite the detrimental effect to my health. No donuts in 2020!
+
+I do want to set up a proper data backup workflow, following 3-2-1 strategy and all that. As for new languages to learn, Go has been creeping on my radar for a while and with the release of Go modules, it seems like the right time to jump in. There's also C++20 on the horizon.
+
+Out side of technical ones, I haven't read any books in quite a while, at least not those that can be classified as proper literature, and I seek to change that in 2020.
+
+Here's to the end of Skywalker 'saga, and whatever comes after generation Z!
+
+[fn:1] Geird, adjective: good but in a weird way and weird but in a good way. Synonym: goodd. This is not a real word yet, but who cares? It's year of Metal Rat!
