@@ -6,15 +6,13 @@ draft = false
 _The plan needs to go on._
 
 
-## Goals for 2019 {#goals-for-2019}
+## Goals for 2020 {#goals-for-2020}
 
--   [X] Run 400 miles. <code>[555/400]</code>
--   [X] Write 10 blog posts. <code>[14/10]</code>
--   [X] Stop using Gmail/Inbox app.
--   [X] Add `rel=me` links to blog.
--   [X] Dive into Rust and Julia. <code>[2/2]</code>
--   [X] Record books, music, and shows I enjoyed.
--   [X] Clean my desktop computer.
+-   [ ] Run 550 miles. <code>[8/550]</code>
+-   [ ] Write 14 blog posts. <code>[1/14]</code>
+-   [ ] Dive into Go and C++20. <code>[0/2]</code>
+-   [ ] No donuts.
+-   [ ] Read non-technical books.
 
 
 ## Wishlist {#wishlist}
