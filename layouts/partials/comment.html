@@ -1,5 +1,5 @@
 <style>{{ partial "css/isso.css" . | safeCSS}}</style>
-<script async
+<script
   data-isso="/isso/"
   data-isso-css="false"
   data-isso-lang={{ .Site.Language }}
@@ -9,6 +9,6 @@
   data-isso-avatar="true"
   data-isso-avatar-bg="var(--alt-background-color)"
   data-isso-vote="false"
-  data-isso-feed="true"
-  src="/embed.min.js"></script>
+  data-isso-feed="false"
+  src="/isso/js/embed.min.js"></script>
 <section id="isso-thread"></section>
