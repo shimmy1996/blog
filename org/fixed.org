@@ -15,16 +15,16 @@
 /The plan needs to go on./
 
 *** Goals for 2020
-- [ ] Run 550 miles. [8/550]
-- [ ] Write 14 blog posts. [2/14]
-- [ ] Dive into Go and C++20. [0/2]
-- [ ] No donuts.
-- [ ] Read non-technical books.
+- Run 550 miles. [8/550]
+- Write 14 blog posts. [2/13]
+- Dive into Go and C++20. [0/2]
+- No donuts. [0/0]
+- Read non-technical books. [0/1]
 
 *** Wishlist
-- [ ] Finish a marathon.
-- [ ] Get the first signature for my PGP key.
-- [X] Install Gentoo.
+- Finish a marathon. [0/1]
+- Get the first signature for my PGP key. [0/1]
+- Install Gentoo. [1/1]
 
 *** Recent Posts
 
@@ -38,16 +38,16 @@
 /计划进行中。/
 
 *** 2020 年目标
-- [ ] 跑 550 英里。[8/550]
-- [ ] 写 14 篇日志。[2/14]
-- [ ] 了解 Go 和 C++20。[0/2]
-- [ ] 不吃甜面包圈。
-- [ ] 阅读非技术类书籍。
+- 跑 550 英里。[8/550]
+- 写 14 篇日志。[2/14]
+- 了解 Go 和 C++20。[0/2]
+- 不吃甜面包圈。[0/0]
+- 阅读非技术类书籍。[0/1]
 
 *** 愿望清单
-- [ ] 完成一次马拉松。
-- [ ] 获得第一个 PGP 密匙签名。
-- [X] 安装 Gentoo 。
+- 完成一次马拉松。[0/1]
+- 获得第一个 PGP 密匙签名。[0/1]
+- 安装 Gentoo 。[1/1]
 
 *** 最新日志
 
