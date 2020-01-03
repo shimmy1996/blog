@@ -15,7 +15,7 @@
 
 *** Goals for 2020
 - [ ] Run 550 miles. [8/550]
-- [ ] Write 14 blog posts. [1/14]
+- [ ] Write 14 blog posts. [2/14]
 - [ ] Dive into Go and C++20. [0/2]
 - [ ] No donuts.
 - [ ] Read non-technical books.
@@ -37,7 +37,7 @@
 
 *** 2020 年目标
 - [ ] 跑 550 英里。[8/550]
-- [ ] 写 14 篇日志。[1/14]
+- [ ] 写 14 篇日志。[2/14]
 - [ ] 了解 Go 和 C++20。[0/2]
 - [ ] 不吃甜甜圈。
 - [ ] 阅读非技术类书籍。
