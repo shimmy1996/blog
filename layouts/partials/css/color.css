@@ -1,14 +1,14 @@
 :root {
     --background-color: #dcc;
     --alt-background-color: #baa;
-    --accent-color: #755;
-    --text-color: #333;
+    --accent-color: #455;
+    --text-color: #233;
 }
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: #233;
         --alt-background-color: #455;
-        --accent-color: #8aa;
-        --text-color: #ccc;
+        --accent-color: #baa;
+        --text-color: #dcc;
     }
 }
