@@ -3,7 +3,7 @@
 #+OPTIONS: author:nil
 #+STARTUP: fninline
 
-* TODO 2019 in Review
+* DONE 2019 in Review
 :PROPERTIES:
 :EXPORT_DATE: 2020-01-01
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug 2019-in-review
@@ -17,7 +17,7 @@
 
 Each New Year feels incrementally less special (see the relative length argument I wrote in review of 2018), although as an end to the laziness-inducing and overly noisy holiday season, having festival associated with new goals and resolutions is not too bad an idea.
 
-Looking at the number 2020 does give me a bit more excitement as it always felt like such a distant time in the future: I don't even remember any sci-fi works referencing anything in the 2020s, as most of them either stopped at the 2010s or go way beyond to the 3000s. So here's to a new decade stuck in what I call, an expectation limbo. Oh, and fun fact from [[https://en.m.wikipedia.org/wiki/2020][Wikipedia]], 2020 will also see the beginning of the year of Metal Rat in Chinese calendar - such a punk name for a something rather traditional.
+Looking at the number 2020 does give me a bit more excitement as it always felt like such a distant time in the future: I don't even remember any sci-fi works referencing anything in the 2020s, as most of them either stopped at the 2010s or go way beyond to the 3000s. This new decade is stuck in what I call, an expectation limbo. Oh, fun fact from [[https://en.m.wikipedia.org/wiki/2020][Wikipedia]], 2020 will also see the beginning of the year of Metal Rat in Chinese calendar - such a punk name for a something rather traditional.
 
 *** 2019 Rewind
 I'm glad to announce that everything went according to plan in 2019!
@@ -36,19 +36,66 @@ I gave the blog a face-lift, writing a new Hugo theme in the process, with [[htt
 
 I went to the movies three times this year, for /Dragon Ball Super: Broly/, /Promare/, and /Star Wars: The Rise of Skywalker/, and I mostly enjoyed my time in all three occasions: trying to quantify this enjoyment using a rating is probably not doing them justice, as I enjoyed the three for vastly different reasons. Since I visit the theaters so scarcely, the time I spend on airplanes actually account for a large portion of my movie consumption, and /Spider-Man: Into to the Spider-Verse/ was the stand out among those I watched while flying. On Christmas Eve, instead of /Toradora!/, an tradition of mine during college, I rewatched /Scott Pilgrim vs. the World/, which I also first saw on a flight years ago, and it was as geird[fn:1] as I remembered.
 
-As someone that have always lived at places that never snow until 2018, snow to me is such a distant concept that I'd consider any movie with snow scenes a Christmas movie. Even after moving to a snowing city mid 2018, I still haven't seen the stereotypical fluffy Christmas snow that almost seem warm to the touch: all I got were piles of dirty water-ice compound on roadsides (oh and they find their way into your shoes too) that reminds me more of fish market than Christmas. Meh, I bet all those snow in the movies are just props.
+As someone that have always lived at places that never snow until 2018, snow to me is such a distant concept that I'd consider any movie with snow scenes a Christmas movie. Even after moving to a snowing city mid 2018, I still haven't seen the stereotypical fluffy Christmas snow that almost seem warm to the touch: all I got were piles of dirty water-ice compound on roadsides (oh and they find their way into your shoes too) that reminds me more of fish market than Christmas. Meh, I bet all those snow in the movies are just props, just like the Moon landing.
 
 Back in 2018, I set up a Mastodon instance, and I have since deleted my twitter account, but I never use Mastodon that much. At first I thought it's just that I'm not the microblogging type, but now I beginning think it's all the cognitive overhead of logging in, editing, tagging, and translating that made posting a status update rather daunting for me. I have been microblogging in [[https://twtxt.readthedocs.io/en/latest/][twtxt]] format for the last few months of 2019 and I did rack up a considerable status count (all 110 of them). Being one command away from dumping whatever silly one-liner I have in mind is quite addicting, and revisiting the twtxt file also gives me new post ideas at times. Separating a Twitter-like social media service into read-only (with feed reader), write-only (what I use twtxt for), and interactive (still figuring that one out) parts simply works better for me. My twtxt file will likely replace Mastodon in the footer this year, as keeping a behemoth (just one more pun, please?) of a web app happy and running has not been exactly pleasant for me.
 
 Speaking of deleting accounts, I've setup forwarding from all my Gmail accounts to my self-hosted email and all my devices are Gmail and Inbox (RIP) free now. I'm still not quite ready to completely ditch the Google accounts yet, but I'm getting closer: I've been trying out registrars other than Google Domains, and using Youtube's built-in web feeds instead of relying on subscriptions. I did finally remove my Facebook account though, and the account purge will likely continue.
 
 *** Road to 2020
-Since it worked out really well for 2019, I'll continue to match this year's numbers on blog posts and running. Donuts have been my guilty pleasure late night in 2019 (thanks to Dunkin'), and it's one of the few kinds of food I still willingly consume despite the detrimental effect to my health. No donuts in 2020!
+Since it worked out really well for 2019, I'll continue to match previous year's numbers on blog posts and running. Donuts have been my guilty pleasure late night in 2019 (thanks to Dunkin'), and it's one of the few kinds of food I still willingly consume despite the detrimental effect to my health. Thus, no donuts in 2020, not under my watch!
 
 I do want to set up a proper data backup workflow, following 3-2-1 strategy and all that. As for new languages to learn, Go has been creeping on my radar for a while and with the release of Go modules, it seems like the right time to jump in. There's also C++20 on the horizon.
 
+2020 will also see the release of several Linux phones (Librem 5 and PinePhone), and I'm more than willing to try some of them out and explore ways of escaping the Apple ecosystem. PineTime, on the other hand, might be the perfect replacement for my aging Pebble Time Round.
+
 Out side of technical ones, I haven't read any books in quite a while, at least not those that can be classified as proper literature, and I seek to change that in 2020.
 
-Here's to the end of Skywalker 'saga, and whatever comes after generation Z!
+Here's to the end of Skywalker saga, and whatever comes after generation Z!
 
 [fn:1] Geird, adjective: good but in a weird way and weird but in a good way. Synonym: goodd. This is not a real word yet, but who cares? It's year of Metal Rat!
+
+** DONE zh
+:PROPERTIES:
+:EXPORT_TITLE: 回顾 2019
+:EXPORT_FILE_NAME: 2020-01-01-2019-in-review.zh.md
+:END:
+
+每个新年给我带来的新鲜感都不断地下降（参见我在回顾 2018 时提到的一年的相对长度），不过用一个和新的目标与决心绑定的节日来结束过于嘈杂且让人感到慵懒的假日季节并不是一个坏主意。
+
+话说回来，看到 2020 这个数字会让人不自觉地感到兴奋，因为这在我的印象里总是存在于极为遥远的未来：我甚至不记得任何描绘 2020 年代的科幻作品。大多数作品不是止于 2010 年代，就是直接跳到 31 世纪，使得接下来的十年处于期待值的空白区域。对了，2020 年将迎来农历的庚子年，而有趣的是 [[https://en.m.wikipedia.org/wiki/2020][维基百科]] 的英文直译是“金属耗子”——想不到一个传统概念会有这么的朋克的名称。
+
+*** 2019 回放
+2019 年的计划进行的非常顺利！
+
+- [X] 跑 400 英里。[555/400]
+- [X] 写 10 篇日志。[13/10]
+- [X] 写 10 篇日志。[14/10]
+- [X] 停止使用 Gmail 、 Inbox 应用程序 。
+- [X] 给博客加上 =rel=me= 链接。
+- [X] 进一步了解 Rust 和 Julia 。 [2/2]
+- [X] 记录我中意的书籍，音乐，和影视作品。
+- [X] 清理台式电脑。
+
+在排除了生活中的一些不确定因素后，我在 2019 年的日常变得更更规律了。我仍然时不时地拖延博客文章，但至少发布日志的频率高了一些。学习 Rust 和 Julia 很有趣，而且我也在实际项目中用到了它们。我还尝试了用这两种语言完成 Advent of Code 并撑到了第17天，到解决问题所需时间太长为止。我曾考虑过圣诞节后完成所有剩余的问题，但我决定不这样做——我认为自己不会通过这些问题增加对这些语言的了解，把时间花在其他地方可能会更好。
+
+受到 [[https://getkiss.org/blog/20191004a][本文]] 启发，我给博客写了一个新的 Hugo 主题。我发现一步步消除那些可有可无的装饰的过程奇怪地令人满足：我希望博客带有任何不必要的东西。本站的订阅源已改为使用ATOM，并且完整显示每篇日志，而不是默认的支离破碎的摘要。在上一次尝试整理浏览器书签并遭遇惨败后，我开始使用网站订阅源来阅读其他博客。到目前为止，我很喜欢这一新方式。
+
+我今年去电影院看了三部电影，分别是《龙珠超：布罗利》，《普罗米亚》和《星球大战：天行者的崛起》。三次观影都还算愉快：试图用评级来量化这种享受可能并不公平，因为我喜欢每一部电影的原因都不尽相同。由于我很少去电影院看电影，我在飞机上度过的时间贡献了我电影消费的很大一部分。《蜘蛛侠：平行宇宙》是我在飞机上看的影片里最好的一部。在圣诞夜，我没有延续大学期间的传统—看《龙与虎》，而是重温了一部我在数年前的一次飞行中看的电影，《歪小子斯科特》。这部电影的确像我记忆中的那样怪趣。
+
+作为一个直到 2018 年都住在不会下雪的地方的人，雪对我来说是一个如此陌生的概念，以至于我会把任何有下雪场景的电影都视为圣诞节电影。即使在 2018 年年中搬到一个下雪的城市之后，我仍然没有看到过那种虽然俗套、但蓬松得似乎带有温度的圣诞雪：我所住的地方只有堆积在路边的脏水和脏冰的混合物（而且它们总能找到办法进入你的鞋子）。这更能让我想到鱼市而非圣诞节。我敢打赌，电影中所有的积雪场景都只是道具，就像登月照片一样。嗯，肯定是这样。
+
+在 2018 年，我设置了一个 Mastodon 实例，此后我删除了自己的 Twitter 帐户，但是我并不经常使用 Mastodon 。起初我觉得我属于不会写微型博客的类型，但是现在我开始认为是登录、编辑、加标签和翻译的认知开销导致了我不怎么热衷于更新状态。在 2019 年的最后几个月里，我一直在用 [[https://twtxt.readthedocs.io/en/latest/][twtxt]] 格式发布微型博客，并积累了相当数量的博文（110条）。当发布我脑海里的任何愚蠢的想法都只有一行命令之遥时，写微型博客还是挺让人上瘾的，并且重新访问 twtxt 文件有时还会给我带来新的日志想法。将一个类似 Twitter 的社交媒体服务分为只读（订阅源阅读器）、只写（也就是我使用 twtxt 的目的）和互动（我还没有很好的解决办法）的部分对我来说更加合适。我的 twtxt 文件今年很可能会取代页脚里的 Mastodon 链接，因为维持这个重量级网络应用的日常运行对我来说并不是件愉快的事情。
+
+说到删除帐户，我已经将我所有的 Gmail 帐户设为自动转发到我自己架设的电子邮箱，并且我所有的设备现在都已经没有了 Gmail 和 Inbox（RIP）应用。 我还没有做好完全放弃 Google 帐户的准备，但是我已经比之前更接近了：我在尝试使用除 Google Domains 以外的其他注册服务商，并使用 Youtube 内置的订阅源而非依赖订阅频道来获取更新信息。不过我成功删除了我的 Facebook 帐户。帐户清理还会继续下去。
+
+*** 2020 之路
+由于这个办法在 2019 年效果很好，因此我将继续在博客文章和跑步里程上尝试与去年的数字保持一致。 甜面包圈常常是我在 2019 年深夜里罪恶感的来源（都是 Dunkin' 的错）。甜面包圈是为数不多的几种尽管会给健康带来不利影响但我仍然愿意食用的食物之一，所以我在此宣言： 2020 年不会有甜面包圈！
+
+我一直都想正式建立起一套遵循 3-2-1 原则的数据备份流程。至于要学习的新语言，我已经注意 Go 有一段时间了。随着 Go 模块的发布，这似乎是一个合适的开始时机。除此之外，还有即将到来的 C++20 。
+
+2020 年会有几种不同的 Linux 手机（ Librem 5 和 PinePhone ）发布。我很乐意尝试它们，以探索离开 Apple 生态系统的方法。另一方面，PineTime 可能是我已逐渐老化的 Pebble Time Round 的完美替代品。
+
+除了技术性的之外，我已经有一段时间没有阅读任何书籍了，至少没有任何足以被称为文学作品的书籍。我想在 2020 年改变这种状况。
+
+为天行者系列的终结以及我很好奇会被如何命名的 Z 世代之后出现的一代干杯！
