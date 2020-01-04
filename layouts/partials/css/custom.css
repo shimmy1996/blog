@@ -6,3 +6,16 @@ a:focus, a:hover {
     background: var(--accent-color);
     color: var(--background-color);
 }
+
+input, textarea {
+    color: var(--text-color);
+    background: var(--alt-background-color);
+    border: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+::placeholder {
+    color: var(--text-color);
+}

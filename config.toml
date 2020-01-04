@@ -1,6 +1,6 @@
 # Site Settings
 baseURL                        = "https://www.shimmy1996.com/"
-theme                          = "hugo-djem-so"
+theme                          = ["hugo-djem-so", "hugo-hyperskip"]
 footnoteReturnLinkContents     = "↩"
 defaultContentLanguage         = "en"
 defaultContentLanguageInSubdir = true
@@ -9,6 +9,7 @@ disableHugoGeneratorInject     = true
 
 [author]
 name = "Shimmy Xu"
+email = "shimmy.xu@shimmy1996.com"
 
 [markup]
   [markup.goldmark]
