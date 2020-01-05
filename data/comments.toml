@@ -1,0 +1,199 @@
+[[comments]]
+name="shimmy1996"
+time=2017-10-25T04:22:48+00:00
+uri="/en/friends/"
+content="""
+Testing the new comment system.
+"""
+[[comments]]
+name="shimmy1996"
+time=2017-10-25T04:23:29+00:00
+uri="/zh/friends/"
+content="""
+测试isso评论系统。
+"""
+[[comments]]
+name="shimmy1996"
+time=2017-10-26T04:48:03+00:00
+uri="/en/friends/"
+content="""
+This is looking great!
+"""
+[[comments]]
+name="shimmy1996"
+time=2017-10-26T04:48:32+00:00
+uri="/zh/friends/"
+content="""
+看起来很棒！
+"""
+[[comments]]
+name="shimmy1996"
+time=2017-10-26T15:07:28+00:00
+uri="/en/friends/"
+content="""
+Testing from IOS.
+"""
+[[comments]]
+name="shimmy1996"
+time=2017-10-26T15:21:06+00:00
+uri="/zh/friends/"
+content="""
+IOS 平台测试。
+"""
+[[comments]]
+name="Yihui"
+time=2018-02-05T03:30:28+00:00
+uri="/zh/posts/2018-01-15-my-very-own-avatar-icon-thingy/"
+content="""
+我的头像也是自己制作的，不过我不会用图片编辑工具，所以直接用了一个在线服务，拼凑了几个卡通图案，然后用了十几年了。
+"""
+[[comments]]
+name="shimmy1996"
+time=2018-02-05T03:39:35+00:00
+uri="/zh/posts/2018-01-15-my-very-own-avatar-icon-thingy/"
+content="""
+嘿！你是这个站重建后的第一条评论！你的头像感觉是南方公园的风格啊。
+"""
+[[comments]]
+name="Yihui"
+time=2018-02-19T04:12:05+00:00
+uri="/zh/posts/2018-01-15-my-very-own-avatar-icon-thingy/"
+content="""
+正是南方公园！
+"""
+[[comments]]
+name="laurent"
+time=2019-06-24T10:42:30+00:00
+uri="/zh/friends/"
+content="""
+网站很棒
+"""
+[[comments]]
+name="shimmy1996"
+time=2019-06-25T00:53:45+00:00
+uri="/en/friends/"
+content="""
+Testing reply.
+"""
+[[comments]]
+name="shimmy1996"
+time=2019-06-25T01:03:08+00:00
+uri="/zh/friends/"
+content="""
+谢谢！：）
+"""
+[[comments]]
+name="aclef"
+time=2019-09-15T07:41:58+00:00
+uri="/en/friends/"
+content="""
+long time no see :D I nuked my blog a long time ago. Pushed it online 
+again on the spur of the moment but really have no idea how long can I 
+keep doing it, or the general point of this but...
+"""
+[[comments]]
+name="shimmy1996"
+time=2019-09-15T14:23:22+00:00
+uri="/en/friends/"
+content="""
+Ayyyy - it's been quite a while for sure! Glad to see the revival of your site. I consider personal website to be part of my digital identity - not too different from having a twitter account except that I own all the data - so I guess its existence is the whole point (no pun intended)?
+"""
+[[comments]]
+name="aclef"
+time=2019-09-16T04:52:34+00:00
+uri="/en/posts/2019-09-15-hello-darkness-my-old-friend/"
+content="""
+I've been using Manjaro exclusively for at least a year(yeah I'm not quite nerd enough to try Arch in its original taste or even Gentoo XD), One thing I love is I can easily invert the color of window with shortcuts. Together with many other pros I can finally say I love linux for its own sake but not out of my hatred for Microsoft. LOL.
+
+How is LaTeX rendering implemented for your blog? Does it work well with dare mode?
+"""
+[[comments]]
+name="shimmy1996"
+time=2019-09-16T05:10:41+00:00
+uri="/en/posts/2019-09-15-hello-darkness-my-old-friend/"
+content="""
+Interesting - is that a function of the desktop environment that you use? Does it handle images correctly?
+
+For LaTeX rendering, I'm using [KaTeX](https://katex.org/), which is supposedly faster than the more popular MathJax. It respects the html color tags so it works fine in dark mode. I haven't figured out an efficient way to include my LaTeX macros so the only example of posts using LaTeX so far is the LaTeX logo [here](https://www.shimmy1996.com/en/posts/2018-05-21-construction-finished/).
+"""
+[[comments]]
+name="aclef"
+time=2019-09-16T05:23:07+00:00
+uri="/en/posts/2019-01-27-installing-gentoo/"
+content="""
+I don't really know I am the guy who introduced you to the Linux wonderland XD. I've been using all sorts of distributions along the way but eventually settled on Manjaro, before I completely ditched Win.
+I still do distro/DE/WM jumping sometimes, but I have an inexplicable distaste for VMs so I installed them into SD cards(have to do some chainloading to boot into it but visually more appealing, without an USB dongle ) or USB drives, and they run very smoothly, which is quite unexpected.
+"""
+[[comments]]
+name="aclef"
+time=2019-09-16T05:35:43+00:00
+uri="/en/posts/2019-09-15-hello-darkness-my-old-friend/"
+content="""
+For KDE out of the box there's an invert option in desktop effect settings, you can specify different hot key for window inversion or global inversion.
+For Cinnamon you can install a extension in it's own extension market that can do the same thing.
+For other gnome derivatives, install xcalib and register a hot key to 'xcalib -i -c' can handle global inversion ,still don't know how to do window-wise inversion.
+Because it's inversion on the level of window composition so images will also be inverted, it's okay for me though. For webpages there's a firefox plugin that can handle image aware inversion.
+"""
+[[comments]]
+name="shimmy1996"
+time=2019-09-16T05:54:29+00:00
+uri="/en/posts/2019-09-15-hello-darkness-my-old-friend/"
+content="""
+Intriguing - I'm running i3/sway on my setup and use system-wide dark mode via `gtk-application-prefer-dark-theme` config. It's finicky in that its effectiveness depends on application support. In context of website dark modes, Firefox picks that setting up and loads the correct CSS but Chromium doesn't.
+"""
+[[comments]]
+name="shimmy1996"
+time=2019-09-16T06:25:09+00:00
+uri="/en/posts/2019-01-27-installing-gentoo/"
+content="""
+My primary use case for VMs is to run certain Win/Mac only programs (yes Adobe I'm looking at you and your stupid encrypted PDFs). For distro hopping, VM is nice in that it circumvents most driver issues, but I can see the appeal of SD card/USB drive approaches - much more portable if you want to run on different devices. Modern day flash memory are probably magnitudes faster than HDDs in random reads - good ol' technology!
+"""
+[[comments]]
+name="aclef"
+time=2019-09-21T15:28:50+00:00
+uri="/en/friends/"
+content="""
+Ugh GFW are on fire these days. I submit. Gotta wait until the shit passes. Just to let you know I made my new hugo site as a standalone venting site because now my teacher reads my blog XD, you can add blog.a2clef.com to my link lol
+"""
+[[comments]]
+name="shimmy1996"
+time=2019-09-22T03:18:09+00:00
+uri="/en/friends/"
+content="""
+Updated! I can't seem to find the rss feed on for hugo site though - any plans on adding that?
+"""
+[[comments]]
+name="aclef"
+time=2019-09-22T04:01:29+00:00
+uri="/en/friends/"
+content="""
+Definitely, I'll tell you when I figure that out
+"""
+[[comments]]
+name="ruibin"
+time=2019-09-22T13:32:58+00:00
+uri="/zh/posts/2017-10-22-no-more-disqusting-disqus/"
+content="""
+可能不需要评论，可能邮箱就够了😛️很棒的主题
+"""
+[[comments]]
+name="shimmy1996"
+time=2019-09-22T17:20:25+00:00
+uri="/zh/posts/2017-10-22-no-more-disqusting-disqus/"
+content="""
+谢谢！用邮件列表来做评论系统确实是个不错的主意🤔
+"""
+[[comments]]
+name="shimmy1996"
+time=2019-09-22T17:32:46+00:00
+uri="/en/friends/"
+content="""
+Ha found it - it's just a `/index.xml` away.
+"""
+[[comments]]
+name="aclef"
+time=2019-09-23T09:50:59+00:00
+uri="/en/friends/"
+content="""
+Ohhh it's always there, I just added a menu link to it
+"""
