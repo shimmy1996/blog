@@ -12,8 +12,14 @@ input, textarea {
     background: var(--alt-background-color);
     border: 0;
     padding: 5px;
-    box-sizing: border-box;
-    padding: 5px;
+    border-radius: 0;
+}
+
+textarea {
+    resize:vertical;
+    min-height:4em;
+    width:100%;
+    box-sizing:border-box;
 }
 
 ::placeholder {
