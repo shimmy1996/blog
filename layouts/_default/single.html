@@ -1,5 +1,7 @@
 {{ define "main" }}
-<header><h1>{{ .Title }}</h1></header>
-<article>{{ .Content }}</article>
-{{ partial "comment.html" . }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ partial "comment.html" . }}
+</article>
 {{ end }}
