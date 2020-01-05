@@ -6,7 +6,7 @@ draft = false
 _The plan needs to go on._
 
 
-# Goals for 2020 {#goals-for-2020}
+## Goals for 2020 {#goals-for-2020}
 
 -   Run 550 miles. <code>[8/550]</code>
 -   Write 14 blog posts. <code>[2/13]</code>
@@ -15,11 +15,11 @@ _The plan needs to go on._
 -   Read non-technical books. <code>[0/1]</code>
 
 
-# Wishlist {#wishlist}
+## Wishlist {#wishlist}
 
 -   Finish a marathon. <code>[0/1]</code>
 -   Get the first signature for my PGP key. <code>[0/1]</code>
 -   Install Gentoo. <code>[1/1]</code>
 
 
-# Recent Posts {#recent-posts}
+## Recent Posts {#recent-posts}
