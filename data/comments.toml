@@ -1,4 +1,29 @@
 [[comments]]
+name="Random Ken"
+time=2014-02-09T01:25:31+00:00
+uri="/en/posts/2014-02-09-linux-only-boots-under-recovery-mode/"
+content="""
+Is your BIOS set to look for a bootable USB device? If so maybe that is now causing a conflict and needs to be disabled, so that it only seeks out your harddrive for booting.
+"""
+[[comments]]
+name="shimmy1996"
+time=2014-02-09T08:02:56+00:00
+uri="/en/posts/2014-02-09-linux-only-boots-under-recovery-mode/"
+content="""
+You are the first one to comment on Pandora!!!:)
+
+I'm not sure, though, for the windows loader works perfectly. Thanks for the advice anyways. XDD
+"""
+[[comments]]
+name="Random Ken"
+time=2014-02-09T20:00:30+00:00
+uri="/en/posts/2014-02-09-linux-only-boots-under-recovery-mode/"
+content="""
+Do I win a prize? 😛 lol
+
+Hmm if it still loads for Windows then no, that doesn’t sound like the problem. Strange. Hopefully you figure it out 🙂
+"""
+[[comments]]
 name="shimmy1996"
 time=2017-10-25T04:22:48+00:00
 uri="/en/friends/"
@@ -87,8 +112,8 @@ name="aclef"
 time=2019-09-15T07:41:58+00:00
 uri="/en/friends/"
 content="""
-long time no see :D I nuked my blog a long time ago. Pushed it online 
-again on the spur of the moment but really have no idea how long can I 
+long time no see :D I nuked my blog a long time ago. Pushed it online
+again on the spur of the moment but really have no idea how long can I
 keep doing it, or the general point of this but...
 """
 [[comments]]
