@@ -29,3 +29,8 @@ textarea {
 #comments div {
     margin: 1em 0 1em 0;
 }
+
+hr {
+    border: none;
+    border-top: 1px solid var(--alt-background-color);
+}
