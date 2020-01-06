@@ -1,14 +1,21 @@
-:root {
-    --background-color: #dcc;
-    --alt-background-color: #baa;
-    --accent-color: #455;
-    --text-color: #233;
+body {
+    background: var(--background-color);
+    color: var(--text-color);
 }
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #233;
-        --alt-background-color: #455;
-        --accent-color: #baa;
-        --text-color: #dcc;
-    }
+a {
+    color: var(--accent-color);
+}
+thead, tfoot, tr:nth-child(even), pre, code, kbd {
+    background: var(--alt-background-color);
+}
+a:focus, a:hover {
+    background: var(--accent-color);
+    color: var(--background-color);
+}
+input, textarea {
+    background: var(--alt-background-color);
+    color: var(--text-color);
+}
+::placeholder {
+    color: var(--text-color);
 }
