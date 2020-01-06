@@ -1,11 +1,8 @@
 body {
     font-family: sans-serif;
 }
-input[type=text], input[type=submit], textarea {
-    appreance: none;
-    border: 1px solid;
+input, textarea {
     padding: 5px;
-    border-radius: 0;
     margin: 0.5em 0 1em 0;
 }
 textarea {
