@@ -1,9 +1,11 @@
 body {
     font-family: sans-serif;
 }
+article article, form, header  {
+    margin-bottom: 1em;
+}
 input, textarea {
-    padding: 5px;
-    margin: 0.5em 0 1em 0;
+    margin: 0.5em 0 0.5em 0;
 }
 textarea {
     resize: vertical;
@@ -11,23 +13,16 @@ textarea {
     width: 100%;
     box-sizing: border-box;
 }
-header h1 {
+h1 {
     font-size: 180%;
 }
-header h1, header h3 {
-    margin-bottom: 0.1em;
-}
 header nav {
+    margin-top: -1.5em;
     font-size: 90%;
-}
-header {
-    margin-bottom: 1em;
 }
 article article {
     border-top: 1px solid;
-    margin-bottom: 1em;
 }
-{{ partial "css/color.css" . | safeCSS }}
 :root {
     --background-color: #dcc;
     --alt-background-color: #baa;
@@ -42,3 +37,4 @@ article article {
         --text-color: #dcc;
     }
 }
+{{ partial "css/color.css" . | safeCSS }}

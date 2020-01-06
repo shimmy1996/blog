@@ -12,13 +12,6 @@ a:focus, a:hover {
     background: var(--accent-color);
     color: var(--background-color);
 }
-input, textarea {
-    background: var(--alt-background-color);
-    color: var(--text-color);
-}
-::placeholder {
-    color: var(--text-color);
-}
 article article {
     border-color: var(--alt-background-color);
 }
