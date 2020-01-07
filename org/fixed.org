@@ -14,10 +14,11 @@
 /The plan needs to go on./
 
 *** Goals for 2020
-- Run 550 miles. [8/550]
+- Run 550 miles. [16/550]
 - Write 14 blog posts. [2/13]
-- Dive into Go and C++20. [0/2]
 - No donuts. [0/0]
+- Dive into Go and C++20. [0/2]
+- Set up proper backup workflow. [0/1]
 - Read non-technical books. [0/1]
 
 *** Wishlist
@@ -36,10 +37,11 @@
 /计划进行中。/
 
 *** 2020 年目标
-- 跑 550 英里。[8/550]
+- 跑 550 英里。[16/550]
 - 写 14 篇日志。[2/14]
-- 了解 Go 和 C++20。[0/2]
 - 不吃甜面包圈。[0/0]
+- 了解 Go 和 C++20。[0/2]
+- 建立正式的数据备份流程。[0/1]
 - 阅读非技术类书籍。[0/1]
 
 *** 愿望清单
