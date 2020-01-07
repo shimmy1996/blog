@@ -23,18 +23,5 @@ header nav {
 article article {
     border-top: 1px solid;
 }
-:root {
-    --background-color: #dcc;
-    --alt-background-color: #baa;
-    --accent-color: #455;
-    --text-color: #233;
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #233;
-        --alt-background-color: #455;
-        --accent-color: #baa;
-        --text-color: #dcc;
-    }
-}
+{{ partial "css/theme.css" . | safeCSS }}
 {{ partial "css/color.css" . | safeCSS }}
