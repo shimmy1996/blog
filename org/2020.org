@@ -22,13 +22,13 @@ Looking at the number 2020 does give me a bit more excitement as it always felt 
 *** 2019 Rewind
 I'm glad to announce that everything went according to plan in 2019!
 
-- Run 400 miles. [555/400]
-- Write 10 blog posts. [14/10]
-- Stop using Gmail/Inbox app. [2/2]
-- Add =rel=me= links to blog. [1/1]
-- Dive into Rust and Julia. [2/2]
-- Record books, music, and shows I enjoyed. [1/1]
-- Clean my desktop computer. [1/1]
+- ☑ Run 400 miles. [555/400]
+- ☑ Write 10 blog posts. [14/10]
+- ☑ Stop using Gmail/Inbox app. [2/2]
+- ☑ Add =rel=me= links to blog.
+- ☑ Dive into Rust and Julia. [2/2]
+- ☑ Record books, music, and shows I enjoyed.
+- ☑ Clean my desktop computer.
 
 With some uncertainties in my life sorted out, I've been following my daily routines a lot better in 2019. I still procrastinate on blog posts from time to time, but at least I'm also publishing ever so more often. Learning Rust and Julia was fun, and I did get some uses out of them in real projects. I also attempted Advent of Code in both languages and got to the day 17 before each day's questions started taking too much time. I thought about finishing all the remaining ones after Christmas, but decided against it - I don't see myself learning more about the languages through these questions and the time could be better spent elsewhere.
 
@@ -66,13 +66,13 @@ Here's to the end of Skywalker saga, and whatever comes after generation Z!
 *** 2019 回放
 2019 年的计划进行的非常顺利！
 
-- 跑 400 英里。[555/400]
-- 写 10 篇日志。[14/10]
-- 停止使用 Gmail 、 Inbox 应用程序 。[2/2]
-- 给博客加上 =rel=me= 链接。[1/1]
-- 进一步了解 Rust 和 Julia 。 [2/2]
-- 记录我中意的书籍，音乐，和影视作品。[1/1]
-- 清理台式电脑。[1/1]
+- ☑ 跑 400 英里。[555/400]
+- ☑ 写 10 篇日志。[14/10]
+- ☑ 停止使用 Gmail 、 Inbox 应用程序 。[2/2]
+- ☑ 给博客加上 =rel=me= 链接。
+- ☑ 进一步了解 Rust 和 Julia 。 [2/2]
+- ☑ 记录我中意的书籍，音乐，和影视作品。
+- ☑ 清理台式电脑。
 
 在排除了生活中的一些不确定因素后，我在 2019 年的日常变得更更规律了。我仍然时不时地拖延博客文章，但至少发布日志的频率高了一些。学习 Rust 和 Julia 很有趣，而且我也在实际项目中用到了它们。我还尝试了用这两种语言完成 Advent of Code 并撑到了第17天，到解决问题所需时间太长为止。我曾考虑过圣诞节后完成所有剩余的问题，但我决定不这样做——我认为自己不会通过这些问题增加对这些语言的了解，把时间花在其他地方可能会更好。
 

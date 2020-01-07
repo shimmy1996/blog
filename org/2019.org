@@ -32,11 +32,11 @@ underestimate my own capabilities when planning...
 Yeah, it's totally just that my estimates about the amount of free time I would
 have was off, as can be seen from the status of my 2018 goals.
 
-- [ ] Run 1000 miles. [405/1000]
-- [ ] Finish a marathon.
-- [ ] Write 20 blog posts. [10/20]
-- [ ] Get the first signature for my PGP key.
-- [ ] Install Gentoo.
+- ☒ Run 1000 miles. [405/1000]
+- ☒ Finish a marathon.
+- ☒ Write 20 blog posts. [10/20]
+- ☒ Get the first signature for my PGP key.
+- ☒ Install Gentoo.
 
 Knowing that I can always change the 'publish date' of blog entries (thanks to
 =hugo=), I grew into the bad habit of starting an article and just then shelving
@@ -123,11 +123,11 @@ Here's to another spectacular 2.9e+17 radiation periods of Caesium-133!
 
 是的，从我 2018 年目标的完成状态可以看出，一定是对空闲时间的估计上出了问题。嗯，一定是这样。
 
-- [ ] 跑 1000 英里。[405/1000]
-- [ ] 完成一次马拉松。
-- [ ] 写 20 篇以上的日志。[10/20]
-- [ ] 获得第一个 PGP 密匙签名。
-- [ ] 安装 Gentoo。
+- ☒ 跑 1000 英里。[405/1000]
+- ☒ 完成一次马拉松。
+- ☒ 写 20 篇以上的日志。[10/20]
+- ☒ 获得第一个 PGP 密匙签名。
+- ☒ 安装 Gentoo。
 
 由于使用 =hugo= ，我可以随时更改博客条目的“发布日期”，我养成了撰写文章开头后将其搁置好几个月的坏习惯。当我最后记得那篇未完成的文章时，我经常认为这个想法不值得详细写下去。现在想想，也许这正是博客的目的，它提供了我在某个时间点的快照，使得我可以回顾过去的自己，无论将来的我会觉得这是愚蠢的还是“不值得详细写下去”的。
 

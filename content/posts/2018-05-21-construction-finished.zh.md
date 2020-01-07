@@ -11,31 +11,31 @@ latex = true
 
 ## 施工计划 {#施工计划}
 
--   [X] ~~找一家新的服务器提供商~~ 目前使用 DigitalOcean 。
--   [X] 在服务器上安装 Arch Linux 。
--   [X] ~~搜寻WP的替代品。~~ Hugo 很不错。
--   [X] ~~找一个合适的主题。~~ 目前使用 `hugo-xmin` ，考虑fork出来写成自己的主题（ `soresu` ）。
--   [X] 完成服务器端设置，比如添加 `post-receive` 来实现 `git` 自动部署。
--   [X] 可以切换 **当前页面** 语言版本的语言切换按钮。
--   [X] Disqus 支持。
--   [X] 用 ~~MathJax~~ KaTeX 实现  \\(\LaTeX\\) 表达式支持。
--   [X] 把导航页的内容搬过来并翻译。
--   [X] https 支持。
--   [X] 备份原WP站点。
--   [X] 转移域名到 Google Domains ，并完成 DNS 设置。
--   [X] 尝试使用 `org-mode` 或者 R markdown 来写博客。
--   [X] 解决 `emacs` 不兼容 `fcitx` 的问题。
--   [X] 设置多语言支持，添加合适的翻译字符串。
--   [X] 使用 Google 的 Noto Sans 字体（拉丁字母使用 Oxygen Sans ），代码则使用 ~~Source Code Pro~~ Iosevka 。
--   [X] 为站点和社交网站找一个合适的图标/头像。
--   [X] 改善文章页面模板使其显示标签和分类。
--   [X] 改善网站外观，比如隐藏超链接的下划线等。
--   [X] 架设自己的邮箱。
--   [X] 解决 `org-mode` 和 `hugo` 略不兼容的地方，比如代码高亮。
--   [X] 尝试把 `hugo new` 变得更有用一些，比如直接创建多语言版本等。
--   [X] 抛弃 Disqus 自己搭建评论系统。
--   [X] 使用 Let's Encrypt 的通配符证书。
--   [X] 把比较有价值的旧文章搬过来。
+-   ☑ ~~找一家新的服务器提供商~~ 目前使用 DigitalOcean 。
+-   ☑ 在服务器上安装 Arch Linux 。
+-   ☑ ~~搜寻WP的替代品。~~ Hugo 很不错。
+-   ☑ ~~找一个合适的主题。~~ 目前使用 `hugo-xmin` ，考虑fork出来写成自己的主题（ `soresu` ）。
+-   ☑ 完成服务器端设置，比如添加 `post-receive` 来实现 `git` 自动部署。
+-   ☑ 可以切换 **当前页面** 语言版本的语言切换按钮。
+-   ☑ Disqus 支持。
+-   ☑ 用 ~~MathJax~~ KaTeX 实现  \\(\LaTeX\\) 表达式支持。
+-   ☑ 把导航页的内容搬过来并翻译。
+-   ☑ https 支持。
+-   ☑ 备份原WP站点。
+-   ☑ 转移域名到 Google Domains ，并完成 DNS 设置。
+-   ☑ 尝试使用 `org-mode` 或者 R markdown 来写博客。
+-   ☑ 解决 `emacs` 不兼容 `fcitx` 的问题。
+-   ☑ 设置多语言支持，添加合适的翻译字符串。
+-   ☑ 使用 Google 的 Noto Sans 字体（拉丁字母使用 Oxygen Sans ），代码则使用 ~~Source Code Pro~~ Iosevka 。
+-   ☑ 为站点和社交网站找一个合适的图标/头像。
+-   ☑ 改善文章页面模板使其显示标签和分类。
+-   ☑ 改善网站外观，比如隐藏超链接的下划线等。
+-   ☑ 架设自己的邮箱。
+-   ☑ 解决 `org-mode` 和 `hugo` 略不兼容的地方，比如代码高亮。
+-   ☑ 尝试把 `hugo new` 变得更有用一些，比如直接创建多语言版本等。
+-   ☑ 抛弃 Disqus 自己搭建评论系统。
+-   ☑ 使用 Let's Encrypt 的通配符证书。
+-   ☑ 把比较有价值的旧文章搬过来。
 
 
 ## 现在主页上是啥？ {#现在主页上是啥}

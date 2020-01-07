@@ -861,31 +861,31 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 After eight months, my blog have finally reached a place where I feel comfortable taking down the "under heavy construction" notice on my home page. In stead of out right deleting the site road map though, I'm stashing it into a blog post.
 
 *** Site Road Map
-- [X] +Find new hosting location.+ Currently using DigitalOcean.
-- [X] Install Arch Linux on server.
-- [X] +Search for WP replacement.+ Hugo is pretty good.
-- [X] +Find a suitable theme.+ Currently using =hugo-xmin= , may consider forking it and write my own ( =soresu= ).
-- [X] Server side config, like =post-receive= for git auto deploy.
-- [X] Language switcher that does more than redirecting to home page.
-- [X] Enable Disqus.
-- [X] Support \(\LaTeX\) expressions via +MathJax+ KaTeX.
-- [X] Copy-paste fixed page contents from old site (and translate them).
-- [X] Enable https.
-- [X] Backup old WP site.
-- [X] Transfer domain to Google Domains and ensure DNS works as intended.
-- [X] Find out how to write with =org-mode= or R markdown.
-- [X] Configure multilingual support, including footer text, title, etc.
-- [X] Find out how to make =emacs= work with =fcitx= .
-- [X] Use +Google's Noto Sans font+ Oxygen Sans and +Source Code Pro+ Iosevka for code.
-- [X] Find a suitable icon/favicon.
-- [X] Improve templates for posts to display tags and categories.
-- [X] Cosmetic changes, i.e. no underlines for hyperlinks.
-- [X] Deal with some nuances in using =org-mode= with =hugo= , like how to get syntax highlighting to work properly.
-- [X] Host my own email.
-- [X] Customize =hugo new= to make it more useful, i.e. create multilingual versions directly.
-- [X] Self-host commenting system as a replacement of Disqus.
-- [X] Use Let's Encrypt's wildcard certificate.
-- [X] Restore/rewrite and translate some of the more valuable old posts.
+- ☑ +Find new hosting location.+ Currently using DigitalOcean.
+- ☑ Install Arch Linux on server.
+- ☑ +Search for WP replacement.+ Hugo is pretty good.
+- ☑ +Find a suitable theme.+ Currently using =hugo-xmin= , may consider forking it and write my own ( =soresu= ).
+- ☑ Server side config, like =post-receive= for git auto deploy.
+- ☑ Language switcher that does more than redirecting to home page.
+- ☑ Enable Disqus.
+- ☑ Support \(\LaTeX\) expressions via +MathJax+ KaTeX.
+- ☑ Copy-paste fixed page contents from old site (and translate them).
+- ☑ Enable https.
+- ☑ Backup old WP site.
+- ☑ Transfer domain to Google Domains and ensure DNS works as intended.
+- ☑ Find out how to write with =org-mode= or R markdown.
+- ☑ Configure multilingual support, including footer text, title, etc.
+- ☑ Find out how to make =emacs= work with =fcitx= .
+- ☑ Use +Google's Noto Sans font+ Oxygen Sans and +Source Code Pro+ Iosevka for code.
+- ☑ Find a suitable icon/favicon.
+- ☑ Improve templates for posts to display tags and categories.
+- ☑ Cosmetic changes, i.e. no underlines for hyperlinks.
+- ☑ Deal with some nuances in using =org-mode= with =hugo= , like how to get syntax highlighting to work properly.
+- ☑ Host my own email.
+- ☑ Customize =hugo new= to make it more useful, i.e. create multilingual versions directly.
+- ☑ Self-host commenting system as a replacement of Disqus.
+- ☑ Use Let's Encrypt's wildcard certificate.
+- ☑ Restore/rewrite and translate some of the more valuable old posts.
 
 *** What's on Home Page Now?
 I already have an about page and a contact page for whatever I think people might be interested in knowing about myself, so I have no clue what I should put on home page. Since I found the old site road map to be a great way of reminding myself the stuffs I need to get done, I'll replace the road map with another to-do list: my goals for 2018. I am definitely not the most motivated kind of person, but seeing an unfinished to-do list every once in a while does get on my nerves. Let's see how well this is gonna work.
@@ -899,31 +899,31 @@ I already have an about page and a contact page for whatever I think people migh
 历时八个月，我的博客终于到达了我觉得可以摘掉施工警告的程度。不过我并没有删除原先的站点施工计划，只不过把它移到了这篇日志里。
 
 *** 施工计划
-- [X] +找一家新的服务器提供商+ 目前使用 DigitalOcean 。
-- [X] 在服务器上安装 Arch Linux 。
-- [X] +搜寻WP的替代品。+ Hugo 很不错。
-- [X] +找一个合适的主题。+ 目前使用 =hugo-xmin= ，考虑fork出来写成自己的主题（ =soresu= ）。
-- [X] 完成服务器端设置，比如添加 =post-receive= 来实现 =git= 自动部署。
-- [X] 可以切换 *当前页面* 语言版本的语言切换按钮。
-- [X] Disqus 支持。
-- [X] 用 +MathJax+ KaTeX 实现  \(\LaTeX\) 表达式支持。
-- [X] 把导航页的内容搬过来并翻译。
-- [X] https 支持。
-- [X] 备份原WP站点。
-- [X] 转移域名到 Google Domains ，并完成 DNS 设置。
-- [X] 尝试使用 =org-mode= 或者 R markdown 来写博客。
-- [X] 解决 =emacs= 不兼容 =fcitx= 的问题。
-- [X] 设置多语言支持，添加合适的翻译字符串。
-- [X] 使用 Google 的 Noto Sans 字体（拉丁字母使用 Oxygen Sans ），代码则使用 +Source Code Pro+ Iosevka 。
-- [X] 为站点和社交网站找一个合适的图标/头像。
-- [X] 改善文章页面模板使其显示标签和分类。
-- [X] 改善网站外观，比如隐藏超链接的下划线等。
-- [X] 架设自己的邮箱。
-- [X] 解决 =org-mode= 和 =hugo= 略不兼容的地方，比如代码高亮。
-- [X] 尝试把 =hugo new= 变得更有用一些，比如直接创建多语言版本等。
-- [X] 抛弃 Disqus 自己搭建评论系统。
-- [X] 使用 Let's Encrypt 的通配符证书。
-- [X] 把比较有价值的旧文章搬过来。
+- ☑ +找一家新的服务器提供商+ 目前使用 DigitalOcean 。
+- ☑ 在服务器上安装 Arch Linux 。
+- ☑ +搜寻WP的替代品。+ Hugo 很不错。
+- ☑ +找一个合适的主题。+ 目前使用 =hugo-xmin= ，考虑fork出来写成自己的主题（ =soresu= ）。
+- ☑ 完成服务器端设置，比如添加 =post-receive= 来实现 =git= 自动部署。
+- ☑ 可以切换 *当前页面* 语言版本的语言切换按钮。
+- ☑ Disqus 支持。
+- ☑ 用 +MathJax+ KaTeX 实现  \(\LaTeX\) 表达式支持。
+- ☑ 把导航页的内容搬过来并翻译。
+- ☑ https 支持。
+- ☑ 备份原WP站点。
+- ☑ 转移域名到 Google Domains ，并完成 DNS 设置。
+- ☑ 尝试使用 =org-mode= 或者 R markdown 来写博客。
+- ☑ 解决 =emacs= 不兼容 =fcitx= 的问题。
+- ☑ 设置多语言支持，添加合适的翻译字符串。
+- ☑ 使用 Google 的 Noto Sans 字体（拉丁字母使用 Oxygen Sans ），代码则使用 +Source Code Pro+ Iosevka 。
+- ☑ 为站点和社交网站找一个合适的图标/头像。
+- ☑ 改善文章页面模板使其显示标签和分类。
+- ☑ 改善网站外观，比如隐藏超链接的下划线等。
+- ☑ 架设自己的邮箱。
+- ☑ 解决 =org-mode= 和 =hugo= 略不兼容的地方，比如代码高亮。
+- ☑ 尝试把 =hugo new= 变得更有用一些，比如直接创建多语言版本等。
+- ☑ 抛弃 Disqus 自己搭建评论系统。
+- ☑ 使用 Let's Encrypt 的通配符证书。
+- ☑ 把比较有价值的旧文章搬过来。
 
 *** 现在主页上是啥？
 大部分我觉得别人会感兴趣的有关我的信息都可以在关于或联系方式页面里找到，所以对于主页应该放些什么，我实在没啥好主意。由于我感觉之前的站点施工计划是个提醒自己的不错方式，我会用另外一个任务清单来取代以完成的施工计划：我在 2018 年想实现的目标。我绝对不是那种最有干劲的人，但每每看到一张未完成的任务清单，我的强迫症神经还是会跳一跳的。那么，就让我试试看这么做效果如何吧。

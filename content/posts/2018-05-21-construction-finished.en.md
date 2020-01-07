@@ -11,31 +11,31 @@ After eight months, my blog have finally reached a place where I feel comfortabl
 
 ## Site Road Map {#site-road-map}
 
--   [X] ~~Find new hosting location.~~ Currently using DigitalOcean.
--   [X] Install Arch Linux on server.
--   [X] ~~Search for WP replacement.~~ Hugo is pretty good.
--   [X] ~~Find a suitable theme.~~ Currently using `hugo-xmin` , may consider forking it and write my own ( `soresu` ).
--   [X] Server side config, like `post-receive` for git auto deploy.
--   [X] Language switcher that does more than redirecting to home page.
--   [X] Enable Disqus.
--   [X] Support \\(\LaTeX\\) expressions via ~~MathJax~~ KaTeX.
--   [X] Copy-paste fixed page contents from old site (and translate them).
--   [X] Enable https.
--   [X] Backup old WP site.
--   [X] Transfer domain to Google Domains and ensure DNS works as intended.
--   [X] Find out how to write with `org-mode` or R markdown.
--   [X] Configure multilingual support, including footer text, title, etc.
--   [X] Find out how to make `emacs` work with `fcitx` .
--   [X] Use ~~Google's Noto Sans font~~ Oxygen Sans and ~~Source Code Pro~~ Iosevka for code.
--   [X] Find a suitable icon/favicon.
--   [X] Improve templates for posts to display tags and categories.
--   [X] Cosmetic changes, i.e. no underlines for hyperlinks.
--   [X] Deal with some nuances in using `org-mode` with `hugo` , like how to get syntax highlighting to work properly.
--   [X] Host my own email.
--   [X] Customize `hugo new` to make it more useful, i.e. create multilingual versions directly.
--   [X] Self-host commenting system as a replacement of Disqus.
--   [X] Use Let's Encrypt's wildcard certificate.
--   [X] Restore/rewrite and translate some of the more valuable old posts.
+-   ☑ ~~Find new hosting location.~~ Currently using DigitalOcean.
+-   ☑ Install Arch Linux on server.
+-   ☑ ~~Search for WP replacement.~~ Hugo is pretty good.
+-   ☑ ~~Find a suitable theme.~~ Currently using `hugo-xmin` , may consider forking it and write my own ( `soresu` ).
+-   ☑ Server side config, like `post-receive` for git auto deploy.
+-   ☑ Language switcher that does more than redirecting to home page.
+-   ☑ Enable Disqus.
+-   ☑ Support \\(\LaTeX\\) expressions via ~~MathJax~~ KaTeX.
+-   ☑ Copy-paste fixed page contents from old site (and translate them).
+-   ☑ Enable https.
+-   ☑ Backup old WP site.
+-   ☑ Transfer domain to Google Domains and ensure DNS works as intended.
+-   ☑ Find out how to write with `org-mode` or R markdown.
+-   ☑ Configure multilingual support, including footer text, title, etc.
+-   ☑ Find out how to make `emacs` work with `fcitx` .
+-   ☑ Use ~~Google's Noto Sans font~~ Oxygen Sans and ~~Source Code Pro~~ Iosevka for code.
+-   ☑ Find a suitable icon/favicon.
+-   ☑ Improve templates for posts to display tags and categories.
+-   ☑ Cosmetic changes, i.e. no underlines for hyperlinks.
+-   ☑ Deal with some nuances in using `org-mode` with `hugo` , like how to get syntax highlighting to work properly.
+-   ☑ Host my own email.
+-   ☑ Customize `hugo new` to make it more useful, i.e. create multilingual versions directly.
+-   ☑ Self-host commenting system as a replacement of Disqus.
+-   ☑ Use Let's Encrypt's wildcard certificate.
+-   ☑ Restore/rewrite and translate some of the more valuable old posts.
 
 
 ## What's on Home Page Now? {#what-s-on-home-page-now}
