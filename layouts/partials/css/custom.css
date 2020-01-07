@@ -23,5 +23,3 @@ header nav {
 article article {
     border-top: 1px solid;
 }
-{{ partial "css/theme.css" . | safeCSS }}
-{{ partial "css/color.css" . | safeCSS }}
