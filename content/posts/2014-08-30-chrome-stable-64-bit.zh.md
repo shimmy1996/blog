@@ -13,10 +13,10 @@ tags:
   - Chrome
 
 ---
-<img src="/wp-content/uploads/2014/08/cover2.png"/>
+{{< figure src="/wp-content/uploads/2014/08/cover2.png" >}}
 
 看到页面正中央的“64-bit”简直舒爽&#8230;
 
-<img src="/wp-content/uploads/2014/08/Capture3.png"/>
+{{< figure src="/wp-content/uploads/2014/08/Capture3.png" >}}
 
 不过有点奇怪的是，在“关于”页面中，chrome版本号显示的是未知&#8230;

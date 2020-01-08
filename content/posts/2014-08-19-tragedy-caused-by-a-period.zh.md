@@ -14,7 +14,7 @@ tags:
   - 教做人
 
 ---
-<img src="/wp-content/uploads/2014/08/Capture2.png"/>
+{{< figure src="/wp-content/uploads/2014/08/Capture2.png" >}}
 
 MATLAB很坑爹的把单引号用作求共轭转置矩阵&#8230;
 

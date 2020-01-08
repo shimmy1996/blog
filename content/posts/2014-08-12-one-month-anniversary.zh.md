@@ -13,7 +13,7 @@ tags:
   - 纪念日
 
 ---
-<img src="/wp-content/uploads/2014/08/2000px-Spaceship_and_Sun_esqvg.png"/>
+{{< figure src="/wp-content/uploads/2014/08/2000px-Spaceship_and_Sun_esqvg.png" >}}
 
 「川陀大学图书室」建站一个月了！XDD
 

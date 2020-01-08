@@ -15,7 +15,7 @@ tags:
   - 索尼
 
 ---
-<img src="/wp-content/uploads/2014/08/PS4.jpg"/>
+{{< figure src="/wp-content/uploads/2014/08/PS4.jpg" >}}
 
 索尼为PS4造势进行的一个有趣的活动XDD
 
@@ -25,6 +25,6 @@ tags:
 
 这里恬不知耻地贴上自己的<a title="传送门" href="http://greatnessawaits.gamermasterpiece.com/#gallery/medium/24865">Gamer Masterpiece地址</a>XDD，这幅画的原版是法国画家Charles-Antoine Coypel与1737年创作的_Fury of Achilles（阿喀琉斯之怒）_。
 
-<img src="/wp-content/uploads/2014/08/fury.jpg"/>
+{{< figure src="/wp-content/uploads/2014/08/fury.jpg" >}}
 
 大家如果创建了自己的Gamer Masterpiece，务必留下地址，某去点个赞XDD

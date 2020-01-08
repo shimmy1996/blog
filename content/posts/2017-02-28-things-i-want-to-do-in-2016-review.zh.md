@@ -16,7 +16,7 @@ tags:
 ---
 不知不觉离上一篇博客已经过了半年了&#8230;
 
-<img src="/wp-content/uploads/2017/02/IMG_0270.jpg"/>
+{{< figure src="/wp-content/uploads/2017/02/IMG_0270.jpg" >}}
 
 终于把セツナ升到五星了！
 

@@ -17,43 +17,43 @@ tags:
 
 ---
 <figure>
-<img src="/wp-content/uploads/2014/07/P5220038.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/P5220038.jpg" >}}
 <figcaption>图片来自网络</figcaption>
 </figure>
 
 键盘键帽虽然看起来大同小异，但其实有不少奇怪的键帽形状存在（笔记本电脑键盘不在讨论之列）。
 
-<img src="/wp-content/uploads/2014/07/angle3.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/angle3.jpg" >}}
 
 DCS标准：中等高度，圆柱形表面，有高度差。
 
 这是最常见的键帽形状。具体的键帽高度在不同厂家中会有一些小区别。例如cherry生产的DCS键帽比大多数机械键盘厂家的要矮一些。所以一般将除cherry外的DCS键帽称作OEM Profile，cherry自己的则称为Cherry Profile.
 
-<img src="/wp-content/uploads/2014/07/angle2.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/angle2.jpg" >}}
 
 DSA标准：中等高度，球形表面，无高度差。
 
 标题图中的键帽就属于DSA标准。这大概是除DCS外最普遍的键帽了。有趣的是，在DSA键盘上，F，J和5这几个键的球面半径会比一般键帽要小些，也就是更”凹“，以方便使用者定位。这种键帽有时会被用在一些人体工学键盘上。
 
-<img src="/wp-content/uploads/2014/07/angle1.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/angle1.jpg" >}}
 
 LP标准：低高度，圆柱形表面，无高度差。
 
 这感觉类似笔记本的巧克力键盘&#8230;
 
-<img src="/wp-content/uploads/2014/07/angle7.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/angle7.jpg" >}}
 
 KT标准，中等高度，圆柱形表面，无高度差。
 
 这形状好无趣的感觉。
 
-<img src="/wp-content/uploads/2014/07/angle5.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/angle5.jpg" >}}
 
 SA标准，高高度，球形表面，有高度差。
 
 看上去打字会挺舒服XD，键帽角度普遍后倾。
 
-<img src="/wp-content/uploads/2014/07/angle6.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/angle6.jpg" >}}
 
 SS标准，高高度，球形表面，有高度差。
 

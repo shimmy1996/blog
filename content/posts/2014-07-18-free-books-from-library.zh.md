@@ -18,8 +18,8 @@ tags:
 ---
 死宅果然没人爱2333&#8230;所以捐的书图书馆都不要&#8230;
 
-<img src="/wp-content/uploads/2014/07/IMG_2143.JPG"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2143.JPG" >}}
 
 收了龙枪编年史，黑暗精灵和冰风谷三部曲&#8230;
 
-<img src="/wp-content/uploads/2014/07/IMG_2200.JPG"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2200.JPG" >}}

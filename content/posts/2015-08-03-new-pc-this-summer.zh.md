@@ -17,7 +17,7 @@ tags:
   - 装机
 
 ---
-<img src="/wp-content/uploads/2015/08/Photo-Aug-02-11-43-05-PM.jpg"/>
+{{< figure src="/wp-content/uploads/2015/08/Photo-Aug-02-11-43-05-PM.jpg" >}}
 
 其实装机最大动力是因为买了这个机箱XDD
 
@@ -57,6 +57,6 @@ Chasis Fans: Noctua NF-A9 PWM x 2, Noctua NF-A12 PWM x 1
 
 现在移动作业有XPS 13， 家里也有了新机器，那就要正式和17寸的庞然大物Dell Vostro 3750说再见了。TUT
 
-<img src="/wp-content/uploads/2015/08/Photo-Aug-03-12-14-06-AM.jpg"/>
+{{< figure src="/wp-content/uploads/2015/08/Photo-Aug-03-12-14-06-AM.jpg" >}}
 
 三年多来，谢谢你的陪伴。XDD

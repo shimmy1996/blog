@@ -9,19 +9,13 @@ slug = "my-very-own-avatar-icon-thingy"
 
 由于我并不觉得自己有多少艺术细胞，我最初尝试的方法是在 GeoGebra 里用尺规作图复制原来的头像。这种作图方式很是让人上瘾，但遗憾的是：在荒废几个小时后，我得到的只是一堆纠缠不清的曲线。
 
-<a id="org237322f"></a>
-
 {{< figure src="/img/posts/2018/my-very-own-avatar-icon-thingy-01.png" caption="Figure 1: GeoGebra 中的诸多失败作之一。" >}}
 
 事已至此，我开始意识到我是画不出像旧共和国标志的那样复杂的头像的，所以我采取了另外一种策略：从这些失败作中抽取一个更加简练的图样。
 
-<a id="orgaeaf2ce"></a>
-
 {{< figure src="/img/posts/2018/my-very-own-avatar-icon-thingy-02.png" caption="Figure 2: 我逐渐简化头像的过程。" >}}
 
 我把原图里六芒星升起的部分提取出来，并舍去了碍事的翅膀形部分使得星形能够居中。经过少许修改后更接近流星的图样看起来（至少对我来说）非常赞。在短短几分钟后，我就完成了我的头像设计。我保留了旧头像的暗红的配色（实际用的是 `#700000` 而不是原图的 `710100` ，因为我有个位数字强迫症）并加上了灰色的背景（ `#707070` ，白色背景有点太刺眼了）。
-
-<a id="org3bb7cf2"></a>
 
 {{< figure src="/img/posts/2018/my-very-own-avatar-icon-thingy-03.png" caption="Figure 3: 我推特资料上的完成版头像。" >}}
 

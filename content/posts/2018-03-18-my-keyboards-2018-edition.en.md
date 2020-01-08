@@ -21,19 +21,13 @@ On a side note, I once aspired to collect keyboards of all form factors, but soo
 
 The first keyboard ever to trigger me to give deeper thoughts into my keyboard layout is the ErgoDox. The ErgoDox boasts a layout drastically different from traditional keyboards, and because of this, offers great flexibility over key placements: I can immediately spot seven sensible locations for the Enter key (original pinky location, four 2u keys at the thumb clusters and the lower two 1.5u vertical keys in the center). I've been using ErgoDox almost exclusively since 2015, and have grown to like it even more as I started using Emacs - having access to both Control and Alt/Meta key on the home row just feels awesome.
 
-<a id="orgfd6a1d1"></a>
-
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-01.png" caption="Figure 1: My ErgoDox Base Layer Layout" >}}
 
 I still feel I am under-utilizing the keyboard's capabilities though. As you might tell, I don't know what to do with some of the thumb cluster keys. I currently have three extra layers set up: one for function keys, one for numpad, and another for a modified Dvorak layout. I haven't spend too much time on the Dvorak layer yet, but I am curious about potential benefits of decreased finger motion. Speaking of ergonomics, a perhaps uninteded benefit of ErgoDox's design is that it frees up the center of my desk, so that I can still read and write normally without a super deep desk.
 
-<a id="org12e30aa"></a>
-
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-02.png" caption="Figure 2: My ErgoDox Dvorak Layer Layout" >}}
 
 Planck is another keyboard that I've taken some thoughts designing layout for. It is pretty surprising what a 40% board is actually capable of. However, using Planck is a lot less comfortable just because of how small it is - ErgoDox on the other hand allows me to rest my arms in more natural positions, instead of cramming my hands together. That being said, I would imagine a Let's Split - basically a Planck split in halves - to work fairly well.
-
-<a id="orgda073dd"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-03.png" caption="Figure 3: My Planck Layout" >}}
 
@@ -58,11 +52,7 @@ Since I started using Emacs as my main editor, I've been taking statistics of my
 
 Like many Geekhackers out there, I made a pixel art of my keyboards and used it as my Geekhack signature.
 
-<a id="org7964685"></a>
-
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-04.png" caption="Figure 4: Pixel Art of My Keyboards I, 2015" >}}
-
-<a id="orga3ae5f7"></a>
 
 {{< figure src="/img/posts/2018/my-keyboards-2018-edition-05.png" caption="Figure 5: Pixel Art of My Keyboards II, 2015" >}}
 

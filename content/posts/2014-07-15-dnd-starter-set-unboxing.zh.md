@@ -21,32 +21,32 @@ tags:
 
 多图杀猫注意
 
-<img src="/wp-content/uploads/2014/07/IMG_2153.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2153.jpg" >}}
 
 里面包括一套骰子，新手包玩家手册，一本1-5级模组，以及5张预制人物卡。
 
-<img src="/wp-content/uploads/2014/07/IMG_2154.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2154.jpg" >}}
 
 卫生纸终于肯付画师工资了&#8230;
 
-<img src="/wp-content/uploads/2014/07/IMG_2155.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2155.jpg" >}}
 
-<img src="/wp-content/uploads/2014/07/IMG_2163.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2163.jpg" >}}
 
-<img src="/wp-content/uploads/2014/07/IMG_2157.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2157.jpg" >}}
 
 这是模组，插画简直良心的让人落泪&#8230;
 
-<img src="/wp-content/uploads/2014/07/IMG_2173.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2173.jpg" >}}
 
 预制人物卡：
 
-<img src="/wp-content/uploads/2014/07/IMG_2179.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2179.jpg" >}}
 
 盒底一张传单样的东西，背面是空白人物卡。
 
-<img src="/wp-content/uploads/2014/07/IMG_2182.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2182.jpg" >}}
 
 剩下半个盒子就是空的了&#8230;
 
-<img src="/wp-content/uploads/2014/07/IMG_2184.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2184.jpg" >}}

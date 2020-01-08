@@ -16,7 +16,7 @@ tags:
   - 懒人
 
 ---
-<img src="/wp-content/uploads/2014/07/fdd.png"/>
+{{< figure src="/wp-content/uploads/2014/07/fdd.png" >}}
 
 简直是deadline来临时的福音啊&#8230;
 

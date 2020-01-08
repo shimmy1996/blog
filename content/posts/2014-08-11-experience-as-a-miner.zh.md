@@ -15,21 +15,21 @@ tags:
   - 比特币
 
 ---
-<img src="/wp-content/uploads/2014/08/covvver-mine.jpg"/>
+{{< figure src="/wp-content/uploads/2014/08/covvver-mine.jpg" >}}
 
 题图无关XD
 
 前一段时间闲着蛋疼从ebay上花20刀收了个二手的butterfly lab挖矿机&#8230;
 
-<img src="/wp-content/uploads/2014/08/IMG_3039.jpg"/>
+{{< figure src="/wp-content/uploads/2014/08/IMG_3039.jpg" >}}
 
-<img src="/wp-content/uploads/2014/08/IMG_3040.jpg"/>
+{{< figure src="/wp-content/uploads/2014/08/IMG_3040.jpg" >}}
 
 扔几张开箱图XDD
 
-<img src="/wp-content/uploads/2014/08/IMG_3045.jpg"/>
+{{< figure src="/wp-content/uploads/2014/08/IMG_3045.jpg" >}}
 
-<img src="/wp-content/uploads/2014/08/IMG_3049.jpg"/>
+{{< figure src="/wp-content/uploads/2014/08/IMG_3049.jpg" >}}
 
 注册完钱包插上电脑下载了cgminer，pool用的是eclipse，然后开工XD
 

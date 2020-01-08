@@ -14,10 +14,10 @@ tags:
 
 ---
 
-<img src="/wp-content/uploads/2015/03/sig.png"/>
+{{< figure src="/wp-content/uploads/2015/03/sig.png" >}}
 
 花了点时间拼张图XDDD
 
 还有长条版XDD
 
-<img src="/wp-content/uploads/2015/05/siglong.png"/>
+{{< figure src="/wp-content/uploads/2015/05/siglong.png" >}}

@@ -15,7 +15,7 @@ tags:
 ---
 这货大家一定都很眼熟&#8230;
 
-<img src="/wp-content/uploads/2014/08/cover1.png"/>
+{{< figure src="/wp-content/uploads/2014/08/cover1.png" >}}
 
 无聊没事干&#8230;手贱改一个&#8230;
 

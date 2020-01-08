@@ -12,7 +12,7 @@ categories:
   - 豆知识
 
 ---
-<img src="/wp-content/uploads/2014/07/formula.png"/>
+{{< figure src="/wp-content/uploads/2014/07/formula.png" >}}
 
 鬼佬真是一群吃饱了撑着的物种。
 

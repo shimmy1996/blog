@@ -17,7 +17,7 @@ tags:
 ---
 新年快乐！说到新年就应该和女朋友看日出啊！（大雾（强行安利ラブプラス
 
-<img src="/wp-content/uploads/2016/01/HNI_0011.jpg"/>
+{{< figure src="/wp-content/uploads/2016/01/HNI_0011.jpg" >}}
 
 想做的事太多了所以就写下想打完的游戏吧（笑）
 

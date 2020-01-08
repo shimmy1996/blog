@@ -34,13 +34,13 @@ AX人真是多得可怕&#8230;排队入场就排了两个小时，差点赶不�
 
 pv放完后主持人又提问：一单取景于真实的学校（静冈县长井崎中学校）大家作何感想。降幡回答非常有水团的味道（アクアらしい）。主持人又指出二单取景于三津海洋乐园（三津シーパラダイス），降幡又指出pv中（的曜穿的海狮服是）neta该水族馆的吉祥物，一只名为うちっちー的海狮。最后主持人又说大家舞跳得非常不错，（又忘了是谁回答&#8230;因为从我的座位看不清舞台啊摔）回答说一开始有点被舞蹈的复杂度吓到，但后来还是练会了。
 
-<img src="/wp-content/uploads/2016/07/uchicchi-.jpg"/>
+{{< figure src="/wp-content/uploads/2016/07/uchicchi-.jpg" >}}
 
-<img src="/wp-content/uploads/2016/07/uchicchi-anime.jpg"/>
+{{< figure src="/wp-content/uploads/2016/07/uchicchi-anime.jpg" >}}
 
 顺便一提第一话里千歌床上那一堆不可名状的抱枕应该也是这个水族馆出的。
 
-<img src="/wp-content/uploads/2016/07/dakimakura.jpg"/>
+{{< figure src="/wp-content/uploads/2016/07/dakimakura.jpg" >}}
 
 然后又一言不合放了一单里三首歌的live影像&#8230;
 

@@ -15,7 +15,7 @@ tags:
   - 新功能
 
 ---
-<img src="/wp-content/uploads/2014/08/Capture.png"/>
+{{< figure src="/wp-content/uploads/2014/08/Capture.png" >}}
 
 看到大部分博客都在用多说&#8230;所以某也跟个风XDDD
 

@@ -14,23 +14,23 @@ tags:
   - 电影
 
 ---
-<img src="/wp-content/uploads/2015/09/IMG_7322.jpg"/>
+{{< figure src="/wp-content/uploads/2015/09/IMG_7322.jpg" >}}
 
 终于等到这一天啦！XDD
 
 本来在7月份就订了9月13号的票（11、12号的已售罄），不过我在前几天突然发现12号晚上多加了10:30PM的场次，就又定了一张（一方面是想早些看到，另一方面是因为12号场次有送色纸）。地点在Downtown Independent。去年园神剧场版以及更早的Little Witch Academia也都在这里上映过。
 
-<img src="/wp-content/uploads/2015/09/IMG_7339.jpg"/>
+{{< figure src="/wp-content/uploads/2015/09/IMG_7339.jpg" >}}
 
 本来担心12号最后一场时色纸会提前发完，不过看来运气不错！真姫ちゃん可愛いかきくけこ！
 
-<img src="/wp-content/uploads/2015/09/IMG_7337.jpg"/>
+{{< figure src="/wp-content/uploads/2015/09/IMG_7337.jpg" >}}
 
 入口右边是BD二期的封面。<del>这灯效真是&#8230;（扶额）</del>
 
-<img src="/wp-content/uploads/2015/09/IMG_7335.jpg"/>
+{{< figure src="/wp-content/uploads/2015/09/IMG_7335.jpg" >}}
 
-<img src="/wp-content/uploads/2015/09/IMG_7327.jpg"/>
+{{< figure src="/wp-content/uploads/2015/09/IMG_7327.jpg" >}}
 
 影院地方很小，这是为数不多的几张大海报。
 

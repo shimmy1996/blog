@@ -16,7 +16,7 @@ tags:
 
 ---
 
-<img src="/wp-content/uploads/2015/04/sa.jpg"/>
+{{< figure src="/wp-content/uploads/2015/04/sa.jpg" >}}
 
 比较尴尬的是没有row 3的1.5 caps lock XDD，所以出现了3个control的局面（虽然图上看不到XDD）
 
@@ -24,6 +24,6 @@ tags:
 
 顺手扔像素画~
 
-<img src="/wp-content/uploads/2015/04/zeal60g.png"/>
+{{< figure src="/wp-content/uploads/2015/04/zeal60g.png" >}}
 
-<img src="/wp-content/uploads/2015/04/zeal60gL.png"/>
+{{< figure src="/wp-content/uploads/2015/04/zeal60gL.png" >}}

@@ -15,7 +15,7 @@ tags:
   - Amazon
 
 ---
-<img src="/wp-content/uploads/2014/07/coverrr.png"/>
+{{< figure src="/wp-content/uploads/2014/07/coverrr.png" >}}
 
 亚马逊真是米帝的良心企业&#8230;
 
@@ -25,20 +25,20 @@ tags:
 
 Amazon还为一部分商品配备了个人定制程序，让顾客对颜色，花纹等细节进行调整，但总体来说自由度并不高。
 
-<img src="/wp-content/uploads/2014/07/custom.png"/>
-<img src="/wp-content/uploads/2014/07/customize.png"/>
+{{< figure src="/wp-content/uploads/2014/07/custom.png" >}}
+{{< figure src="/wp-content/uploads/2014/07/customize.png" >}}
 
 袖扣&#8230;平淡无奇&#8230;
 
-<img src="/wp-content/uploads/2014/07/figurine.png"/>
+{{< figure src="/wp-content/uploads/2014/07/figurine.png" >}}
 
 有一个摇头人偶的自定义选项异常丰富。
 
-<img src="/wp-content/uploads/2014/07/doggie.png"/>
+{{< figure src="/wp-content/uploads/2014/07/doggie.png" >}}
 
 也有少数看起来比较精致，体积较大的商品存在，但这些商品往往无法自定义&#8230;只能选择颜色&#8230;
 
-<img src="/wp-content/uploads/2014/07/electronics.png"/>
+{{< figure src="/wp-content/uploads/2014/07/electronics.png" >}}
 
 除了饰品外，电子产品的配件也在3D打印商品中占了大头，比如各类保护壳，GoPro的架子和理线器等等。
 

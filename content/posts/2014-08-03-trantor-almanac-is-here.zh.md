@@ -13,7 +13,7 @@ tags:
   - 新功能
 
 ---
-<img src="/wp-content/uploads/2014/08/Capture1.png"/>
+{{< figure src="/wp-content/uploads/2014/08/Capture1.png" >}}
 
 小改了一下原版，还是有点粗糙啊，日后会继续改进
 

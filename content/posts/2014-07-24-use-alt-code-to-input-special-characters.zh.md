@@ -16,7 +16,7 @@ tags:
   - 控制字符
 
 ---
-<img src="/wp-content/uploads/2014/07/Windows-1252.svg_.png"/>
+{{< figure src="/wp-content/uploads/2014/07/Windows-1252.svg_.png" >}}
 
 顾名思义，Alt Code指使用Alt + 小键盘数字就可以打出一些特殊符号的方法。
 

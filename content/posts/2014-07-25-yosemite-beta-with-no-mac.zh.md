@@ -15,7 +15,7 @@ tags:
   - Yosemite
 
 ---
-<img src="/wp-content/uploads/2014/07/Capture.png"/>申完<a title="传送门" href="https://appleseed.apple.com/sp/betaprogram/welcome" target="_blank">Yosemite Beta</a>之后&#8230;
+{{< figure src="/wp-content/uploads/2014/07/Capture.png" >}}申完<a title="传送门" href="https://appleseed.apple.com/sp/betaprogram/welcome" target="_blank">Yosemite Beta</a>之后&#8230;
 
 <!--more-->
 

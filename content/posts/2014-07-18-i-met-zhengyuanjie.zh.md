@@ -16,7 +16,7 @@ tags:
 ---
 噢噢噢噢噢噢噢噢噢噢噢噢噢我要去楼下跑三圈
 
-<img src="/wp-content/uploads/2014/07/photo.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/photo.jpg" >}}
 
 和郑老师聊天聊了大约一个多小时，十分愉快。得到了不少有趣的建议，还学到了正确的刷牙方式XDD
 

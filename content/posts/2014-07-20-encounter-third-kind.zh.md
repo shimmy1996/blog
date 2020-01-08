@@ -13,7 +13,7 @@ tags:
   - 雕塑
 
 ---
-<img src="/wp-content/uploads/2014/07/IMG_2217.jpg"/>
-<img src="/wp-content/uploads/2014/07/IMG_2219.jpg"/>
-<img src="/wp-content/uploads/2014/07/IMG_2226.jpg"/>
-<img src="/wp-content/uploads/2014/07/IMG_2230.jpg"/>
+{{< figure src="/wp-content/uploads/2014/07/IMG_2217.jpg" >}}
+{{< figure src="/wp-content/uploads/2014/07/IMG_2219.jpg" >}}
+{{< figure src="/wp-content/uploads/2014/07/IMG_2226.jpg" >}}
+{{< figure src="/wp-content/uploads/2014/07/IMG_2230.jpg" >}}
