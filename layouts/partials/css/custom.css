@@ -21,5 +21,5 @@ header nav {
     font-size: 90%;
 }
 article article {
-    border-top: 1px solid;
+    border-top: 1px dotted;
 }
