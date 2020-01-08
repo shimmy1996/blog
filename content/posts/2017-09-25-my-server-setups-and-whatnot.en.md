@@ -277,7 +277,7 @@ $ ntpq -p
 
 ### Setting up PTR Record {#setting-up-ptr-record}
 
-It turns out that DigitalOcean handles this automatically, all I needed to do is set the droplet name to a Fully Qualified Domain Name (FQDN), in this case `www.shimmy1996.com`. I then checked if the record is in place with:
+It turns out that DigitalOcean handles this automatically, all I needed to do is set the droplet name to a Fully Qualified Domain Name (FQDN), in this case `shimmy1996.com`. I then checked if the record is in place with:
 
 ```sh
 $ dig -x <ip_address>

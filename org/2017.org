@@ -213,7 +213,7 @@ $ ntpq -p
 #+END_SRC
 
 **** Setting up PTR Record
-It turns out that DigitalOcean handles this automatically, all I needed to do is set the droplet name to a Fully Qualified Domain Name (FQDN), in this case =www.shimmy1996.com=. I then checked if the record is in place with:
+It turns out that DigitalOcean handles this automatically, all I needed to do is set the droplet name to a Fully Qualified Domain Name (FQDN), in this case =shimmy1996.com=. I then checked if the record is in place with:
 #+BEGIN_SRC sh
 $ dig -x <ip_address>
 #+END_SRC
@@ -475,7 +475,7 @@ $ ntpq -p
 #+END_SRC
 
 **** 设置 PTR 记录
-DigitalOcean 会自动设置 PTR 记录，我唯一需要做的就是将水滴的名字改为绝对领域名称（ FQDN ，帅气但是八成是机翻的译名取自 [[https://zh.wikipedia.org/wiki/完整網域名稱][Wikipedia]] ），也就是 =www.shimmy1996.com= 。完成这一设置后，我可以通过以下命令来查看设置是否成功。
+DigitalOcean 会自动设置 PTR 记录，我唯一需要做的就是将水滴的名字改为绝对领域名称（ FQDN ，帅气但是八成是机翻的译名取自 [[https://zh.wikipedia.org/wiki/完整網域名稱][Wikipedia]] ），也就是 =shimmy1996.com= 。完成这一设置后，我可以通过以下命令来查看设置是否成功。
 #+BEGIN_SRC sh
 $ dig -x <ip_address>
 #+END_SRC
