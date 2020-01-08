@@ -12,7 +12,7 @@
     <id>{{ .Permalink }}</id>
     {{ `<title type="html"><![CDATA[` | safeHTML }}{{ .Title }}]]></title>
     <updated>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}</updated>
-    {{ `<content type="html"><![CDATA[` | safeHTML }}{{ .Content }}]]></content>
+    {{ `<content type="html"><![CDATA[` | safeHTML }}{{ .Content }}<h2>{{ i18n "hyperskip-header" }}</h2>{{ partial "list_comment.html" . }}]]></content>
     <link href="{{ .Permalink }}"/>
   </entry>
   {{ end }}
