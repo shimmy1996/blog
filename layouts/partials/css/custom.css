@@ -1,12 +1,6 @@
 body {
     font-family: sans-serif;
 }
-article article, form, header  {
-    margin-bottom: 1em;
-}
-input, textarea {
-    margin: 0.5em 0 0.5em 0;
-}
 textarea {
     resize: vertical;
     min-height: 4em;
@@ -21,5 +15,6 @@ header nav {
     font-size: 90%;
 }
 article article {
+    margin-bottom: 1em;
     border-top: 1px dotted;
 }
