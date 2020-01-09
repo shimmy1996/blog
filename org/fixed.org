@@ -113,7 +113,7 @@ Welcome to the friendly neighborhood of Library of Trantor!
 :EXPORT_FILE_NAME: friends.zh.md
 :END:
 
-#+ATTR_HTML: :alt 《 20 世纪少年》中的朋友标志
+#+ATTR_HTML: :alt 《20 世纪少年》中的朋友标志
 [[/img/fixed/friend.svg]]
 
 这里会添加朋友们的站点链接！

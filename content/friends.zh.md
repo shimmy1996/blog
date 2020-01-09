@@ -4,7 +4,7 @@ draft = false
 slug = "friends"
 +++
 
-{{< figure src="/img/fixed/friend.svg" alt="《 20 世纪少年》中的朋友标志" >}}
+{{< figure src="/img/fixed/friend.svg" alt="《20 世纪少年》中的朋友标志" >}}
 
 这里会添加朋友们的站点链接！
 
