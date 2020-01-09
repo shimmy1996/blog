@@ -22,5 +22,4 @@ _The plan needs to go on._
 -   ☐ Get the first signature for my PGP key.
 -   ☑ Install Gentoo.
 
-
 ## Recent Posts {#recent-posts}

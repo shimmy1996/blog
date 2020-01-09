@@ -77,7 +77,7 @@ All contents of this site are licensed under a [[http://creativecommons.org/lice
 :EXPORT_FILE_NAME: about.zh.md
 :END:
 
-欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做 =shimmy1996= 的个体。换句话说，这里是我的博客。“Shimmy Xu”不过是我的 [[http://stallman.org/biographies.html#humorous%20bio][凡间之名]]。
+欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做 shimmy1996 的个体。换句话说，这里是我的博客。“Shimmy Xu”不过是我的 [[http://stallman.org/biographies.html#humorous%20bio][凡间之名]]。
 
 留下评论或直接给我发送电子邮件吧！这是我的 [[https://www.shimmy1996.com/gpg.txt][PGP 密匙]]：
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D

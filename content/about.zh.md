@@ -4,7 +4,7 @@ draft = false
 slug = "about"
 +++
 
-欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做 `shimmy1996` 的个体。换句话说，这里是我的博客。“Shimmy Xu”不过是我的 [凡间之名](http://stallman.org/biographies.html#humorous%20bio)。
+欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做 shimmy1996 的个体。换句话说，这里是我的博客。“Shimmy Xu”不过是我的 [凡间之名](http://stallman.org/biographies.html#humorous%20bio)。
 
 留下评论或直接给我发送电子邮件吧！这是我的 [PGP 密匙](https://www.shimmy1996.com/gpg.txt)：
 
