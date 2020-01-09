@@ -97,7 +97,7 @@ Here's to the end of Skywalker saga, and whatever comes after generation Z!
 
 为天行者系列的终结以及我很好奇会被如何命名的 Z 世代之后出现的一代干杯！
 
-* TODO Staring at Yesterday in One Eye
+* DONE Staring at Yesterday in One Eye
 :PROPERTIES:
 :EXPORT_DATE: 2020-01-06
 :EXPORT_HUGO_SLUG: staring-at-yesterday-in-one-eye
@@ -109,18 +109,40 @@ Here's to the end of Skywalker saga, and whatever comes after generation Z!
 :EXPORT_TITLE: Staring at Yesterday in One Eye
 :END:
 
-The dead speak! The galaxy has heard a mysterious broadcast, a record of *THE PAST* in the familiar yet distant tone of *MY OLD SELF*.
+The dead speak! The galaxy has heard a mysterious broadcast, a record of *THE PAST* in the familiar yet distant tone of *MY PREVIOUS VESSEL*.
 
 *** A Link to the Past
-Alright, that's enough puns and /The Rise of Skywalker/ jokes from me. As mentioned before, my blog was originally using WordPress and switched to Hugo in 2017-09-01. To be more specific, I actually had two WordPress blogs: one named Pandora (because of Borderlands 2, but this is such an cliche name that I'm sure there's a million other imaginary planets using this name) hosted with WordPress.com, and another being Library of Trantor (because of Isaac Asimov's /Foundation/ series) hosted on Bluehost, with the former written in English and latter in Chinese. Since I kept archives of both before taking them down, I was able to revive all those old posts from the grave using [[https://github.com/SchumacherFM/wordpress-to-hugo-exporter][this tool]] and some elbow grease. I refrained myself from leaving out any of the old posts, as the main motivation of this effort is really just to be able to easily see and be reminded of my older self. It's a strange yet familiar experience reading those old writings: I can see parts of me that has changed and parts that are still distinctively =shimmy1996=.
+Alright, that's enough puns and /The Rise of Skywalker/ jokes from me. As mentioned before, my blog was originally using WordPress and switched to Hugo in 2017-09-01. To be more specific, I actually had two WordPress blogs: one named Pandora (because of Borderlands 2, but this is such an cliche name that I'm sure there's a million other imaginary planets using this name) hosted with WordPress.com, and another being Library of Trantor (because of Isaac Asimov's /Foundation/ series) hosted on Bluehost, with the former written in English and latter in Chinese. Since I kept archives of both before taking them down, I was able to revive all those old posts from the grave using [[https://github.com/SchumacherFM/wordpress-to-hugo-exporter][this tool]] and some elbow grease. I refrained myself from leaving out any of the old posts, as the main motivation of this effort is really just to be able to easily see and be reminded of my younger self. It's a strange yet familiar experience reading those old writings: I can see parts of me that has changed and parts that are still distinctively =shimmy1996=.
 
-Handling images is tricky and my old posts made quite liberal uses of them unfortunately: I opted for the simplest way out and just kept the originals without any kind of fancy compression or styling. I still need to figure out a more efficient way to both store and serve those images. Even with Git LFS available, I was reluctant to add all 300+ Megabytes of images to my blog repository (so they are currently in untracked-land), and now my blog could definitely benefit from a CDN setup. Perhaps I could also do what Jupyter notebooks do—encode all images in base64—to get a single HTML file.
+Handling images is tricky and my old posts made quite liberal uses of them unfortunately: I opted for the simplest way out and just kept the originals without any kind of fancy compression or styling. I still need to figure out a more efficient way to both store and serve those images. Even with Git LFS available, I was reluctant to add over 300MB of images to my blog repository (so they are currently in untracked-land), and now my blog could definitely benefit from a CDN setup. Perhaps I could also do what Jupyter notebooks do—encode all images in Base64—to get a single HTML file.
 
-For the regular visitors of my blog out there (if there are any), you might notice that the comment section looks different: that's right, the search for the ideal static site commenting system is finally over for me (until it starts again)! Through out the years, I've used WordPress, Disqus, Duoshuo (now defunct), and Isso as my comment systems. Now, my [[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]] has superseded them all: taking inspiration from [[https://staticman.net/][Staticman]], I set up Hyperskip to store all the comments in a TOML file, and opted to use email as the submission method, simplifying the setup. Gone are the days of databases, queries, and external scripts, and I get to version control all the comments in the same Git repository as my blog too.
+For the regular visitors of my blog out there (if there are any), you might notice that the comment section looks different: that's right, the search for the ideal static site commenting system is finally over for me (until it starts again)! Through out the years, I've used WordPress, Duoshuo (now defunct), Disqus, and Isso as my comment systems. Now, my [[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]] has superseded them all: taking inspiration from [[https://staticman.net/][Staticman]], I set up Hyperskip to store all the comments in a TOML file, and opted to use email as the submission method, simplifying the setup. Gone are the days of databases, queries, and external scripts, and I get to migrate and version control all the comments (including the ones from the WordPress era) in the same Git repository as my blog too.
 
 *** The Other Old Friend
-One week into the New Year and I have already switched color scheme of the website five times, with another dozen sitting in my folder (totally not because of how unsightly these RGB color codes are). Much like how I'm a bit burned-out from trying to [[/en/posts/2019-12-01-fun-with-fonts-on-the-web/][get fonts right for everything]], I have decided to remove all custom color choices from the website: no more syntax highlighting, fancy buttons, nor dark modes.
+One week into the New Year and I have already switched color scheme of the website five times, with another dozen sitting in my folder (totally not because of how unsightly these RGB color codes are). Much like how I'm a bit burned-out from [[/en/posts/2019-12-01-fun-with-fonts-on-the-web/][getting fonts right for everything]], I have decided to remove all custom color choices from the website: no more syntax highlighting, fancy buttons, nor dark modes.
 
-Tags and categories are gone, too. As long as there are little knobs that I can toy around with, I always find myself distracted and spending way too much time worrying about the most insignificant choice of words, colors, or spacing (as you can tell by how much of I blog about the blog and this is the true reason I replaced Isso). The only cure I found is to simply remove the opportunities of making those choices altogether, and stick with the default.
+As long as there are little knobs that I can toy around with, I always find myself distracted and spending way too much time worrying about the most insignificant choice of words, colors, or spacing (as you can tell by how much of I blog about the blog). The only cure I found is to simply remove the opportunities of making those choices altogether, and stick with the default. This is why I replaced Isso (I spent too much time trying to make it not look so foreign) and tags and categories are now gone, too.
 
 Completely contrast to how the saying normally goes, I hardly ever find myself missing the things I cut away. More often than not, I sympathize with the elephant that finally broke free from the rope, rather than the remorse after losing something cherished. I do occasionally ask myself whether maintaining all those babbling by my past self is just another such rope holding me back that I just haven't realized yet. Well, my response is: a cowboy could always use a lasso on the road.
+
+** DONE zh
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2020-01-06-staring-at-yesterday-in-one-eye.zh.md
+:EXPORT_TITLE: 一只眼睛凝视昨日
+:END:
+
+死者复苏！星系里回荡着神秘的讯号，这是听上去熟悉却又遥远的 *我过去的容器* 对 *往事* 的记录。
+
+*** 与过去的链接
+好吧，《天行者崛起》的玩笑就开到这里。如前所述，我的博客最初使用 WordPress，并于 2017-09-01 切换到 Hugo。确切地说，我实际上有两个 WordPress 博客：一个名为 Pandora（源自无主之地 2，但我敢肯定还有无数其他虚构的行星起了这个已经被用滥了的名字）并托管与 WordPress.com 上；另一个才是托管在 Bluehost 上的川陀大学图书室（源自艾萨克·阿西莫夫的基地系列）。前者使用英文，而后者用中文。由于我在删除之前保留了它们的存档，使用 [[https://github.com/SchumacherFM/wordpress-to-hugo-exporter][此工具]] 稍下工夫就可以恢复那些旧日志。我避免遗漏任何一篇旧文，因为写博客的主要动机就只是为了能够随时看到过去的自我。重读那些日志是一种奇妙而又熟悉的经历：我可以清楚地看出我的某些部分发生了变化，而某些部分仍然是那个 =shimmy1996=。
+
+处理日志的配图比较麻烦，而不幸的是，这些旧日志在插入图片上毫不吝惜：我选择了最简单的处理方式，只保留了原始图片，没有任何压缩或样式设置。我仍然需要一种更有效的方式来存储和提供这些图像。即使有 Git LFS 可用，我还是不愿意把超过 300MB 的图片尽数添加到我的博客 Git 仓库中（因此它们目前处于无版本控制的状态）。多了这么多图片，部署 CDN 应该会大大改善访问速度。或许我也可以学学 Jupyter 笔记本的做法——将所有图像编码为 Base64——以将所有内容塞进同一个 HTML 文件里。
+
+我博客的常客们（如果有的话）可能会注意到评论部分看起来有所不同：是的，我对理想中静态站点评论系统的搜索终于结束了（直到下次开始的时候）！我曾使用 WordPress、多说（已关停服务）、Disqus、Isso 作为评论系统，而现在取代它们的是我的 [[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]]：从 [[https://staticman.net/][Staticman]] 中汲取灵感，Hyperskip 将所有评论存储在 TOML 文件中，并使用电子邮件作为提交方法，以简化设置。我终于摆脱了数据库查询和外部脚本，并且将所有评论（包括 WordPress 时代的那些）转移到了和博客相同的 Git 仓库里进行版本控制。
+
+*** 另一位老朋友
+新年刚开始一个星期，我已经切换了五次网站的配色，并还有一大堆其他方案堆在我的文件夹里（绝对不是因为 RGB 色值本身太过丑陋）。就像我对尝试 [[/zh/posts/2019-12-01-fun-with-fonts-on-the-web/][让所有字形用上正确的字体]] 感到精疲力尽时一样，我已决定从网站上删除所有的自定义颜色：不再显示语法高亮、花哨的按钮和暗色模式。
+
+事实是，只要有可以调整的选项，我总会发现自己分心并花费太多时间担心那些最微不足道的对字体，颜色或间距的调整（只要看看我的日志中有多少是关于这个博客本身的就不难看出）。我发现唯一的解决方法是完全消除做出这些选择的机会，转而使用默认设置。这就是为什么我换掉了 Isso（我在试图使它和博客的外观保持一致上花了太多时间），并移除了日志标签和类别。
+
+与俗语所说的完全相反，我并没有发现我对所舍弃的东西感到留恋。大部分时候，我的感受更近似与终于挣脱了那条绳子的大象的感觉，而不是失去了珍爱之物之后的后悔。我偶尔也会问自己，保留这些来自过去的牢骚和胡言乱语是否只是我尚未意识的另一条束缚我的绳子。对于这个问题，我的回答是：牛仔身边总少不了他的套索。
