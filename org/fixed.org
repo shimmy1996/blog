@@ -36,18 +36,18 @@
 
 /计划进行中。/
 
-*** 2020 年目标
-- ☐ 跑 550 英里。[23/550]
-- ☐ 写 14 篇日志。[4/14]
+*** 2020年目标
+- ☐ 跑550英里。[23/550]
+- ☐ 写14篇日志。[4/14]
 - ☐ 不吃甜面包圈。
-- ☐ 了解 Go 和 C++20。[0/2]
+- ☐ 了解Go和C++20。[0/2]
 - ☐ 建立正式的数据备份流程。
 - ☐ 阅读非技术类书籍。
 
 *** 愿望清单
 - ☐ 完成一次马拉松。
-- ☐ 获得第一个 PGP 密匙签名。
-- ☑ 安装 Gentoo 。
+- ☐ 获得第一个PGP密匙签名。
+- ☑ 安装Gentoo。
 
 *** 最新日志
 
@@ -77,14 +77,14 @@ All contents of this site are licensed under a [[http://creativecommons.org/lice
 :EXPORT_FILE_NAME: about.zh.md
 :END:
 
-欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做 shimmy1996 的个体。换句话说，这里是我的博客。“Shimmy Xu”不过是我的 [[http://stallman.org/biographies.html#humorous%20bio][凡间之名]]。
+欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做shimmy1996的个体。换句话说，这里是我的博客。“Shimmy Xu”不过是我的[[http://stallman.org/biographies.html#humorous%20bio][凡间之名]]。
 
-留下评论或直接给我发送电子邮件吧！这是我的 [[https://www.shimmy1996.com/gpg.txt][PGP 密匙]]：
+留下评论或直接给我发送电子邮件吧！这是我的[[https://www.shimmy1996.com/gpg.txt][PGP密匙]]：
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 
-本站从 2014-7-12 开始运行，原本使用 WordPress，后于 2017-09-01 迁至 Hugo 。
+本站从2014-7-12开始运行，原本使用WordPress，后于2017-09-01迁至Hugo。
 
-本站所有内容使用 [[http://creativecommons.org/licenses/by-sa/4.0/deed.zh][Creative Commons 署名-相同方式共享 4.0 国际许可协议]]（CC BY-SA 4.0）。
+本站所有内容使用[[http://creativecommons.org/licenses/by-sa/4.0/deed.zh][Creative Commons署名-相同方式共享4.0国际许可协议]]（CC BY-SA 4.0）。
 
 * Friends
 :PROPERTIES:
@@ -121,7 +121,7 @@ Welcome to the friendly neighborhood of Library of Trantor!
 - [[http://iiiid.com][Z]]
 - [[http://uucky.me][Uucky]]
 - [[https://tomli.blog][比尔盖子/Tom Li]]
-- [[http://a2clef.com][Vacuuny/A2Clef]] 的 [[http://blog.a2clef.com][里站]]
+- [[http://a2clef.com][Vacuuny/A2Clef]]的[[http://blog.a2clef.com][里站]]
 
 * Posts
 ** en

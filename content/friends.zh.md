@@ -11,4 +11,4 @@ slug = "friends"
 -   [Z](http://iiiid.com)
 -   [Uucky](http://uucky.me)
 -   [比尔盖子/Tom Li](https://tomli.blog)
--   [Vacuuny/A2Clef](http://a2clef.com) 的 [里站](http://blog.a2clef.com)
+-   [Vacuuny/A2Clef](http://a2clef.com)的[里站](http://blog.a2clef.com)
