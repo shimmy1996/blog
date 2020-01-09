@@ -74,11 +74,11 @@ Here's to the end of Skywalker saga, and whatever comes after generation Z!
 - ☑ 记录我中意的书籍，音乐，和影视作品。
 - ☑ 清理台式电脑。
 
-在排除了生活中的一些不确定因素后，我在 2019 年的日常变得更更规律了。我仍然时不时地拖延博客文章，但至少发布日志的频率高了一些。学习 Rust 和 Julia 很有趣，而且我也在实际项目中用到了它们。我还尝试了用这两种语言完成 Advent of Code 并撑到了第17天，到解决问题所需时间太长为止。我曾考虑过圣诞节后完成所有剩余的问题，但我决定不这样做——我认为自己不会通过这些问题增加对这些语言的了解，把时间花在其他地方可能会更好。
+在排除了生活中的一些不确定因素后，我在 2019 年的日常变得更有规律了。我仍然时不时地拖延博客文章，但至少发布日志的频率高了一些。学习 Rust 和 Julia 很有趣，而且我也在实际项目中用到了它们。我还尝试了用这两种语言完成 Advent of Code 并撑到了第17天，到解决问题所需时间太长为止。我曾考虑过圣诞节后完成所有剩余的问题，但我决定不这样做——我认为自己不会通过这些问题增加对这些语言的了解，把时间花在其他地方可能会更好。
 
 受到 [[https://getkiss.org/blog/20191004a][本文]] 启发，我给博客写了一个新的 Hugo 主题。我发现一步步消除那些可有可无的装饰的过程奇怪地令人满足：我希望博客带有任何不必要的东西。本站的订阅源已改为使用ATOM，并且完整显示每篇日志，而不是默认的支离破碎的摘要。在上一次尝试整理浏览器书签并遭遇惨败后，我开始使用网站订阅源来阅读其他博客。到目前为止，我很喜欢这一新方式。
 
-我今年去电影院看了三部电影，分别是《龙珠超：布罗利》，《普罗米亚》和《星球大战：天行者崛起》。三次观影都还算愉快：试图用评级来量化这种享受可能并不公平，因为我喜欢每一部电影的原因都不尽相同。由于我很少去电影院看电影，我在飞机上度过的时间贡献了我电影消费的很大一部分。《蜘蛛侠：平行宇宙》是我 2019 在飞机上看的影片里最好的一部。在圣诞夜，我没有延续大学期间的传统——看《龙与虎》，而是重温了一部我在数年前的一次飞行中看的电影，《歪小子斯科特》。这部电影的确像我记忆中的那样怪趣。
+我今年去电影院看了三部电影，分别是《龙珠超：布罗利》，《普罗米亚》和《星球大战：天行者崛起》。三次观影都还算愉快：试图用评级来量化这种享受可能并不公平，因为我喜欢每一部电影的原因都不尽相同。由于我很少去电影院看电影，我在飞机上度过的时间贡献了我电影消费的很大一部分。《蜘蛛侠：平行宇宙》是我 2019 在飞机上看的影片里最好的一部。在圣诞夜，我没有延续大学期间的传统——看《龙与虎》——而是重温了一部我在数年前的一次飞行中看的电影，《歪小子斯科特》。这部电影的确像我记忆中的那样怪趣。
 
 作为一个直到 2018 年都住在不会下雪的地方的人，雪对我来说是一个如此陌生的概念，以至于我会把任何有下雪场景的电影都视为圣诞节电影。即使在 2018 年年中搬到一个下雪的城市之后，我仍然没有看到过那种虽然俗套、但蓬松得似乎带有温度的圣诞雪：我所住的地方只有堆积在路边的脏水和脏冰的混合物（而且它们总能找到办法进入你的鞋子）。这更能让我想到鱼市而非圣诞节。我敢打赌，电影中所有的积雪场景都只是道具，就像登月照片一样。嗯，肯定是这样。
 
@@ -109,12 +109,12 @@ Here's to the end of Skywalker saga, and whatever comes after generation Z!
 :EXPORT_TITLE: Staring at Yesterday in One Eye
 :END:
 
-The dead speak! The galaxy has heard a mysterious broadcast, a record of *THE PAST* in the familiar yet distant tone of *MY PREVIOUS VESSEL*.
+The dead speak! The galaxy has heard a mysterious broadcast, a record of THE *GREAT DIMENSIONAL FRACTURE* in the familiar yet distant tone of *MY PREVIOUS VESSEL*.
 
 *** A Link to the Past
 Alright, that's enough puns and /The Rise of Skywalker/ jokes from me. As mentioned before, my blog was originally using WordPress and switched to Hugo in 2017-09-01. To be more specific, I actually had two WordPress blogs: one named Pandora (because of Borderlands 2, but this is such an cliche name that I'm sure there's a million other imaginary planets using this name) hosted with WordPress.com, and another being Library of Trantor (because of Isaac Asimov's /Foundation/ series) hosted on Bluehost, with the former written in English and latter in Chinese. Since I kept archives of both before taking them down, I was able to revive all those old posts from the grave using [[https://github.com/SchumacherFM/wordpress-to-hugo-exporter][this tool]] and some elbow grease. I refrained myself from leaving out any of the old posts, as the main motivation of this effort is really just to be able to easily see and be reminded of my younger self. It's a strange yet familiar experience reading those old writings: I can see parts of me that has changed and parts that are still distinctively shimmy1996.
 
-Handling images is tricky and my old posts made quite liberal uses of them unfortunately: I opted for the simplest way out and just kept the originals without any kind of fancy compression or styling. I still need to figure out a more efficient way to both store and serve those images. Even with Git LFS available, I was reluctant to add over 300MB of images to my blog repository (so they are currently in untracked-land), and now my blog could definitely benefit from a CDN setup. Perhaps I could also do what Jupyter notebooks do—encode all images in Base64—to get a single HTML file.
+Handling images is tricky and my old posts made quite liberal uses of them unfortunately: I opted for the simplest way out and just kept the originals without any kind of fancy compression or styling. I still need to figure out a more efficient way to both store and serve those images. Even with Git LFS available, I was reluctant to add over 300 MB of images to my blog repository (so they are currently in untracked-land), and now my blog could definitely benefit from a CDN setup. Perhaps I could also do what Jupyter notebooks do—encode all images in Base64—to get a single HTML file.
 
 For the regular visitors of my blog out there (if there are any), you might notice that the comment section looks different: that's right, the search for the ideal static site commenting system is finally over for me (until it starts again)! Through out the years, I've used WordPress, Duoshuo (now defunct), Disqus, and Isso as my comment systems. Now, my [[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]] has superseded them all: taking inspiration from [[https://staticman.net/][Staticman]], I set up Hyperskip to store all the comments in a TOML file, and opted to use email as the submission method, simplifying the setup. Gone are the days of databases, queries, and external scripts, and I get to migrate and version control all the comments (including the ones from the WordPress era) in the same Git repository as my blog too.
 
@@ -131,12 +131,12 @@ Completely contrast to how the saying normally goes, I hardly ever find myself m
 :EXPORT_TITLE: 一只眼睛凝视昨日
 :END:
 
-死者复苏！星系里回荡着神秘的讯号，这是听上去熟悉却又遥远的 *我过去的容器* 对 *往事* 的记录。
+死者复苏！星系里回荡着神秘的讯号，这是听上去熟悉却又遥远的 *我过去的容器* 对 *维度大断层* 的记录。
 
 *** 通向过去的链接
 好吧，《天行者崛起》的玩笑就开到这里。如前所述，我的博客最初使用 WordPress，并于 2017-09-01 切换到 Hugo。确切地说，我实际上有两个 WordPress 博客：一个名为 Pandora（源自无主之地 2，但我敢肯定还有无数其他虚构的行星起了这个已经被用滥了的名字）并托管与 WordPress.com 上；另一个才是托管在 Bluehost 上的川陀大学图书室（源自艾萨克·阿西莫夫的基地系列）。前者使用英文，而后者用中文。由于我在删除之前保留了它们的存档，使用 [[https://github.com/SchumacherFM/wordpress-to-hugo-exporter][此工具]] 稍下工夫就可以恢复那些旧日志。我避免遗漏任何一篇旧文，因为写博客的主要动机就只是为了能够随时看到过去的自我。重读那些日志是一种奇妙而又熟悉的经历：我可以清楚地看出我的某些部分发生了变化，而某些部分仍然是那个 shimmy1996。
 
-处理日志的配图比较麻烦，而不幸的是，这些旧日志在插入图片上毫不吝惜：我选择了最简单的处理方式，只保留了原始图片，没有任何压缩或样式设置。我仍然需要一种更有效的方式来存储和提供这些图像。即使有 Git LFS 可用，我还是不愿意把超过 300MB 的图片尽数添加到我的博客 Git 仓库中（因此它们目前处于无版本控制的状态）。多了这么多图片，部署 CDN 应该会大大改善访问速度。或许我也可以学学 Jupyter 笔记本的做法——将所有图像编码为 Base64——以将所有内容塞进同一个 HTML 文件里。
+处理日志的配图比较麻烦，而不幸的是，这些旧日志在插入图片上毫不吝惜：我选择了最简单的处理方式，只保留了原始图片，没有任何压缩或样式设置。我仍然需要一种更有效的方式来存储和提供这些图像。即使有 Git LFS 可用，我还是不愿意把超过 300 MB 的图片尽数添加到我的博客 Git 仓库中（因此它们目前处于无版本控制的状态）。多了这么多图片，部署 CDN 应该会大大改善访问速度。或许我也可以学学 Jupyter 笔记本的做法——将所有图像编码为 Base64——以将所有内容塞进同一个 HTML 文件里。
 
 我博客的常客们（如果有的话）可能会注意到评论部分看起来有所不同：是的，我对理想中静态站点评论系统的搜索终于结束了（直到下次开始的时候）！我曾使用 WordPress、多说（已关停服务）、Disqus、Isso 作为评论系统，而现在取代它们的是我的 [[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]]：从 [[https://staticman.net/][Staticman]] 中汲取灵感，Hyperskip 将所有评论存储在 TOML 文件中，并使用电子邮件作为提交方法，以简化设置。我终于摆脱了数据库查询和外部脚本，并且将所有评论（包括 WordPress 时代的那些）转移到了和博客相同的 Git 仓库里进行版本控制。
 
