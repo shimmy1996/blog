@@ -179,7 +179,9 @@ time=2014-08-03T15:46:45+00:00
 uri="/zh/posts/2014-07-24-use-alt-code-to-input-special-characters/"
 content="""
 噢噢噢噢哦感谢回访XDDDDD
+
 所以说各种奇怪的符号简直反人类啊XDD，还好有latex...
+
 另，你成为了这儿的第一位「朋友」哦!
 """
 [[comments]]
@@ -411,8 +413,11 @@ time=2015-12-22T20:44:00+00:00
 uri="/zh/friends/"
 content="""
 yooooo！ 好久不见！（前天明明更新了啊XD）
+
 现在用的邮箱发给你了
+
 我现在用的是bluehost，唯一的好处大概是便宜？
+
 国内好像有不少人在用hk的机房，似乎不用备案？
 """
 [[comments]]
@@ -422,6 +427,7 @@ time=2015-12-22T20:49:00+00:00
 uri="/zh/friends/"
 content="""
 60的方向键确实是个痛点...有方向键的大多不是标准键位
+
 不过用vim的话都不是问题吧XDD
 """
 [[comments]]
@@ -491,10 +497,15 @@ content="""
 多谢资瓷XDDD 最近没怎么更新还来有人到访真是感动XDDD
 
 现在感觉用的最舒服的还是ergodox，一个开源的分体垂直布局键盘(可以在之前的键盘像素画里看到w)
+
 由于可以自定义键位，可以尝试不同布局直到找到最适合的为止
+
 分体式的设计也减轻了手腕负担
+
 用惯ergodox后，在键盘这块基本拔草了www
+
 不过有点头疼的是尺寸太大，所以带笔记本出行还是只能用自带键盘（
+
 （其实最大的缺点是键帽难配XDD）
 """
 [[comments]]
@@ -662,6 +673,7 @@ time=2019-09-16T05:23:07+00:00
 uri="/en/posts/2019-01-27-installing-gentoo/"
 content="""
 I don't really know I am the guy who introduced you to the Linux wonderland XD. I've been using all sorts of distributions along the way but eventually settled on Manjaro, before I completely ditched Win.
+
 I still do distro/DE/WM jumping sometimes, but I have an inexplicable distaste for VMs so I installed them into SD cards(have to do some chainloading to boot into it but visually more appealing, without an USB dongle ) or USB drives, and they run very smoothly, which is quite unexpected.
 """
 [[comments]]
@@ -672,6 +684,7 @@ uri="/en/posts/2019-09-15-hello-darkness-my-old-friend/"
 content="""
 For KDE out of the box there's an invert option in desktop effect settings, you can specify different hot key for window inversion or global inversion.
 For Cinnamon you can install a extension in it's own extension market that can do the same thing.
+
 For other gnome derivatives, install xcalib and register a hot key to 'xcalib -i -c' can handle global inversion ,still don't know how to do window-wise inversion.
 Because it's inversion on the level of window composition so images will also be inverted, it's okay for me though. For webpages there's a firefox plugin that can handle image aware inversion.
 """
