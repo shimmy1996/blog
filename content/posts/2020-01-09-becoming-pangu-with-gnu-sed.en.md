@@ -11,8 +11,8 @@ Up till now, I've been manually adding spaces in my source files (in Markdown or
 
 ```sh
 #! /usr/bin/env sh
-# For punctuation marks to be recongnized correctly. Any UTF-8 locale would do.
-export LANG=en_US.UTF-8
+# For punctuation marks to be recongnized correctly.
+export LC_CTYPE=en_US.UTF-8
 find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec sed \
      -e 's/\([a-zA-Z0-9]\|<\/[a-z]*>\)\([^[:punct:][:space:]a-zA-Z0-9\s]\)/\1 \2/g' \
      -e 's/\([^[:punct:][:space:][:alnum:]]\)\([a-zA-Z0-9]\|<[a-z]\)/\1 \2/g' \

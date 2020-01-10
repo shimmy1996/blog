@@ -164,8 +164,8 @@ In case you aren't familiar with Chinese mythology or blogosphere, there's an ol
 Up till now, I've been manually adding spaces in my source files (in Markdown or org), which is admittedly the worst way to do it. Aside from the additional chore, such a typesetting rule should, in my opinion, be implemented in the output/rendering format, not the source. Besides, manually fixing all the old posts I just brought back is not exactly a rewarding task. Unwilling to load additional [[https://github.com/vinta/pangu.js][JavaScript]], I turned to the all-mighty GNU sed. To add Space of Pangu to the final HTML and XML files that Hugo produces (normally in the =./public= directory), I used the following shell script:
 #+BEGIN_SRC sh
   #! /usr/bin/env sh
-  # For punctuation marks to be recongnized correctly. Any UTF-8 locale would do.
-  export LANG=en_US.UTF-8
+  # For punctuation marks to be recongnized correctly.
+  export LC_CTYPE=en_US.UTF-8
   find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec sed \
        -e 's/\([a-zA-Z0-9]\|<\/[a-z]*>\)\([^[:punct:][:space:]a-zA-Z0-9\s]\)/\1 \2/g' \
        -e 's/\([^[:punct:][:space:][:alnum:]]\)\([a-zA-Z0-9]\|<[a-z]\)/\1 \2/g' \
@@ -193,8 +193,8 @@ If you are another one of those Space of Pangu disciples, just note that there's
 到目前为止，我一直在源文件（Markdown或org格式）中手动添加空格：这无疑是实行这一规则最糟糕的方法。除了要费额外的工夫之外，这类排版规则还应该，在我看来，仅在输出/渲染时应用。更不用说手动调整我刚刚恢复的那一大堆旧日志不是什么吸引人的差事。因为不愿加载额外的[[https://github.com/vinta/pangu.js][JavaScript]]，我转向了万能的GNU sed。为了将盘古之白添加到Hugo生成的HTML和XML文件中（通常在=./public=目录里），我使用了以下shell脚本：
 #+BEGIN_SRC sh
   #! /usr/bin/env sh
-  # For punctuation marks to be recongnized correctly. Any UTF-8 locale would do.
-  export LANG=en_US.UTF-8
+  # For punctuation marks to be recongnized correctly.
+  export LC_CTYPE=en_US.UTF-8
   find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec sed \
        -e 's/\([a-zA-Z0-9]\|<\/[a-z]*>\)\([^[:punct:][:space:]a-zA-Z0-9\s]\)/\1 \2/g' \
        -e 's/\([^[:punct:][:space:][:alnum:]]\)\([a-zA-Z0-9]\|<[a-z]\)/\1 \2/g' \
