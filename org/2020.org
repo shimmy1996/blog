@@ -146,3 +146,67 @@ Completely contrast to how the saying normally goes, I hardly ever find myself m
 事实是，只要有可以调整的选项，我总会发现自己分心并花费太多时间担心那些最微不足道的对字体，颜色或间距的调整（只要看看我的日志中有多少是关于这个博客本身的就不难看出）。我发现唯一的解决方法是完全消除做出这些选择的机会，转而使用默认设置。这就是为什么我换掉了Isso（我在试图使它和博客的外观保持一致上花了太多时间），并移除了日志标签和类别。
 
 与俗语所说的完全相反，我并没有发现我对所舍弃的东西感到留恋。大部分时候，我的感受更近似与终于挣脱了那条绳子的大象的感觉，而不是失去了珍爱之物之后的后悔。我偶尔也会问自己，保留这些来自过去的牢骚和胡言乱语是否只是我尚未意识的另一条束缚我的绳子。对于这个问题，我的回答是：牛仔身边总少不了他的套索。
+
+* DONE Becoming Pangu with GNU sed
+:PROPERTIES:
+:EXPORT_DATE: 2020-01-09
+:EXPORT_HUGO_SLUG: becoming-pangu-with-sed
+:END:
+
+** DONE en
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2020-01-09-becoming-pangu-with-gnu-sed.en.md
+:EXPORT_TITLE: Becoming Pangu with GNU sed
+:END:
+
+In case you aren't familiar with Chinese mythology or blogosphere, there's an old meme aptly named "Space of Pangu": a typesetting rule of thumb in favor of additional spacing between Chinese characters (but not punctuation marks) and Latin characters or numbers. My variant of the rule also includes additional spacing around any HTML elements like links and emphasis.
+
+Up till now, I've been manually adding spaces in my source files (in Markdown or org), which is admittedly the worst way to do it. Aside from the additional chore, such a typesetting rule should, in my opinion, be implemented in the output/rendering format, not the source. Unwilling to load additional [[https://github.com/vinta/pangu.js][JavaScript]], I turned to the all-mighty GNU sed. To add Space of Pangu to the final HTML and XML files that Hugo produces (normally in the =./public= directory), I used the following shell script:
+#+BEGIN_SRC sh
+  #! /usr/bin/env sh
+  # For punctuation marks to be recongnized correctly. Any UTF-8 locale would do.
+  export LANG=en_US.UTF-8
+  find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec sed \
+       -e 's/\([a-zA-Z0-9]\|<\/[a-z]*>\)\([^[:punct:][:space:]a-zA-Z0-9\s]\)/\1 \2/g' \
+       -e 's/\([^[:punct:][:space:][:alnum:]]\)\([a-zA-Z0-9]\|<[a-z]\)/\1 \2/g' \
+       -i {} ";"
+#+END_SRC
+
+In case you are adamant about adhering to the recommendation by this [[https://www.w3.org/TR/clreq/#mixed_text_composition_in_horizontal_writing_modegg][W3C Working Draft]] and wouldn't mind bloating up the resulting web page, using CSS to create the spacing should do the trick:
+#+BEGIN_SRC sh
+  find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec sed \
+       -e 's/\([a-zA-Z0-9]\|<\/[a-z]*>\)\([^[:punct:][:space:]a-zA-Z0-9\s]\)/\1<span style="margin:0.25ch;"><\/span>\2/g' \
+       -e 's/\([^[:punct:][:space:]a-zA-Z0-9]\)\([a-zA-Z0-9]\|<[a-z]\)/\1<span style="margin:0.25ch;"><\/span>\2/g' \
+       -i {} ";"
+#+END_SRC
+
+If you are another one of those Space of Pangu disciples, just note that there's no need to worry about adding spaces when leaving comments here: thanks to [[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]] comments being inserted at Hugo's building stage, they are affected by those scripts as well. Just sit back, relax, and enjoy staring at the blank spaces.
+
+** DONE zh
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2020-01-09-becoming-pangu-with-gnu-sed.zh.md
+:EXPORT_TITLE: 用GNU sed开天辟地
+:END:
+
+如果你熟悉中国神话或博客众，那么你说不定听说过被半开玩笑地称作“盘古之白”的排版习惯：在中文字符（但不包括标点符号）和拉丁字符或数字之间增加一定间隔。我所实行的这一规则的变体还包括在所有HTML元素（如链接和强调）的周围也加上间隔。
+
+到目前为止，我一直在源文件（Markdown或org格式）中手动添加空格：这无疑是实行这一规则最糟糕的方法。除了要费额外的工夫之外，这类排版规则还应该，在我看来，仅在输出/渲染时应用。因为不愿加载额外的[[https://github.com/vinta/pangu.js][JavaScript]]，我转向了万能的GNU sed。为了将盘古之白添加到Hugo生成的HTML和XML文件中（通常在=./public=目录里），我使用了以下shell脚本：
+#+BEGIN_SRC sh
+  #! /usr/bin/env sh
+  # For punctuation marks to be recongnized correctly. Any UTF-8 locale would do.
+  export LANG=en_US.UTF-8
+  find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec sed \
+       -e 's/\([a-zA-Z0-9]\|<\/[a-z]*>\)\([^[:punct:][:space:]a-zA-Z0-9\s]\)/\1 \2/g' \
+       -e 's/\([^[:punct:][:space:][:alnum:]]\)\([a-zA-Z0-9]\|<[a-z]\)/\1 \2/g' \
+       -i {} ";"
+#+END_SRC
+
+如果你想坚持履行这一[[https://www.w3.org/TR/clreq/#mixed_text_composition_in_horizontal_writing_modegg][W3C工作草案]]给出的第一选择，且并不在意生成网页的大小的话，可以换用CSS来生成这一间隔：
+#+BEGIN_SRC sh
+  find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec sed \
+       -e 's/\([a-zA-Z0-9]\|<\/[a-z]*>\)\([^[:punct:][:space:]a-zA-Z0-9\s]\)/\1<span style="margin:0.25ch;"><\/span>\2/g' \
+       -e 's/\([^[:punct:][:space:]a-zA-Z0-9]\)\([a-zA-Z0-9]\|<[a-z]\)/\1<span style="margin:0.25ch;"><\/span>\2/g' \
+       -i {} ";"
+#+END_SRC
+
+如果你也是盘古之白的信徒，那么在本站留下评论时请不必担心手动添加空格：由于[[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]]评论会在Hugo构建站点时插入，它们也会被以上的脚本影响到。请尽管坐下、放松、享受这空白一片的绝景吧。

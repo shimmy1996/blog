@@ -25,7 +25,7 @@ soresuLatexOffByDefault = true
 soresuIssoHost = "/isso"
 
 [permalinks]
-posts    = "/posts/:year-:month-:day-:slug/"
+posts    = "/posts/:filename/"
 
 [languages]
   [languages.en]
