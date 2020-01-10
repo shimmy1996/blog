@@ -7,7 +7,7 @@ draft = false
 
 In case you aren't familiar with Chinese mythology or blogosphere, there's an old meme aptly named "Space of Pangu": a typesetting rule of thumb in favor of additional spacing between Chinese characters (but not punctuation marks) and Latin characters or numbers. My variant of the rule also includes additional spacing around any HTML elements like links and emphasis.
 
-Up till now, I've been manually adding spaces in my source files (in Markdown or org), which is admittedly the worst way to do it. Aside from the additional chore, such a typesetting rule should, in my opinion, be implemented in the output/rendering format, not the source. Unwilling to load additional [JavaScript](https://github.com/vinta/pangu.js), I turned to the all-mighty GNU sed. To add Space of Pangu to the final HTML and XML files that Hugo produces (normally in the `./public` directory), I used the following shell script:
+Up till now, I've been manually adding spaces in my source files (in Markdown or org), which is admittedly the worst way to do it. Aside from the additional chore, such a typesetting rule should, in my opinion, be implemented in the output/rendering format, not the source. Besides, manually fixing all the old posts I just brought back is not exactly a rewarding task. Unwilling to load additional [JavaScript](https://github.com/vinta/pangu.js), I turned to the all-mighty GNU sed. To add Space of Pangu to the final HTML and XML files that Hugo produces (normally in the `./public` directory), I used the following shell script:
 
 ```sh
 #! /usr/bin/env sh
