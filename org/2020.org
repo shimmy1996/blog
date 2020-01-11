@@ -128,7 +128,7 @@ Completely contrast to how the saying normally goes, I hardly ever find myself m
 ** DONE zh
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2020-01-06-staring-at-yesterday-in-one-eye.zh.md
-:EXPORT_TITLE: 一只眼睛凝视昨日
+:EXPORT_TITLE: 一边眼睛凝视昨日
 :END:
 
 死者复苏！星系里回荡着神秘的讯号，这是听上去熟悉却又遥远的*我过去的容器*对*维度大断层*的记录。

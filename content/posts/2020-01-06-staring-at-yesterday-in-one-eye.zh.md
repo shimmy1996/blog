@@ -1,5 +1,5 @@
 +++
-title = "一只眼睛凝视昨日"
+title = "一边眼睛凝视昨日"
 date = 2020-01-06
 slug = "staring-at-yesterday-in-one-eye"
 draft = false
