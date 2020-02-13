@@ -1,9 +1,9 @@
 ---
 title: Star Wars Celebration 2015 @ Anaheim
+slug: star-wars-celebration-2015-anaheim
 author: shimmy1996
 type: post
 date: 2015-04-20T02:03:55+00:00
-url: /index.php/2015/04/19/star-wars-celebration-2015-anaheim/
 dsq_thread_id:
   - 3695812111
 categories:
