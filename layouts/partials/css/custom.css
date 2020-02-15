@@ -10,8 +10,10 @@ textarea {
 h1 {
     font-size: 180%;
 }
-header nav, figcaption {
+header nav {
     margin-top: -1.5em;
+}
+header nav, figcaption {
     font-size: 90%;
 }
 article article {

@@ -16,10 +16,7 @@ tags:
   - 键盘
 
 ---
-<figure>
-{{< figure src="/wp-content/uploads/2014/07/P5220038.jpg" >}}
-<figcaption>图片来自网络</figcaption>
-</figure>
+{{< figure src="/wp-content/uploads/2014/07/P5220038.jpg" caption="图片来自网络" >}}
 
 键盘键帽虽然看起来大同小异，但其实有不少奇怪的键帽形状存在（笔记本电脑键盘不在讨论之列）。
 

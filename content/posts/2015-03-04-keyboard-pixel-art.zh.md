@@ -53,10 +53,7 @@ RT，效仿GH众给自己目前几把键盘画的简易像素画~
 
   6. CTRL[ALT] 60 + GMK Hyper Fuse [筹备中]
 
-<figure>
-{{< figure src="/wp-content/uploads/2015/03/ctrlalt60L.png" >}}
-<figcaption>Coming Not So Soon~</figcaption>
-</figure>
+{{< figure src="/wp-content/uploads/2015/03/ctrlalt60L.png" caption="Coming Not So Soon~" >}}
 
 如果把键帽上的字画出来似乎会很丑&#8230;
 

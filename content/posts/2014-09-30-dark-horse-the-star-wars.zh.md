@@ -57,10 +57,7 @@ Annikin的老爹，Kane Starkiller是个半机械人，这个设定估计后来�
 
 死星在这里感觉战斗力被大幅削弱&#8230;Luke用一只6架战机组成的编队就拖住了死星&#8230;
 
-<figure>
-{{< figure src="/wp-content/uploads/2014/09/solo3.png" >}}
-<figcaption>Iä! Iä! Han Solo Fhtagn!</figcaption>
-</figure>
+{{< figure src="/wp-content/uploads/2014/09/solo3.png" caption="Iä! Iä! Han Solo Fhtagn!" >}}
 
 Han Solo在这个故事中是一个有名的星际走私犯，也是Luke好基友&#8230;比较惨的是，Han长得和克总差不多&#8230;
 

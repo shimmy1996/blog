@@ -1,5 +1,5 @@
 {{ if .Get "caption" }}<figure>{{ end }}
 <img alt="{{ (.Get "alt") }}" src="{{ .Get "src" }}"/>
 {{- with .Get "caption" -}}
-<figcaption><p>{{ . | replaceRE "Figure [0-9]*: " "" | markdownify }}</p></figcaption></figure>
+<figcaption>{{ . | replaceRE "Figure [0-9]*: " "" | markdownify }}</figcaption></figure>
 {{ end }}
