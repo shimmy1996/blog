@@ -19,7 +19,7 @@ find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec se
      -i {} ";"
 ```
 
-如果你想坚持履行这一[W3C工作草案](https://www.w3.org/TR/clreq/#mixed%5Ftext%5Fcomposition%5Fin%5Fhorizontal%5Fwriting%5Fmodegg)给出的第一选择，且并不在意生成网页的大小的话，可以换用CSS来生成这一间隔：
+如果你想坚持履行这一[W3C工作草案](https://www.w3.org/TR/clreq/#mixed%5Ftext%5Fcomposition%5Fin%5Fhorizontal%5Fwriting%5Fmode)给出的第一选择，且并不在意生成网页的大小的话，可以换用CSS来生成这一间隔：
 
 ```sh
 find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec sed \

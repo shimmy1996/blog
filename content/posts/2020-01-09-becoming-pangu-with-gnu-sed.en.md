@@ -19,7 +19,7 @@ find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec se
      -i {} ";"
 ```
 
-In case you are adamant about adhering to the recommendation by this [W3C Working Draft](https://www.w3.org/TR/clreq/#mixed%5Ftext%5Fcomposition%5Fin%5Fhorizontal%5Fwriting%5Fmodegg) and wouldn't mind bloating up the resulting web page, using CSS to create the spacing should do the trick:
+In case you are adamant about adhering to the recommendation by this [W3C Working Draft](https://www.w3.org/TR/clreq/#mixed%5Ftext%5Fcomposition%5Fin%5Fhorizontal%5Fwriting%5Fmode) and wouldn't mind bloating up the resulting web page, using CSS to create the spacing should do the trick:
 
 ```sh
 find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec sed \
