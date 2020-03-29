@@ -30,7 +30,7 @@ posts    = "/posts/:filename/"
 [languages]
   [languages.en]
   languageName = "English"
-  copyright    = "&copy; 2014-2020 [Shimmy Xu](/en/about/)"
+  copyright    = "&copy; 2014&ndash;2020 [Shimmy Xu](/en/about/)"
   title        = "Library of Trantor"
 
     [[languages.en.menu.main]]
@@ -44,7 +44,7 @@ posts    = "/posts/:filename/"
 
   [languages.zh]
   languageName = "中文"
-  copyright    = "&copy; 2014-2020 [Shimmy Xu](/zh/about/)"
+  copyright    = "&copy; 2014&ndash;2020 [Shimmy Xu](/zh/about/)"
   title        = "川陀大学图书室"
 
     [[languages.zh.menu.main]]
