@@ -7,16 +7,7 @@ textarea {
     width: 100%;
     box-sizing: border-box;
 }
-h1 {
-    font-size: 180%;
-}
-header nav {
-    margin-top: -1.5em;
-}
-header nav, figcaption {
-    font-size: 90%;
-}
 article article {
-    margin-bottom: 1em;
+    padding-top: 1em;
     border-top: 1px dotted;
 }
