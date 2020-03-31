@@ -210,3 +210,27 @@ If you are another one of those Space of Pangu disciples, just note that there's
 #+END_SRC
 
 如果你也是盘古之白的信徒，那么在本站留下评论时请不必担心手动添加空格：由于[[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]]评论会在Hugo构建站点时插入，它们也会被以上的脚本影响到。请尽管坐下、放松、享受这空白一片的绝景吧。
+
+* TODO March Goes out Like a Lion, Too
+:PROPERTIES:
+:EXPORT_DATE: 2020-03-31
+:EXPORT_HUGO_SLUG: march-goes-out-like-a-lion-too
+:END:
+
+** DONE en
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2020-03-31-march-goes-out-like-a-lion-too.en.md
+:EXPORT_TITLE: March Goes out Like a Lion, Too
+:END:
+
+It was not until a few weeks ago (while watching Level1 News) that I learned about the complete version of the saying "March comes in like a lion and goes out like a lamb." I knew the first half of the saying from manga series /March Comes in Like a Lion/, but I had no idea the saying was describing the weather in March.
+
+What you have read so far was actually my entire motivation for starting this post, but it has indeed been a rather unusual March. Because of COVID-19, I'm spending time at home "social distancing", or rather, indulging myself in the company of solitude. In preparation for (a.k.a. using as an excuse) extended periods of working from home, I went on an upgrade spree for electronics: I got a second monitor, a monitor stand, and larger hard drives for my NAS. In fact, I've been gradually expanding my arsenal of devices since last Fall, so look out for a potential setup post.
+
+Amazon's Prime Now service has been keeping me fed for two out of the past three years during which I cooked for myself. It's a bit alarming that Amazon of all things has become literally something I can't live without, but until I have my underground bunker and algae farm, I'll have to make do with this symbiotic (or should I say parasitic) relationship. I'm not sure if I really enjoy cooking though, as least most of my efforts devoted to it has been on how to reduce the amount of time I spend in the kitchen. Fortunately I hardly ever get tired of eating the same dishes, so I just kept making the same ones, while gradually optimizing the preparation: I have yogurt and trail mix for breakfast, beef curry with rice for lunch, and pan-fried salmon with rice and stir-fried cabbage for dinner.
+
+The pandemic also puts my running plans on hold: the trail I normally run on has been closed down. I did get plenty of mileages in before social distancing started (4 weeks ahead of schedule in terms of total mileage now), so I should still be on track to hit my 2020 target. Perhaps due to the snow and ice along the way, my running shoes (Mizuno Wave Rider 23) are wearing out faster than before: at 250-mile-mark, I'm already feeling arch discomfort in longer distance runs, while previous iterations of Wave Rider I wore lasted until around 300 miles. Aside from shoe issues, shin pain also started to creep up as I've been doing longer runs, so this just might be the opportunity I needed to take some rest. I have converted myself to a morning runner as I plan to ultimately sneak a run or two on weekdays. So far I'm enjoying my morning routines, despite a few of snow-stormy days that were extra tough (but fun). Plus, I get to see sunrise instead of its less cheerful sibling.
+
+Reading the news during the outbreak frequently struck me with an unreal feeling: because of both the things that are actually happening and the way news articles covers them in a deliberately divisive facade. To be fair, asking an organization that preys on human attention to report in a plain and down-to-earth way is an oxymoron in itself. It's probably hypocritical for me to pick on the news agencies though, as I am also guilty of deriving excitement from the current situation: the mere thought that what is ordinarily just an apartment is now my personal fortress against an uncured pathogen is enough to keep me up at night.
+
+Should this indeed be the downfall of humanity, at least my blog and Emacs configuration will (assuming Microsoft means it) live on thanks to the [[https://archiveprogram.github.com/][Github Archive Program]]. Before that, be safe, stay at your personal living pods, and prepare for the neon-colored Space-Age algae diet we've all been waiting for.
