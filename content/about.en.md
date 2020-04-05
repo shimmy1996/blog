@@ -6,6 +6,8 @@ slug = "about"
 
 Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as shimmy1996, or rather, my blog. "Shimmy Xu" is just my [mundane name](http://stallman.org/biographies.html#humorous%20bio).
 
+If you are associated with the Jedi Order, or interested in antique holographic datacron devices in general, please check out the [Trantor Holocron](https://git.shimmy1996.com/).
+
 Feel free to leave a comment or shoot me an email directly! Here's my [GPG key](https://www.shimmy1996.com/gpg.txt):
 
 ```text

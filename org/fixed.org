@@ -64,6 +64,8 @@
 
 Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as shimmy1996, or rather, my blog. "Shimmy Xu" is just my [[http://stallman.org/biographies.html#humorous%20bio][mundane name]].
 
+If you are associated with the Jedi Order, or interested in antique holographic datacron devices in general, please check out the [[https://git.shimmy1996.com/][Trantor Holocron]].
+
 Feel free to leave a comment or shoot me an email directly! Here's my [[https://www.shimmy1996.com/gpg.txt][GPG key]]:
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 
@@ -78,6 +80,8 @@ All contents of this site are licensed under a [[http://creativecommons.org/lice
 :END:
 
 欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做shimmy1996的个体。换句话说，这里是我的博客。“Shimmy Xu”不过是我的[[http://stallman.org/biographies.html#humorous%20bio][凡间之名]]。
+
+如果您隶属于绝地团体，或者对旧式数据晶体感兴趣的话，请务必留步[[https://git.shimmy1996.com/][川陀全息档案馆]]。
 
 留下评论或直接给我发送电子邮件吧！这是我的[[https://www.shimmy1996.com/gpg.txt][PGP密匙]]：
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
