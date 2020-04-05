@@ -102,7 +102,7 @@ these exact Unicode codepoints in my fontset. I'm not really sure how I feel
 when I then realized ASCII style quotation marks also suffered from
 [confusion](https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html)—maybe we are just really bad at this.
 
-My fallback font configurations can be found on both [GitHub](https://github.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback) and [Trantor Network](https://git.shimmy1996.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback)
+My fallback font configurations can be found on both [GitHub](https://github.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback) and [Trantor Holocron](https://git.shimmy1996.com/emacs.d/file/README.org.html#l158)
 and I'll list them here just for sake of completeness:
 
 ```emacs-lisp

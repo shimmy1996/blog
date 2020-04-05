@@ -116,7 +116,7 @@ Alright, that's enough puns and /The Rise of Skywalker/ jokes from me. As mentio
 
 Handling images is tricky and my old posts made quite liberal uses of them unfortunately: I opted for the simplest way out and just kept the originals without any kind of fancy compression or styling. I still need to figure out a more efficient way to both store and serve those images. Even with Git LFS available, I was reluctant to add over 300 MB of images to my blog repository (so they are currently in untracked-land), and now my blog could definitely benefit from a CDN setup. Perhaps I could also do what Jupyter notebooks do—encode all images in Base64—to get a single HTML file.
 
-For the regular visitors of my blog out there (if there are any), you might notice that the comment section looks different: that's right, the search for the ideal static site commenting system is finally over for me (until it starts again)! Through out the years, I've used WordPress, Duoshuo (now defunct), Disqus, and Isso as my comment systems. Now, my [[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]] has superseded them all: taking inspiration from [[https://staticman.net/][Staticman]], I set up Hyperskip to store all the comments in a TOML file, and opted to use email as the submission method, simplifying the setup. Gone are the days of databases, queries, and external scripts, and I get to migrate and version control all the comments (including the ones from the WordPress era) in the same Git repository as my blog too.
+For the regular visitors of my blog out there (if there are any), you might notice that the comment section looks different: that's right, the search for the ideal static site commenting system is finally over for me (until it starts again)! Through out the years, I've used WordPress, Duoshuo (now defunct), Disqus, and Isso as my comment systems. Now, my [[https://git.shimmy1996.com/hugo-hyperskip][Hyperskip]] has superseded them all: taking inspiration from [[https://staticman.net/][Staticman]], I set up Hyperskip to store all the comments in a TOML file, and opted to use email as the submission method, simplifying the setup. Gone are the days of databases, queries, and external scripts, and I get to migrate and version control all the comments (including the ones from the WordPress era) in the same Git repository as my blog too.
 
 *** The Other Old Friend
 One week into the New Year and I have already switched color scheme of the website five times, with another dozen sitting in my folder (totally not because of how unsightly these RGB color codes are). Much like how I'm a bit burned-out from [[/en/posts/2019-12-01-fun-with-fonts-on-the-web/][getting fonts right for everything]], I have decided to remove all custom color choices from the website: no more syntax highlighting, fancy buttons, nor dark modes.
@@ -138,7 +138,7 @@ Completely contrast to how the saying normally goes, I hardly ever find myself m
 
 处理日志的配图比较麻烦，而不幸的是，这些旧日志在插入图片上毫不吝惜：我选择了最简单的处理方式，只保留了原始图片，没有任何压缩或样式设置。我仍然需要一种更有效的方式来存储和提供这些图像。即使有Git LFS可用，我还是不愿意把超过300 MB的图片尽数添加到我的博客Git仓库中（因此它们目前处于无版本控制的状态）。多了这么多图片，部署CDN应该会大大改善访问速度。或许我也可以学学Jupyter笔记本的做法——将所有图像编码为Base64——以将所有内容塞进同一个HTML文件里。
 
-我博客的常客们（如果有的话）可能会注意到评论部分看起来有所不同：是的，我对理想中静态站点评论系统的搜索终于结束了（直到下次开始的时候）！我曾使用WordPress、多说（已关停服务）、Disqus、Isso作为评论系统，而现在取代它们的是我的[[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]]：从[[https://staticman.net/][Staticman]]中汲取灵感，Hyperskip将所有评论存储在TOML文件中，并使用电子邮件作为提交方法，以简化设置。我终于摆脱了数据库查询和外部脚本，并且将所有评论（包括WordPress时代的那些）转移到了和博客相同的Git仓库里进行版本控制。
+我博客的常客们（如果有的话）可能会注意到评论部分看起来有所不同：是的，我对理想中静态站点评论系统的搜索终于结束了（直到下次开始的时候）！我曾使用WordPress、多说（已关停服务）、Disqus、Isso作为评论系统，而现在取代它们的是我的[[https://git.shimmy1996.com/hugo-hyperskip][Hyperskip]]：从[[https://staticman.net/][Staticman]]中汲取灵感，Hyperskip将所有评论存储在TOML文件中，并使用电子邮件作为提交方法，以简化设置。我终于摆脱了数据库查询和外部脚本，并且将所有评论（包括WordPress时代的那些）转移到了和博客相同的Git仓库里进行版本控制。
 
 *** 另一位老朋友
 新年刚开始一个星期，我已经切换了五次网站的配色，并还有一大堆其他方案堆在我的文件夹里（绝对不是因为RGB色值本身太过丑陋）。就像我对尝试[[/zh/posts/2019-12-01-fun-with-fonts-on-the-web/][让所有字形用上正确的字体]]感到精疲力尽时一样，我已决定从网站上删除所有的自定义颜色：不再显示语法高亮、花哨的按钮和暗色模式。
@@ -180,7 +180,7 @@ In case you are adamant about adhering to the recommendation by this [[https://w
        -i {} ";"
 #+END_SRC
 
-If you are another one of those Space of Pangu disciples, just note that there's no need to worry about adding spaces when leaving comments here: thanks to [[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]] comments being inserted at Hugo's building stage, they are affected by those scripts as well. Just sit back, relax, and enjoy staring at the blank spaces.
+If you are another one of those Space of Pangu disciples, just note that there's no need to worry about adding spaces when leaving comments here: thanks to [[https://git.shimmy1996.com/hugo-hyperskip][Hyperskip]] comments being inserted at Hugo's building stage, they are affected by those scripts as well. Just sit back, relax, and enjoy staring at the blank spaces.
 
 ** DONE zh
 :PROPERTIES:
@@ -209,7 +209,7 @@ If you are another one of those Space of Pangu disciples, just note that there's
        -i {} ";"
 #+END_SRC
 
-如果你也是盘古之白的信徒，那么在本站留下评论时请不必担心手动添加空格：由于[[https://git.shimmy1996.com/shimmy1996/hugo-hyperskip][Hyperskip]]评论会在Hugo构建站点时插入，它们也会被以上的脚本影响到。请尽管坐下、放松、享受这空白一片的绝景吧。
+如果你也是盘古之白的信徒，那么在本站留下评论时请不必担心手动添加空格：由于[[https://git.shimmy1996.com/hugo-hyperskip][Hyperskip]]评论会在Hugo构建站点时插入，它们也会被以上的脚本影响到。请尽管坐下、放松、享受这空白一片的绝景吧。
 
 * DONE March Goes out Like a Lion, Too
 :PROPERTIES:

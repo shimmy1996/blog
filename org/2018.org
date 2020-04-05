@@ -541,7 +541,7 @@ these exact Unicode codepoints in my fontset. I'm not really sure how I feel
 when I then realized ASCII style quotation marks also suffered from
 [[https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html][confusion]]—maybe we are just really bad at this.
 
-My fallback font configurations can be found on both [[https://github.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback][GitHub]] and [[https://git.shimmy1996.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback][Trantor Network]]
+My fallback font configurations can be found on both [[https://github.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback][GitHub]] and [[https://git.shimmy1996.com/emacs.d/file/README.org.html#l158][Trantor Holocron]]
 and I'll list them here just for sake of completeness:
 #+BEGIN_SRC emacs-lisp
   (defvar user/cjk-font "Noto Sans CJK SC"
@@ -721,7 +721,7 @@ Unicode 字符替换为图片。[[https://github.com/iqbalansari/emacs-emojify][
 着 [[https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html][充满误会的过去]] 的时候，我已经不知道应该用什么表情来面对了——也许我们在这方面真
 的很糟糕。
 
-我的后备字体设置可以在 [[https://github.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback][GitHub]] 和 [[https://git.shimmy1996.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback][川陀网络]] 上找到。为了日志的完整性，我在这里也放
+我的后备字体设置可以在 [[https://github.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback][GitHub]] 和 [[https://git.shimmy1996.com/emacs.d/file/README.org.html#l158][川陀全息档案馆]] 上找到。为了日志的完整性，我在这里也放
 一份：
 #+BEGIN_SRC emacs-lisp
   (defvar user/cjk-font "Noto Sans CJK SC"

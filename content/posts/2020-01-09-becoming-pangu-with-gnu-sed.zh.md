@@ -28,4 +28,4 @@ find . -path "./public/*" \( -name "*.html" -or -name "*.xml" \) -print -exec se
      -i {} ";"
 ```
 
-如果你也是盘古之白的信徒，那么在本站留下评论时请不必担心手动添加空格：由于[Hyperskip](https://git.shimmy1996.com/shimmy1996/hugo-hyperskip)评论会在Hugo构建站点时插入，它们也会被以上的脚本影响到。请尽管坐下、放松、享受这空白一片的绝景吧。
+如果你也是盘古之白的信徒，那么在本站留下评论时请不必担心手动添加空格：由于[Hyperskip](https://git.shimmy1996.com/hugo-hyperskip)评论会在Hugo构建站点时插入，它们也会被以上的脚本影响到。请尽管坐下、放松、享受这空白一片的绝景吧。

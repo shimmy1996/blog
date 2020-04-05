@@ -86,7 +86,7 @@ Unicode 字符替换为图片。[`emacs-emojify`](https://github.com/iqbalansari
 着 [充满误会的过去](https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html) 的时候，我已经不知道应该用什么表情来面对了——也许我们在这方面真
 的很糟糕。
 
-我的后备字体设置可以在 [GitHub](https://github.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback) 和 [川陀网络](https://git.shimmy1996.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback) 上找到。为了日志的完整性，我在这里也放
+我的后备字体设置可以在 [GitHub](https://github.com/shimmy1996/.emacs.d#fontset-with-cjk-and-unicode-fallback) 和 [川陀全息档案馆](https://git.shimmy1996.com/emacs.d/file/README.org.html#l158) 上找到。为了日志的完整性，我在这里也放
 一份：
 
 ```emacs-lisp
