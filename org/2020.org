@@ -253,7 +253,7 @@ Should this indeed be the downfall of humanity, at least my blog and Emacs confi
 
 如果这确实是人类覆灭的开始，至少我的博客和Emacs配置将由于[[https://archiveprogram.github.com/][Github存档计划]]继续存在（假设微软没有说一套作一套的话）。在那之前，请保持安全，不要随便离开自己的胶囊生活仓，并做好准备迎接我们一直苦苦等待的荧光色太空时代藻制食品吧。
 
-* TODO Static Alternatives to Mastodon and Gitea
+* DONE Static Alternatives to Mastodon and Gitea
 :PROPERTIES:
 :EXPORT_DATE: 2020-04-04
 :EXPORT_HUGO_SLUG: static-alternatives-to-mastodon-and-gitea
@@ -317,6 +317,142 @@ don't cover all the bases in my experience.
 
 从Mastadon开始说起，我现在使用[[https://twtxt.readthedocs.io/en/latest/][twtxt]]格式存储和发布我的微型博客。这一格式已经存在了一段时间，但最近在波浪号社区（tildeverse，一系列提供可公共访问的类Unix系统的网站）中开始重新流行。尽管现在有一整个旨在为该格式添加更多功能的社区支持的生态系统（其中包含各种语法扩展和软件），但我发现最基本的的时间戳加制表键加文字的语法已足够满足我的需求。这种即写即忘的形式确实很容易上瘾，尤其是与自己写的命令行客户端搭配使用时（我的版本被恰当地命名为[[https://git.shimmy1996.com/twixter/][twixter]]）。
 
-至于Gitea，虽然我认为是Github的优秀替代品，但它更适合于多用户协作，而不是作为个人项目的闲置场。我决定直接自己管理git仓库（参阅/Pro Git/的[[https://git-scm.com/book/zh/v2/%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%25E4%25B8%258A%25E7%259A%2584-Git-%25E9%2585%258D%25E7%25BD%25AE%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8][4.4]]和[[https://git-scm.com/book/zh/v2/%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%25E4%25B8%258A%25E7%259A%2584-Git-Git-%25E5%25AE%2588%25E6%258A%25A4%25E8%25BF%259B%25E7%25A8%258B][4.5]]章），然后使用[[https://git.codemadness.org/stagit/][stagit]]生成相应的HTML文件。这些由stagit生成的页面已经替代Gitea作为新生的[[https://git.shimmy1996.com/][川陀全系档案馆]]。
+至于Gitea，虽然我认为是Github的优秀替代品，但它更适合于多用户协作，而不是作为个人项目的闲置场。我决定直接自己管理git仓库（参阅/Pro Git/的[[https://git-scm.com/book/zh/v2/%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%25E4%25B8%258A%25E7%259A%2584-Git-%25E9%2585%258D%25E7%25BD%25AE%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8][4.4]]和[[https://git-scm.com/book/zh/v2/%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%25E4%25B8%258A%25E7%259A%2584-Git-Git-%25E5%25AE%2588%25E6%258A%25A4%25E8%25BF%259B%25E7%25A8%258B][4.5]]章），然后使用[[https://git.codemadness.org/stagit/][stagit]]生成相应的HTML文件。这些由stagit生成的页面已经替代Gitea作为新生的[[https://git.shimmy1996.com/][川陀全息档案馆]]。
 
 在解决了我在线存在的只写任务需求后，我将继续探索剩下的两个难题：只读（内容消费）和交互（通讯方式）类操作。目前，订阅源和电子邮件是我最好的答案，但是它们仍然不足以涵盖我所有的需求。
+
+* TODO Specmania
+:PROPERTIES:
+:EXPORT_DATE: 2020-03-15
+:EXPORT_HUGO_SLUG: specmania
+:END:
+
+** TODO en
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2020-03-15-specmania.en.md
+:EXPORT_TITLE: Specmania
+:END:
+
+Are you struggling from deciding on where to split a multi-line math equation? Do you frequently find yourself deleting the function you just write for the fifth time only because you came up with a more "semantic" way? Have you ever scratched your head trying to read between the lines of documentation to find the proper-and-intended-by-creator way of using a certain tool?
+
+If so, welcome the club of specmaniacs!
+
+Jokes aside, I do frequently feel the compulsion to follow or to look for standards/guidelines/benchmarks, sometimes excessively so. I can't even count the number of times I used some sort of website speed test to check my homepage's loading speed (and you bet it's top notch), and for the longest time, I tried to
+
+write in both languages just to "prove" I have note forgotten my origin
+
+feed my html and atom feeds and css into all kinds of validators
+
+maintain separation of formatting and content in nearly everything I write.
+
+This probably explains why I find writing Rust really enjoyable: fully checked matches,
+
+Because it's there doesn't necessarily mean I have to use it. Like the categories and tags page.
+
+Asking someone to rewrite is probably analoguous to asking a painter to paint using only color in the rgb color space - while realisitic and probably better for transmission, but limits the artist in undesired ways.
+
+I subconsciously try to force myself to accept incompleteness and imperfections
+to keep it in its uncompleted state
+
+also feeling from advent of code, quick and dirty can work, but not really my style
+
+picking the line in which we can fully trust our abilities is tricky
+I think before I was too timid about drawing that line, but now, maybe I can push the boundary a bit further
+
+is this arrogance?
+
+is this fear of missing out?
+i.e. the feeling of exclusivity that blinds me time and time again to sign up for a new service
+like keybase
+
+don't roll your own crypto example
+
+is it truly technological superiority/easy to use factor or it's just fear of missing out or the joy from exclusivity that brings me
+
+** TODO zh
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2019-11-30-specmania.zh.md
+:EXPORT_TITLE: 标准狂热症
+:END:
+
+* TODO Virtual Setup Tour
+:PROPERTIES:
+:EXPORT_DATE: 2020-03-17
+:EXPORT_HUGO_SLUG: virtual-setup-tour
+:END:
+
+** TODO en
+*** TODO File syncing
+Dropbox -> syncthing
+
+*** TODO Backup
+Synology NAS
+DS215j, using 2x14TB drives, up from 2x3T drive, running Synology's SHR
+black blaze can be expansive at 14T...
+planning on getting a proper rack server or a larger NAS
+
+use the new one as main device, and 215j/another enclosure as backup device
+
+*** TODO Media consumption
+Music
+itunes match -> git annex
+starting to fall apart as I tried to keep local folders in sync with iTunes
+tagging -> MusicBrainz
+did all the conversion before, now with dedicated device, no longer an issue, lossless/hires all the way!
+Books
+pdf -> ubooquity for comics and libre
+Videos
+no good solution yet
+bluray rips
+
+Photos
+lives in iCloud ATM, some photos taken with Panasonic GX85
+I periodically dump them into NAS
+Web browsing
+Chrome -> Firefox with no history or credentials + containers
+vimium, no pocket
+still using sync for the time being before moving to a better system
+used to do perioical bookmark cleanups, now they largely just sit in a folder
+consider source controlling them
+podcast
+RSS on PC, official podcast app on phone, also app on walkman
+
+*** TODO Credentials
+united under GPG
+KeePassXC + Dropbox -> pass for password
+ubeykey, solokeys
+liking the former for durability
+
+*** TODO Git
+self hosted server
+
+*** TODO Mobile
+iOS
+iPhone, iPad
+would imagine Android device to work equally well, now that I have dedicated device for music
+smart watch, all I need is notifications + music control
+why is it so hard?
+
+*** TODO Running
+probably the most non-free section
+Mizuno Wave Rider
+for fitness tracking, I have dedicated heart rate strap Wahoo ticker X
+but that just recently required registration to use, and strava removed their support for HRMs :(
+using phone as GPS, not too accurate when going under bridges, but probably common problem among all gps devices
+using a cheap 20 buck bt 5.0 headphone, great battery life ~8hrs, only need charging once a week for very intensive workouts
+
+* TODO Reviews
+** TODO en
+
+BEASTARS
+
+using animal form as a metaphor for difference between human is no new topic, but still, I don't know any works that have exploited/exposed these conflicts in these Zootopia-like settings as sharp as BEASTARS. Giving these differences a physical manifestation serves as an aid to easily leave a fixed impression in people's minds.
+
+That and you also have the struggle of characters both as an individual and as a member of his/her own species.
+
+I honestly came into the show not knowing what to expect - it didn't seem to fit any of the stereotypical genres.
+
+Since there's also the N-th room incident in Korea - while not something new either - causes me to think whether the difference between us in the real world is even greater than what Haru saw in Legosi?
+Are we that different from beasts?
+
+while lightly brushed over in the tv series, political power struggle between herbivores and carnivores is also interesting.
