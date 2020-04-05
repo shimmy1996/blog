@@ -317,7 +317,7 @@ don't cover all the bases in my experience.
 
 从Mastadon开始说起，我现在使用[[https://twtxt.readthedocs.io/en/latest/][twtxt]]格式存储和发布我的微型博客。这一格式已经存在了一段时间，但最近在波浪号社区（tildeverse，一系列提供可公共访问的类Unix系统的网站）中开始重新流行。尽管现在有一整个旨在为该格式添加更多功能的社区支持的生态系统（其中包含各种语法扩展和软件），但我发现最基本的的时间戳加制表键加文字的语法已足够满足我的需求。这种即写即忘的形式确实很容易上瘾，尤其是与自己写的命令行客户端搭配使用时（我的版本被恰当地命名为[[https://git.shimmy1996.com/twixter/][twixter]]）。
 
-至于Gitea，虽然我认为是Github的优秀替代品，但它更适合于多用户协作，而不是作为个人项目的闲置场。我决定直接自己管理git仓库（参阅/Pro Git/的[[https://git-scm.com/book/zh/v2/%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%25E4%25B8%258A%25E7%259A%2584-Git-%25E9%2585%258D%25E7%25BD%25AE%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8][4.4]]和[[https://git-scm.com/book/zh/v2/%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%25E4%25B8%258A%25E7%259A%2584-Git-Git-%25E5%25AE%2588%25E6%258A%25A4%25E8%25BF%259B%25E7%25A8%258B][4.5]]章），然后使用[[https://git.codemadness.org/stagit/][stagit]]生成相应的HTML文件。这些由stagit生成的页面已经替代Gitea作为新生的[[https://git.shimmy1996.com/][川陀全息档案馆]]。
+至于Gitea，虽然我认为是Github的优秀替代品，但它更适合于多用户协作，而不是作为个人项目的闲置场。我决定直接自己管理git仓库（参阅《Pro Git》的[[https://git-scm.com/book/zh/v2/%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%25E4%25B8%258A%25E7%259A%2584-Git-%25E9%2585%258D%25E7%25BD%25AE%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8][4.4]]和[[https://git-scm.com/book/zh/v2/%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%25E4%25B8%258A%25E7%259A%2584-Git-Git-%25E5%25AE%2588%25E6%258A%25A4%25E8%25BF%259B%25E7%25A8%258B][4.5]]章），然后使用[[https://git.codemadness.org/stagit/][stagit]]生成相应的HTML文件。这些由stagit生成的页面已经替代Gitea作为新生的[[https://git.shimmy1996.com/][川陀全息档案馆]]。
 
 在解决了我在线存在的只写任务需求后，我将继续探索剩下的两个难题：只读（内容消费）和交互（通讯方式）类操作。目前，订阅源和电子邮件是我最好的答案，但是它们仍然不足以涵盖我所有的需求。
 
