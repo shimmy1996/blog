@@ -24,16 +24,16 @@ front ends.
 
 Starting with Mastadon, I'm using the [twtxt](https://twtxt.readthedocs.io/en/latest/) format to store and serve my micro
 blog. The format has existed for some time now, but enjoyed a recent resurgence
-in the tildeverse community. While there is now a whole community supported
-ecosystem of various syntax extensions and software seeking to add more features
-to the format, I have found the barebone timestamp-tab-and-then-text syntax to
-be sufficient. The write-and-forget cycle is really addicting, and even more so
-when using a command line client written by oneself (mine is aptly named
-[twixter](https://git.shimmy1996.com/twixter/)).
+in the tildeverse (a series of websites offering public access Unix-like
+systems). While there is now a whole community supported ecosystem of various
+syntax extensions and software seeking to add more features to the format, I
+have found the barebone timestamp-tab-and-then-text syntax to be sufficient. The
+write-and-forget cycle is really addicting, and even more so when using a
+command line client (mine is aptly named [twixter](https://git.shimmy1996.com/twixter/)).
 
 As for Gitea, while an excellent Github replacement in my opinion, is more
-suitable for a established community than as a personal project dumping
-ground. I opted to manage the Git repositories directly (see Chapter [4.4](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server) and [4.5](https://git-scm.com/book/en/v2/Git-on-the-Server-Git-Daemon)
+suitable for community collaboration than as a personal project dumping
+ground. I opted to manage the git repositories directly (see Chapter [4.4](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server) and [4.5](https://git-scm.com/book/en/v2/Git-on-the-Server-Git-Daemon)
 of _Pro Git_), and use [stagit](https://git.codemadness.org/stagit/) to generate the corresponding HTML files. These
 stagit-generated pages have replaced Gitea as the new [Trantor Holocron](https://git.shimmy1996.com/).
 
