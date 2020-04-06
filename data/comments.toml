@@ -760,3 +760,34 @@ uri="/en/friends/"
 content="""
 Ohhh it's always there, I just added a menu link to it
 """
+[[comments]]
+name = "LanternD"
+email_hash = "8863c7fec0"
+time = 2020-04-06T12:22:35-04:00
+uri = "/zh/posts/2020-01-01-2019-in-review/"
+content = """
+或许是第一条评论pipeline测试。
+
+跑400 mile是个了不起的成就啊。我各种跑步App几年加起来还没有400 mile，真是惭愧。跑量上去以后你觉得身体会有什么变化吗？
+
+我最近也搭了一个Mastodon，我觉得完全符合我的需求，决定长期使用下去。Twitter也仅限于只读状态了。但我应该不会删除各种账号，毕竟也是我在互联网存在过的凭证。如果有人想要社会工程那就随他们去吧。
+
+"""
+[[comments]]
+name = "LanternD"
+email_hash = "8863c7fec0"
+time = 2020-04-06T12:31:07-04:00
+uri = "/zh/posts/2018-06-24-fun-with-fonts-in-emacs/"
+content = """
+印象中我也折腾过一段时间，后来就直接Spacemacs了，好像也不是很完美，但我突然决定不应该再花超出我承受范围的时间去折腾我的工具。而这个的起点就是允许不完美的存在。
+"""
+[[comments]]
+name = "LanternD"
+email_hash = "8863c7fec0"
+time = 2020-04-06T12:45:22-04:00
+uri = "/zh/posts/2020-01-09-becoming-pangu-with-gnu-sed/"
+content = """
+至今在用空格之神，因为只有引入额外的JS才能保证我在所有网站上看到的东西都符合我的期望。
+
+第三条评论后的感想：提交完电子邮件并关闭以后不会返回原站点，于是Blog页面会随着关闭窗口而彻底消失。这个会降低读者继续Explore的可能性。而且Gmail看起来没法修改邮箱的选择（我通常会登陆若干个），只能改链接。
+"""
