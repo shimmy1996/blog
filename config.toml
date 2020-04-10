@@ -1,5 +1,5 @@
 # Site Settings
-baseURL                        = "https://www.shimmy1996.com/"
+relativeURLs                   = true
 theme                          = ["hugo-djem-so", "hugo-hyperskip"]
 footnoteReturnLinkContents     = "↩"
 defaultContentLanguage         = "en"
