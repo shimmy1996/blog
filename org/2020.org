@@ -336,7 +336,7 @@ CLOSED: [2020-04-10 Fri 01:27]
 Recently, I've been thinking about ways to unify my micro blog entries with my current site, and I've been reconsidering the ideas from [[https://indieweb.org/][IndieWeb]]: unlike [[https://activitypub.rocks/][ActivityPub]] (the protocol Mastodon, Pleroma and the likes use for federation), which seems to want everything be done dynamically via server APIs and JSON responses, the various standards recommended by the IndieWeb community allows machine readable feed to be generated straight from a static HTML file correctly marked-up. A core idea that IndieWeb seem to implicitly rely on is the lifetime of the URIs, and to a greater extent, site owner's control over the domain name. Withe the recent [[https://www.eff.org/deeplinks/2020/03/members-congress-once-again-urge-icann-save-dot-org][drama]] regarding the .ORG domain, I came to realize that a future in which domain names are too expensive to maintain (or are subject to seizures by various entities) may not actually be too distant, and this could seriously undermine the entire premise IndieWeb is built upon, not to mention the a lot more common link rots. Fortunately, I think the [[https://ipfs.io/][IPFS]] (InterPlanetary File System) has the potential to solve both problems.
 
 *** A Crash Course on IPFS
-Now, now, I know when compared similar projects like the [[https://dat.foundation/][Dat protocol]], [[https://github.com/yarrick/pingfs][pingfs]], or even [[https://scuttlebutt.nz/][Scruttlebutt]], IPFS has a really buzz-wordy vibe (trust me, I was as skeptical as you are at the beginning) to it, and the various cryptocurrency start-ups that bundle IPFS and all kinds of acronyms in their marketing materials surely doesn't do it any favors, but it does seem like the most established and ready-to-use. Here's my best attempt at explaining IPFS, with information mostly obtained from the [[https://docs.ipfs.io/][official documentation]] and [[https://www.youtube.com/watch?v=HUVmypx9HGI][this talk]]. In case you are interested in further implementation details, [[https://www.youtube.com/watch?v=Z5zNPwMDYGg][this session from IPFS Camp 2019]] is a great resource.
+Now, now, I know when compared similar projects like the [[https://dat.foundation/][Dat protocol]], [[https://github.com/yarrick/pingfs][pingfs]], or even [[https://scuttlebutt.nz/][Scruttlebutt]], IPFS has a really buzz-wordy vibe (trust me, I was as skeptical as you are at the beginning) to it, and the various cryptocurrency start-ups that bundle IPFS and all kinds of acronyms in their marketing materials surely doesn't do it any favors, but it does seem like the most established and ready-to-use. Here's my best attempt at explaining IPFS, with information mostly obtained from the [[https://docs.ipfs.io/][official documentation]] and [[https://www.youtube.com/watch?v=HUVmypx9HGI][this talk]]. In case you are interested in further implementation details, [[https://www.youtube.com/watch?v=Z5zNPwMDYGg][this session from IPFS Camp 2019]] is a great starting point.
 
 A simplified interpretation of link to an web page is but a fancy way to point to a file on some server. Just like path to a file, the link would be unreachable if the server is down, even if someone sitting in the same room might have the contents cached. In IPFS, files (or data blocks) are addressed by corresponding cryptographic hashes of their contents, and stored in a distributed fashion across all peers. This means no centralized facility is required to access the files, file integrity can be easily verified, P2P sharing can be used to speed up access, and files stored this way are inherently immutable.
 
@@ -382,16 +382,16 @@ CLOSED: [2020-04-10 Fri 09:53]
 :EXPORT_TITLE: 外太空九号博客
 :END:
 
-最近，我在想办法将我的微型博客整合到当前网站里，所以我开始在重新考虑[[https://indieweb.org/][IndieWeb]]所提倡的一些构想：与希望一切都通过服务器API和JSON响应来动态完成的[[https://activitypub.rocks/][ActivityPub]]（长毛象（Mastodon），Pleroma等用于互联的协议）不同，IndieWeb社区推荐的不少标准都支持从有正确标记的静态HTML文件中直接生成机器可读的网站源。IndieWeb隐含地依赖的一大核心要素是URI（统一资源标志符）的稳定性，或者从更高的角度来说，站点所有者对域名的控制。由于最近关于.ORG域名的[[https://www.eff.org/deeplinks/2020/03/members-congress-once-again-urge-icann-save-dot-org][闹剧]]，我逐渐意识到，一个域名昂贵到无法维护（或可能随时被扣押）的未来可能并不是遥不可及的。这可能会严重破坏整个IndieWeb赖以建立的前提，更不用说更常见的链接失效。幸运的是，我觉得[[https://ipfs.io/][IPFS]]（星际文件系统）有潜力能够解决这两个问题。
+最近，我在想办法将我的微型博客整合到当前网站里，所以我开始重新考虑[[https://indieweb.org/][IndieWeb]]所提倡的一些构想：与希望一切都通过服务器API和JSON响应来动态完成的[[https://activitypub.rocks/][ActivityPub]]（Mastodon、Pleroma等用于互联的协议）不同，IndieWeb社区推荐的不少标准都支持从有正确标记的静态HTML文件中直接生成机器可读的网站源。IndieWeb隐含地依赖的一大核心要素是URI（统一资源标志符）的稳定性，或者从更高的角度来说，站点所有者对域名的控制。由于最近关于.ORG域名的[[https://www.eff.org/deeplinks/2020/03/members-congress-once-again-urge-icann-save-dot-org][闹剧]]，我逐渐意识到，一个域名昂贵到无法维护（或可能随时被扣押）的未来可能并不是遥不可及的。这会严重破坏整个IndieWeb赖以建立的前提，更不用说更常见的链接失效了。幸运的是，我觉得[[https://ipfs.io/][IPFS]]（星际文件系统）有潜力能够解决这两个问题。
 
 *** IPFS 速成班
-好的，好的，我知道和一些类似的项目，例如[[https://dat.foundation/][Dat协议]]，[[https://github.com/yarrick/pingfs][pingfs]]，甚至[[https://scuttlebutt.nz/][Scruttlebutt]]，比起来，IPFS的名称听起来非常不靠谱（相信我，我开始时也和你一样怀疑），而不少加密货币类创业公司将IPFS与各种首字母缩写词混杂在其营销资料中的事实更降低了它的可信度，但IPFS看起来的确是类似项目中最成熟且易于使用的。以下我对解释IPFS所做的尝试，其信息大部分来自[[https://docs.ipfs.io/][官方文档]]和[[https://www.youtube.com/watch?v=HUVmypx9HGI][这一演座]]。如果你对进一步的实施细节感兴趣，[[https://www.youtube.com/watch?v=Z5zNPwMDYGg][这一来自IPFS Camp 2019的专题讨论]]是一个很好的资源。
+好的，好的，我知道和一些类似的项目，例如[[https://dat.foundation/][Dat协议]]，[[https://github.com/yarrick/pingfs][pingfs]]，甚至[[https://scuttlebutt.nz/][Scruttlebutt]]，比起来，IPFS的名称听起来非常不靠谱（相信我，我开始时也和你一样怀疑），而不少加密货币类创业公司将IPFS与各种首字母缩写词混杂在其营销资料中的事实更降低了它的可信度，但IPFS看起来的确是类似项目中最成熟且易于使用的。以下我对解释IPFS所做的尝试，其信息大部分来自[[https://docs.ipfs.io/][官方文档]]和这一[[https://www.youtube.com/watch?v=HUVmypx9HGI][讲座]]。如果你对进一步的实施细节感兴趣，这一[[https://www.youtube.com/watch?v=Z5zNPwMDYGg][来自IPFS Camp 2019的专题讨论]]是一个很好的起始点。
 
 简单地说，一条网页链接只是指向某服务器上文件路径的一种花哨说法。就像一般的文件路径一样，服务器下线后，即使坐在同一房间的某人可能缓存了网页内容，该链接也无法被访问。在IPFS中，文件（或数据块）通过与其内容相应的加密哈希值作为地址，并以分布式的方式存储在所有用户群中。这意味着我们不需要中心化的设施来访问文件、可以简单地地验证文件完整性、可以使用P2P共享来加快访问速度、以及以这种方式存储的文件内容是无法改变的。
 
 无法更改文件内容相比我们所得到的好处来说似乎是一个相当昂贵的代价，但是就像计算机科学中的任何其他问题一样，这可以通过添加抽象层来解决。解决这一问题的IPNS（星际域名系统）利用公钥加密来创建可以指向不同文件的不可变地址。IPNS地址基本上就是某个公钥的哈希值。一次IPNS查找包括取回公钥本身、搜索具有相应的私钥签名的指针文件（一个包含IPFS地址的文件）、辨认最新的指针文件、以及重定向到正确的地址几个步骤。要利用IPNS，用户首先要创建一个公私钥对，然后将公钥、想分享的文件和带有签名的指针文件上传到IPFS上。当需要更新时，用户只需要签署并上传新的指针文件就可以了。
 
-IPFS的不少方面都可以在过去的项目中看到踪影，例如BitTorrent（P2P共享）、Plan 9下的[[https://zh.wikipedia.org/zh-cn/Fossil_(%25E6%25AA%2594%25E6%25A1%2588%25E7%25B3%25BB%25E7%25B5%25B1)][Fossil]]和[[https://en.wikipedia.org/wiki/Venti][Venti]]（一次写入的数据块和路径重定向）、和git（哈希树/有向无环图）。但是，IPFS的杀手级功能在于其与现有架构集成的便捷程度。专用的HTTP网关允许从浏览器（而不是IPFS客户端）中直接访问IPFS或IPNS地址，而且IPFS还具有与FUSE（用户空间中的文件系统）的兼容性，这意味着我们甚至可以将整个IPFS挂载为一个只读分区：这一兼容性也让我们能够托管静态网站，但是我必须承认，访问全球（甚至星际）规模的P2P共享盘是个明显更酷的用法。
+IPFS的不少方面都可以在过去的项目中看到踪影，例如BitTorrent（P2P共享）、Plan 9下的[[https://zh.wikipedia.org/zh-cn/Fossil_(%25E6%25AA%2594%25E6%25A1%2588%25E7%25B3%25BB%25E7%25B5%25B1)][Fossil]]和[[https://en.wikipedia.org/wiki/Venti][Venti]]（一次写入的数据块和路径重定向）、和git（哈希树/有向无环图）。但是，IPFS的杀手级功能在于其与现有架构集成的便捷程度。专用的HTTP网关允许从浏览器（而不是IPFS客户端）中直接访问IPFS或IPNS地址，而且IPFS还具有与FUSE（用户空间文件系统）的兼容性，这意味着我们甚至可以将整个IPFS挂载为一个只读分区：这一兼容性也让我们能够托管静态网站，但是我必须承认，访问全球（甚至星际）规模的P2P共享盘是个明显更酷的用法。
 
 *** 在 IPFS 上架设静态网站
 [[https://docs-beta.ipfs.io/how-to/command-line-quick-start/][官方指南]]已经很好地概述了使用方法。以下是简要概括：
@@ -400,17 +400,17 @@ IPFS的不少方面都可以在过去的项目中看到踪影，例如BitTorrent
 - 如果要使用IPNS，请运行=ipfs name publish <网站根目录哈希>=以将IPNS链接定向到刚刚上传的文件夹上。IPNS公钥的哈希值可以通过=ipfs key list -l=获得。
 - 在更新或重建网站文件时重复以上两个步骤。由于IPFS寻址过程固有的数据去重功能，该过程的实际开销并不大。对静态站点这一用例来说非常合适：越大的文件（例如照片）更新频率就越低。
 
-完成此操作后，我们就可以从任何专用HTTP网关使用=<网关地址>/ipfs/<网站根目录哈希>=或=<网关地址>/ipns/<ipns地址>=来访问刚才上传的网站了：我们可以使用由IPFS守护进程启动的本地网关（通常位于=127.0.0.1:8080=），也可以使用[[https://ipfs.github.io/public-gateway-checker/][公共网关]]（由于IPFS文件取回需要在运行网关的服务器上进行，因此使用公共网关有遭受来自服务器所有者的中间人攻击的额外风险）。如果想要架设多个网站，则可以使用=ipns key gen=来生成更多IPNS密钥对，并在执行=ipfs name publish=时通过=--key=选项指定发布地址。
+完成此操作后，我们就可以从任何专用HTTP网关使用=<网关地址>/ipfs/<网站根目录哈希>=或=<网关地址>/ipns/<ipns-地址>=来访问刚才上传的网站了：我们可以使用由IPFS守护进程启动的本地网关（通常位于=127.0.0.1:8080=），也可以使用[[https://ipfs.github.io/public-gateway-checker/][公共网关]]（由于IPFS文件取回需要在运行网关的服务器上进行，因此使用公共网关有遭受来自服务器所有者的中间人攻击的额外风险）。如果想要架设多个网站，则可以使用=ipns key gen=来生成更多IPNS密钥对，并在执行=ipfs name publish=时通过=--key=选项指定发布地址。
 
-在IPFS[[https://github.com/ipfs/go-ipfs/issues/4240][支持IPNS密钥的导入/导出]]之前（这有助于我们备份密钥并从多台设备发布内容），[[https://docs.ipfs.io/guides/concepts/dnslink/][DNSLink]]可用于更方便地维护到站点的网关，但代价是需要拥有域名并信任DNS服务提供者。要想通过 =/ipns/<域名>= 从HTTP网关访问站点，只需为域名加入一下TXT记录：
+在IPFS[[https://github.com/ipfs/go-ipfs/issues/4240][支持IPNS密钥的导入/导出]]之前（这有助于我们备份密钥并从多台设备发布内容），[[https://docs.ipfs.io/guides/concepts/dnslink/][DNSLink]]可用于更方便地访问站点，但代价是需要拥有域名并信任DNS服务提供者。要想通过 =/ipns/<域名>= 从HTTP网关访问站点，只需为域名加入以下TXT记录：
 #+begin_example
   dnslink=/ipfs/<网站根目录哈希>
 #+end_example
 或
 #+begin_example
-  dnslink=/ipns/<ipns地址>
+  dnslink=/ipns/<ipns-地址>
 #+end_example
-例如本站就可以通过[[https://ipfs.io/ipns/shimmy1996.com/][=/ipns/shimmy1996.com=]]（该链接使用ipfs.io架设的公共网关）来访问。虽然算不上是一个完全没有缺点的办法，但对我来说这是个合理的妥协。
+例如本站就可以通过[[https://ipfs.io/ipns/shimmy1996.com/][/ipns/shimmy1996.com]]（该链接使用ipfs.io架设的公共网关）来访问。虽然算不上是一个完全没有缺点的办法，但对我来说这是个合理的妥协。
 
 对了，还需要注意的是，正如同使用任何脱机HTML文件时一样，我们需要在生成的网页中使用相对链接。在Hugo中，这可以通过在=config.toml=中加入
 #+BEGIN_SRC toml
