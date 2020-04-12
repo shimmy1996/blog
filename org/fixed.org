@@ -2,16 +2,67 @@
 #+HUGO_SECTION: ./
 #+HUGO_LEVEL_OFFSET: 1
 #+OPTIONS: author:nil
+#+STARTUP: logdone
 
-* Library of Trantor
-
+* About
 ** en
 :PROPERTIES:
 :EXPORT_TITLE: Library of Trantor
 :EXPORT_FILE_NAME: _index.en.md
 :END:
 
-/The plan needs to go on./
+#+BEGIN_EXPORT html
+<img style="float:right;width:5em;" class="u-photo" alt="" src="/logo.svg">
+<h1>Library of Trantor</h1>
+#+END_EXPORT
+
+/The [[/en/now/][plan]] needs to go on./
+
+#+BEGIN_EXPORT html
+Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as <span class="p-nick">shimmy1996</span>, or rather, <a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">my blog</a>. "<span class="p-name">Shimmy Xu</span>" is just my <a href="http://stallman.org/biographies.html#humorous%2520bio">mundane name</a>.
+
+Feel free to leave a comment or shoot me an <a rel="me" class="u-email" href="mailto:shimmy.xu@shimmy1996.com">email</a> directly! Here's my <a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGP key</a> and fingerprint:
+#+END_EXPORT
+
+: 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
+
+All contents on this site are licensed under a
+[[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]] (CC BY-SA 4.0).
+
+** zh
+:PROPERTIES:
+:EXPORT_TITLE: 川陀大学图书室
+:EXPORT_FILE_NAME: _index.zh.md
+:END:
+
+#+BEGIN_EXPORT html
+<img style="float:right;width:5em;" class="u-photo" alt="" src="/logo.svg">
+<h1>川陀大学图书室</h1>
+#+END_EXPORT
+
+/[[/zh/now/][计划]]进行中。/
+
+#+BEGIN_EXPORT html
+欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做<span class="p-nick">shimmy1996</span>的个体。换句话说，这里是<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">我的博客</a>。“<span class="p-name">Shimmy Xu</span>”不过是我的<a href="http://stallman.org/biographies.html#humorous%20bio">凡间之名</a>。
+
+留下评论或直接给我发送<a rel="me" class="u-email" href="mailto:shimmy.xu@shimmy1996.com">电子邮件</a>吧！这是我的<a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGP密匙</a>和指纹：
+#+END_EXPORT
+
+: 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
+
+本站所有内容使用[[http://creativecommons.org/licenses/by-sa/4.0/deed.zh][Creative Commons署名-相同方式共享4.0国际许可协议]]（CC BY-SA 4.0）。
+
+* Now
+:PROPERTIES:
+:EXPORT_HUGO_SLUG: now
+:END:
+
+** DONE en
+CLOSED: [2020-04-12 Sun 09:46]
+:PROPERTIES:
+:EXPORT_TITLE: Now
+:EXPORT_FILE_NAME: now.en.md
+:END:
 
 *** Goals for 2020
 - ☐ Run 550 miles. [180/550]
@@ -26,15 +77,12 @@
 - ☐ Get the first signature for my PGP key.
 - ☑ Install Gentoo.
 
-*** Recent Posts
-
-** zh
+** DONE zh
+CLOSED: [2020-04-12 Sun 09:46]
 :PROPERTIES:
-:EXPORT_TITLE: 川陀大学图书室
-:EXPORT_FILE_NAME: _index.zh.md
+:EXPORT_TITLE: 此刻
+:EXPORT_FILE_NAME: now.zh.md
 :END:
-
-/计划进行中。/
 
 *** 2020年目标
 - ☐ 跑550英里。[180/550]
@@ -48,47 +96,6 @@
 - ☐ 完成一次马拉松。
 - ☐ 获得第一个PGP密匙签名。
 - ☑ 安装Gentoo。
-
-*** 最新日志
-
-* About
-:PROPERTIES:
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug about
-:END:
-
-** en
-:PROPERTIES:
-:EXPORT_TITLE: About
-:EXPORT_FILE_NAME: about.en.md
-:END:
-
-Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as shimmy1996, or rather, my blog. "Shimmy Xu" is just my [[http://stallman.org/biographies.html#humorous%20bio][mundane name]].
-
-If you are associated with the Jedi Order, or interested in antique holographic datacron devices in general, please check out the [[https://git.shimmy1996.com/][Trantor Holocron]].
-
-Feel free to leave a comment or shoot me an email directly! Here's my [[https://www.shimmy1996.com/gpg.txt][GPG key]]:
-: 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
-
-This site has been running since 2014-07-12, originally on WordPress, and on Hugo since 2017-09-01.
-
-All contents of this site are licensed under a [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]] (CC BY-SA 4.0).
-
-** zh
-:PROPERTIES:
-:EXPORT_TITLE: 关于
-:EXPORT_FILE_NAME: about.zh.md
-:END:
-
-欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做shimmy1996的个体。换句话说，这里是我的博客。“Shimmy Xu”不过是我的[[http://stallman.org/biographies.html#humorous%20bio][凡间之名]]。
-
-如果您隶属于绝地教团，或者对旧式数据晶体感兴趣的话，请务必留步[[https://git.shimmy1996.com/][川陀全息档案馆]]。
-
-留下评论或直接给我发送电子邮件吧！这是我的[[https://www.shimmy1996.com/gpg.txt][PGP密匙]]：
-: 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
-
-本站从2014-7-12开始运行，原本使用WordPress，后于2017-09-01迁至Hugo。
-
-本站所有内容使用[[http://creativecommons.org/licenses/by-sa/4.0/deed.zh][Creative Commons署名-相同方式共享4.0国际许可协议]]（CC BY-SA 4.0）。
 
 * Friends
 :PROPERTIES:
