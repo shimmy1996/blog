@@ -782,9 +782,7 @@ Isso 的官网有很详细的 [[https://posativ.org/isso/docs/][说明文档]] �
 :EXPORT_FILE_NAME: 2017-12-31-2017-in-review.en.md
 :END:
 
-2017 is over within the next few hours and I fell obliged to write something
-about it. Hopefully I won't have too much regrets by the time I finish this
-post.
+2017 is over within the next few hours and I fell obliged to write something about it. Hopefully I won't have too much regrets by the time I finish this post.
 
 *** What Have I Done
 I have been working full time since June. Working life is surprisingly more

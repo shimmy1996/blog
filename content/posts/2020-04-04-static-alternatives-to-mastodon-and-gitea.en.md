@@ -5,8 +5,7 @@ slug = "static-alternatives-to-mastodon-and-gitea"
 draft = false
 +++
 
-Like how I decided to switch off Wordpress, I think I've had enough running
-Mastodon and Gitea.
+Like how I decided to switch off Wordpress, I think I've had enough running Mastodon and Gitea.
 
 Keeping up with configuration changes with Gitea had been annoying, whereas with
 Mastodon, breakages are common due the mismatching system library versions

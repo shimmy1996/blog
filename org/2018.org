@@ -453,10 +453,7 @@ Planck 是另一块让我下心思设计布局的键盘。 40% 键盘所能塞�
 :EXPORT_TITLE: Fun With Fonts in Emacs
 :END:
 
-I finally took some time to look at the my font configurations in Emacs and
-cleaned them up as much as possible. This dive into the rabbit hole have been
-tiring yet fruitful, revealing the cravat of typesetting that I didn't know
-before, especially for CJK characters.
+I finally took some time to look at the my font configurations in Emacs and cleaned them up as much as possible. This dive into the rabbit hole have been tiring yet fruitful, revealing the cravat of typesetting that I didn't know before, especially for CJK characters.
 
 I primarily use Emacs by running a daemon and connecting to it via a graphical
 =emacsclient= frame, and I am attempting to tackle three major problems: I don't
