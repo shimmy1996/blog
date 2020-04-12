@@ -1,6 +1,6 @@
 # Site Settings
 relativeURLs                   = true
-theme                          = ["hugo-djem-so", "hugo-hyperskip"]
+theme                          = ["hugo-ataru", "hugo-hyperskip"]
 footnoteReturnLinkContents     = "↩"
 defaultContentLanguage         = "en"
 defaultContentLanguageInSubdir = true
