@@ -164,3 +164,17 @@ Welcome to the friendly neighborhood of Library of Trantor!
 :EXPORT_HUGO_SECTION: ./posts/
 :EXPORT_FILE_NAME: _index.zh.md
 :END:
+* Hoots
+** en
+:PROPERTIES:
+:EXPORT_TITLE: Hoots
+:EXPORT_HUGO_SECTION: ./hoots/
+:EXPORT_FILE_NAME: _index.en.md
+:END:
+
+** zh
+:PROPERTIES:
+:EXPORT_TITLE: 鸮文
+:EXPORT_HUGO_SECTION: ./hoots/
+:EXPORT_FILE_NAME: _index.zh.md
+:END:

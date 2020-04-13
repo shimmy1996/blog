@@ -66,6 +66,6 @@ hoots    = "/hoots/:filename/"
     url    = "/zh/posts/"
     weight = 2
     [[languages.zh.menu.main]]
-    name   = "呼文"
+    name   = "鸮文"
     url    = "/zh/hoots/"
     weight = 3
