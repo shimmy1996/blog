@@ -1,4 +1,5 @@
 # Site Settings
+baseURL                        = "https://www.shimmy1996.com"
 relativeURLs                   = true
 theme                          = ["hugo-ataru", "hugo-hyperskip"]
 footnoteReturnLinkContents     = "↩"
@@ -27,6 +28,7 @@ soresuIssoHost = "/isso"
 
 [permalinks]
 posts    = "/posts/:filename/"
+hoots    = "/hoots/:filename/"
 
 [languages]
   [languages.en]
