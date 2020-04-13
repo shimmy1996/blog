@@ -160,10 +160,11 @@ Welcome to the friendly neighborhood of Library of Trantor!
 
 ** zh
 :PROPERTIES:
-:EXPORT_TITLE: 归档
+:EXPORT_TITLE: 日志
 :EXPORT_HUGO_SECTION: ./posts/
 :EXPORT_FILE_NAME: _index.zh.md
 :END:
+
 * Hoots
 ** en
 :PROPERTIES:
