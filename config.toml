@@ -6,6 +6,7 @@ defaultContentLanguage         = "en"
 defaultContentLanguageInSubdir = true
 disableKinds                   = ["taxonomy", "taxonomyTerm"]
 disableHugoGeneratorInject     = true
+hasCJKLanguage                 = true
 
 [author]
 name = "Shimmy Xu"
@@ -32,6 +33,7 @@ posts    = "/posts/:filename/"
   languageName = "English"
   copyright    = "&copy; 2014&ndash;2020 [Shimmy Xu](/en/about/)"
   title        = "Library of Trantor"
+  summaryLength = 50
 
     [[languages.en.menu.main]]
     name   = "Posts"
@@ -46,6 +48,7 @@ posts    = "/posts/:filename/"
   languageName = "中文"
   copyright    = "&copy; 2014&ndash;2020 [Shimmy Xu](/zh/about/)"
   title        = "川陀大学图书室"
+  summaryLength = 25
 
     [[languages.zh.menu.main]]
     name   = "归档"
