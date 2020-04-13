@@ -3,6 +3,7 @@ title = "Library of Trantor"
 draft = false
 +++
 
+<div class="h-card">
 <img style="float:right;width:5em;" class="u-photo" alt="" src="/logo.svg">
 <h1>Library of Trantor</h1>
 
@@ -18,3 +19,5 @@ Feel free to leave a comment or shoot me an <a rel="me" class="u-email" href="ma
 
 All contents on this site are licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0).
+
+</div>

@@ -12,6 +12,7 @@
 :END:
 
 #+BEGIN_EXPORT html
+<div class="h-card">
 <img style="float:right;width:5em;" class="u-photo" alt="" src="/logo.svg">
 <h1>Library of Trantor</h1>
 #+END_EXPORT
@@ -29,6 +30,10 @@ Feel free to leave a comment or shoot me an <a rel="me" class="u-email" href="ma
 All contents on this site are licensed under a
 [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]] (CC BY-SA 4.0).
 
+#+BEGIN_EXPORT html
+</div>
+#+END_EXPORT
+
 ** zh
 :PROPERTIES:
 :EXPORT_TITLE: 川陀大学图书室
@@ -36,6 +41,7 @@ All contents on this site are licensed under a
 :END:
 
 #+BEGIN_EXPORT html
+<div class="h-card">
 <img style="float:right;width:5em;" class="u-photo" alt="" src="/logo.svg">
 <h1>川陀大学图书室</h1>
 #+END_EXPORT
@@ -51,6 +57,10 @@ All contents on this site are licensed under a
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 
 本站所有内容使用[[http://creativecommons.org/licenses/by-sa/4.0/deed.zh][Creative Commons署名-相同方式共享4.0国际许可协议]]（CC BY-SA 4.0）。
+
+#+BEGIN_EXPORT html
+</div>
+#+END_EXPORT
 
 * Now
 :PROPERTIES:

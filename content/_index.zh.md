@@ -3,6 +3,7 @@ title = "川陀大学图书室"
 draft = false
 +++
 
+<div class="h-card">
 <img style="float:right;width:5em;" class="u-photo" alt="" src="/logo.svg">
 <h1>川陀大学图书室</h1>
 
@@ -17,3 +18,5 @@ _[计划](/zh/now/)进行中。_
 ```
 
 本站所有内容使用[Creative Commons署名-相同方式共享4.0国际许可协议](http://creativecommons.org/licenses/by-sa/4.0/deed.zh)（CC BY-SA 4.0）。
+
+</div>
