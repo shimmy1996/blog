@@ -38,13 +38,18 @@ hoots    = "/hoots/:filename/"
   summaryLength = 50
 
     [[languages.en.menu.main]]
-    name   = "Posts"
-    url    = "/en/posts/"
+    name   = "Timeline"
+    url    = "/en/"
     weight = 1
     [[languages.en.menu.main]]
-    name   = "Friends"
-    url    = "/en/friends/"
+    name   = "Posts"
+    url    = "/en/posts/"
     weight = 2
+    [[languages.en.menu.main]]
+    name   = "Hoots"
+    url    = "/en/hoots/"
+    weight = 3
+
 
   [languages.zh]
   languageName = "中文"
@@ -53,10 +58,14 @@ hoots    = "/hoots/:filename/"
   summaryLength = 25
 
     [[languages.zh.menu.main]]
-    name   = "归档"
-    url    = "/zh/posts/"
+    name   = "时间线"
+    url    = "/zh/"
     weight = 1
     [[languages.zh.menu.main]]
-    name   = "朋友们"
-    url    = "/zh/friends/"
+    name   = "日志"
+    url    = "/zh/posts/"
     weight = 2
+    [[languages.zh.menu.main]]
+    name   = "呼文"
+    url    = "/zh/hoots/"
+    weight = 3

@@ -17,6 +17,8 @@ _[计划](/zh/now/)进行中。_
 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 ```
 
+如果您不着急离开，不妨也拜访一下我的[朋友们](/zh/friends/)。
+
 本站所有内容使用[Creative Commons署名-相同方式共享4.0国际许可协议](http://creativecommons.org/licenses/by-sa/4.0/deed.zh)（CC BY-SA 4.0）。
 
 </div>
