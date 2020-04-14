@@ -42,7 +42,22 @@ dnslink=/ipfs/<网站根目录哈希>
 dnslink=/ipns/<ipns-地址>
 ```
 
-例如本站就可以通过[/ipns/shimmy1996.com](https://ipfs.io/ipns/shimmy1996.com/)（该链接使用ipfs.io架设的公共网关）来访问。虽然算不上是一个完全没有缺点的办法，但对我来说这是个合理的妥协。
+例如本站就可以通过[/ipns/shimmy1996.com](https://ipfs.io/ipns/shimmy1996.com/)（该链接使用ipfs.io架设的公共网关）来访问。虽然算不上是一个完全没有缺点的办法，但对我来说这是个合理的妥协。我发现IPFS通常比IPNS快，所以在DNSLink里用IPFS地址应该更加合适。为了避免每次手动复制粘贴，我在博客构建脚本中添加了以下内容以自动将网站上传到IPFS并更新DNS记录（使用[DigitalOcean的API](https://developers.digitalocean.com/documentation/v2/#update-a-domain-record)）：
+
+```sh
+echo "上传网站至IPFS..."
+hash=$(/usr/bin/ipfs add -Qr "<网站根目录>")
+
+echo "更新 DNSLink 记录..."
+token="<digitalocean-api-令牌>"
+curl -X PUT \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer $token" \
+     -d "{\"data\":\"dnslink=/ipfs/$hash\"}" \
+     "https://api.digitalocean.com/v2/domains/<域名>/records/<记录-id>"
+```
+
+DigitalOcean上DNS记录的记录ID也可以通过[其API取回](https://developers.digitalocean.com/documentation/v2/#list-all-domain-records)，不过你可能需要在请求中增加`?page=2`或更后面的页码才能找到你想要更新的记录。
 
 对了，还需要注意的是，正如同使用任何脱机HTML文件时一样，我们需要在生成的网页中使用相对链接。在Hugo中，这可以通过在`config.toml`中加入
 

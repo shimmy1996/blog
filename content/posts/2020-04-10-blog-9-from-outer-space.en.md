@@ -43,7 +43,22 @@ or
 dnslink=/ipns/<ipns-address>
 ```
 
-For instance, you can now access this site using at [`/ipns/shimmy1996.com`](https://ipfs.io/ipns/shimmy1996.com/) (this is a link using the ipfs.io gateway). While not flawless, to me this is a reasonable compromise for now.
+For instance, you can now access this site using at [`/ipns/shimmy1996.com`](https://ipfs.io/ipns/shimmy1996.com/) (this is a link using the ipfs.io gateway). While not flawless, to me this is a reasonable compromise for now. I find find IPFS to be generally faster than IPNS, so using IPFS address with DNSLink probably makes more sense. To avoid manually copy-pasting the IPFS address each time, I added to my blog build script the following to automatically upload website to IPFS and update DNS record (using [DigitalOcean's API](https://developers.digitalocean.com/documentation/v2/#update-a-domain-record)):
+
+```sh
+echo "Uploading to IPFS..."
+hash=$(/usr/bin/ipfs add -Qr "<website-root>")
+
+echo "Updating DNSLink record..."
+token="<digitalocean-api-token>"
+curl -X PUT \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer $token" \
+     -d "{\"data\":\"dnslink=/ipfs/$hash\"}" \
+     "https://api.digitalocean.com/v2/domains/<domain>/records/<record-id>"
+```
+
+Record ID for DNS records on DigitalOcean can also be [retrieved via their API](https://developers.digitalocean.com/documentation/v2/#list-all-domain-records). You may need to add `?page=2` or later to the request to find the record you want.
 
 Do note that like using any offline HTML files, we need to use relative URLs in the generated web pages. In Hugo, this can be achieved by setting
 
