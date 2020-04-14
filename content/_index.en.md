@@ -17,7 +17,7 @@ Feel free to leave a comment or shoot me an <a rel="me" class="u-email" href="ma
 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 ```
 
-If you are not in a hurry, consider paying a visit to [my friends](/en/friends/) as well.
+If you are not in a hurry, consider paying a visit to [my friends](/en/friends/) as well. If that's not the case, you might find the Library's delivery service (for [timeline](https://www.shimmy1996.com/en/index.xml), [posts](https://www.shimmy1996.com/en/posts/index.xml), and [hoots](https://www.shimmy1996.com/en/hoots/index.xml)) useful.
 
 All contents on this site are licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0).
