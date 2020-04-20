@@ -81,7 +81,7 @@ All contents on this site are licensed under a
 /[[/ja/now/][計画]]進行中。/
 
 #+BEGIN_EXPORT html
-ようこそ、インターネットの漂泊者よ。あなたの眼の前いる落書きは<span class="p-nick">shimmy1996</span>と謂う個体に所属されているもの。つまり、ここは私のブログ。「<a href="http://stallman.org/biographies.html#humorous%20bio">Shimmy Xu</a>」はただ、私の俗世の名前。
+ようこそ、インターネットの旅人。あなたの眼の前いる落書きは<span class="p-nick">shimmy1996</span>と謂う個体に所属されているもの。つまり、ここは<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">私のブログ</a>。「<span class="p-name">Shimmy Xu</span>」はただ、私の<a href="http://stallman.org/biographies.html#humorous%20bio">俗世の名前</a>。
 
 コメントも、<a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">メール</a>も大歓迎です！これは私の<a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGPキー</a>とフィンガープリント：
 #+END_EXPORT
