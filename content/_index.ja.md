@@ -19,6 +19,6 @@ _[計画](/ja/now/)進行中。_
 
 急いでいないのなら、私の[友達](/ja/friends/)も訪ねてみてください。そうではない場合は、図書室のデリバリーサービス（[タイムライン](https://www.shimmy1996.com/ja/index.xml)、[記事](https://www.shimmy1996.com/ja/posts/index.xml)と[ツイート](https://www.shimmy1996.com/ja/hoots/index.xml)バージョンがあります）をぜひ使ってください。
 
-このサイトのすべてのコンテンツはは[クリエイティブ・コモンズ表示-継承4.0国際ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)の下に提供されています。
+このサイトのすべてのコンテンツは[クリエイティブ・コモズン 表示-継承4.0国際ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)の下に提供されています。
 
 </div>

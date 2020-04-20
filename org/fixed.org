@@ -90,7 +90,7 @@ All contents on this site are licensed under a
 
 急いでいないのなら、私の[[/ja/friends/][友達]]も訪ねてみてください。そうではない場合は、図書室のデリバリーサービス（[[https://www.shimmy1996.com/ja/index.xml][タイムライン]]、[[https://www.shimmy1996.com/ja/posts/index.xml][記事]]と[[https://www.shimmy1996.com/ja/hoots/index.xml][ツイート]]バージョンがあります）をぜひ使ってください。
 
-このサイトのすべてのコンテンツはは[[https://creativecommons.org/licenses/by-sa/4.0/deed.ja][クリエイティブ・コモンズ表示-継承4.0国際ライセンス]]の下に提供されています。
+このサイトのすべてのコンテンツは[[https://creativecommons.org/licenses/by-sa/4.0/deed.ja][クリエイティブ・コモズン 表示-継承4.0国際ライセンス]]の下に提供されています。
 
 #+BEGIN_EXPORT html
 </div>
