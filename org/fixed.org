@@ -66,6 +66,36 @@ All contents on this site are licensed under a
 </div>
 #+END_EXPORT
 
+** ja
+:PROPERTIES:
+:EXPORT_TITLE: トランター大学図書室
+:EXPORT_FILE_NAME: _index.ja.md
+:END:
+
+#+BEGIN_EXPORT html
+<div class="h-card">
+<img style="float:right;width:5em;" class="u-photo" alt="" src="/logo.svg">
+<h1>トランター大学図書室</h1>
+#+END_EXPORT
+
+/[[/ja/now/][計画]]進行中。/
+
+#+BEGIN_EXPORT html
+ようこそ、インターネットの漂泊者よ。あなたの眼の前いる落書きは<span class="p-nick">shimmy1996</span>と謂う個体に所属されているもの。つまり、ここは私のブログ。「<a href="http://stallman.org/biographies.html#humorous%20bio">Shimmy Xu</a>」はただ、私の俗世の名前。
+
+コメントも、<a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">メール</a>も大歓迎です！これは私の<a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGPキー</a>とフィンガープリント：
+#+END_EXPORT
+
+: 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
+
+急いでいないのなら、私の[[/ja/friends/][友達]]も訪ねてみてください。そうではない場合は、図書室のデリバリーサービス（[[https://www.shimmy1996.com/ja/index.xml][タイムライン]]、[[https://www.shimmy1996.com/ja/posts/index.xml][記事]]と[[https://www.shimmy1996.com/ja/hoots/index.xml][ツイート]]バージョンがあります）をぜひ使ってください。
+
+このサイトのすべてのコンテンツはは[[https://creativecommons.org/licenses/by-sa/4.0/deed.ja][クリエイティブ・コモンズ表示-継承4.0国際ライセンス]]の下に提供されています。
+
+#+BEGIN_EXPORT html
+</div>
+#+END_EXPORT
+
 * Now
 :PROPERTIES:
 :EXPORT_HUGO_SLUG: now
@@ -111,6 +141,26 @@ CLOSED: [2020-04-12 Sun 09:46]
 - ☐ 获得第一个PGP密匙签名。
 - ☑ 安装Gentoo。
 
+** DONE ja
+CLOSED: [2020-04-12 Sun 09:46]
+:PROPERTIES:
+:EXPORT_TITLE: いま
+:EXPORT_FILE_NAME: now.ja.md
+:END:
+
+*** 2020年目標
+- ☐ 550マイルを走ること。[180/550]
+- ☐ 記事14回投稿すること。[6/14]
+- ☐ ドーナツを食べるの禁じること。
+- ☐ GoとC++20を学びること。[0/2]
+- ☐ データバックアップのプロセスを確立すること。
+- ☐ 技術類以外の本を読むこと。
+
+*** ウィッシュリスト
+- ☐ マラソン完走すろこと。
+- ☐ PGPキーの署名をゲットすること。
+- ☑ Gentooをインストールすること。
+
 * Friends
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug friends
@@ -150,6 +200,23 @@ Welcome to the friendly neighborhood of Library of Trantor!
 - [[http://a2clef.com][Vacuuny/A2Clef]]的[[http://blog.a2clef.com][里站]]
 - [[https://dlyang.me/][LanternD]]
 
+** ja
+:PROPERTIES:
+:EXPORT_TITLE: 友達
+:EXPORT_FILE_NAME: friends.ja.md
+:END:
+
+#+ATTR_HTML: :alt 『20世紀少年』のともだちマーク
+[[/img/fixed/friend.svg]]
+
+友達サイトへのリンク。
+
+- [[http://iiiid.com][Z]]
+- [[http://uucky.me][Uucky]]
+- [[https://tomli.blog][Biergaizi/Tom Li]]
+- [[http://a2clef.com][Vacuuny/A2Clef]]の[[http://blog.a2clef.com][裏]]
+- [[https://dlyang.me/][LanternD]]
+
 * Posts
 ** en
 :PROPERTIES:
@@ -165,6 +232,13 @@ Welcome to the friendly neighborhood of Library of Trantor!
 :EXPORT_FILE_NAME: _index.zh.md
 :END:
 
+** ja
+:PROPERTIES:
+:EXPORT_TITLE: 記事
+:EXPORT_HUGO_SECTION: ./posts/
+:EXPORT_FILE_NAME: _index.ja.md
+:END:
+
 * Hoots
 ** en
 :PROPERTIES:
@@ -178,4 +252,11 @@ Welcome to the friendly neighborhood of Library of Trantor!
 :EXPORT_TITLE: 鸮文
 :EXPORT_HUGO_SECTION: ./hoots/
 :EXPORT_FILE_NAME: _index.zh.md
+:END:
+
+** ja
+:PROPERTIES:
+:EXPORT_TITLE: ツイート
+:EXPORT_HUGO_SECTION: ./hoots/
+:EXPORT_FILE_NAME: _index.ja.md
 :END:
