@@ -832,3 +832,31 @@ navigator.registerProtocolHandler(
 ```
 就可以了。
 """
+[[comments]]
+name = "LanternD"
+email_hash = "8863c7fec0"
+time = 2020-04-28T10:41:48-04:00
+uri = "/zh/hoots/1586797396/"
+content = """
+想起了What does the fox say。还有很多可用的选项 😂
+"""
+[[comments]]
+name = "LanternD"
+email_hash = "8863c7fec0"
+time = 2020-04-28T10:51:45-04:00
+uri = "/zh/posts/2020-01-09-becoming-pangu-with-gnu-sed/"
+content = """
+多谢建议，经过改造，我发现可以默认选到我期望的email账户了。
+"""
+[[comments]]
+name = "LanternD"
+email_hash = "8863c7fec0"
+time = 2020-04-28T11:58:19-04:00
+uri = "/zh/posts/2020-01-01-2019-in-review/"
+content = """
+[>>3506b3f](#3506b3f)
+
+期待可支配时间增加+搬到一个气候适宜的地方，这样我可以全年坚持跑步。
+
+最后一句话非常同意，这也是我折腾的主要目的。我决定写一个日志进行详细的讨论。
+"""
