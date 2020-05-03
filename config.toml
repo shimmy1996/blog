@@ -13,6 +13,18 @@ hasCJKLanguage                 = true
 name = "Shimmy Xu"
 email = "shimmy.xu@shimmy1996.com"
 
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+
+[outputFormats]
+  [outputFormats.comments]
+    baseName = "comments"
+    mediaType = "application/atom+xml"
+
+[outputs]
+  home = ["HTML", "RSS", "COMMENTS"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
