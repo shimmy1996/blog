@@ -1,0 +1,29 @@
+{{ define "main" }}
+<nav>{{ partial "nav_page.html" . }}</nav>
+<nav>
+  {{- range $i, $menu := .Site.Menus.main -}}
+  {{- if (ge $i 1) }}&nbsp;|&nbsp;{{ end -}}
+  <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+  {{- end -}}
+  {{ partial "language.html" . }}
+</nav>
+<main class="h-feed">
+  {{ $pag := partial "get_paginator.html" . }}
+  {{ if (not $pag.HasPrev) }}
+  {{ .Content }}
+  {{ end }}
+  {{ if eq .Section "posts" }}
+  <nav><ul>
+  {{ range $pag.Pages.ByDate }}
+  <li><a href="#{{ .Date.Format "2006-01-02T15-04-05Z07-00"}}">{{ .Title }}</a></li>
+  {{ end }}
+  </ul></nav>
+  {{ end }}
+  {{ range $pag.Pages.ByDate }}
+  <div class="h-entry" id="{{ .Date.Format "2006-01-02T15-04-05Z07-00"}}">
+    {{ partial "header.html" . }}
+    <div class="e-content">{{ .Content }}</div>
+  </div>
+  {{ end }}
+</main>
+{{ end }}
