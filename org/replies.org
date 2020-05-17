@@ -11,7 +11,9 @@ CLOSED: [2020-04-05 Sun 13:36]
 :EXPORT_FILE_NAME: 1586093760.zh.md
 :END:
 
-[Re: Disqus + Commento，同时用两种评论框意义大不大？](https://dlyang.me/two-comment-plugins-3/)
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.me/two-comment-plugins-3/">Re: Disqus + Commento，同时用两种评论框意义大不大？</a>
+#+END_EXPORT
 
 给提供不需登录的匿名评论点赞！ 我也刚刚从折腾评论系统的苦海中解脱：我先后换用过WordPress、Disqus、和Isso，但是我最后决定直接用一个mailto表单，自己手动添加、管理评论。
 
@@ -22,7 +24,9 @@ CLOSED: [2020-04-05 Sun 22:51]
 :EXPORT_FILE_NAME: 1586127060.zh.md
 :END:
 
-[Re: Disqus + Commento，同时用两种评论框意义大不大？](https://dlyang.me/two-comment-plugins-3/)
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.me/two-comment-plugins-3/">Re: Disqus + Commento，同时用两种评论框意义大不大？</a>
+#+END_EXPORT
 
 由于是邮件所以还是需要一封一封地看，不过剩余的部分是自动的。具体的做法是：我用的邮件阅读器有个功能可以将邮件内容pipe到外界命令中，所以我写了一个脚本将评论内容提取成TOML格式并写入到我博客的本地git仓库里，最终显示则靠Hugo的模板功能。这样我在浏览收件箱时看到评论邮件就可以一键采纳。+然而在设置好这些后还没有收到过评论+
 
@@ -35,7 +39,9 @@ CLOSED: [2020-04-11 Sat 07:08]
 :EXPORT_FILE_NAME: 1586588880.zh.md
 :END:
 
-[Re: 扫墓习俗考](https://dlyang.me/annual-memorial-tradition-in-my-hometown/)
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.me/annual-memorial-tradition-in-my-hometown/">Re: 扫墓习俗考</a>
+#+END_EXPORT
 
 不是有个很俗套的说法是“一个人直到被遗忘之前都不会真正死去”吗？这句话直到我第一次经历家里比较熟识的长辈去世的时候我都觉得有点矫情，但是在那之后我的看法改变了。坟墓、清明节的习俗、回忆录、甚至传记也许一开始都是我们为了能让逝者在记忆里留存久一些而做的努力吧。
 
@@ -46,7 +52,9 @@ CLOSED: [2020-05-02 Sat 23:58]
 :EXPORT_FILE_NAME: 1588463887.zh.md
 :END:
 
-[Re: 社交网络的谢幕登场循环（下）——走向以人为本的去中心化](https://dlyang.me/social-media-life-cycle-2-my-expectation-and-mastodon/)
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.me/social-media-life-cycle-2-my-expectation-and-mastodon/">Re: 社交网络的谢幕登场循环（下）——走向以人为本的去中心化</a>
+#+END_EXPORT
 
 在前几天的评论里看到预告就开始期待这篇文章了！
 
@@ -63,7 +71,9 @@ CLOSED: [2020-05-03 Sun 00:29]
 :EXPORT_FILE_NAME: 1588465740.zh.md
 :END:
 
-[Re: 社交网络的谢幕登场循环（上）——断舍离](https://dlyang.me/social-media-life-cycle-1-afk/)
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.me/social-media-life-cycle-1-afk/">Re: 社交网络的谢幕登场循环（上）——断舍离</a>
+#+END_EXPORT
 
 除了难以物理上导出我们所创作的内容外（不过GDPR让这一现象有所改善），各大社交平台的用户协议常常比我印象中来的更加险恶，以至于法理上作为创作者的许多权益都[无法被保证](https://www.theverge.com/2020/4/14/21221078/stephanie-sinclair-mashable-instagram-embed-copyright-lawsuit-dismissed)。说是“人为刀俎我为鱼肉”真的一点都不夸张，更不用提通过隐藏用户创作内容来吸引人注册这种我不怎么喜欢的招数了。
 
