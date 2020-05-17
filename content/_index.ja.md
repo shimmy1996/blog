@@ -17,7 +17,7 @@ _[計画](/ja/now/)進行中。_
 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 ```
 
-急いでいないのなら、私の[友達](/ja/friends/)も訪ねてみてください。そうではない場合は、図書室のデリバリーサービス（[タイムライン](https://www.shimmy1996.com/ja/index.xml)、[記事](https://www.shimmy1996.com/ja/posts/index.xml)、[ツイート](https://www.shimmy1996.com/ja/hoots/index.xml)と[コメント](https://www.shimmy1996.com/ja/comments.xml)バージョンがあります）をぜひ使ってください。
+急いでいないのなら、私の[友達](/ja/friends/)も訪ねてみてください。そうではない場合は、図書室のデリバリーサービス（[タイムライン](https://www.shimmy1996.com/ja/index.xml)、[記事](https://www.shimmy1996.com/ja/posts/index.xml)、[ツイート](https://www.shimmy1996.com/ja/hoots/index.xml)と[コメント](https://www.shimmy1996.com/ja/comments.xml)バージョンがあります）をぜひ使ってください。もし冒険する気分感じたら、[IndieWeb](https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous) [ウェブリング](https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next)え進もう！
 
 このサイトのすべてのコンテンツは[クリエイティブ・コモズン 表示-継承4.0国際ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)の下に提供されています。
 

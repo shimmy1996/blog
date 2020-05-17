@@ -17,7 +17,7 @@ _[计划](/zh/now/)进行中。_
 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 ```
 
-如果您不着急离开，不妨也拜访一下我的[朋友们](/zh/friends/)。倘若情况正好相反，图书室的送货上门服务（分为[时间线](https://www.shimmy1996.com/zh/index.xml)、[日志](https://www.shimmy1996.com/zh/posts/index.xml)、[鸮文](https://www.shimmy1996.com/zh/hoots/index.xml)和[评论区](https://www.shimmy1996.com/zh/comments.xml)版本）也许能帮到您。
+如果您不着急离开，不妨也拜访一下我的[朋友们](/zh/friends/)。倘若情况正好相反，图书室的送货上门服务（分为[时间线](https://www.shimmy1996.com/zh/index.xml)、[日志](https://www.shimmy1996.com/zh/posts/index.xml)、[鸮文](https://www.shimmy1996.com/zh/hoots/index.xml)和[评论区](https://www.shimmy1996.com/zh/comments.xml)版本）也许能帮到您。当然，如果您有着高涨的冒险兴致的话，那就沿着[IndieWeb](https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous) [网环](https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next)冲浪吧！
 
 本站所有内容使用[Creative Commons署名-相同方式共享4.0国际许可协议](http://creativecommons.org/licenses/by-sa/4.0/deed.zh)（CC BY-SA 4.0）。
 
