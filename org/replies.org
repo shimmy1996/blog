@@ -80,3 +80,44 @@ CLOSED: [2020-05-03 Sun 00:29]
 关于新闻和热点，请允许我也当下自己的复读机😆：
 
 > 在病毒爆发期间所读到的新闻经常给我带来一种不真实感：既因为实际发生的事情，也因为新闻那种刻意挑起矛盾的报导方式。好吧，公平地说，要求一个以掠夺人们注意力为食的机构以朴实、不带修饰的方式来报导新闻本身就是一种矛盾。
+* DONE Re: @dy@dlyang.tk
+** DONE 1589737200
+CLOSED: [2020-05-17 Sun 17:40]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1589737200.zh.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.tk/@dy/104078140055579507">Re: @dy@dlyang.tk</a>
+#+END_EXPORT
+
+啊不好意思现在才看到。我现在用的袜子是Balega Hidden Comfort。
+
+另一个站点上暂时只是把内容复制过去。我想最终给主站加上ActivityPub支持，这样就不必额外维护一个Mastodon实例了。不过这估计会是个长期工程😂 ，在那之前我会持续维护这个实例的。
+
+** DONE 1589738760
+CLOSED: [2020-05-17 Sun 18:06]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1589738760.zh.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.tk/@dy/104179714562688717">Re: @dy@dlyang.tk</a>
+#+END_EXPORT
+
+说来惭愧，我一直是付一半然后换新机（这是作为一个消费者针对手机厂商计划性报废所作出的理性选择，绝对不是想要新设备，对，一定是这样）。😂
+
+** DONE 1589739420
+CLOSED: [2020-05-17 Sun 18:17]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1589739420.zh.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.tk/@dy/104168520998902363">Re: @dy@dlyang.tk</a>
+#+END_EXPORT
+
+iOS自带的照片应用有时候会给我推送通知提醒我这是某些旧照片的X周年纪念。这个功能挺有趣。
