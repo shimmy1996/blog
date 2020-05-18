@@ -27,7 +27,7 @@ Feel free to leave a comment or shoot me an <a rel="me" class="u-email" href="ma
 
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 
-If you are not in a hurry, consider paying a visit to [[/en/friends/][my friends]] as well. If that's not the case, you might find the Library's delivery service (for [[https://www.shimmy1996.com/en/index.xml][timeline]], [[https://www.shimmy1996.com/en/posts/index.xml][posts]], [[https://www.shimmy1996.com/en/hoots/index.xml][hoots]], and [[https://www.shimmy1996.com/en/comments.xml][comments]]) useful. If you are feeling extra adventurous, however, surf along the [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][IndieWeb]] [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][webring]]!
+If you are not in a hurry, consider paying a visit to [[/en/friends/][my friends]] as well. If that's not the case, you might find the Library's delivery service (for [[https://www.shimmy1996.com/en/index.xml][timeline]], [[https://www.shimmy1996.com/en/posts/index.xml][posts]], [[https://www.shimmy1996.com/en/hoots/index.xml][hoots]], and [[https://www.shimmy1996.com/en/comments.xml][comments]]) useful. If you are feeling extra adventurous, however, come surf along the [[https://indieweb.org/][IndieWeb]] webring: [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][←]] 🕸💍 [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][→]]!
 
 All contents on this site are licensed under a
 [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]] (CC BY-SA 4.0).
@@ -58,7 +58,7 @@ All contents on this site are licensed under a
 
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 
-如果您不着急离开，不妨也拜访一下我的[[/zh/friends/][朋友们]]。倘若情况正好相反，图书室的送货上门服务（分为[[https://www.shimmy1996.com/zh/index.xml][时间线]]、[[https://www.shimmy1996.com/zh/posts/index.xml][日志]]、[[https://www.shimmy1996.com/zh/hoots/index.xml][鸮文]]和[[https://www.shimmy1996.com/zh/comments.xml][评论区]]版本）也许能帮到您。当然，如果您有着高涨的冒险兴致的话，那就沿着[[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][IndieWeb]] [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][网环]]冲浪吧！
+如果您不着急离开，不妨也拜访一下我的[[/zh/friends/][朋友们]]。倘若情况正好相反，图书室的送货上门服务（分为[[https://www.shimmy1996.com/zh/index.xml][时间线]]、[[https://www.shimmy1996.com/zh/posts/index.xml][日志]]、[[https://www.shimmy1996.com/zh/hoots/index.xml][鸮文]]和[[https://www.shimmy1996.com/zh/comments.xml][评论区]]版本）也许能帮到您。当然，如果您有着高涨的冒险兴致的话，那就来沿着[[https://indieweb.org/Main_Page-zh][IndieWeb]]网环冲浪吧：[[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][←]] 🕸💍 [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][→]]！
 
 本站所有内容使用[[http://creativecommons.org/licenses/by-sa/4.0/deed.zh][Creative Commons署名-相同方式共享4.0国际许可协议]]（CC BY-SA 4.0）。
 
@@ -88,7 +88,7 @@ All contents on this site are licensed under a
 
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 
-急いでいないのなら、私の[[/ja/friends/][友達]]も訪ねてみてください。そうではない場合は、図書室のデリバリーサービス（[[https://www.shimmy1996.com/ja/index.xml][タイムライン]]、[[https://www.shimmy1996.com/ja/posts/index.xml][記事]]、[[https://www.shimmy1996.com/ja/hoots/index.xml][ツイート]]と[[https://www.shimmy1996.com/ja/comments.xml][コメント]]バージョンがあります）をぜひ使ってください。もし冒険する気分感じたら、[[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][IndieWeb]] [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][ウェブリング]]え進もう！
+急いでいないのなら、私の[[/ja/friends/][友達]]も訪ねてみてください。そうではない場合は、図書室のデリバリーサービス（[[https://www.shimmy1996.com/ja/index.xml][タイムライン]]、[[https://www.shimmy1996.com/ja/posts/index.xml][記事]]、[[https://www.shimmy1996.com/ja/hoots/index.xml][ツイート]]と[[https://www.shimmy1996.com/ja/comments.xml][コメント]]バージョンがあります）をぜひ使ってください。もし冒険する気分感じたら、[[https://indieweb.org/][インディーウェブ]]ウェブリングえ進もう：[[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][←]] 🕸💍 [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][→]]！
 
 このサイトのすべてのコンテンツは[[https://creativecommons.org/licenses/by-sa/4.0/deed.ja][クリエイティブ・コモズン 表示-継承4.0国際ライセンス]]の下に提供されています。
 
