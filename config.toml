@@ -35,8 +35,7 @@ email = "shimmy.xu@shimmy1996.com"
     codeFences = false
 
 [params]
-soresuLatexOffByDefault = true
-soresuIssoHost = "/isso"
+webmentionEndpoint = "https://webmention.io/www.shimmy1996.com/webmention"
 
 [permalinks]
 posts    = "/posts/:filename/"
