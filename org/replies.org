@@ -121,3 +121,35 @@ CLOSED: [2020-05-17 Sun 18:17]
 #+END_EXPORT
 
 iOS自带的照片应用有时候会给我推送通知提醒我这是某些旧照片的X周年纪念。这个功能挺有趣。
+* DONE Re: 2020-06-10 Radicale for Calendar and Contacts
+** DONE 1591792140
+CLOSED: [2020-06-10 Wed 07:29]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1591792140.en.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://alexschroeder.ch/wiki/2020-06-10_Radicale_for_Calendar_and_Contacts">Re: 2020-06-10 Radicale for Calendar and Contacts</a>
+#+END_EXPORT
+
+I've been using Radicale instead of iCould on my iDevices as well - I can confirm that the collection URL setup worked for both contacts and calendars.
+
+Creating repeating events on Radicale calendar is one of the things that I have varying degrees of success depending on the client I use: it works fine on iOS, but rather finicky in evolution seemingly due to part of CalDav spec being unimplemented.
+* DONE Re: 被成功安利了双拼
+** DONE 1591945380
+CLOSED: [2020-06-12 Fri 07:03]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1591945380.zh.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.me/shed-the-light-on-shuangpin/">Re: 被成功安利了双拼</a>
+#+END_EXPORT
+
+原来是这样，以前一直都不知道双拼是啥。感觉全拼/双拼大概可以比对日语的罗马字/假名输入？
+
+双型这个功能感觉很强大啊，而且应该是汉字的独有技能。估计没有任何其他书写系统自带两个大致正交的映射了。有意思的是，根据我的身边统计学，尽管粤语的读音和普通话有很大区别，不少人还是用普通话拼音来输入粤语的，而非粤语拼音。
+
+作为只会全拼的麻瓜，有不少情况下找不到候选字的时候我都只能靠打出词组后删掉其中一个字。说不定这个也可以标准化作为又一个映射：给每个同音字找一个相对应的词组，然后用词组来进一步筛选候选字。
