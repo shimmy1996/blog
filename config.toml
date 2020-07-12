@@ -80,21 +80,21 @@ hoots    = "/hoots/:filename/"
     url    = "/zh/hoots/"
     weight = 3
 
-  # [languages.ja]
-  # languageName = "日本語"
-  # copyright    = "&copy; 2014&ndash;2020 Shimmy Xu"
-  # title        = "トランター大学図書室"
-  # summaryLength = 25
+  [languages.ja]
+  languageName = "日本語"
+  copyright    = "&copy; 2014&ndash;2020 Shimmy Xu"
+  title        = "トランター大学図書室"
+  summaryLength = 25
 
-  #   [[languages.ja.menu.main]]
-  #   name   = "タイムライン"
-  #   url    = "/ja/"
-  #   weight = 1
-  #   [[languages.ja.menu.main]]
-  #   name   = "記事"
-  #   url    = "/ja/posts/"
-  #   weight = 2
-  #   [[languages.ja.menu.main]]
-  #   name   = "ツイート"
-  #   url    = "/ja/hoots/"
-  #   weight = 3
+    [[languages.ja.menu.main]]
+    name   = "タイムライン"
+    url    = "/ja/"
+    weight = 1
+    [[languages.ja.menu.main]]
+    name   = "記事"
+    url    = "/ja/posts/"
+    weight = 2
+    [[languages.ja.menu.main]]
+    name   = "ツイート"
+    url    = "/ja/hoots/"
+    weight = 3
