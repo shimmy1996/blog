@@ -8,7 +8,7 @@ draft = false
 ## Goals for 2020 {#goals-for-2020}
 
 -   ☐ Run 550 miles. <code>[205/550]</code>
--   ☐ Write 14 blog posts. <code>[12/14]</code>
+-   ☑ Write 14 blog posts. <code>[14/14]</code>
 -   ☐ No donuts.
 -   ☐ Dive into Go and C++20. <code>[0/2]</code>
 -   ☐ Set up proper backup workflow.

@@ -110,7 +110,7 @@ CLOSED: [2020-04-12 Sun 09:46]
 
 *** Goals for 2020
 - ☐ Run 550 miles. [205/550]
-- ☐ Write 14 blog posts. [12/14]
+- ☑ Write 14 blog posts. [14/14]
 - ☐ No donuts.
 - ☐ Dive into Go and C++20. [0/2]
 - ☐ Set up proper backup workflow.
@@ -130,7 +130,7 @@ CLOSED: [2020-04-12 Sun 09:46]
 
 *** 2020年目标
 - ☐ 跑550英里。[205/550]
-- ☐ 写14篇日志。[12/14]
+- ☑ 写14篇日志。[14/14]
 - ☐ 不吃甜面包圈。
 - ☐ 了解Go和C++20。[0/2]
 - ☐ 建立正式的数据备份流程。
