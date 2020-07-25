@@ -135,6 +135,23 @@ CLOSED: [2020-07-19 Sun 13:32]
 
 可以试试用Syncthing？大致相当于局域网版Dropbox。我的个人数据在所有常用机器和NAS上都各放了一份。平时直接用本地副本，改动会自动同步到NAS上，用起来非常省心。
 
+** DONE 1595714940
+CLOSED: [2020-07-25 Sat 17:09]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1595714940.zh.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.tk/@dy/104549215014156737">Re: @dy@dlyang.tk</a>
+#+END_EXPORT
+
+Syncthing有一套不用直接链接，而是通过公共中转节点同步的机制。但我对这一机制本身并不怎么了解，而且没有太多外网同步的需求，所以一直没有用过。
+
+原来如此，要直连NAS做视频编辑是够呛。这种对突发读写和容量都有要求的任务我也没啥好的解决办法。
+
+我也还在用Dropbox。最主要的原因是为了与iOS（不支持Syncthing）同步。把刚拍的照片从手机无线传到电脑上这么一个简单的任务居然不但没有通用的解决办法，还得先把文件传到千里之外的服务器上，果然人类的科技树点歪了。
+
 * DONE Re: 2020-06-10 Radicale for Calendar and Contacts
 ** DONE 1591792140
 CLOSED: [2020-06-10 Wed 07:29]
