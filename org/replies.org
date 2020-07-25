@@ -194,3 +194,17 @@ CLOSED: [2020-07-23 Thu 21:43]
 #+END_EXPORT
 
 好meta的菜谱！我走的大概是另一个极端。我并不喜欢尝试新食材（因为囤粮麻烦）和菜谱，遵循的原则是最大限度降低投入提高产出：只要某个步骤不会对最终菜品质量造成太大影响，我就会将其舍去。这导致了我做饭3年来菜谱反而一直在缩水，现在只剩下分别名为早餐、午餐、晚餐的三道菜了，其中早餐甚至不需要开火。我这大概已经没法称为烹饪，只能称作把食材做熟了吧。😂
+
+* DONE Re: 文殊菩萨与我的头像
+** DONE 1595647020
+CLOSED: [2020-07-24 Fri 22:17]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1595647020.zh.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://yihui.org/cn/2020/02/manjushri/">Re: 文殊菩萨与我的头像</a>
+#+END_EXPORT
+
+哈，看到写的是头像我就先点进来了。拿着剑和书的人物还可以算上一个[[https://en.wikipedia.org/wiki/File:Attributed_to_Lucas_van_Leyden_001.jpg][圣保罗]]。
