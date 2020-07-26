@@ -4,7 +4,7 @@ draft = false
 +++
 
 <div class="h-card">
-<img style="float:right;width:5em;" class="u-photo" alt="" src="/logo.svg">
+<img style="float:right" width="80" height="80" class="u-photo" alt="" src="/logo.svg">
 <h1>トランター大学図書室</h1>
 
 _[計画](/ja/now/)進行中。_
