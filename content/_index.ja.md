@@ -9,7 +9,7 @@ draft = false
 
 _[計画](/ja/now/)進行中。_
 
-ようこそ、インターネットの旅人。あなたの眼の前いる落書きは<span class="p-nick">shimmy1996</span>と謂う個体に所属されているもの。つまり、ここは<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">私のブログ</a>。「<span class="p-name">Shimmy Xu</span>」はただ、私の<a href="http://stallman.org/biographies.html#humorous%20bio">俗世の名前</a>。
+ようこそ、インターネットの旅人。あなたの眼の前いる落書きは<span class="p-nick">shimmy1996</span>と謂う個体に所属されているもの。つまり、ここは<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">私のブログ</a>。「<span class="p-name">Shimmy Xu</span>」はただ、私の<a href="https://stallman.org/biographies.html#humorous%20bio">俗世の名前</a>。
 
 コメントも、<a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">メール</a>も大歓迎です！これは私の<a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGPキー</a>とフィンガープリント：
 

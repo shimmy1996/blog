@@ -20,7 +20,7 @@
 /The [[/en/now/][plan]] needs to go on./
 
 #+BEGIN_EXPORT html
-Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as <span class="p-nick">shimmy1996</span>, or rather, <a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">my blog</a>. "<span class="p-name">Shimmy Xu</span>" is just my <a href="http://stallman.org/biographies.html#humorous%20bio">mundane name</a>.
+Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as <span class="p-nick">shimmy1996</span>, or rather, <a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">my blog</a>. "<span class="p-name">Shimmy Xu</span>" is just my <a href="https://stallman.org/biographies.html#humorous%20bio">mundane name</a>.
 
 Feel free to leave a comment or shoot me an <a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">email</a> directly! Here's my <a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGP key</a> and fingerprint:
 #+END_EXPORT
@@ -51,7 +51,7 @@ All contents on this site are licensed under a
 /[[/zh/now/][计划]]进行中。/
 
 #+BEGIN_EXPORT html
-欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做<span class="p-nick">shimmy1996</span>的个体。换句话说，这里是<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">我的博客</a>。“<span class="p-name">Shimmy Xu</span>”不过是我的<a href="http://stallman.org/biographies.html#humorous%20bio">凡间之名</a>。
+欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做<span class="p-nick">shimmy1996</span>的个体。换句话说，这里是<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">我的博客</a>。“<span class="p-name">Shimmy Xu</span>”不过是我的<a href="https://stallman.org/biographies.html#humorous%20bio">凡间之名</a>。
 
 留下评论或直接给我发送<a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">电子邮件</a>吧！这是我的<a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGP密匙</a>和指纹：
 #+END_EXPORT
@@ -81,7 +81,7 @@ All contents on this site are licensed under a
 /[[/ja/now/][計画]]進行中。/
 
 #+BEGIN_EXPORT html
-ようこそ、インターネットの旅人。あなたの眼の前いる落書きは<span class="p-nick">shimmy1996</span>と謂う個体に所属されているもの。つまり、ここは<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">私のブログ</a>。「<span class="p-name">Shimmy Xu</span>」はただ、私の<a href="http://stallman.org/biographies.html#humorous%20bio">俗世の名前</a>。
+ようこそ、インターネットの旅人。あなたの眼の前いる落書きは<span class="p-nick">shimmy1996</span>と謂う個体に所属されているもの。つまり、ここは<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">私のブログ</a>。「<span class="p-name">Shimmy Xu</span>」はただ、私の<a href="https://stallman.org/biographies.html#humorous%20bio">俗世の名前</a>。
 
 コメントも、<a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">メール</a>も大歓迎です！これは私の<a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGPキー</a>とフィンガープリント：
 #+END_EXPORT

@@ -9,7 +9,7 @@ draft = false
 
 _The [plan](/en/now/) needs to go on._
 
-Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as <span class="p-nick">shimmy1996</span>, or rather, <a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">my blog</a>. "<span class="p-name">Shimmy Xu</span>" is just my <a href="http://stallman.org/biographies.html#humorous%20bio">mundane name</a>.
+Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as <span class="p-nick">shimmy1996</span>, or rather, <a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">my blog</a>. "<span class="p-name">Shimmy Xu</span>" is just my <a href="https://stallman.org/biographies.html#humorous%20bio">mundane name</a>.
 
 Feel free to leave a comment or shoot me an <a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">email</a> directly! Here's my <a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGP key</a> and fingerprint:
 
