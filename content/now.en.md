@@ -9,8 +9,8 @@ draft = false
 
 -   ☐ Run 550 miles. <code>[205/550]</code>
 -   ☑ Write 14 blog posts. <code>[14/14]</code>
--   ☐ No donuts.
--   ☐ Dive into Go and C++20. <code>[0/2]</code>
+-   ☑ No donuts.
+-   ☐ Dive into Go and C++20. <code>[1/2]</code>
 -   ☐ Set up proper backup workflow.
 -   ☐ Read non-technical books.
 
