@@ -20,14 +20,24 @@
 /The [[/en/now/][plan]] needs to go on./
 
 #+BEGIN_EXPORT html
-Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as <span class="p-nick">shimmy1996</span>, or rather, <a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">my blog</a>. "<span class="p-name">Shimmy Xu</span>" is just my <a href="https://stallman.org/biographies.html#humorous%20bio">mundane name</a>.
+Welcome, wanderer of the Internet. You have stumbled upon the scribbles of one commonly referred to by fellows as <span class="p-nick">shimmy1996</span>, or rather, my blog. "<span class="p-name">Shimmy Xu</span>" is just my <a href="https://stallman.org/biographies.html#humorous%20bio">mundane name</a>.
 
+Aside from <a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">HTTPS</a>, you can also find this blog on the following alternate planes of existence:
+#+END_EXPORT
+
+| Protocol | Address                                           |
+|----------+---------------------------------------------------|
+| Atom     | For [[https://www.shimmy1996.com/en/index.xml][timeline]], [[https://www.shimmy1996.com/en/posts/index.xml][posts]], [[https://www.shimmy1996.com/en/hoots/index.xml][hoots]], and [[https://www.shimmy1996.com/en/comments.xml][comments]]          |
+| Git      | =git://git.shimmy1996.com/blog.git=               |
+| IPFS     | =/ipns/shimmy1996.com= or =ipns://shimmy1996.com= |
+
+#+BEGIN_EXPORT html
 Feel free to leave a comment or shoot me an <a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">email</a> directly! Here's my <a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGP key</a> and fingerprint:
 #+END_EXPORT
 
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 
-If you are not in a hurry, consider paying a visit to [[/en/friends/][my friends]] as well. If that's not the case, you might find the Library's delivery service (for [[https://www.shimmy1996.com/en/index.xml][timeline]], [[https://www.shimmy1996.com/en/posts/index.xml][posts]], [[https://www.shimmy1996.com/en/hoots/index.xml][hoots]], and [[https://www.shimmy1996.com/en/comments.xml][comments]]) useful. If you are feeling extra adventurous, however, come surf along the [[https://indieweb.org/][IndieWeb]] webring: [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][←]] 🕸💍 [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][→]]!
+If you are not in a hurry, consider paying a visit to [[/en/friends/][my friends]] as well. If you are feeling extra adventurous, however, come surf along the [[https://indieweb.org/][IndieWeb]] webring: [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][←]] 🕸💍 [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][→]]!
 
 All contents on this site are licensed under a
 [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]] (CC BY-SA 4.0).
@@ -51,14 +61,24 @@ All contents on this site are licensed under a
 /[[/zh/now/][计划]]进行中。/
 
 #+BEGIN_EXPORT html
-欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做<span class="p-nick">shimmy1996</span>的个体。换句话说，这里是<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">我的博客</a>。“<span class="p-name">Shimmy Xu</span>”不过是我的<a href="https://stallman.org/biographies.html#humorous%20bio">凡间之名</a>。
+欢迎，互联网的游荡者。您偶然发现的这些手记属于传闻中常被称做<span class="p-nick">shimmy1996</span>的个体。换句话说，这里是我的博客。“<span class="p-name">Shimmy Xu</span>”不过是我的<a href="https://stallman.org/biographies.html#humorous%20bio">凡间之名</a>。
 
+除了<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">HTTPS</a>之外，我的博客还在这些位面里有着入口：
+#+END_EXPORT
+
+| 协议 | 地址                                              |
+|------+---------------------------------------------------|
+| Atom | [[https://www.shimmy1996.com/zh/index.xml][时间线]]、[[https://www.shimmy1996.com/zh/posts/index.xml][日志]]、[[https://www.shimmy1996.com/zh/hoots/index.xml][鸮文]]和[[https://www.shimmy1996.com/zh/comments.xml][评论区]]                        |
+| Git  | =git://git.shimmy1996.com/blog.git=               |
+| IPFS | =/ipns/shimmy1996.com= 或 =ipns://shimmy1996.com= |
+
+#+BEGIN_EXPORT html
 留下评论或直接给我发送<a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">电子邮件</a>吧！这是我的<a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGP密匙</a>和指纹：
 #+END_EXPORT
 
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 
-如果您不着急离开，不妨也拜访一下我的[[/zh/friends/][朋友们]]。倘若情况正好相反，图书室的送货上门服务（分为[[https://www.shimmy1996.com/zh/index.xml][时间线]]、[[https://www.shimmy1996.com/zh/posts/index.xml][日志]]、[[https://www.shimmy1996.com/zh/hoots/index.xml][鸮文]]和[[https://www.shimmy1996.com/zh/comments.xml][评论区]]版本）也许能帮到您。当然，如果您有着高涨的冒险兴致的话，那就来沿着[[https://indieweb.org/Main_Page-zh][IndieWeb]]网环冲浪吧：[[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][←]] 🕸💍 [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][→]]！
+如果您不着急离开，不妨也拜访一下我的[[/zh/friends/][朋友们]]。当然，如果您有着高涨的冒险兴致的话，那就来沿着[[https://indieweb.org/Main_Page-zh][IndieWeb]]网环冲浪吧：[[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][←]] 🕸💍 [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][→]]！
 
 本站所有内容使用[[http://creativecommons.org/licenses/by-sa/4.0/deed.zh][Creative Commons署名-相同方式共享4.0国际许可协议]]（CC BY-SA 4.0）。
 
@@ -81,14 +101,24 @@ All contents on this site are licensed under a
 /[[/ja/now/][計画]]進行中。/
 
 #+BEGIN_EXPORT html
-ようこそ、インターネットの旅人。あなたの眼の前いる落書きは<span class="p-nick">shimmy1996</span>と謂う個体に所属されているもの。つまり、ここは<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">私のブログ</a>。「<span class="p-name">Shimmy Xu</span>」はただ、私の<a href="https://stallman.org/biographies.html#humorous%20bio">俗世の名前</a>。
+ようこそ、インターネットの旅人。あなたの眼の前いる落書きは<span class="p-nick">shimmy1996</span>と謂う個体に所属されているもの。つまり、ここは私のブログ。「<span class="p-name">Shimmy Xu</span>」はただ、私の<a href="https://stallman.org/biographies.html#humorous%20bio">俗世の名前</a>。
 
+このブログは<a class="u-url u-uid" rel="me" href="https://www.shimmy1996.com/">HTTPS</a>以外の魔法にもアクセスできます：
+#+END_EXPORT
+
+| プロトコル | アドレス                                            |
+|------------+-----------------------------------------------------|
+| Atom       | [[https://www.shimmy1996.com/ja/index.xml][タイムライン]]、[[https://www.shimmy1996.com/ja/posts/index.xml][記事]]、[[https://www.shimmy1996.com/ja/hoots/index.xml][ツイート]]と[[https://www.shimmy1996.com/ja/comments.xml][コメント]]              |
+| Git        | =git://git.shimmy1996.com/blog.git=                 |
+| IPFS       | =/ipns/shimmy1996.com= 又は =ipns://shimmy1996.com= |
+
+#+BEGIN_EXPORT html
 コメントも、<a rel="me" class="u-email" href="mailto:shimmy.xu%40shimmy1996.com">メール</a>も大歓迎です！これは私の<a class="u-key" rel="pgpkey authn" href="/gpg.txt">PGPキー</a>とフィンガープリント：
 #+END_EXPORT
 
 : 5672 AC27 2669 A07A BD28 0896 ACC6 C791 312C F84D
 
-急いでいないのなら、私の[[/ja/friends/][友達]]も訪ねてみてください。そうではない場合は、図書室のデリバリーサービス（[[https://www.shimmy1996.com/ja/index.xml][タイムライン]]、[[https://www.shimmy1996.com/ja/posts/index.xml][記事]]、[[https://www.shimmy1996.com/ja/hoots/index.xml][ツイート]]と[[https://www.shimmy1996.com/ja/comments.xml][コメント]]バージョンがあります）をぜひ使ってください。もし冒険する気分感じたら、[[https://indieweb.org/][インディーウェブ]]ウェブリングえ進もう：[[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][←]] 🕸💍 [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][→]]！
+急いでいないのなら、私の[[/ja/friends/][友達]]も訪ねてみてください。もし冒険する気分感じたら、[[https://indieweb.org/][インディーウェブ]]ウェブリングえ進もう：[[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/previous][←]] 🕸💍 [[https://xn--sr8hvo.ws/%F0%9F%8C%B1%F0%9F%94%94%F0%9F%9A%8B/next][→]]！
 
 このサイトのすべてのコンテンツは[[https://creativecommons.org/licenses/by-sa/4.0/deed.ja][クリエイティブ・コモズン 表示-継承4.0国際ライセンス]]の下に提供されています。
 
