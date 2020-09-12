@@ -179,7 +179,7 @@ I also played around with several alternative color schemes, i.e. inverted versi
 :EXPORT_FILE_NAME: 2018-02-11-trying-out-mastodon.en.md
 :END:
 
-As mentioned in my [[https://www.shimmy1996.com/en/posts/2017/10/22/no-more-disqusting-disqus/][previous post]], I am not really accustomed to posting on social networks. However, the other day I encountered a term I haven't heard in a long time: micro-blogging. Yes, quite a few social networks, Twitter for instance, is before anything a micro-blogging service. This definition of Twitter makes it immensely more appealing to me: it's a bite-sized blog for random thoughts, funny incidents, and many other pieces of my life that might not fit well with a regular blog post. However, I still find posting on Twitter has the 'broadcasting to the entire Internet' feeling stamped into it. Guess I'll just host my own then.
+As mentioned in my [[https://www.shimmy1996.com/en/posts/2017-10-22-no-more-disqusting-disqus/][previous post]], I am not really accustomed to posting on social networks. However, the other day I encountered a term I haven't heard in a long time: micro-blogging. Yes, quite a few social networks, Twitter for instance, is before anything a micro-blogging service. This definition of Twitter makes it immensely more appealing to me: it's a bite-sized blog for random thoughts, funny incidents, and many other pieces of my life that might not fit well with a regular blog post. However, I still find posting on Twitter has the 'broadcasting to the entire Internet' feeling stamped into it. Guess I'll just host my own then.
 
 [[https://github.com/tootsuite/mastodon][Mastodon]] turned out to be one such solution. Mastodon's federated and decentralized nature makes it ideal for someone like me who struggles between building my online identity while minimizing the number of different companies I expose my information to. If people are willing to give away their personal information for fancy profile pictures, then hosting a Mastodon wouldn't seem like such a bad deal.
 
@@ -257,7 +257,7 @@ In the footer section, I've replaced Twitter with [[https://mstdn.shimmy1996.com
 :EXPORT_FILE_NAME: 2018-02-11-trying-out-mastodon.zh.md
 :END:
 
-我在 [[https://www.shimmy1996.com/zh/posts/2017/10/22/no-more-disqusting-disqus/][上一篇日志]] 里提到过，我并不习惯于在社交网络上发帖子。不过不久之前，我偶然撞见了一个很久没有听到过的词：微型博客。不少社交网络站点，例如 Twitter ，本质上还是一个微型博客服务。这种定义下的 Twitter 对我更加具有吸引力：我可以把一些随想，趣事和生活中其他不大适合写进博客的点点滴滴塞进去。但即使如此，我还是发推有一种“向整个互联网发送座标”的感觉。嗯，那么只好自己搭建一个微型博客了。
+我在 [[https://www.shimmy1996.com/zh/posts/2017-10-22-no-more-disqusting-disqus/][上一篇日志]] 里提到过，我并不习惯于在社交网络上发帖子。不过不久之前，我偶然撞见了一个很久没有听到过的词：微型博客。不少社交网络站点，例如 Twitter ，本质上还是一个微型博客服务。这种定义下的 Twitter 对我更加具有吸引力：我可以把一些随想，趣事和生活中其他不大适合写进博客的点点滴滴塞进去。但即使如此，我还是发推有一种“向整个互联网发送座标”的感觉。嗯，那么只好自己搭建一个微型博客了。
 
 [[https://github.com/tootsuite/mastodon][Mastodon]] 就是一个很好的解决方案。对与在最大化网络人格和最小化个人信息泄露之间进退两难的我来说，存储去中心化、但实例之间又紧密相联的 Mastodon 非常理想。如果人们愿意为了好看的头像将个人信息拱手送出的话，搭建一个 Mastodon 实例可以算得上是一个划算的多的买卖。
 

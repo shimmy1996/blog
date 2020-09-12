@@ -5,7 +5,7 @@ date = 2018-02-11
 slug = "trying-out-mastodon"
 +++
 
-As mentioned in my [previous post](https://www.shimmy1996.com/en/posts/2017/10/22/no-more-disqusting-disqus/), I am not really accustomed to posting on social networks. However, the other day I encountered a term I haven't heard in a long time: micro-blogging. Yes, quite a few social networks, Twitter for instance, is before anything a micro-blogging service. This definition of Twitter makes it immensely more appealing to me: it's a bite-sized blog for random thoughts, funny incidents, and many other pieces of my life that might not fit well with a regular blog post. However, I still find posting on Twitter has the 'broadcasting to the entire Internet' feeling stamped into it. Guess I'll just host my own then.
+As mentioned in my [previous post](https://www.shimmy1996.com/en/posts/2017-10-22-no-more-disqusting-disqus/), I am not really accustomed to posting on social networks. However, the other day I encountered a term I haven't heard in a long time: micro-blogging. Yes, quite a few social networks, Twitter for instance, is before anything a micro-blogging service. This definition of Twitter makes it immensely more appealing to me: it's a bite-sized blog for random thoughts, funny incidents, and many other pieces of my life that might not fit well with a regular blog post. However, I still find posting on Twitter has the 'broadcasting to the entire Internet' feeling stamped into it. Guess I'll just host my own then.
 
 [Mastodon](https://github.com/tootsuite/mastodon) turned out to be one such solution. Mastodon's federated and decentralized nature makes it ideal for someone like me who struggles between building my online identity while minimizing the number of different companies I expose my information to. If people are willing to give away their personal information for fancy profile pictures, then hosting a Mastodon wouldn't seem like such a bad deal.
 
@@ -34,7 +34,7 @@ Here's a table detailing all the dependencies and their corresponding packages i
 | `ruby-build`                          | [`ruby-build`](https://aur.archlinux.org/packages/ruby-build/)                                |
 | `npm`                                 | [`npm`](https://www.archlinux.org/packages/community/any/npm/)                                |
 
-For `rbenv`, I needed to add `eval "$(rbenv init -)"` to `.bashrc` or `.zshrc` after installation as prompted by the post installation script.
+For `rbenv`, I needed to add `eval "$(rbenv init -)"= to =.bashrc` or `.zshrc` after installation as prompted by the post installation script.
 
 
 ### Mastodon {#mastodon}

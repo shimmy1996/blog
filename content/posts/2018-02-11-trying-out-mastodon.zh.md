@@ -5,7 +5,7 @@ date = 2018-02-11
 slug = "trying-out-mastodon"
 +++
 
-我在 [上一篇日志](https://www.shimmy1996.com/zh/posts/2017/10/22/no-more-disqusting-disqus/) 里提到过，我并不习惯于在社交网络上发帖子。不过不久之前，我偶然撞见了一个很久没有听到过的词：微型博客。不少社交网络站点，例如 Twitter ，本质上还是一个微型博客服务。这种定义下的 Twitter 对我更加具有吸引力：我可以把一些随想，趣事和生活中其他不大适合写进博客的点点滴滴塞进去。但即使如此，我还是发推有一种“向整个互联网发送座标”的感觉。嗯，那么只好自己搭建一个微型博客了。
+我在 [上一篇日志](https://www.shimmy1996.com/zh/posts/2017-10-22-no-more-disqusting-disqus/) 里提到过，我并不习惯于在社交网络上发帖子。不过不久之前，我偶然撞见了一个很久没有听到过的词：微型博客。不少社交网络站点，例如 Twitter ，本质上还是一个微型博客服务。这种定义下的 Twitter 对我更加具有吸引力：我可以把一些随想，趣事和生活中其他不大适合写进博客的点点滴滴塞进去。但即使如此，我还是发推有一种“向整个互联网发送座标”的感觉。嗯，那么只好自己搭建一个微型博客了。
 
 [Mastodon](https://github.com/tootsuite/mastodon) 就是一个很好的解决方案。对与在最大化网络人格和最小化个人信息泄露之间进退两难的我来说，存储去中心化、但实例之间又紧密相联的 Mastodon 非常理想。如果人们愿意为了好看的头像将个人信息拱手送出的话，搭建一个 Mastodon 实例可以算得上是一个划算的多的买卖。
 
@@ -34,7 +34,7 @@ slug = "trying-out-mastodon"
 | `ruby-build`                        | [`ruby-build`](https://aur.archlinux.org/packages/ruby-build/)                                |
 | `npm`                               | [`npm`](https://www.archlinux.org/packages/community/any/npm/)                                |
 
-在安装 `rbenv` 后，我需要把 `eval "$(rbenv init -)"` 加入 `.bashrc` 或 `.zshrc` 中（安装脚本也会提示这一步骤）。
+在安装 `rbenv` 后，我需要把 `eval "$(rbenv init -)"= 加入 =.bashrc` 或 `.zshrc` 中（安装脚本也会提示这一步骤）。
 
 
 ### Mastodon {#mastodon}
