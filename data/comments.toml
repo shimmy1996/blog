@@ -862,3 +862,11 @@ content = """
 
 最后一句话非常同意，这也是我折腾的主要目的。我决定写一个日志进行详细的讨论。
 """
+[[comments]]
+name = "Cadey A. Ratio"
+email_hash = "6822cafa06"
+time = 2020-12-03T08:16:30-05:00
+uri = "/en/hoots/1606957080/"
+content = """
+I will display the webmentions I get and I am working on sending them from my site.
+"""
