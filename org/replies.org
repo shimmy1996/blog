@@ -287,3 +287,20 @@ CLOSED: [2020-09-10 Thu 18:46]
 
 有点好奇这么多买家里有没有比较稀奇古怪的车牌号。😆
 
+* DONE Re: Site Update: WebMention Support
+** DONE 1606957080
+CLOSED: [2020-12-02 Wed 18:58]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1606957080.en.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://christine.website/blog/webmention-support-2020-12-02">Re: Site Update: WebMention Support</a>
+#+END_EXPORT
+
+It's exciting to see another website supporting WebMention (and return of the CSS snow)!
+
+My primary motif of using WebMention is to ultimately centralize all my comments/replies/posts on blogs/forums/Fediverse back to my website (and allowing commenters on my site to do the same). This subsequently prompted me to add a short note/title-less post section here.
+
+Do you plan on displaying contents of the WebMentions you get or sending WebMentions from your website?
