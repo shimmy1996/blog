@@ -7,10 +7,10 @@ draft = false
 
 ## Goals for 2020 {#goals-for-2020}
 
--   ☐ Run 550 miles. <code>[205/550]</code>
+-   ☐ ~~Run 550 miles.~~ Run 205 miles and cycle 865 miles (2.5x). <code>[205/205]</code><code>[739/865]</code>
 -   ☑ Write 14 blog posts. <code>[14/14]</code>
 -   ☑ No donuts.
--   ☐ Dive into Go and C++20. <code>[1/2]</code>
+-   ☑ Dive into Go and C++20. <code>[2/2]</code>
 -   ☐ Set up proper backup workflow.
 -   ☐ Read non-technical books.
 
