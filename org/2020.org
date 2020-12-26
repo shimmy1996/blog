@@ -611,16 +611,37 @@ CLOSED: [2020-12-25 Fri 18:50]
 :EXPORT_TITLE: Get GOing
 :END:
 
-Yes, I [[https://git.shimmy1996.com/advent-of-code/][finished the Advent of Code]] this year! Aside from the problems being easier (for me) than 2019, I'm also using Go for this year's challenge and I find it to be particularly suited for this type of endeavor.
+Yes, I [[https://git.shimmy1996.com/advent-of-code/][finished]] the [[https://adventofcode.com/][Advent of Code]] this year! Aside from the problems being easier (for me) than 2019, I'm also using Go for this year's challenge and I find it to be particularly suited for this type of endeavor.
 
 This year's puzzles mostly involve string parsing and finding efficient data structures. Majority of the logic flow are pretty straight forward and there's little need for sophisticated algorithms.
 
-For string parsing, languages with regex support would be the way to go. The abundance of parsing related problems means using only basic string manipulation could be rather painful, and I've definitely seen my share of horrible blobs of find/substr/trim.
+For string parsing, regex, which Go has built-in support for, is definitely the way to go. The abundance of parsing related problems means using only basic string manipulation could be rather painful, and I've definitely seen my share of horrible blobs of find/substr/trim.
 
-Great majority of the time, slices and maps are all I needed (to abuse). Go has multiple return values but no tuples, whose usage is largely replaced by either arrays or structs. Versatility of these data structures are actually increased due to the language's encouragement to use constants instead of enums: storing all information as ints opens up the door to some shortcuts and less conversion between types. Surely they don't give you the peace of mind type checked enums provide, but writing short programs does provide the odd walking-on-a-knife-edge (or not-wearing-pants-during-zoom-call) satisfaction.
+Most of the time, slices and maps are all I needed. Go has multiple return values but no tuples, whose usage, I find, is largely replaced by either arrays or structs. Versatility of these data structures are actually increased due to the language's encouragement to use constants instead of enums: storing all information as ints opens up the door to some shortcuts and less conversion between types. Surely they don't give you the peace of mind type checked enums provide, but (ab)using them in short programs does provide the odd walking-on-a-knife-edge (or not-wearing-pants-during-Zoom-call) kind of satisfaction.
 
-Imperative programs are easy to write in Go, mostly because of the language's consistency in (or the lack of mixed) paradigms. There's no need to worry about whether we should use an STL algorithm or chaining iterator methods: just write the loop. Reasonable mutability behaviors also helps: whether it's changing a map while looping through it or passing a struct containing a slice to another function, I can get the language to do what I mean without checking the specification line by line.
+Imperative programs are easy to write in Go, mostly because of the language's plain and simple control flows and lack of mixed paradigms. There's no need to worry about whether we should use an STL algorithm or chained iterator methods: just write the loop. Reasonable mutability behaviors also helps: whether it's changing a map while looping through it or passing a struct containing a slice to another function, I can get the language to do what I mean without checking the specification line by line.
 
-There's [[https://en.wikipedia.org/wiki/Zero_one_infinity_rule][the ZOI rule]] about how the only reasonable numbers are zero, one, and infinity. Quite a few other languages I know, such as Python, C++, and Rust, all seem to hinge on the extreme ends of the spectrum in pursuit of consistency: everything follows the same rules and users can dictate what the syntax means as much as the base language. Go definitely has more exceptions (without supporting it 😜) and "one" moments: built-in containers are magically generic, their methods can have variable number of return values, and everything else is denied the privilege of being eligible to be iterated over.
+There's [[https://en.wikipedia.org/wiki/Zero_one_infinity_rule][the ZOI rule]] about how the only reasonable numbers are zero, one, and infinity. Quite a few other languages I know, such as Python, C++, and Rust, all seem to hinge on the extreme ends of the spectrum in pursuit of consistency: everything follows the same rules and users can dictate what the syntax means as much as the base language. Go definitely has more exceptions (without supporting it) and "one" moments: built-in containers are magically generic, their methods can have variable number of return values, and everything else is denied the privilege of being eligible to be iterated over.
 
 While just a quick comparison without touching other traits of Go (say interfaces or goroutines, but you don't really need them for Advent of Code), I do find Go's choices peculiar and interesting: [[https://lukeplant.me.uk/blog/posts/everything-is-an-x-pattern/][everything is, well, just its own thing]].
+
+** DONE zh
+CLOSED: [2020-12-25 Fri 18:50]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2020-12-25-get-going.zh.md
+:EXPORT_TITLE: Get GOing
+:END:
+
+我今年[[https://git.shimmy1996.com/advent-of-code/][完成]]了[[https://adventofcode.com/][Advent of Code]]！除了问题比去年（对我来说）变得简单了之外，我换用Go完成了今年的挑战：我觉得Go特别适合这类任务。
+
+今年的谜题主要涉及字符串解析以及寻找最高效的数据结构。大部分解题流程的逻辑都比较简单，几乎不需要任何复杂的算法。
+
+对于字符串解析，正则表达式（Go自带支持）是最佳途径。今年为数不少的字符串解析问题意味着想只用基本的字符串操作解答会十分痛苦。我已经看够了用查找、剪切、提取子串等操作拼砌起来的怪物代码。
+
+绝大部分时候，切片（slice）和集合（map）足够满足我的要求。Go支持多返回值，却不支持元组（tuple）；不过，我发现序列（array）和结构体（struct）基本取代了元组的功能。这些数据结构由于Go鼓励使用常量而非枚举类型（enum）而变得更加多功能：将所有信息储存为整形（int）使得一些捷径成为可能，同时也省去了类型转换的麻烦。和更让人安心的支持类型检查的枚举类型不同，（滥用）这些选择让用Go写短程序有着和行走在刀刃上（或者在Zoom通话时不穿裤子）一样的莫名快感。
+
+Go简单明了的控制流和缺少多范式支持的特点让指令式程序编写起来非常容易。不必担心是否应该使用STL算法或者串联迭代器方法：写个循环就好了。合理的对象可变机制也有帮助：不论是边遍历边修改集合元素，还是将带有切片的结构体传给函数，我发现我可以很快地让Go做我所想的事情，而不用反复翻阅语言规范。
+
+这让我想到了[[https://en.wikipedia.org/wiki/Zero%5Fone%5Finfinity%5Frule][ZOI这一经验法则]]：只有零、一、无穷多是合理的个数。不少我所熟悉的编程语言，例如Python、C++、Rust，都为了追求一致性落在这一光谱的两极：一切都有着相同的规则，用户就和语言本身一样有着决定语法含义的能力。Go有着更多的异常之处（尽管Go并没有异常支持）和只有“一”个的例外：内置容器神奇地有泛型支持、它们方法的返回值数量可变、除它们之外的容器都没有获得迭代支持的资格。
+
+这只是一个不涉及Go其他特性（例如界面（interface）或协程（goroutine），不过这些对解决Advent of Code并不是必须的）的简单比较。我觉得Go的选择独特且有趣：[[https://lukeplant.me.uk/blog/posts/everything-is-an-x-pattern/][一切都，嗯，不大一样]]。
