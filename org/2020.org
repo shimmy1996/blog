@@ -598,7 +598,7 @@ TIReD评分记录的格式为=X=T/I/Re[+D]=。例如：
 问：“TIReD”（以及分项得分名称）是怎么确定的？
 
 答：第一个有具体名称的项目是回味（revisit-ability），后面的大部分时间都花在玩单词排列和缩写上。由于[[https://www.urbandictionary.com/define.php?term=tird][Urban Dictionary]]，我差点将这套评分标准命名为“TIRD”。不过，至少不是所有的作品都是*。😜
-* TODO Get GOing
+* DONE Get GOing
 :PROPERTIES:
 :EXPORT_DATE: 2020-12-25
 :EXPORT_HUGO_SLUG: get-going
