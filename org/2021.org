@@ -3,7 +3,7 @@
 #+OPTIONS: author:nil
 #+STARTUP: fninline logdone
 
-* TODO 2020 in Review
+* DONE 2020 in Review
 :PROPERTIES:
 :EXPORT_DATE: 2021-01-01
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :slug 2020-in-review
@@ -16,11 +16,11 @@ CLOSED: [2021-01-01 Fri 10:07]
 :EXPORT_FILE_NAME: 2021-01-01-2020-in-review.en.md
 :END:
 
-Rooftops are all covered in patches of white this morning. All the billboards have lost their typical splendor to the gloomy sky. Even the street lamps' orange glow failed to add any warmth to the car-less roads. Spots of light from a handful of building windows, however, do appear extra dazzling.
+Rooftops are covered in patches of white this morning. All the billboards have lost their typical splendor to the gloomy sky. Even the street lamps' orange glow failed to add any warmth to the car-free roads. Spots of light from a handful of building windows, however, do appear extra dazzling.
 
 What a year. It feels like space-time has a higher viscosity than usual—dense enough to reduce sunlight to just an ivory ambiance—given how eventful the past 300-or-so days have been.
 
-I'm actually glad that the first day of 2021 still very much feels like any day in 2020. Not very much should physically change simply because of a number flip, not to mention a rather arbitrary one, but perhaps it's exactly for the lack of change that we need to forge something new, something that gives an adrenaline kick, no matter how small.
+I'm actually glad that the first day of 2021 still feels like any day in 2020. Not very much should physically change simply because of a number flip, not to mention a rather arbitrary one, but perhaps it's exactly for the lack of change that we need to forge something new, something that gives an adrenaline kick, no matter how small.
 
 Ugh, fine. I see no harm in giving in to this cheap psychological trick every once in a while.
 
@@ -36,30 +36,87 @@ I'm not cutting myself any more slacks this time around.
 - ☐ Set up proper backup workflow.
 - ☐ Read non-technical books.
 
-Because of COVID-19, I have stopped running outdoors since early March. After a few months of hiatus, I got a bike and a trainer in June and started cycling indoors instead. The 2.5x scaling factor is based on the mileage I can cover in around the same time. Working out in a more controlled environment is very enjoyable. Aside from easy access to fueling and shielding from the weather, being able to watch anime/listen to seiyuu radio while riding is a game changer. Behold, technology!
+Because of COVID-19, I have stopped running outdoors since early March. After a few months of hiatus, I got a bike and a trainer in June and started cycling indoors instead. The 2.5x scaling factor is based on the speed differences between cycling and running. Working out in a more controlled environment is very enjoyable. Aside from easy access to fueling and shielding from the weather, being able to watch anime/listen to seiyuu radio while riding is a game changer. Behold, technology!
 
 Blogging about the blog itself still takes up a sizable portion of my posts (and is a frustratingly self-defeating practice), but I did at least accumulated quite the amount of hoots: these fleeting thoughts aren't organized enough to be its own post, but still interesting enough that I want to write it down. I also use hoots to house my replies to other blogs and the rather cumbersome process of which makes me realize how little I really have to say most of the time. Not to color my still largely manual approach superior, but I do think there is some merit in eliminating low-effort-high-noise contents, both for myself and others.
 
-Ah, donuts, the honey glazed shackles of guilt, the deep-fried cuffs of indulgence. While I would like to attribute this to my will of steel, it is COVID-19 that got the better of such temptations. My laziness and excitement for bunker life eliminated any chances of late night Dunkin' visits. Guess it's time to turn up the dials.
+Ah, donuts, the honey glazed shackles of guilt, the deep-fried cuffs of indulgence. While I would like to attribute this to my will of steel, it is COVID-19 that got the better of such temptations. My laziness and excitement for bunker life eliminated any chances of late night Dunkin' visits. Guess it's time to turn up the dial.
 
-Writing Go was quite the mindless fun exercise. Finding an effective way to learn the C++20 features proved to be harder. =<format>= is the straightforward one and pretty much just works as you'd expect (no compiler supports the standard version yet, so checkout [[https://fmt.dev][the original]]). =<ranges>= is similar to Rust's iterator methods and allows chaining. Maybe I should update my [[/en/posts/2019-04-27-enumerate-with-c-plus-plus/][C++ enumerate() post]]. =<concepts>= seems like the logical solution to the problems SFINAE tried to solve, but I don't have a good context to test out its prowess yet. On a related note, Zig's compile-time function approach to generics is also intriguing.
+Writing Go was quite the mindless fun exercise. Finding an effective way to learn the C++20 features proved to be harder. =<format>= is the straightforward one and pretty much works as you'd expect (no compiler supports the standard version yet, so checkout [[https://fmt.dev][the original]]). =<ranges>= is similar to Rust's iterator methods and allows chaining, too. Maybe I should update my [[/en/posts/2019-04-27-enumerate-with-c-plus-plus/][enumerate() with C++ post]]. =<concepts>= seems like the logical solution to the problems SFINAE tried to solve, but I don't have a good context to test out its prowess yet. On a related note, Zig's compile-time function approach to generics is also intriguing.
 
 3 copies, check. 2 different media, check. 1 offsite backup, not yet. I'm also counting Syncthing copies here, and whether they can be relied upon as full fledged backups is debatable. Still some way to go here.
 
-Technically, I did /read/ non-technical books; I just didn't /finish/ any (not counting manga at least). The truth is, aside from those I read purely for entertainment, I am not so sure about what to read. Most non-fiction books look like success stories marinated in flattery and survivor-ship bias, served in sprinkles of anxiety-inducing spices. Fiction works, on the other hand, just doesn't attract me that much: knowing another story to tell just isn't as exciting as learning a new algorithm. Gee that sounded harsh. Do I really think my blog posts fare any better? Anyways, before admitting defeat, I will give this a more serious attempt this year.
+Technically, I did /read/ non-technical books; I didn't /finish/ any (not counting manga at least). The truth is, aside from those I read purely for entertainment, I am not so sure about what to read. Most non-fiction books look like success stories marinated in flattery and survivor-ship bias. Fictions, on the other hand, just don't attract me that much: knowing another story to tell isn't as exciting as learning a new algorithm for me. Gee that sounded harsh. Do I really think my blog posts fare any better? Anyways, before admitting defeat, I will give this a more serious attempt this year.
 
 *** 2021: Days of Future Past
-The ongoing pandemic sparkled nostalgia like never before. People look back at the "normal days" with fondness that I find repulsive. Not to say I'm completely immune to the atmosphere though, just that it rubs me in the opposite way: I find myself grew more assertive than before. After all, doesn't everyone secretly think they are above average and thus know better, especially after reading the news? At the same time, I felt the urge to suppress this feeling before it turns into arrogance, or even worse, ignorance. Perhaps I should learn to let these out in the form of blog posts, like [[https://www.cs.utexas.edu/users/EWD/][EWDs]], just non-technical.
+The ongoing pandemic sparkled nostalgia like never before. People look back at the "normal days" with fondness that I find repulsive. Not that I'm completely immune to the atmosphere though, just that it rubs me in the opposite way: I find myself grew more assertive than before. After all, doesn't everyone secretly think they are above average and thus know better, especially after reading the news? At the same time, the voice of reason tells me to suppress this urge before it turns into arrogance, or even worse, ignorance. Perhaps I should learn to let these out in the form of blog posts, like [[https://www.cs.utexas.edu/users/EWD/][EWDs]], except non-technical.
 
-On a positive note, my transition to wake-up-at-5-and-sleep-before-10 schedule is a resounding success. The lockdown actually helped in that I have more leeway to adjust my sleep schedule. Now I have plenty of time for exercise and the option to sleep for up to another two-or-three hours if I'm really pushing it the day before. Given how I clocked in the last 100 miles of rides within the winter holidays, I'll bump the target up this year. 1500 (cycling) miles it is.
+On a positive note, my transition to wake-up-at-5-sleep-before-10 schedule is a resounding success. The lockdown WFH actually helped in that I have more leeway to adjust my sleep schedule. Now I have plenty of time for exercise every morning or even the option of another two—or three if I'm really pushing it—hours of sleep. Given how I was able to clock in the last 100 miles of rides within the winter holidays, I'll bump the target mileage up a bit this year.
 
-After donuts, my challenge this year is to abstain from cookies, which can frequently be found in my work place lunch bags. These piles of butter and sugar are more attractive than I would like to admit at times.
+The schedule change also made me realize how unproductive the few hours before bed really is for me: after a day of work and much needed dinner, I don't feel motivated enough to exercise or focus on anything for an extended period of time. Since I started [[https://beancount.github.io/][beancount]]-ing in 2020, I'm now looking to apply a similar methodology to my time. I've been testing out [[https://www.toggl.com/track/][Toggl Track]] to log how I spend the larger chunks of my day and how many minutes in between slipped away with me blanking out watching YouTube. In particular, I figured having a crude "Strava for reading" system would also make my reading goals easier to achieve. As for which books to read, I'm thinking classic fictions.
 
-Since I started [[https://beancount.github.io/][beancount]]-ing this year, I'm also looking to applying a similar methodology to managing my time. After Christmas, I've been testing out [[https://www.toggl.com/track/][Toggl Track]] to log how I spend the larger chunks of my time and how many minutes slipped away with me doing nothing. In particular, I figured having a crude "Strava for reading" would make things easier. As for which books to read, I'm thinking classic fictions.
+After donuts, my challenge this year is to abstain from cookies, which can frequently be found in my work place lunch bags. It's strange how exponentially more attractive cookies are to their ingredients, i.e. sticks of butter and bags of sugar, the latter of which would have been sickening to consume directly.
 
-I wonder if this is an age thing: at some point, our auditory perception would just click with the sound of electric guitars, making them impossible to resist. I got an electric guitar now, and I hope to be good enough to play a song or two with it by the end of 2021.
+I wonder if this is an age thing: at some point, human's auditory perception would just click with the sound of electric guitars, making it impossible to resist. I'm looking to sink more time into learning the instrument and be good enough to play a song or two by end of 2021.
 
-The generation after Z is named [[https://en.wikipedia.org/wiki/Generation_Alpha][Alpha]], which makes no sense at all. To hell with inconsistent naming. To hell with COVID-19 (for different reasons, obviously).
+The generation after Z is named [[https://en.wikipedia.org/wiki/Generation_Alpha][Alpha]], which makes no sense at all. To hell with inconsistent naming. To hell with COVID-19 (for other reasons, of course).
+
+#+begin_quote
+  Un de ces matins disparaissent<br/>
+  Le soleil brillera toujours.
+#+end_quote
+
+** DONE zh
+CLOSED: [2021-01-01 Fri 10:07]
+:PROPERTIES:
+:EXPORT_TITLE: 回顾2020
+:EXPORT_FILE_NAME: 2021-01-01-2020-in-review.zh.md
+:END:
+
+今早，窗外的屋顶上都是白色一片。那些广告牌在阴沉的天空下失去了平时的光辉。就连橙色的路灯也没法让一辆车都没有的道路显得温暖。不过，来自少数建筑物窗户的光点却比平时显得更加耀眼。
+
+真是不寻常的一年。时空密度比平常高出不少——能将阳光削弱成象牙白的微弱光晕的程度——看看过去这多事的三百多天。
+
+我其实挺高兴看到2021年的第一天感觉就和2020年中的任何一天一样。给这么一个随意选定的数字+1不应该对现实产生任何实际变化。不过也许正是因为缺少变化，我们才需要时不时地看到一些新的、能让人眼前一亮的东西，不论多么微不足道。
+
+话说回来，偶尔享受下这种廉价的心理学把戏大概也不会有什么坏处。
+
+新年快乐，我们终于等到了。
+
+*** 2020: 天启
+这次我可不会在进度上再打马虎眼了。
+
+- ☑ +跑550英里。+ 跑205英里并骑车865英里（2.5倍）。[205/205][872/865]
+- ☑ 写14篇日志。[16/14]
+- ☑ 不吃甜面包圈。
+- ☐ 了解Go和C++20。[1/2]
+- ☐ 建立正式的数据备份流程。
+- ☐ 阅读非技术类书籍。
+
+由于COVID-19，我从3月初开始就停止了在户外跑步。在偷懒了几个月后，我在6月份买了一台自行车和训练器，改为在室内骑行。2.5倍的换算比例是基于我骑车和跑步的速度差异而定的。在一个更可控的环境里锻炼非常让人享受。除了能方便地补充能量和不受天气影响外，能够在骑行的同时看动画/听声优广播真是太赞了。果然科技是第一生产力！
+
+写关于博客本身的博文仍然占据了我的日志中相当大的一部分（这真是种令人沮丧的自欺欺人的行为）,不过至少我积累了相当数量的鸮文：这些转瞬即逝的想法流对于日志来说太过松散，但仍然有趣到我想把它们记录下来。我同时也用鸮文来存放我对其他博客的回复。略显繁琐的回复流程让我意识到，大部分时候我似乎并没有什么真正想说的内容。别误会，这并不意味着这种麻烦的半手动回复系统有多么优越，但我觉得能够提高所写内容的信噪比是有实在的好处的，不论对我还是对其他人来说。
+
+啊，甜甜圈，这刷满蜜糖的罪恶之枷锁，这油炸的放纵之镣铐。虽然我很想把成功抵御诱惑归功于我的钢铁意志，但COVID-19才是根本原因。我的懒惰和对隔离生活的兴奋劲消除了任何深夜造访Dunkin'的机会。大概是时候把挑战升级了。
+
+Go写起来相当无脑而有趣。找到一个有效的掌握C++20特性的方法则要难得多。=<format>=是新特性中最直截了当的一个，基本用法、功能和你能想象出来的基本一致（还没有编译器支持新标准的版本，尝鲜的话可以用[[https://fmt.dev][原版]]）。=<ranges>=类似于Rust的迭代器方法，而且允许串联。也许是时候更新那篇[[/zh/posts/2019-04-27-enumerate-with-c-plus-plus/][用C++来enumerate()的日志]]了。=<concepts>=应该是SFINAE所试图解决问题的真正答案，但我还没有一个好的实际运用环境来测试它的威力。顺便一提，Zig用编译时间函数来实现泛型的方法也很让我感兴趣。
+
+3份副本，有了。2种不同的储存介质，有了。1个非本地备份，还没有。这还是已经算上Syncthing副本（这能不能当作一份完整的备份还有待商酌）的进度，看来我离完成正式的备份流程还是有不少距离。
+
+严格地说，我确实 /阅读/ 了非技术类的书籍；只不过我没有 /读完/ 任何一本（不算漫画的话）。事实上，除了那些我纯粹为了娱乐而读的，我并没有什么想读的非技术类的书。大多数非虚构类的书看起来像是被阿谀奉承和幸存者偏见腌制过的成功者故事。而我又不怎么提得起兴致阅读小说：和获得一个能够复述给他人听的故事相比，我更愿意了解一种新的算法。啧，这听起来真刻薄。难道我觉得我的日志能赢过所有的小说？总之，在认输之前，今年我会给出更加认真的一次尝试。
+
+*** 2021: 未来昔日
+疫情引发了前所未有的怀旧情绪。人们表现出来的对“正常日子”的眷恋，却让我莫名地反感。并不是说我对这种异样的气氛完全免疫，只不过它对我的效果似乎正好相反：我发现自己变得比以前更加坚持己见了。说到底，人们不都暗自认为自己的水平在平均之上、能够作出更加合理的判断吗（尤其是在看完新闻之后）？同时，我的理性则告诉我要在这种冲动变成傲慢，或更糟糕的无知，之前将其抑制住。也许我应该学会把这些想法以日志的形式释放出来，比如写成非技术版本的[[https://www.cs.utexas.edu/users/EWD/][EWD]]。
+
+换个积极一些的话题吧，我向朝5晚10生活习惯的过渡非常成功。封城居家办公对这一过渡有着很大帮助：我能够更加从容地调整睡眠时间了。现在每天早上我都有充足的时间用于锻炼，甚至还可以选择睡上两个小时（三个小时也不是不可以！）的回笼觉。考虑我在年末假期的短短几天里就完成了最后100英里的骑行，今年我会把目标里程数提高一些。
+
+生活习惯的改变也让我意识到我睡前的几个小时大多在碌碌无为中度过：在一天的工作和急需的晚餐后，我不大有动力进行锻炼或长时间集中注意力于任何事情。同时，受到用[[https://beancount.github.io/][beanancount]]记账的影响，我有了将类似的方法应用于时间管理的想法。我正在在测试用[[https://www.toggl.com/track/][Toggl Track]]记录我是如何度过一天中的大块时间的，以及中间有多少分钟随着我在大脑空白状态下刷YouTube而溜走。对了，有这么一个可以勉强当作读书版Strava的系统应该能让我的阅读目标更容易实现。至于要读哪些书，我觉得经典小说是个不错的开始。
+
+继甜甜圈之后，我今年的挑战是戒掉曲奇饼干，我工作场所的午餐时常提供它们。直接吃曲奇饼干的原料（例如成条的黄油和大堆的砂糖）只是想想都觉得恶心，但烤成饼干后吸引力却能指数性增长，真是奇怪。
+
+我怀疑这个现象到了一定年龄才会出现：人类成长到一定程度时，听觉会和电吉他的声音一拍即合，使其变得无法抗拒。我想多花一些的时间来学这一乐器、在2021年底时能弹好一两首歌。
+
+Z之后的世代居然叫[[https://en.wikipedia.org/wiki/Generation_Alpha][Alpha]]，真是完全不讲道理。吔屎啦，这毫无逻辑的命名方式。吔屎啦，COVID-19（当然是因为命名方式以外的理由）。
 
 #+begin_quote
   Un de ces matins disparaissent<br/>
