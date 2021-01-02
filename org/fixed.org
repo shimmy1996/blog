@@ -132,61 +132,67 @@ All contents on this site are licensed under a
 :END:
 
 ** DONE en
-CLOSED: [2020-04-12 Sun 09:46]
+CLOSED: [2021-01-01 Fri 17:35]
 :PROPERTIES:
 :EXPORT_TITLE: Now
 :EXPORT_FILE_NAME: now.en.md
 :END:
 
-*** Goals for 2020
-- ☑ +Run 550 miles.+ Run 205 miles and cycle 865 miles (2.5x). [205/205][872/865]
-- ☑ Write 14 blog posts. [16/14]
-- ☑ No donuts.
-- ☑ Dive into Go and C++20. [2/2]
-- ☐ Set up proper backup workflow.
-- ☐ Read non-technical books.
+*** Goals for 2021
+- ☐ Write non-technical posts. [1/4]
+- ☐ Cycle for 1500 miles. [0/1500]
+- ☐ Beancount my time.
+- ☐ Read classic fictions. [0/1]
+- ☐ No cookies.
+- ☐ Learn to play a song with electric guitar. [0/1]
 
 *** Wishlist
+- ☐ Dive into C++20.
+- ☐ Set up proper backup workflow.
 - ☐ Finish a marathon.
 - ☐ Get the first signature for my PGP key.
 - ☑ Install Gentoo.
 
 ** DONE zh
-CLOSED: [2020-04-12 Sun 09:46]
+CLOSED: [2021-01-01 Fri 17:35]
 :PROPERTIES:
 :EXPORT_TITLE: 此刻
 :EXPORT_FILE_NAME: now.zh.md
 :END:
 
 *** 2020年目标
-- ☑ +跑550英里。+ 跑205英里并骑车865英里（2.5倍）。[205/205][872/865]
-- ☑ 写14篇日志。[16/14]
-- ☑ 不吃甜面包圈。
-- ☑ 了解Go和C++20。[2/2]
-- ☐ 建立正式的数据备份流程。
-- ☐ 阅读非技术类书籍。
+- ☐ 写非技术性日志。[1/4]
+- ☐ 骑车1500英里。[0/1500]
+- ☐ 给时间记账。
+- ☐ 读经典小说。[0/1]
+- ☐ 不吃曲奇饼。
+- ☐ 学用电吉他弹奏一首曲子。[0/1]
 
 *** 愿望清单
+- ☐ 深入了解C++20。
+- ☐ 建立正式的数据备份流程。
 - ☐ 完成一次马拉松。
 - ☐ 获得第一个PGP密匙签名。
 - ☑ 安装Gentoo。
 
 ** DONE ja
-CLOSED: [2020-04-12 Sun 09:46]
+CLOSED: [2021-01-01 Fri 17:35]
 :PROPERTIES:
 :EXPORT_TITLE: いま
 :EXPORT_FILE_NAME: now.ja.md
 :END:
 
 *** 2020年目標
-- ☑ +550マイルを走ること。+ 205マイルを走るとサイクリング865マイル（2.5倍）。[205/205][872/865]
-- ☑ 記事14回投稿すること。[16/14]
-- ☑ ドーナツを食べるの禁じること。
-- ☑ GoとC++20を学びること。[2/2]
-- ☐ データバックアップのプロセスを確立すること。
-- ☐ 技術類以外の本を読むこと。
+- ☐ 技術類以外の記事を書くこと。[1/4]
+- ☐ 1500マイルをサイクリングすろこと。[0/1500]
+- ☐ 時間の使い方を記録すること。
+- ☐ クラシックフィクションを読むこと。[0/1]
+- ☐ クッキーを食べるの禁じること。
+- ☐ エレキギターで一曲を弾けるようになること。[0/1]
 
 *** ウィッシュリスト
+- ☐ C++20を学びること。
+- ☐ データバックアップのプロセスを確立すること。
 - ☐ マラソン完走すろこと。
 - ☐ PGPキーの署名をゲットすること。
 - ☑ Gentooをインストールすること。

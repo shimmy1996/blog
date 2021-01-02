@@ -1,22 +1,24 @@
 +++
 title = "Now"
-date = 2020-04-12T09:46:00-05:00
+date = 2021-01-01T17:35:00-06:00
 slug = "now"
 draft = false
 +++
 
-## Goals for 2020 {#goals-for-2020}
+## Goals for 2021 {#goals-for-2021}
 
--   ☑ ~~Run 550 miles.~~ Run 205 miles and cycle 865 miles (2.5x). <code>[205/205]</code><code>[872/865]</code>
--   ☑ Write 14 blog posts. <code>[16/14]</code>
--   ☑ No donuts.
--   ☑ Dive into Go and C++20. <code>[2/2]</code>
--   ☐ Set up proper backup workflow.
--   ☐ Read non-technical books.
+-   ☐ Write non-technical posts. <code>[1/4]</code>
+-   ☐ Cycle for 1500 miles. <code>[0/1500]</code>
+-   ☐ Beancount my time.
+-   ☐ Read classic fictions. <code>[0/1]</code>
+-   ☐ No cookies.
+-   ☐ Learn to play a song with electric guitar. <code>[0/1]</code>
 
 
 ## Wishlist {#wishlist}
 
+-   ☐ Dive into C++20.
+-   ☐ Set up proper backup workflow.
 -   ☐ Finish a marathon.
 -   ☐ Get the first signature for my PGP key.
 -   ☑ Install Gentoo.
