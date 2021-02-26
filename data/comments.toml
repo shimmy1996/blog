@@ -870,3 +870,15 @@ uri = "/en/hoots/1606957080/"
 content = """
 I will display the webmentions I get and I am working on sending them from my site.
 """
+[[comments]]
+name = "LanternD"
+email_hash = "8863c7fec0"
+time = 2021-02-25T22:41:20-05:00
+uri = "/zh/posts/2021-01-01-2020-in-review/"
+content = """
+去年我才跑了220km。即使外面Covid肆虐，但是似乎对于跑步的影响不大，只需要规划一下路线避开行人。
+
+我对甜食（以及其他零食）和白开水以外饮料有天然免疫，至今没有沉溺于其中一种。
+
+LanternD
+"""
