@@ -304,3 +304,18 @@ It's exciting to see another website supporting WebMention (and return of the CS
 My primary motif of using WebMention is to ultimately centralize all my comments/replies/posts on blogs/forums/Fediverse back to my website (and allowing commenters on my site to do the same). This subsequently prompted me to add a short note/title-less post section here.
 
 Do you plan on displaying contents of the WebMentions you get or sending WebMentions from your website?
+* DONE Re: @niconiconi@cybre.space
+CLOSED: [2021-03-01 Mon 19:15]
+
+** DONE 1614647340
+CLOSED: [2021-03-01 Mon 19:09]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1614647340.en.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://cybre.space/@niconiconi/105790127784336362">Re: @niconiconi@cybre.space</a>
+#+END_EXPORT
+
+I got into NetHack mostly by watching YouTube let's plays - around 10 hours into the [[https://www.youtube.com/playlist?list=PLnB5NenmrhCfZJBao-rn4FlVBEzr0pmOM][playlist]] and 20+ odd games, I feel relatively comfortable navigating the early game now (clearing sokoban + minetown).
