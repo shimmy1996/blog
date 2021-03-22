@@ -8,7 +8,7 @@ draft = false
 ## Goals for 2021 {#goals-for-2021}
 
 -   ☐ Write non-technical posts. <code>[1/4]</code>
--   ☐ Cycle for 1500 miles. <code>[23/1500]</code>
+-   ☐ Cycle for 1500 miles. <code>[211/1500]</code>
 -   ☐ Beancount my time.
 -   ☐ Read classic fictions. <code>[0/1]</code>
 -   ☐ No cookies.
