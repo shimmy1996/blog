@@ -319,3 +319,20 @@ CLOSED: [2021-03-01 Mon 19:09]
 #+END_EXPORT
 
 I got into NetHack mostly by watching YouTube let's plays - around 10 hours into the [[https://www.youtube.com/playlist?list=PLnB5NenmrhCfZJBao-rn4FlVBEzr0pmOM][playlist]] and 20+ odd games, I feel relatively comfortable navigating the early game now (clearing sokoban + minetown).
+* DONE Re: Deadline 产后护理
+** DONE 1616375220
+CLOSED: [2021-03-21 Sun 20:07]
+:PROPERTIES:
+:EXPORT_TITLE:
+:EXPORT_FILE_NAME: 1616375220.zh.md
+:END:
+
+#+BEGIN_EXPORT html
+<a class="u-in-reply-to" href="https://dlyang.me/recover-from-deadline-fatigue/">Re: Deadline 产后护理</a>
+#+END_EXPORT
+
+有点庆幸喝Monster赶deadline的日子已经过去了。每次赶deadline我都在想要是早一小时/天/周/个月开始有多好，不过最后大部分时候还是回到deadline复deadline的恶性循环里。XD
+
+想想原因，我觉得自己在高压作业完成后会对自己进行过分补偿：deadline有多么赶，就会下意识地相对延长“产后护理”放松的时间和强度、如此这般直到下一个deadline的来临……维持稳定的生产力输出对我并不怎么容易，尤其是在作息比较自由的环境下。我的生产力水平更接近随机峰值而非有规律周期的曲线：偶尔在干劲来了的时候我可以满频长时间运转，但是对于比较日常的活我就不那么提得起劲。
+
+说到做家务，我之前掘地三尺彻底清理了厨房的灶台（在搓坏７个钢丝球和小半瓶清洁剂之后），然后顿时感觉到神清气爽生活一片美好。果然有个称心的工作环境还是很重要的。
