@@ -140,7 +140,7 @@ CLOSED: [2021-01-01 Fri 17:35]
 
 *** Goals for 2021
 - ☐ Write non-technical posts. [1/4]
-- ☐ Cycle for 1500 miles. [211/1500]
+- ☐ Cycle for 1500 miles. [271/1500]
 - ☐ Beancount my time.
 - ☐ Read classic fictions. [0/1]
 - ☐ No cookies.
@@ -150,7 +150,7 @@ CLOSED: [2021-01-01 Fri 17:35]
 - ☐ Dive into C++20.
 - ☐ Set up proper backup workflow.
 - ☐ Finish a marathon.
-- ☐ Get the first signature for my PGP key.
+- ☑ Get the first signature for my PGP key.
 - ☑ Install Gentoo.
 
 ** DONE zh
@@ -162,7 +162,7 @@ CLOSED: [2021-01-01 Fri 17:35]
 
 *** 2020年目标
 - ☐ 写非技术性日志。[1/4]
-- ☐ 骑车1500英里。[211/1500]
+- ☐ 骑车1500英里。[271/1500]
 - ☐ 给时间记账。
 - ☐ 读经典小说。[0/1]
 - ☐ 不吃曲奇饼干。
@@ -172,7 +172,7 @@ CLOSED: [2021-01-01 Fri 17:35]
 - ☐ 深入了解C++20。
 - ☐ 建立正式的数据备份流程。
 - ☐ 完成一次马拉松。
-- ☐ 获得第一个PGP密匙签名。
+- ☑ 获得第一个PGP密匙签名。
 - ☑ 安装Gentoo。
 
 ** DONE ja
@@ -184,7 +184,7 @@ CLOSED: [2021-01-01 Fri 17:35]
 
 *** 2020年目標
 - ☐ 技術類以外の記事を書くこと。[1/4]
-- ☐ 1500マイルをサイクリングすろこと。[211/1500]
+- ☐ 1500マイルをサイクリングすろこと。[271/1500]
 - ☐ 時間の使い方を記録すること。
 - ☐ クラシックフィクションを読むこと。[0/1]
 - ☐ クッキーを食べるの禁じること。
@@ -194,7 +194,7 @@ CLOSED: [2021-01-01 Fri 17:35]
 - ☐ C++20を学びること。
 - ☐ データバックアップのプロセスを確立すること。
 - ☐ マラソン完走すろこと。
-- ☐ PGPキーの署名をゲットすること。
+- ☑ PGPキーの署名をゲットすること。
 - ☑ Gentooをインストールすること。
 
 * Friends
