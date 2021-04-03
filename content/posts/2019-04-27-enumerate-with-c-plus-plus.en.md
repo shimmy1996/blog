@@ -68,10 +68,10 @@ for (auto i = 0; auto elem : v) {
 Meh, not that impressive. The new `<ranges>` library provides a more appealing way to achieve this:
 
 ```c++
-for (auto [i, elem] : v | std::view::transform(
+for (auto [i, elem] : v | std::views::transform(
          [i = 0](auto elem) mutable { return std::tuple{i++, elem}; })) {
     std::cout << i << ", " << elem << std::endl;
 }
 ```
 
-I like the structured binding method and the `<ranges>` based method the most. It would be even better though if we can get a `std::view::enumerate` to solve this problem once and for all.
+I like the structured binding method and the `<ranges>` based method the most. It would be even better though if we can get a `std::views::enumerate` to solve this problem once and for all.

@@ -299,13 +299,13 @@ In C++20, we have the ability to add an init-statement in ranged-based for loops
 #+END_SRC
 Meh, not that impressive. The new =<ranges>= library provides a more appealing way to achieve this:
 #+BEGIN_SRC c++
-  for (auto [i, elem] : v | std::view::transform(
+  for (auto [i, elem] : v | std::views::transform(
            [i = 0](auto elem) mutable { return std::tuple{i++, elem}; })) {
       std::cout << i << ", " << elem << std::endl;
   }
 #+END_SRC
 
-I like the structured binding method and the =<ranges>= based method the most. It would be even better though if we can get a =std::view::enumerate= to solve this problem once and for all.
+I like the structured binding method and the =<ranges>= based method the most. It would be even better though if we can get a =std::views::enumerate= to solve this problem once and for all.
 
 ** DONE zh
 :PROPERTIES:
@@ -364,13 +364,13 @@ I like the structured binding method and the =<ranges>= based method the most. I
 #+END_SRC
 新加入的 =<ranges>= 库则提供了一种更加吸引人的实现方法：
 #+BEGIN_SRC c++
-  for (auto [i, elem] : v | std::view::transform(
+  for (auto [i, elem] : v | std::views::transform(
            [i = 0](auto elem) mutable { return std::tuple{i++, elem}; })) {
       std::cout << i << ", " << elem << std::endl;
   }
 #+END_SRC
 
-我最喜欢基于结构化绑定和 =<ranges>= 库的方法。当然如果要是有 =std::view::enumerate= 来一劳永逸地解决这个问题就最好不过了。
+我最喜欢基于结构化绑定和 =<ranges>= 库的方法。当然如果要是有 =std::views::enumerate= 来一劳永逸地解决这个问题就最好不过了。
 
 * DONE Hello Darkness, My Old Friend
 :PROPERTIES:

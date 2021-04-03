@@ -68,10 +68,10 @@ for (auto i = 0; auto elem : v) {
 新加入的 `<ranges>` 库则提供了一种更加吸引人的实现方法：
 
 ```c++
-for (auto [i, elem] : v | std::view::transform(
+for (auto [i, elem] : v | std::views::transform(
          [i = 0](auto elem) mutable { return std::tuple{i++, elem}; })) {
     std::cout << i << ", " << elem << std::endl;
 }
 ```
 
-我最喜欢基于结构化绑定和 `<ranges>` 库的方法。当然如果要是有 `std::view::enumerate` 来一劳永逸地解决这个问题就最好不过了。
+我最喜欢基于结构化绑定和 `<ranges>` 库的方法。当然如果要是有 `std::views::enumerate` 来一劳永逸地解决这个问题就最好不过了。
