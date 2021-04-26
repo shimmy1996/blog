@@ -122,3 +122,132 @@ Z之后的世代居然叫[[https://en.wikipedia.org/wiki/Generation_Alpha][Alpha
   Un de ces matins disparaissent<br/>
   Le soleil brillera toujours.
 #+end_quote
+
+* DONE Bio Pages, Multiscale Writing, and XPA
+** DONE en
+CLOSED: [2021-04-24 Sat 21:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2021-04-24-bio-pages-multiscale-writing-and-xpa.en.md
+:EXPORT_TITLE: Bio Pages, Multiscale Writing, and XPA
+:END:
+
+Or, a roundabout way of explaining why I don't have an dedicated "About" page.
+
+*** Bio Pages
+I find bio pages hard to write.
+
+I've always despised bio pages that sound like:
+#+begin_quote
+Scott Danger Solo, MIB, is a WHSA certified Sigma-level worm-hole surfing professional that shoots first, crosses the streams, and thinks 4th-dimensionally.
+#+end_quote
+It grosses me out the same way that ego-flavored bubble gums would. I can't help but take these statements as a desperate attempt at smearing online contents with every last drop of legitimacy squeezed out of grand-yet-insincere-sounding words.
+
+Most of the time, I opt to not include a bio on my online presences. Among the few exceptions is my old WordPress blog where I put:
+#+begin_quote
+EE major; new to WP and not very good at it; weeb; disproportional appetite for new hardware compared to my wallet size; may appear on social networks as =shimmy1996=; let's be friends XDD.
+#+end_quote
+Even that felt too revealing for me. In other cases, I just use random made up sci-fi one-liners, for instance:
+#+begin_quote
+University of Trantor, Extraterrestrial Lifeform Breeding and Culinary Arts Major
+#+end_quote
+Coming up with imaginary professions is actually a lot of fun and I can do this all day long. Just to give you a sneak peek at my stockpile:
+- Supervillain mechanic (the kind that engages in their repair and restoration, not actually in taking over the world);
+- Saturnian folklore and Demonology enthusiast;
+- Native speaker of Fishish (a dialect of Atlantish, used by most crustaceans and aquatic mammals in the North Atlantic Ocean; confusing name, I know);
+- Genff panel (chorono-voltaic modules, think about it as a reversed flux capacitor) technician;
+- Collector of ultrasonic music (no, that does not include Snake Jazz, they are inferior to Whale Blues or Bat Rock);
+- Star magnitude calibration specialist;
+- Dream composition and cinematography expert.
+The list would have been longer if full-spectrum photography is not actually a thing.
+
+Ah, see how easily I get distracted by these? Back to bio pages on a version of Earth where birds (or Biofueled InspectoR Drones if you prefer) are real and tree octopus aren't, unfortunately.
+
+Why do I always read bio pages under the assumption that they are written with the purpose of exerting authority or "crafting your personal brand"? Wouldn't that make me, who is showing contempt and animosity towards others' qualifications, the one actually displaying syndromes bordering superiority complex? Is it being brought up hearing "modesty is the best policy" all the time finally backfiring? What should the bio page contain anyways? If the purpose is to sprinkle a few hashtags for others to shoehorn my personality into, I would rather not provide such a distraction from contents of the site. Then again, one can argue that if my personality as manifested through the site is easily swayed by the bio page, perhaps the contents aren't really speaking much for themselves after all.
+
+*** Multiscale Writing
+I currently classify contents on this site loosely into three categories:
+- Posts: anything with a publish time and a title;
+- Hoots: anything with a publish time but without a title;
+- Fixed: anything without a publish time.
+Up till now, I have always put bio pages under the "fixed" category. However, I have come to realize this have more subtle implications.
+
+This first came struck me as I was casually browsing my RSS reader and landed on a blog post without any indication of publish time. Since I vaguely recognize the page title from memory, I instinctively scanned through the page, searching for a timestamp of any kind. After some detective work, I was able to date the post by checking the HTML source. Realizing that this page was published long ago and only showed up in my RSS reader again due to updated feeds, I promptly left the page. Could there have been subtle wording changes? Maybe, but I didn't remember my first read well enough to recognize them. Could there have been substantial additions? Equally likely, but unless there's a FOMO-inducing "updated XXXX-XX-XX" in huge red fonts, I doubt I would have scrolled down. On a related note, I also see blogs displaying not only publish time, but also a glaring banner warning the readers that the contents may be out of date and the author's opinions may have changed since. Funny how the latter is apparently no longer obvious short of an explicit no-responsibility clause now, but it does illustrate the point: I treat pages without any indication of publish time as ones set in stone, completed works, and ultimate truths of the universe (from the author's view).
+
+There's a mismatch between what I hoped to express through bio pages and the typical fixed page format itself. Well, what are the alternatives? I don't want an [[https://sawv.org/en.html][E/N site]], as I value the process of organizing my fragments of thoughts as much as, if not more than, the process of collecting them. I've played around with the idea of a [[https://alexschroeder.ch/][personal wiki]], but I would like to have separate pages for "major versions", instead of cramming all edits, regardless of importance, into editing history. While for technical contents, latest edition with all the errata incorporated is naturally the most desirable, I don't view my former self necessarily as obsolete or wrong, yet I also don't want to mix past and present on the same page "[[https://www.gwern.net/About#long-content][long content]]" style.
+
+I want bio pages to be condensed me-flavored words, which would be a moving target that a fixed page will forever be playing catching up with as my thoughts evolve over time. Between fixed pages and posts, there is a missing time scale: I need something that manifests change faster than a fixed page, but more long-lasting than regular dated post.
+
+*** XPA (eXtensible Personality Archive)
+Cool name, right? It's a happy accident that XPA is also the name of a protein (and the corresponding gene) [[https://en.wikipedia.org/wiki/XPA#Function][responsible for repairing DNA damage]].
+
+Now, now, before discounting this as unnecessary formality, hear me out. Instead of a single fixed bio page, I think the most fitting substitute is a collection of gradually updated documents, not dissimilar to chapters of a book. While some books, like manga or web novels, are normally published chapter after chapter non-stop Markov-process-style, I'm thinking more of a non-linear progression where rewrites and revisions can happen more frequently.
+
+Some blogs I visit feature sections named "articles" or "opinions" that are distinct from "posts" and serve similar purposes. The format I have in mind though is closer to [[https://www.ietf.org/standards/rfcs/][RFCs]], [[https://www.python.org/dev/peps/][PEPs]], etc. XPAs would be numbered, each XPA would be a dump of my current thoughts and personality pertaining to a specific topic, and they can be superseded by a later one with similar coverage. Meanwhile, posts are reserved for concrete things I did or experienced. In other words, XPAs contains literal states of my mind and posts/hoots serve to document some of the incremental changes between those states.
+
+Following its definition strictly, XPA is actually a much more flexible format than I originally thought: reviews could also fall under its umbrella, for instance. Great Scott, just think about all the possibilities! Now the only remaining bike-shedding to be done before I can get started is to determine how XPAs should be presented on the site, whether I count from 0, which numerical system to use, how should we format the identifiers...
+
+Hmm, naming really is hard isn't it.
+
+** DONE zh
+CLOSED: [2021-04-24 Sat 21:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2021-04-24-bio-pages-multiscale-writing-and-xpa.zh.md
+:EXPORT_TITLE: 个人介绍与多尺度写作与可扩展人格档案
+:END:
+
+换句话说，这是为什么我没有在站点上设置“关于”页面。
+
+*** 个人介绍
+我一直觉得个人介绍很难写。
+
+我不怎么待见这样的个人介绍：
+#+begin_quote
+史科特・危险・索罗，MIB，是WHSA认证的西格玛级虫洞冲浪专业人士。他敢于开第一枪，会毫不犹豫地交叉粒子流，善于进行第四维度的思考。
+#+end_quote
+这读起来就像嚼他人自我风味的泡泡糖一样让我感到恶心。我总忍不住把这些听起来冠冕堂皇实则空虚异常的表述当作是试图给在线内容增加可信度的绝望尝试。
+
+大多数时候，我选择不在网上写个人介绍。我的旧WordPress博客上的关于页面是少数例外之一：
+#+begin_quote
+EE狗；技术渣，WP新手；ACG相关；喜欢硬件但是没有小钱钱；足迹可能遍布各大社交网站，通常名字为=shimmy1996=；求友链XDD。
+#+end_quote
+即使是这种简单的介绍，对我来说也有种过于露骨的感觉。在其他情况下，我会使用随口编出的科幻风无稽之谈，例如：
+#+begin_quote
+川陀大学地外生命饲养与烹饪技术系
+#+end_quote
+编造这些空想职业其实非常有趣，我几乎可以整天沉迷其中而不感到厌倦。这只是我库存中的一小部分：
+- 超级坏蛋技工（从事他们的修理和维护工作，而不是帮他们统治世界）；
+- 土星民俗学和恶魔学爱好者；
+- 鱼语（亚特兰蒂斯语的一种方言，为北太平洋的甲壳类和海洋哺乳动物所使用；我知道，这名字非常容易让人混淆）母语使用者；
+- 根沸能板（时伏电池模组，你可以理解为一个反向通量电容器）工程师；
+- 超声音乐（不，这不包括蛇爵士乐，因为它们远比不上鲸布鲁斯或者蝙蝠摇滚）收藏家；
+- 星等调节专员；
+- 梦境摄影与作梦专家。
+如果不是因为全光谱摄影真实存在，这个列表还会再长一些。
+
+啊，不难看到我很容易就会被这有趣的活动分心。让我们回到如何在这个有着鸟类（或者说是生物燃料侦查用无人机）却没有树章鱼的地球上写个人介绍的话题上吧。
+
+为何我在读个人介绍时总下意识地觉得它们是以树立权威或者“建立个人品牌”为目的而写的呢？这不意味着对别人的资历表现出敌意和轻视的我才是表现出近似优势情结现象的一方吗？还是说从小听到大的“谦虚是最好的美德”终于开始产生反效果了？如果个人介绍的目的是便于他人将我的个性轻易地、削足适履一般塞进寥寥数个标签定义的边框里的话，那我宁可不提供这一可能会从网站内容分散注意力的目标。话又说回来，如果我经由站点所展现出来的个性能够被区区个人介绍页所扭曲，那也许站点内容也不具有多少代表性。
+
+*** 多尺度写作
+我目前将站点上的内容大致分为三类：
+- 日志：任何带有发布时间和标题的内容；
+- 鸮文：任何具有发布时间但没有标题的内容；
+- 固定：任何没有发布时间的内容。
+目前为止，我一直将个人简介页放在“固定”类别下。 但是，我开始逐渐意识到显示发布时间与否有着更微妙的含义。
+
+最早让我意识到这一点的是一次经由RSS阅读器点进一篇没有标明发布时间的日志的经历。由于我对日志标题有点印象，我本能地开始在寻找任何类型的时间戳。一番侦查工作后，我在HTML源码里找到了发布日期的蛛丝马迹。在意识到这一页面早已发布、只不过是因为网站源的格式更新才在RSS阅读器中重新出现后，我很快关闭了那一标签页。和上一次读到时相比，这篇日志会不会有些地方措辞发生了变化？有这个可能，但我的记性没有好到能察觉这些的程度。有没有可能这篇日志其实经过了大幅修改？的确也不能排除这种情况，不过要是页面上没有会让人因为担心错过而焦虑异常、大红色字体的“更新于XXXX-XX-XX”，我大概还是不会看下去的。顺便一提，我造访的另外一些博客除了标注发表日期之外，还会放上一条非常显眼的横幅来警告读者页面内容可能已经过时、作者的观点也可能已经改变。这显而易见的常识居然需要免责条款一样的声明让我觉得有点滑稽，不过这倒是很好地引出了我的观察：我在读到没有发布时间的页面时会将其视为不需改动的成品、已完成的杰作、（作者眼中）宇宙的真理。
+
+我想要通过个人介绍来表达的内容不兼容一般的固定页面格式。那有什么其他的选择呢？我并不想要一个[[https://sawv.org/en.html][E/N站点]]，因为我觉得整理思想碎片这一过程的价值至少等同于、甚至超过收集这些碎片本身。我有考虑过设立[[https://alexschroeder.ch/][个人维基]]，但我想让页面的每个“主要版本”分别存在，而不是把所有改动不论大小全部扫进编辑历史里。虽然对于技术性内容而言，包含了所有勘误的最新修订版自然是最佳选择，但我并不认为过去自己的想法全是过时或错误的，可我也不喜欢将过去和现在混在同一“[[https://www.gwern.net/About#long-content][长内容]]”页面上。
+
+我想让个人介绍成为脱去水分后文字版的自我，而这是一个固定页面只能永远追赶而不可到达的、不断随着时间的推移而变化的移动目标。在固定页面和日志之间，有个空缺的时间尺度：我需要一种能够比固定页面更快展现变化、但又比注明发布时间的日志更加持久的格式。
+
+*** 可扩展人格档案（XPA，eXtensible Personality Archive)
+不觉得这名字超赞的吗？XPA还恰好是[[https://en.wikipedia.org/wiki/XPA#Function][负责修复DNA损伤]]的一种蛋白质及其对应基因的名字。
+
+好啦好啦，在把这一切贬低为不必要的折腾之前，给我个解释的机会。比起一个固定的个人介绍页，我觉得最合适的替代品是一系列逐渐被更新的记录，像一本书的不同章节一样。有些书籍，例如漫画或连载小说，通常是马尔可夫过程般一章接着一章地不停发布的；我设想的则是一种修订与更新更频繁发生的非线性增长。
+
+我访问的部分博客有着与“日志”独立开的、目的类似的“文章”或“观点”分区。比起这些，我所想的格式更接近[[https://www.ietf.org/standards/rfcs/][RFC]]、[[https://www.python.org/dev/peps/][PEP]]这类文件。XPA会被编号，而每个XPA的内容会是我对某个主题相关的当前一切想法，并可以被新的包含类似内容的XPA所取代。同时，日志则保留给我做过或经历的具体事情。换句话说，XPA包含我字面意义上的思想状态，日志和鸮文则用来记录这些状态之间的一些增量变化。
+
+严格按照定义，XPA实际上是一种比我最初所想要灵活得多的格式：对影视作品的评论也可以归入它的范围。想想那无数的可能性！现在我只要把剩下这点微小的工作做完就可以开始了：确定怎么在站点上显示XPA，是否从0开始计算编号，想好应该使用那种进制，决定编号的具体格式……
+
+啧，命名真不是件容易的事。
